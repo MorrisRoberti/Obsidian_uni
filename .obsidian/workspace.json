@@ -11,8 +11,12 @@
             "id": "3aa201e279f8336f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/Standard IEEE754.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Architettura degli elaboratori/Standard IEEE754.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Architettura degli elaboratori/Standard IEEE754.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Architettura degli elaboratori/Standard IEEE754.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "3aa201e279f8336f",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/Algebra di Boole.md",
     "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
     "Architettura degli elaboratori/Syllabus.canvas",
@@ -159,7 +168,6 @@
     "Architettura degli elaboratori/Mappe di Karnaugh.md",
     "Architettura degli elaboratori/I sistemi digitali.md",
     "Architettura degli elaboratori/Forme canoniche.md",
-    "Architettura degli elaboratori/Algebra di Boole.md",
     "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "2023-10-24.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162649.png",

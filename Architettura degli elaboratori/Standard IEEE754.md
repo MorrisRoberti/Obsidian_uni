@@ -4,7 +4,7 @@
 
 >La regola generale e' che ogni numero binario che vogliamo rappresentare in notazione IEEE754 segue la formula: $$\left(1,M\right)\cdot2^{e}$$
 
-N.B.
+**N.B.**
 1 nella formula sopra indica che bisognera' avere un 1 come parte intera e la M come parte decimale
 
 I numeri decimali a precisione singola (float) sono composti da 32 bit, in generale per convertire il numero si suddivide come segue:
