@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "b8bed655dfe0acc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "252697204717c49f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3aa201e279f8336f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc072dd2df464b09",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d60cc5d025ecc45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a11bf6015c00de4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10686f71c4365c6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b564ec71916f8e5d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "df6671a8807f27b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "55ee16fe965e0657",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52aa432feea2806b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a17a07fbd3d7092",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15b19f6dbf84dce1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "04550d209057d20f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4a11bf6015c00de4",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Architettura degli elaboratori/IMGs",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022162542.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022162300.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022162255.png",
+    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
+    "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
+    "TTL, segnali e uscite in terzo stato.md",
+    "Architettura degli elaboratori/Conversioni di base.md",
+    "Architettura degli elaboratori/Numeri binari negativi.md",
+    "Architettura degli elaboratori/Standard IEEE754.md",
+    "Architettura degli elaboratori/Condizioni di indifferenza.md",
+    "2023-11-22.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
+    "Architettura degli elaboratori/Porte Logiche.md",
+    "Architettura degli elaboratori/Mappe di Karnaugh.md",
+    "Architettura degli elaboratori/I sistemi digitali.md",
+    "Architettura degli elaboratori/Forme canoniche.md",
+    "Architettura degli elaboratori/Algebra di Boole.md",
+    "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
+    "2023-10-24.md",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022162649.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022174428.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022172628.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022164241.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022164139.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022163145.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231022163023.png",
+    "Architettura degli elaboratori/Struttura del corso.md",
+    "Architettura degli elaboratori"
+  ]
+}

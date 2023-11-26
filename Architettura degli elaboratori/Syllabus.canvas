@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"1c8a3758b53ff158","type":"group","x":-1220,"y":0,"width":580,"height":390,"color":"4","label":"Codifiche numeriche e operazioni binarie"},
+		{"id":"6ee9b396f389e65f","type":"group","x":-1940,"y":-360,"width":650,"height":280,"color":"4","label":"Algebra di Boole"},
+		{"id":"ec6f760b22762681","type":"group","x":-1940,"y":195,"width":530,"height":330,"label":"Circuiti sequenziali e memorie"},
+		{"id":"411dddd6f15a7e1d","type":"group","x":-1140,"y":-460,"width":290,"height":380,"label":"Circuiti combinatori"},
+		{"id":"035624f132ad2197","type":"text","text":"Forme Canoniche","x":-1925,"y":-340,"width":250,"height":60,"color":"4"},
+		{"id":"b4050553d9b35e7e","type":"text","text":"Algebra di Boole","x":-1560,"y":-340,"width":250,"height":60,"color":"4"},
+		{"id":"011ca5f064632867","type":"text","text":"Condizioni di indifferenza\n","x":-1560,"y":-174,"width":250,"height":68,"color":"4"},
+		{"id":"63d72ff9bb8be98d","type":"text","text":"Mappe di Karnaugh","x":-1925,"y":-170,"width":250,"height":60,"color":"4"},
+		{"id":"601eb51f8544ad39","type":"text","text":"Multiplexer e demultiplexer","x":-1120,"y":-440,"width":250,"height":60},
+		{"id":"d4ba12a8c049f5f9","type":"text","text":"Porte logiche - AND, OR, NOT etc.","x":-1120,"y":-300,"width":250,"height":60,"color":"4"},
+		{"id":"8c453fd2794eedf1","type":"text","text":"Encoder e Decoder","x":-1120,"y":-160,"width":250,"height":60},
+		{"id":"c0fe5adab77f05e9","type":"text","text":"Numeri floating point - IEEE754","x":-1200,"y":20,"width":250,"height":60,"color":"4"},
+		{"id":"cfac33b92120cd37","type":"text","text":"Operazioni numeriche binarie\n","x":-910,"y":20,"width":250,"height":60,"color":"4"},
+		{"id":"8b29702b4988685b","type":"text","text":"Codifica numerica in base 2, 8, 10, 16","x":-1200,"y":180,"width":250,"height":60,"color":"4"},
+		{"id":"e04f4b84f42e3571","type":"text","text":"Conversioni di base","x":-1200,"y":310,"width":250,"height":60,"color":"4"},
+		{"id":"adff0d862c0547d5","type":"text","text":"Numeri negativi binari (modulo e segno, complemento a1, complemento a2)","x":-847,"y":181,"width":187,"height":189,"color":"4"},
+		{"id":"e55746d5b420e62f","type":"text","text":"ROM, PROM, EPROM, EEPROM","x":-1680,"y":215,"width":250,"height":60},
+		{"id":"b7e86c37b5eeff52","type":"text","text":"Latch - SR, D, JK etc.","x":-1680,"y":331,"width":250,"height":60},
+		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60},
+		{"id":"d667e56c46c493ee","type":"text","text":"Circuiti Sequenziali","x":-1920,"y":327,"width":160,"height":68}
+	],
+	"edges":[
+		{"id":"a848a3afe7b881dc","fromNode":"b4050553d9b35e7e","fromSide":"left","toNode":"035624f132ad2197","toSide":"right"},
+		{"id":"cfe1e137b012218f","fromNode":"035624f132ad2197","fromSide":"bottom","toNode":"63d72ff9bb8be98d","toSide":"top"},
+		{"id":"e2c4bb3f3db781d9","fromNode":"d667e56c46c493ee","fromSide":"right","toNode":"b7e86c37b5eeff52","toSide":"left"},
+		{"id":"7e54bd90c5b1b02e","fromNode":"d667e56c46c493ee","fromSide":"bottom","toNode":"5476e4edbae077ff","toSide":"left"},
+		{"id":"e4c962c2bfa14095","fromNode":"d667e56c46c493ee","fromSide":"top","toNode":"e55746d5b420e62f","toSide":"left"},
+		{"id":"ee765cad9537b746","fromNode":"8b29702b4988685b","fromSide":"bottom","toNode":"e04f4b84f42e3571","toSide":"top"},
+		{"id":"23e3196770a5e756","fromNode":"8b29702b4988685b","fromSide":"right","toNode":"adff0d862c0547d5","toSide":"left"},
+		{"id":"3bf73bb28e5e96ab","fromNode":"8b29702b4988685b","fromSide":"top","toNode":"c0fe5adab77f05e9","toSide":"bottom"},
+		{"id":"035c5bdd22b78b96","fromNode":"8b29702b4988685b","fromSide":"top","toNode":"cfac33b92120cd37","toSide":"bottom"},
+		{"id":"f62f3fb0ea1635e9","fromNode":"63d72ff9bb8be98d","fromSide":"right","toNode":"011ca5f064632867","toSide":"left"},
+		{"id":"672932c0df7bfd03","fromNode":"b4050553d9b35e7e","fromSide":"right","toNode":"d4ba12a8c049f5f9","toSide":"left"},
+		{"id":"cbae86048f44079c","fromNode":"b4050553d9b35e7e","fromSide":"right","toNode":"601eb51f8544ad39","toSide":"left"},
+		{"id":"3f65a39c67aea934","fromNode":"d4ba12a8c049f5f9","fromSide":"bottom","toNode":"8c453fd2794eedf1","toSide":"top"},
+		{"id":"b6b502aebea3a3b3","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"6ee9b396f389e65f","toSide":"bottom"},
+		{"id":"bf977104d97d8ebf","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"411dddd6f15a7e1d","toSide":"left"},
+		{"id":"bde868d90b13cc37","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"ec6f760b22762681","toSide":"right"}
+	]
+}
