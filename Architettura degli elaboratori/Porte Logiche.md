@@ -46,3 +46,4 @@
 ### Links
 [[Mappe di Karnaugh]]
 [[Forme canoniche]]
+[[Encoder e Decoder]]

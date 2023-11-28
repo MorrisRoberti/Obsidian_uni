@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3aa201e279f8336f",
+            "id": "b610dd2073b4c5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Standard IEEE754.md",
+                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Standard IEEE754.md",
+                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Standard IEEE754.md",
+                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Standard IEEE754.md"
+                "file": "Architettura degli elaboratori/Encoder e Decoder.md"
               }
             }
           }
@@ -146,27 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3aa201e279f8336f",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/IMGs/Pasted image 20231128232722.png",
+    "Architettura degli elaboratori/Porte Logiche.md",
+    "Architettura degli elaboratori/I sistemi digitali.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Untitled.md",
+    "Architettura degli elaboratori/Overflow.md",
+    "Architettura degli elaboratori/Numeri binari negativi.md",
+    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
+    "Architettura degli elaboratori/Standard IEEE754.md",
     "Architettura degli elaboratori/Algebra di Boole.md",
     "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
-    "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162542.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162300.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162255.png",
-    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
     "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
     "TTL, segnali e uscite in terzo stato.md",
     "Architettura degli elaboratori/Conversioni di base.md",
-    "Architettura degli elaboratori/Numeri binari negativi.md",
-    "Architettura degli elaboratori/Standard IEEE754.md",
     "Architettura degli elaboratori/Condizioni di indifferenza.md",
     "2023-11-22.md",
-    "Architettura degli elaboratori/Encoder e Decoder.md",
-    "Architettura degli elaboratori/Porte Logiche.md",
     "Architettura degli elaboratori/Mappe di Karnaugh.md",
-    "Architettura degli elaboratori/I sistemi digitali.md",
     "Architettura degli elaboratori/Forme canoniche.md",
     "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "2023-10-24.md",

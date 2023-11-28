@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"1c8a3758b53ff158","type":"group","x":-1220,"y":0,"width":580,"height":390,"color":"4","label":"Codifiche numeriche e operazioni binarie"},
+		{"id":"1c8a3758b53ff158","type":"group","x":-1220,"y":0,"width":860,"height":390,"color":"4","label":"Codifiche numeriche e operazioni binarie"},
 		{"id":"6ee9b396f389e65f","type":"group","x":-1940,"y":-360,"width":650,"height":280,"color":"4","label":"Algebra di Boole"},
 		{"id":"ec6f760b22762681","type":"group","x":-1940,"y":195,"width":530,"height":330,"label":"Circuiti sequenziali e memorie"},
 		{"id":"411dddd6f15a7e1d","type":"group","x":-1140,"y":-460,"width":290,"height":380,"label":"Circuiti combinatori"},
@@ -18,8 +18,9 @@
 		{"id":"adff0d862c0547d5","type":"text","text":"Numeri negativi binari (modulo e segno, complemento a1, complemento a2)","x":-847,"y":181,"width":187,"height":189,"color":"4"},
 		{"id":"e55746d5b420e62f","type":"text","text":"ROM, PROM, EPROM, EEPROM","x":-1680,"y":215,"width":250,"height":60},
 		{"id":"b7e86c37b5eeff52","type":"text","text":"Latch - SR, D, JK etc.","x":-1680,"y":331,"width":250,"height":60},
-		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60},
-		{"id":"d667e56c46c493ee","type":"text","text":"Circuiti Sequenziali","x":-1920,"y":327,"width":160,"height":68}
+		{"id":"d667e56c46c493ee","type":"text","text":"Circuiti Sequenziali","x":-1920,"y":327,"width":160,"height":68},
+		{"id":"97eb0ee685aef022","type":"text","text":"Overflow\n","x":-620,"y":150,"width":250,"height":60,"color":"4"},
+		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a848a3afe7b881dc","fromNode":"b4050553d9b35e7e","fromSide":"left","toNode":"035624f132ad2197","toSide":"right"},
@@ -37,6 +38,8 @@
 		{"id":"3f65a39c67aea934","fromNode":"d4ba12a8c049f5f9","fromSide":"bottom","toNode":"8c453fd2794eedf1","toSide":"top"},
 		{"id":"b6b502aebea3a3b3","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"6ee9b396f389e65f","toSide":"bottom"},
 		{"id":"bf977104d97d8ebf","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"411dddd6f15a7e1d","toSide":"left"},
-		{"id":"bde868d90b13cc37","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"ec6f760b22762681","toSide":"right"}
+		{"id":"bde868d90b13cc37","fromNode":"8b29702b4988685b","fromSide":"left","toNode":"ec6f760b22762681","toSide":"right"},
+		{"id":"7fc4dbf0a37fb7af","fromNode":"cfac33b92120cd37","fromSide":"right","toNode":"97eb0ee685aef022","toSide":"top"},
+		{"id":"389dc381bd3062b2","fromNode":"adff0d862c0547d5","fromSide":"right","toNode":"97eb0ee685aef022","toSide":"bottom"}
 	]
 }
