@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
+                "file": "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b7c7f12c0e28770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/Half Adder e Full Adder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
+                "file": "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Encoder e Decoder.md",
+                "file": "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Encoder e Decoder.md"
+                "file": "Architettura degli elaboratori/Multiplexer e Demultiplexer.md"
               }
             }
           }
@@ -146,19 +158,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1979a1afe87020b2",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/Half Adder e Full Adder.md",
+    "Architettura degli elaboratori/IMGs/1-77.png",
+    "Architettura degli elaboratori/IMGs/4-34.png",
+    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Untitled.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
     "2023-12-02.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202114751.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202113654.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202113157.png",
-    "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/Algebra di Boole.md",
-    "Untitled.md",
-    "Architettura degli elaboratori/Encoder e Decoder.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231128232722.png",
     "Architettura degli elaboratori/Porte Logiche.md",
     "Architettura degli elaboratori/I sistemi digitali.md",
@@ -180,8 +195,6 @@
     "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "2023-10-24.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162649.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022174428.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022172628.png",
     "Architettura degli elaboratori/Struttura del corso.md",
     "Architettura degli elaboratori"
   ]

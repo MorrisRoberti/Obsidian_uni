@@ -16,12 +16,12 @@
 		{"id":"e04f4b84f42e3571","type":"text","text":"Conversioni di base","x":-1200,"y":310,"width":250,"height":60,"color":"4"},
 		{"id":"adff0d862c0547d5","type":"text","text":"Numeri negativi binari (modulo e segno, complemento a1, complemento a2)","x":-847,"y":181,"width":187,"height":189,"color":"4"},
 		{"id":"e55746d5b420e62f","type":"text","text":"ROM, PROM, EPROM, EEPROM","x":-1680,"y":215,"width":250,"height":60},
-		{"id":"b7e86c37b5eeff52","type":"text","text":"Latch - SR, D, JK etc.","x":-1680,"y":331,"width":250,"height":60},
 		{"id":"d667e56c46c493ee","type":"text","text":"Circuiti Sequenziali","x":-1920,"y":327,"width":160,"height":68},
 		{"id":"97eb0ee685aef022","type":"text","text":"Overflow\n","x":-620,"y":150,"width":250,"height":60,"color":"4"},
-		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60},
-		{"id":"8695b9a16e87e14f","x":-820,"y":-440,"width":250,"height":60,"type":"text","text":"Half adder, full adder"},
-		{"id":"601eb51f8544ad39","type":"text","text":"Multiplexer e demultiplexer","x":-1120,"y":-440,"width":250,"height":60}
+		{"id":"8695b9a16e87e14f","type":"text","text":"Half adder, full adder","x":-820,"y":-440,"width":250,"height":60},
+		{"id":"601eb51f8544ad39","type":"text","text":"Multiplexer e demultiplexer","x":-1120,"y":-440,"width":250,"height":60,"color":"4"},
+		{"id":"b7e86c37b5eeff52","type":"text","text":"Latch - SR, D, JK etc.","x":-1680,"y":331,"width":250,"height":60},
+		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a848a3afe7b881dc","fromNode":"b4050553d9b35e7e","fromSide":"left","toNode":"035624f132ad2197","toSide":"right"},

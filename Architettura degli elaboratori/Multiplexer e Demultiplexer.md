@@ -34,3 +34,4 @@ S0  S1  O
 ```
 
 #### Links
+[[Half Adder e Full Adder]]
