@@ -1,4 +1,4 @@
->Un latch e' un circuito sequenziale la cui uscita al tempo corrente dipende dall'ingresso attuale e dall'uscita al tempo t-1
+>Un latch e' un circuito sequenziale la cui uscita al tempo corrente dipende dall'ingresso attuale e dall'uscita al tempo t-1. I latch sono circuiti **asincroni**
 
 Possiamo distinguere due tipi di latch: SR e D.
 
