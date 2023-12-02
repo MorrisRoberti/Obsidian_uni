@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "252697204717c49f",
+        "id": "dba2730b50ef463a",
         "type": "tabs",
         "children": [
           {
-            "id": "b610dd2073b4c5af",
+            "id": "1979a1afe87020b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,20 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "1979a1afe87020b2",
   "lastOpenFiles": [
+    "2023-12-02.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231202114751.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231202113654.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231202113157.png",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/Algebra di Boole.md",
+    "Untitled.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231128232722.png",
     "Architettura degli elaboratori/Porte Logiche.md",
     "Architettura degli elaboratori/I sistemi digitali.md",
-    "Architettura degli elaboratori/Encoder e Decoder.md",
-    "Architettura degli elaboratori/Syllabus.canvas",
-    "Untitled.md",
     "Architettura degli elaboratori/Overflow.md",
     "Architettura degli elaboratori/Numeri binari negativi.md",
     "Architettura degli elaboratori/Operazioni con i numeri binari.md",
     "Architettura degli elaboratori/Standard IEEE754.md",
-    "Architettura degli elaboratori/Algebra di Boole.md",
-    "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162542.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162300.png",
@@ -176,10 +182,6 @@
     "Architettura degli elaboratori/IMGs/Pasted image 20231022162649.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022174428.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231022172628.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022164241.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022164139.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022163145.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231022163023.png",
     "Architettura degli elaboratori/Struttura del corso.md",
     "Architettura degli elaboratori"
   ]

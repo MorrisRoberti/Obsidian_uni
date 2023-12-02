@@ -45,4 +45,5 @@
 [[Forme canoniche]]
 [[Mappe di Karnaugh]]
 [[Porte Logiche]]
+[[Multiplexer e Demultiplexer]]
 
