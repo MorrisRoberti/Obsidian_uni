@@ -43,3 +43,4 @@ J  K  Q  !Q
 
 #### Links 
 [[Latch SR e Latch D]]
+[[SRAM e DRAM]]
