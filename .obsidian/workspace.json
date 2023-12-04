@@ -4,25 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "dee8e9f0ec5778e4",
+        "id": "969c7cea5458a2b8",
         "type": "tabs",
         "children": [
           {
-            "id": "7ae9e9199f7e942b",
+            "id": "dbf5420c415053d2",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "viewState": {
-                  "x": -1150,
-                  "y": 668.1108829568789,
-                  "zoom": -0.7604723470508362
+                  "x": -578.0967071121677,
+                  "y": 942.6673995458226,
+                  "zoom": -0.44635426967970476
                 }
               }
             }
+          },
+          {
+            "id": "210440d43427313a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/Processore 8086.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12fb1e0f233ed3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/Pipeline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Syllabus.canvas",
+                "file": "Architettura degli elaboratori/Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Syllabus.canvas",
+                "file": "Architettura degli elaboratori/Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Syllabus.canvas"
+                "file": "Architettura degli elaboratori/Pipeline.md"
               }
             }
           }
@@ -149,23 +174,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ae9e9199f7e942b",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "2023-12-04 Architettura.md",
+    "Architettura degli elaboratori/Processore 8086.md",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/Pipeline.md",
+    "Architettura degli elaboratori/Latch SR e Latch D.md",
+    "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
+    "Architettura degli elaboratori/Untitled.md",
     "Architettura degli elaboratori/Struttura della CPU.md",
     "Architettura degli elaboratori/Operazioni con i numeri binari.md",
     "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
-    "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/SRAM e DRAM.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/Flip Flop.md",
-    "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202234523.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202233919.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202211216.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202210902.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202205328.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202204741.png",
-    "Architettura degli elaboratori/Latch SR e Latch D.md",
     "Architettura degli elaboratori/IMGs/RS-with-NAND-gates-4.png",
     "Architettura degli elaboratori/IMGs/d_ltch.png",
     "Architettura degli elaboratori/Circuiti Sequenziali.md",
@@ -186,10 +215,6 @@
     "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
     "TTL, segnali e uscite in terzo stato.md",
     "Architettura degli elaboratori/Conversioni di base.md",
-    "Architettura degli elaboratori/Condizioni di indifferenza.md",
-    "2023-11-22.md",
-    "Architettura degli elaboratori/Mappe di Karnaugh.md",
-    "Architettura degli elaboratori/Forme canoniche.md",
     "Architettura degli elaboratori"
   ]
 }
