@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"ff0627af0f0f28d6","type":"group","x":-1220,"y":572,"width":734,"height":468,"label":"CPU e cicli di esecuzione"},
+		{"id":"ff0627af0f0f28d6","type":"group","x":-1220,"y":572,"width":850,"height":608,"label":"CPU e cicli di esecuzione"},
 		{"id":"1c8a3758b53ff158","type":"group","x":-1220,"y":0,"width":860,"height":390,"color":"4","label":"Codifiche numeriche e operazioni binarie"},
 		{"id":"ec6f760b22762681","type":"group","x":-1940,"y":195,"width":530,"height":445,"color":"4","label":"Circuiti sequenziali e memorie"},
 		{"id":"411dddd6f15a7e1d","type":"group","x":-1140,"y":-460,"width":600,"height":380,"color":"4","label":"Circuiti combinatori"},
@@ -24,14 +24,15 @@
 		{"id":"e04f4b84f42e3571","type":"text","text":"Conversioni di base","x":-1200,"y":310,"width":250,"height":60,"color":"4"},
 		{"id":"5476e4edbae077ff","type":"text","text":"Flip Flop - D, JK etc.","x":-1680,"y":445,"width":250,"height":60,"color":"4"},
 		{"id":"12e1583dce854b10","type":"text","text":"SRAM e DRAM","x":-1680,"y":560,"width":250,"height":60,"color":"4"},
-		{"id":"33906db05137a079","type":"text","text":"Ciclo FDE","x":-1200,"y":620,"width":250,"height":60,"color":"4"},
-		{"id":"5cb8477afa3b4dfc","type":"text","text":"Stack","x":-785,"y":620,"width":250,"height":60},
-		{"id":"c16a46e4658b092c","type":"text","text":"Struttura del processore","x":-1200,"y":720,"width":250,"height":60},
-		{"id":"a1a76ad011df39be","type":"text","text":"Decodifica delle istruzioni","x":-1200,"y":840,"width":250,"height":60},
-		{"id":"ef343e466e5eef57","type":"text","text":"RISC e CISC","x":-1200,"y":950,"width":250,"height":60},
-		{"id":"953098477db8cd10","type":"text","text":"Gestione delle periferiche","x":-785,"y":950,"width":250,"height":60},
-		{"id":"3ed523451925a4d4","type":"text","text":"Gestione degli interrupt","x":-785,"y":840,"width":250,"height":60},
-		{"id":"ed5762cc9319c674","x":-785,"y":720,"width":250,"height":60,"type":"text","text":"Gestione delle chiamate di funzione"}
+		{"id":"46f7f59a8cf586c5","type":"text","text":"Pipeline","x":-785,"y":620,"width":250,"height":60,"color":"3"},
+		{"id":"33906db05137a079","type":"text","text":"Ciclo FDE","x":-785,"y":760,"width":250,"height":60,"color":"4"},
+		{"id":"c16a46e4658b092c","type":"text","text":"Struttura del processore","x":-1200,"y":760,"width":250,"height":60},
+		{"id":"ef343e466e5eef57","type":"text","text":"RISC e CISC","x":-1200,"y":870,"width":250,"height":60},
+		{"id":"a53a929ac6969934","type":"text","text":"Processore 8086\n","x":-1200,"y":620,"width":250,"height":60,"color":"4"},
+		{"id":"953098477db8cd10","type":"text","text":"Gestione delle periferiche","x":-785,"y":1080,"width":250,"height":60},
+		{"id":"a1a76ad011df39be","type":"text","text":"Decodifica delle istruzioni","x":-1200,"y":970,"width":250,"height":60},
+		{"id":"3ed523451925a4d4","type":"text","text":"Gestione degli interrupt","x":-785,"y":870,"width":250,"height":60},
+		{"id":"5cb8477afa3b4dfc","type":"text","text":"Stack e Gestione delle chiamate di funzione","x":-785,"y":970,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a848a3afe7b881dc","fromNode":"b4050553d9b35e7e","fromSide":"left","toNode":"035624f132ad2197","toSide":"right"},
@@ -54,6 +55,15 @@
 		{"id":"389dc381bd3062b2","fromNode":"adff0d862c0547d5","fromSide":"right","toNode":"97eb0ee685aef022","toSide":"bottom"},
 		{"id":"6dda4ba053c0feb1","fromNode":"601eb51f8544ad39","fromSide":"right","toNode":"8695b9a16e87e14f","toSide":"left"},
 		{"id":"75379f45f891a970","fromNode":"b7e86c37b5eeff52","fromSide":"bottom","toNode":"5476e4edbae077ff","toSide":"top"},
-		{"id":"50eb0f5ee8ce1af1","fromNode":"5476e4edbae077ff","fromSide":"bottom","toNode":"12e1583dce854b10","toSide":"top"}
+		{"id":"50eb0f5ee8ce1af1","fromNode":"5476e4edbae077ff","fromSide":"bottom","toNode":"12e1583dce854b10","toSide":"top"},
+		{"id":"0dce772afce77a16","fromNode":"33906db05137a079","fromSide":"top","toNode":"46f7f59a8cf586c5","toSide":"bottom"},
+		{"id":"e0b596b30dd2d565","fromNode":"c16a46e4658b092c","fromSide":"right","toNode":"33906db05137a079","toSide":"left"},
+		{"id":"0dbbaee9dbb99516","fromNode":"c16a46e4658b092c","fromSide":"bottom","toNode":"ef343e466e5eef57","toSide":"top"},
+		{"id":"b30cbf2c1c50ac3c","fromNode":"ef343e466e5eef57","fromSide":"bottom","toNode":"a1a76ad011df39be","toSide":"top"},
+		{"id":"43f5931b9601ced7","fromNode":"c16a46e4658b092c","fromSide":"top","toNode":"a53a929ac6969934","toSide":"bottom"},
+		{"id":"7a3da8a3fd95355a","fromNode":"a1a76ad011df39be","fromSide":"right","toNode":"5cb8477afa3b4dfc","toSide":"left"},
+		{"id":"05a3c5b42487a021","fromNode":"33906db05137a079","fromSide":"bottom","toNode":"3ed523451925a4d4","toSide":"top"},
+		{"id":"7aff0061aa0c06f0","fromNode":"33906db05137a079","fromSide":"right","toNode":"5cb8477afa3b4dfc","toSide":"right"},
+		{"id":"997865f46f3fa8ea","fromNode":"33906db05137a079","fromSide":"right","toNode":"953098477db8cd10","toSide":"right"}
 	]
 }
