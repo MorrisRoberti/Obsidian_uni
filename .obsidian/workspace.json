@@ -16,7 +16,7 @@
                 "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "viewState": {
                   "x": -1150,
-                  "y": 668.1108829568789,
+                  "y": 290,
                   "zoom": -0.7604723470508362
                 }
               }
@@ -149,12 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ae9e9199f7e942b",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Architettura degli elaboratori/Struttura della CPU.md",
-    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
     "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
     "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/Struttura della CPU.md",
+    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
     "Architettura degli elaboratori/SRAM e DRAM.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/Flip Flop.md",
