@@ -28,11 +28,11 @@
 		{"id":"33906db05137a079","type":"text","text":"Ciclo FDE","x":-785,"y":760,"width":250,"height":60,"color":"4"},
 		{"id":"c16a46e4658b092c","type":"text","text":"Struttura del processore","x":-1200,"y":760,"width":250,"height":60},
 		{"id":"ef343e466e5eef57","type":"text","text":"RISC e CISC","x":-1200,"y":870,"width":250,"height":60},
+		{"id":"a53a929ac6969934","type":"text","text":"Processore 8086\n","x":-1200,"y":620,"width":250,"height":60,"color":"4"},
+		{"id":"953098477db8cd10","type":"text","text":"Gestione delle periferiche","x":-785,"y":1080,"width":250,"height":60},
 		{"id":"a1a76ad011df39be","type":"text","text":"Decodifica delle istruzioni","x":-1200,"y":970,"width":250,"height":60},
-		{"id":"a53a929ac6969934","type":"text","text":"Processore 8086\n","x":-1200,"y":620,"width":250,"height":60},
 		{"id":"3ed523451925a4d4","type":"text","text":"Gestione degli interrupt","x":-785,"y":870,"width":250,"height":60},
-		{"id":"5cb8477afa3b4dfc","type":"text","text":"Stack e Gestione delle chiamate di funzione","x":-785,"y":970,"width":250,"height":60},
-		{"id":"953098477db8cd10","type":"text","text":"Gestione delle periferiche","x":-785,"y":1080,"width":250,"height":60}
+		{"id":"5cb8477afa3b4dfc","type":"text","text":"Stack e Gestione delle chiamate di funzione","x":-785,"y":970,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a848a3afe7b881dc","fromNode":"b4050553d9b35e7e","fromSide":"left","toNode":"035624f132ad2197","toSide":"right"},

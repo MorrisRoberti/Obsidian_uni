@@ -21,33 +21,8 @@
                 }
               }
             }
-          },
-          {
-            "id": "210440d43427313a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/Processore 8086.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12fb1e0f233ed3d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/Pipeline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Pipeline.md",
+                "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Pipeline.md",
+                "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Pipeline.md"
+                "file": "Architettura degli elaboratori/Syllabus.canvas"
               }
             }
           }
@@ -174,12 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "dbf5420c415053d2",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/Pipeline.md",
     "2023-12-04 Architettura.md",
     "Architettura degli elaboratori/Processore 8086.md",
     "Architettura degli elaboratori/Syllabus.canvas",
-    "Architettura degli elaboratori/Pipeline.md",
     "Architettura degli elaboratori/Latch SR e Latch D.md",
     "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "Architettura degli elaboratori/Untitled.md",
