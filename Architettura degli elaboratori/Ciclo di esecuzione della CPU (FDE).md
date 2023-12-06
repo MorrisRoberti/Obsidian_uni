@@ -1,6 +1,6 @@
 >Per eseguire le istruzioni la CPU esegue diversi passi in modo ciclico, questo viene chiamato cliclo Fetch, Decode, Execute
 
-Per poter capire il ciclo FDE e' necessario conoscere i componenti della CPU, si possono trovare qui: [[Struttura della CPU]].
+Per poter capire il ciclo FDE e' necessario conoscere i componenti della CPU, si possono trovare qui: [[Architettura degli elaboratori/Struttura della CPU]].
 
 ### 1. Fetch
 >La fase di *Fetch* e' un'operazione che prevede di prendere l'istruzione successiva che deve essere eseguita dal processore.
