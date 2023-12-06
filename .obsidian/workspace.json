@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU 1.md",
+                "file": "Architettura degli elaboratori/Struttura della CPU.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU 1.md",
+                "file": "Architettura degli elaboratori/Struttura della CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU 1.md",
+                "file": "Architettura degli elaboratori/Struttura della CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU 1.md"
+                "file": "Architettura degli elaboratori/Struttura della CPU.md"
               }
             }
           }
@@ -183,7 +183,7 @@
   "active": "366f34ef9d08fe47",
   "lastOpenFiles": [
     "Architettura degli elaboratori/Struttura della CPU.md",
-    "Architettura degli elaboratori/Struttura della CPU 1.md",
+    "Architettura degli elaboratori/Struttura della CPU.md",
     "2023-12-06 Architettura.md",
     "2023-12-04 Architettura.md",
     "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
