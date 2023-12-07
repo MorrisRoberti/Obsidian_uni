@@ -22,5 +22,5 @@ Per poter capire il ciclo FDE e' necessario conoscere i componenti della CPU, si
 1. Una volta che sono stati caricati tutti gli operandi all'interno della **ALU** questa esegue l'operazione
 2. Al termine dell'operazione il valore del **PC** viene incrementato per puntare all'istruzione successiva
 
-
 #### Links
+[[Stack e gestione delle chiamate di funzione]]

@@ -25,6 +25,24 @@
 2. Consumano **piu' corrente**
 
 
+### Big-Endian e Little-Endian
+>Le architetture CISC e RISC rappresentano i dati in modo differente. I due modi sono *Little-Endian* e *Big-Endian*.
+
+Le architetture **RISC** immagazzinano i byte da sinistra a destra, **il byte piu' pesante si trova a sinistra** e tale organizzazione e' chiamate ==**Big-Endian (BE)**==.
+
+Le architetture **CISC** immagazzinano i byte da destra a sinistra , **il byte piu' pesante si trova a destra** e tale organizzazione e' chiamate ==**Little-Endian (LE)**==.
+
+![[Decimal-number_--1-.png]]
+
+==ATTENZIONE==
+L'ordine dei bit e' lo stesso, quello che cambia e' l'ordinamento dei **byte**.
+
+Sono entrambe largamente utilizzate:
+- BE -> Protocolli di networking
+- LE -> PC
+
+Nei linguaggi ad alto livello la questione LE o BE non ha piu un peso cosi' importante, dato che si lavora in un dominio piu' astratto, quindi il compilatore/interprete sottostante si occupera' di gestire l'eventuale conversione.
+
 #### Links
 [[Pipeline]]
 [[Microprogrammazione]]

@@ -27,7 +27,9 @@ Vedi [[Microprogrammazione]]
 >Il formato delle istruzioni per le architetture RISC era minimale e di dimensione standard, per cui era facilmente decodificabile
 ![[Mips32_addi.svg.png]]
 ### Istruzioni CISC
+>Il formato delle istruzioni nelle architetture CISC e' di lunghezza variabile e tendenzialmente maggiore di quello delle architetture RISC.
 
+Tale complessita' aggiunta al numero di istruzioni elevato (istruzioni che poi non venivano effettivamente utilizzate) ha fatto si che a lungo andare i CISC venissero superati dalle architetture RISC
 
 
 #### Links

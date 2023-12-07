@@ -6,38 +6,31 @@
       {
         "id": "0a7eee9a4979f057",
         "type": "tabs",
-        "dimension": 58.84718498659517,
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "4e087e3d6c206fa8",
+            "id": "778f922a63472f13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a17bd58456cf9ca9",
-        "type": "tabs",
-        "dimension": 41.152815013404826,
-        "children": [
+          },
           {
-            "id": "f070ab66e4b47780",
+            "id": "a83806ec37b7cd43",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "viewState": {
-                  "x": -799.6446472333304,
-                  "y": 839.8686089798992,
-                  "zoom": -0.5249725381392099
+                  "x": -722.09285135359,
+                  "y": 872.6830819129705,
+                  "zoom": -0.2587319987230875
                 }
               }
             }
@@ -108,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md"
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md"
               }
             }
           }
@@ -169,47 +162,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e087e3d6c206fa8",
+  "active": "778f922a63472f13",
   "lastOpenFiles": [
-    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/Struttura della CPU.md",
+    "Architettura degli elaboratori/Gestione delle periferiche.md",
+    "Architettura degli elaboratori/Microprogrammazione.md",
+    "Architettura degli elaboratori/Mappe di Karnaugh.md",
+    "Architettura degli elaboratori/Latch SR e Latch D.md",
+    "Architettura degli elaboratori/I sistemi digitali.md",
     "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+    "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
+    "Architettura degli elaboratori/Condizioni di indifferenza.md",
+    "Architettura degli elaboratori/Circuiti Sequenziali.md",
+    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/Numeri binari negativi.md",
+    "Architettura degli elaboratori/Gestione degli interrput.md",
     "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
+    "Architettura degli elaboratori/Overflow.md",
+    "Architettura degli elaboratori/Pipeline.md",
+    "Architettura degli elaboratori/Processore 8086.md",
+    "Architettura degli elaboratori/IMGs/Decimal-number_--1-.png",
     "Architettura degli elaboratori/Resources",
     "Architettura degli elaboratori/IMGs/arm-fundamentals-3-728-2152017444.jpg",
-    "Architettura degli elaboratori/Microprogrammazione.md",
     "Architettura degli elaboratori/IMGs/Mips32_addi.svg.png",
-    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
-    "Architettura degli elaboratori/Struttura della CPU.md",
-    "Architettura degli elaboratori/Struttura della CPU.md",
     "2023-12-06 Architettura.md",
     "2023-12-04 Architettura.md",
-    "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206163022.png",
-    "Architettura degli elaboratori/Pipeline.md",
     "Architettura degli elaboratori/Flip Flop.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206114934.png",
     "BXMZn.png",
     "BXMZn 1.png",
     "Architettura degli elaboratori/Operazioni con i numeri binari.md",
-    "Architettura degli elaboratori/Processore 8086.md",
     "Architettura degli elaboratori/SRAM e DRAM.md",
-    "Architettura degli elaboratori/Latch SR e Latch D.md",
     "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "Architettura degli elaboratori/Untitled.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202234523.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231202233919.png",
-    "Architettura degli elaboratori/Circuiti Sequenziali.md",
-    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
-    "Architettura degli elaboratori/Half Adder e Full Adder.md",
-    "Architettura degli elaboratori/Encoder e Decoder.md",
-    "2023-12-02.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Architettura degli elaboratori/Algebra di Boole.md",
-    "Architettura degli elaboratori/Porte Logiche.md",
-    "Architettura degli elaboratori/I sistemi digitali.md",
     "Architettura degli elaboratori/IMGs",
     "Architettura degli elaboratori"
   ]
