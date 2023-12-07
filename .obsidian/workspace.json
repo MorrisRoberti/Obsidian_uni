@@ -6,37 +6,26 @@
       {
         "id": "0a7eee9a4979f057",
         "type": "tabs",
+        "dimension": 58.84718498659517,
         "children": [
           {
-            "id": "9bb4b242f1e6314c",
+            "id": "4e087e3d6c206fa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "366f34ef9d08fe47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a17bd58456cf9ca9",
         "type": "tabs",
+        "dimension": 41.152815013404826,
         "children": [
           {
             "id": "f070ab66e4b47780",
@@ -46,9 +35,9 @@
               "state": {
                 "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "viewState": {
-                  "x": -792.720843910255,
-                  "y": 834.329566321439,
-                  "zoom": -0.2524059331150488
+                  "x": -799.6446472333304,
+                  "y": 839.8686089798992,
+                  "zoom": -0.5249725381392099
                 }
               }
             }
@@ -119,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md"
+                "file": "Architettura degli elaboratori/Decodifica delle istruzioni.md"
               }
             }
           }
@@ -180,18 +169,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "366f34ef9d08fe47",
+  "active": "4e087e3d6c206fa8",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+    "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
+    "Architettura degli elaboratori/Resources",
+    "Architettura degli elaboratori/IMGs/arm-fundamentals-3-728-2152017444.jpg",
+    "Architettura degli elaboratori/Microprogrammazione.md",
+    "Architettura degli elaboratori/IMGs/Mips32_addi.svg.png",
+    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
     "Architettura degli elaboratori/Struttura della CPU.md",
     "Architettura degli elaboratori/Struttura della CPU.md",
     "2023-12-06 Architettura.md",
     "2023-12-04 Architettura.md",
-    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
     "Architettura degli elaboratori/Syllabus.canvas",
-    "Architettura degli elaboratori/RISC e CISC.md",
-    "Architettura degli elaboratori/Microprogrammazione.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
-    "Architettura degli elaboratori/Decodifica delle istruzioni.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206163022.png",
     "Architettura degli elaboratori/Pipeline.md",
     "Architettura degli elaboratori/Flip Flop.md",
@@ -207,8 +200,6 @@
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202234523.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231202233919.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231202211216.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231202210902.png",
     "Architettura degli elaboratori/Circuiti Sequenziali.md",
     "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
     "Architettura degli elaboratori/Half Adder e Full Adder.md",
