@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "3212eb35829bc467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a83806ec37b7cd43",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md"
+                "file": "README.md"
               }
             }
           }
@@ -162,12 +176,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "778f922a63472f13",
+  "active": "3212eb35829bc467",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/Gestione delle periferiche.md",
+    "README.md",
     "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/Struttura della CPU.md",
-    "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Microprogrammazione.md",
     "Architettura degli elaboratori/Mappe di Karnaugh.md",
     "Architettura degli elaboratori/Latch SR e Latch D.md",
