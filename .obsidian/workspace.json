@@ -6,7 +6,6 @@
       {
         "id": "0a7eee9a4979f057",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "778f922a63472f13",
@@ -15,18 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3212eb35829bc467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Architettura degli elaboratori/Gestione delle periferiche.md"
               }
             }
           }
@@ -176,10 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3212eb35829bc467",
+  "active": "778f922a63472f13",
   "lastOpenFiles": [
-    "Architettura degli elaboratori/Gestione delle periferiche.md",
     "README.md",
+    "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/Struttura della CPU.md",
