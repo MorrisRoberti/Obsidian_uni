@@ -28,3 +28,4 @@ E' composta da:
 [[Processore 8086]]
 [[Ciclo di esecuzione della CPU (FDE)]]
 [[RISC e CISC]]
+[[Architetture parallele]]

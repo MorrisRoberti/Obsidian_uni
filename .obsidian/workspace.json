@@ -13,26 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-12-06 Architettura.md",
+                "file": "2023-12-13 Architettura.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a83806ec37b7cd43",
+            "id": "e85359fe79625ab6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-12-13 Architettura.md",
+                "file": "Architettura degli elaboratori/Architetture parallele.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9b555776b5010d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2776982b3facd47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/GPU e GPGPU.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -99,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-12-13 Architettura.md",
+                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-12-13 Architettura.md",
+                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-12-13 Architettura.md"
+                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md"
               }
             }
           }
@@ -160,18 +183,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a83806ec37b7cd43",
+  "active": "f9b555776b5010d1",
   "lastOpenFiles": [
-    "2023-12-06 Architettura.md",
-    "2023-12-13 Architettura.md",
-    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/GPU e GPGPU.md",
+    "Architettura degli elaboratori/Tassonomia di Flynn.md",
+    "Architettura degli elaboratori/Architetture parallele.md",
     "Architettura degli elaboratori/Syllabus.canvas",
+    "2023-12-13 Architettura.md",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231213222025.png",
+    "Architettura degli elaboratori/Struttura della CPU.md",
+    "2023-12-06 Architettura.md",
+    "Architettura degli elaboratori/RISC e CISC.md",
     "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Gestione degli interrput.md",
     "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
     "README.md",
     "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
-    "Architettura degli elaboratori/Struttura della CPU.md",
     "Architettura degli elaboratori/Microprogrammazione.md",
     "Architettura degli elaboratori/Mappe di Karnaugh.md",
     "Architettura degli elaboratori/Latch SR e Latch D.md",
@@ -192,15 +219,10 @@
     "2023-12-04 Architettura.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206163022.png",
-    "Architettura degli elaboratori/Flip Flop.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206114934.png",
     "BXMZn.png",
     "BXMZn 1.png",
-    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
-    "Architettura degli elaboratori/SRAM e DRAM.md",
-    "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231202234523.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
