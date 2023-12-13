@@ -1,7 +1,7 @@
 >Quello che si vuole fare e' far interagire il nostro elaboratore con un dispositivo esterno, che sia una tastiera, un CD o una chiavetta USB, per fare cio' esistono 3 metodi principali: **Protocollo di Handshaking**, **Interrupt driven I/O**, **DMA I/O**.
 
 ## Funzionamento di base
-Per fare in modo che la CPU comunichi con dei dispositivi esterni e' necessario avere delle interfacce che possano gestire lo scambio di dati tra  le due parti, solitamente queste interfacce sono i **driver**.
+Per fare in modo che la CPU comunichi con dei dispositivi esterni e' necessario avere delle **interfacce** che possano gestire lo scambio di dati tra  le due parti, solitamente queste interfacce sono i **driver**.
 
 Ogni dispositivo ha i suoi driver, che vengono installati sulla macchina (tipicamente al primo collegamento ma possono anche essere scaricati e installati manualmente), cioe' l'interfaccia usata dalla CPU per interagire effettivamente con il dispositivo. 
 
@@ -39,9 +39,9 @@ La CPU comunica con l'interfaccia che e' esposta su una determinata **porta** de
 ### DMA (Direct Memory Address)
 >La tecnica **DMA** prevede di utilizzare un **DMA Controller** che, tramite i bus gestisce il flusso di dati tra il dispositivo I/O e la memoria. Quando il dispositivo I/O avvia una richiesta, il DMA Controller la inoltra alla CPU, che definisce quanti dati vuole leggere, da che dispositivo e in che parte di memoria andarli a scrivere
 
+==Con questo meccanismo la comunicazione viene standardizzata quindi e' possibile usare la stessa interfaccia per piu' dispositivi==
 
-
-# DA COMPLETARE
-
+In piu' i dispositivi non comunicano piu' con la CPU ma direttamente con il DMA Controller che gestisce lo scambio di dati.
+r
 #### Links
 
