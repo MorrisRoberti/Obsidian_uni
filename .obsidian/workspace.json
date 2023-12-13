@@ -11,11 +11,14 @@
             "id": "a83806ec37b7cd43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
-                "mode": "source",
-                "source": false
+                "file": "Architettura degli elaboratori/Syllabus.canvas",
+                "viewState": {
+                  "x": -500.4322854277466,
+                  "y": 1027.469641832274,
+                  "zoom": -0.18852645596123715
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
+                "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md",
+                "file": "Architettura degli elaboratori/Syllabus.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Gestione delle periferiche.md"
+                "file": "Architettura degli elaboratori/Syllabus.canvas"
               }
             }
           }
@@ -148,9 +151,9 @@
   },
   "active": "a83806ec37b7cd43",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Gestione degli interrput.md",
     "Architettura degli elaboratori/Syllabus.canvas",
-    "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
     "README.md",
     "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",

@@ -42,6 +42,6 @@ La CPU comunica con l'interfaccia che e' esposta su una determinata **porta** de
 ==Con questo meccanismo la comunicazione viene standardizzata quindi e' possibile usare la stessa interfaccia per piu' dispositivi==
 
 In piu' i dispositivi non comunicano piu' con la CPU ma direttamente con il DMA Controller che gestisce lo scambio di dati.
-r
+
 #### Links
 
