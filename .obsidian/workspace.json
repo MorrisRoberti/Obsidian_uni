@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0a7eee9a4979f057",
+        "id": "4e1bc41bcdd899a9",
         "type": "tabs",
         "children": [
           {
-            "id": "0253095930ee0e7a",
+            "id": "99e0f48a9bbe7d1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-12-13 Architettura.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e85359fe79625ab6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/Architetture parallele.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b555776b5010d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2776982b3facd47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architettura degli elaboratori/GPU e GPGPU.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -122,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Architettura degli elaboratori/Tassonomia di Flynn.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,13 +139,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9b555776b5010d1",
+  "active": "99e0f48a9bbe7d1e",
   "lastOpenFiles": [
     "Architettura degli elaboratori/GPU e GPGPU.md",
-    "Architettura degli elaboratori/Tassonomia di Flynn.md",
-    "Architettura degli elaboratori/Architetture parallele.md",
     "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/Tassonomia di Flynn.md",
     "2023-12-13 Architettura.md",
+    "Pasted image 20231220193821.png",
+    "Pasted image 20231220190825.png",
+    "Pasted image 20231220190116.png",
+    "Pasted image 20231220184457.png",
+    "Pasted image 20231220184257.png",
+    "Architettura degli elaboratori/Architetture parallele.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231213222025.png",
     "Architettura degli elaboratori/Struttura della CPU.md",
     "2023-12-06 Architettura.md",
@@ -218,11 +179,6 @@
     "Architettura degli elaboratori/IMGs/Mips32_addi.svg.png",
     "2023-12-04 Architettura.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231206163022.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231206114934.png",
-    "BXMZn.png",
-    "BXMZn 1.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
