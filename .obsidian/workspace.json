@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -119,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023-12-06 Architettura.md"
+              }
             }
           }
         ]
@@ -139,21 +140,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99e0f48a9bbe7d1e",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "Architettura degli elaboratori/IMGs/2023-12-04 Architettura.md",
+    "2023-12-06 Architettura.md",
+    "2023-12-13 Architettura.md",
     "Architettura degli elaboratori/GPU e GPGPU.md",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/Tassonomia di Flynn.md",
-    "2023-12-13 Architettura.md",
-    "Pasted image 20231220193821.png",
-    "Pasted image 20231220190825.png",
-    "Pasted image 20231220190116.png",
-    "Pasted image 20231220184457.png",
-    "Pasted image 20231220184257.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220190116.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220184457.png",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220184257.png",
     "Architettura degli elaboratori/Architetture parallele.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231213222025.png",
     "Architettura degli elaboratori/Struttura della CPU.md",
-    "2023-12-06 Architettura.md",
     "Architettura degli elaboratori/RISC e CISC.md",
     "Architettura degli elaboratori/Gestione delle periferiche.md",
     "Architettura degli elaboratori/Gestione degli interrput.md",
@@ -177,7 +179,6 @@
     "Architettura degli elaboratori/Resources",
     "Architettura degli elaboratori/IMGs/arm-fundamentals-3-728-2152017444.jpg",
     "Architettura degli elaboratori/IMGs/Mips32_addi.svg.png",
-    "2023-12-04 Architettura.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
