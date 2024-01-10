@@ -6,7 +6,7 @@
 #### Vantaggi
 1. Le istruzioni sono piu' semplici quindi **la codifica e' piu veloce**
 2. **Le istruzioni vengono eseguite piu velocemente**, poiche' sono minimali
-3. Consumano **meno corrente **
+3. Consumano **meno corrente**
 
 #### Svantaggi
 1. Per eseguire **compiti piu' complessi** si devono usare **piu' istruzioni**

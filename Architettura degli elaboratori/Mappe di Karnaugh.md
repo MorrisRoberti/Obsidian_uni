@@ -8,7 +8,7 @@
 - una mappa di ordine n contiene $$2^{n}$$ celle
 - Le coordinate delle celle corrispondono alle possibili configurazioni delle n variabili;
 - sulla mappa le celle sono disposte in modo tale che ogni cella e' adiacente a n celle;
-- su una mappa di ordine n si definisce _sottocubo_ di ordine m, con m<=n, un insieme di $$2^{m}$$ celle tale per cui ciascune delle caselle del sottocubo e' adiacente a m caselle del sottocubo stesso;
+- su una mappa di ordine n si definisce _sottocubo_ di ordine m, con m<=n, un insieme di $$2^{m}$$ celle tale per cui ciascuna delle caselle del sottocubo e' adiacente a m caselle del sottocubo stesso;
 
 
 ### Links

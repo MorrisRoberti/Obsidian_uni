@@ -1,4 +1,4 @@
->Un'interrupt e' una situazione che causa la momentanea esecuzione delle istruzioni da parte del processore, questo puo' essere il caso di una richiesta **interna** o **esterna**.
+>Un'interrupt e' una situazione che causa la momentanea sospensione dell'esecuzione del blocco di istruzioni attuale da parte del processore, questo puo' essere il caso di una richiesta **interna** o **esterna**.
 
 Ci sono due tipi di interrupt:
 - Internal (*eccezioni*)-> Possono essere ad esempio OPcode non valido, stack overflow, divisioni per 0 e comunque tutti quei casi che dipendono dal *software* (*sincroni*)

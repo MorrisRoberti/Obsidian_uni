@@ -7,10 +7,10 @@ Per poter capire il ciclo FDE e' necessario conoscere i componenti della CPU, si
 
 1. Per prima cosa abbiamo il **PC** che punta alla prossima istruzione da eseguire
 2. Tramite il **BUS interno** passiamo l'indirizzo contenuto nel **PC** al **MAR** che andra' in memoria RAM a recuperare l'istruzione puntata
-3. Una volta trovata l'istruzione il **MDR** (o DTR) prende il contenuto della cella di memoria e tramite il **BUS interno** lo manda nell'**IR** che poi sara' pronto per la prossima fase#
+3. Una volta trovata l'istruzione il **MDR** (o DTR) prende il contenuto della cella di memoria e tramite il **BUS interno** lo manda nell'**IR** che poi sara' pronto per la prossima fase
 
 ### 2. Decode
->La fase di *Decode* e' l'operazione successiva a quella di fetch nel quale l'istruzione presa viene appunto decodificata
+>La fase di *Decode* e' l'operazione successiva a quella di fetch nel quale l'istruzione presa viene decodificata
 
 1. Una volta che l'**IR** contiene l'istruzione la **CU** la decodifica
 2. Dopo aver decodificato l'istruzione viene fatto il cosidetto **fetch degli operandi** nel quale la CPU va a caricare i dati necessari (istruzione e dati) all'interno dei registri

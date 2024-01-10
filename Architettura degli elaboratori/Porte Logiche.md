@@ -40,9 +40,6 @@
 
 >Di solito si fanno le semplificazioni algebriche con le porte di base e poi si convertono in NAND/NOR, in quanto semplificare con queste e' piuttosto ostico
 
-
-
-
 ### Links
 [[Mappe di Karnaugh]]
 [[Forme canoniche]]

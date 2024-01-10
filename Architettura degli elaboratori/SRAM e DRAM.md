@@ -1,6 +1,6 @@
 >Le memorie RAM si dividono in due tipologie principali: **SRAM** e **DRAM**.
 
-Come premesa diciamo che le memorie sono un insieme di celle da 1 byte (8 bit) che contengono informazioni e sono accessibili ad un certo indirizzo. Gli indirizzi delle celle di memoria sono degli interi positivi (0, 1, 2, etc.).
+Come premessa diciamo che le memorie sono un insieme di celle da 1 byte (8 bit) che contengono informazioni e sono accessibili ad un certo indirizzo. Gli indirizzi delle celle di memoria sono degli interi positivi (0, 1, 2, etc.).
 
 ### SRAM
 >Una SRAM (*Static* RAM) e' un tipo di memoria ad accesso casuale fatta di transistor molto veloce e molto costosa.

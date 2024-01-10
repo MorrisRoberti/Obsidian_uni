@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4e1bc41bcdd899a9",
+        "id": "9653b17bd4c7d7e4",
         "type": "tabs",
         "children": [
           {
-            "id": "99e0f48a9bbe7d1e",
+            "id": "0d087a089e24da0c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Architettura degli elaboratori/GPU e GPGPU.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Architettura degli elaboratori/GPU e GPGPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Architettura degli elaboratori/GPU e GPGPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-12-06 Architettura.md"
+                "file": "Architettura degli elaboratori/GPU e GPGPU.md"
               }
             }
           }
@@ -140,48 +147,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "0d087a089e24da0c",
   "lastOpenFiles": [
-    "Architettura degli elaboratori/IMGs/2023-12-04 Architettura.md",
-    "2023-12-06 Architettura.md",
-    "2023-12-13 Architettura.md",
-    "Architettura degli elaboratori/GPU e GPGPU.md",
-    "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/Tassonomia di Flynn.md",
+    "Architettura degli elaboratori/Architetture parallele.md",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Architettura degli elaboratori/SRAM e DRAM.md",
+    "Architettura degli elaboratori/Pipeline.md",
+    "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+    "Architettura degli elaboratori/Microprogrammazione.md",
+    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/Struttura della CPU.md",
+    "Architettura degli elaboratori/Gestione delle periferiche.md",
+    "Architettura degli elaboratori/Gestione degli interrput.md",
+    "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
+    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+    "Architettura degli elaboratori/Processore 8086.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
+    "Architettura degli elaboratori/ROM, PROM, EPROM, EEPROM.md",
+    "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
+    "Architettura degli elaboratori/Flip Flop.md",
+    "Architettura degli elaboratori/Latch SR e Latch D.md",
+    "Architettura degli elaboratori/Mappe di Karnaugh.md",
+    "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
+    "Architettura degli elaboratori/Conversioni di base.md",
+    "Architettura degli elaboratori/Condizioni di indifferenza.md",
+    "Architettura degli elaboratori/Algebra di Boole.md",
+    "Architettura degli elaboratori/Forme canoniche.md",
+    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
+    "Architettura degli elaboratori/Half Adder e Full Adder.md",
+    "Architettura degli elaboratori/Porte Logiche.md",
+    "Architettura degli elaboratori/GPU e GPGPU.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220190116.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220184457.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220184257.png",
-    "Architettura degli elaboratori/Architetture parallele.md",
+    "Untitled.canvas",
     "Architettura degli elaboratori/IMGs/Pasted image 20231213222025.png",
-    "Architettura degli elaboratori/Struttura della CPU.md",
-    "Architettura degli elaboratori/RISC e CISC.md",
-    "Architettura degli elaboratori/Gestione delle periferiche.md",
-    "Architettura degli elaboratori/Gestione degli interrput.md",
-    "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
-    "README.md",
-    "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
-    "Architettura degli elaboratori/Microprogrammazione.md",
-    "Architettura degli elaboratori/Mappe di Karnaugh.md",
-    "Architettura degli elaboratori/Latch SR e Latch D.md",
-    "Architettura degli elaboratori/I sistemi digitali.md",
-    "Architettura degli elaboratori/Decodifica delle istruzioni.md",
-    "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
-    "Architettura degli elaboratori/Condizioni di indifferenza.md",
-    "Architettura degli elaboratori/Circuiti Sequenziali.md",
-    "Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
-    "Architettura degli elaboratori/Numeri binari negativi.md",
-    "Architettura degli elaboratori/Overflow.md",
-    "Architettura degli elaboratori/Pipeline.md",
-    "Architettura degli elaboratori/Processore 8086.md",
     "Architettura degli elaboratori/IMGs/Decimal-number_--1-.png",
     "Architettura degli elaboratori/Resources",
     "Architettura degli elaboratori/IMGs/arm-fundamentals-3-728-2152017444.jpg",
     "Architettura degli elaboratori/IMGs/Mips32_addi.svg.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231206172645.png",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "Architettura degli elaboratori/IMGs",
     "Architettura degli elaboratori"
   ]

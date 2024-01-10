@@ -29,7 +29,7 @@ La CPU comunica con l'interfaccia che e' esposta su una determinata **porta** de
 1. La CPU esegue le sue operazioni normalmente, senza aspettare il dispositivo (no busy waiting)
 2. Il dispositivo manda un *segnale di interrupt* con **BUSY=0** alla CPU per indicare che e' pronto
 3. La CPU interrompe quello che sta facendo e gestisce l'interrupt
-4. Alla fine della gestione manda setta **DATA_READY=1** e termina la gestione tornando a fare cio' che stava facendo prima dell'interrupt
+4. Alla fine della gestione manda **DATA_READY=1** e termina la gestione tornando a fare cio' che stava facendo prima dell'interrupt
 5. Nel frattempo il dispositivo avra' **BUSY=1** fino a quando non finisce di elaborare il dato, quando ha finito rimette **BUSY=0** e il ciclo riparte
 
 ==Con questo metodo evitiamo che la CPU rimanga in attesa e facciamo aspettare il dispositivo==

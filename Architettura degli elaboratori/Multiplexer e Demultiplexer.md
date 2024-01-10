@@ -27,10 +27,10 @@ S0  S1  Y
 La tabella della verita' e' definita come segue: 
 ```
 S0  S1  O
-0   0   I0
-0   1   I1
-1   0   I2
-1   1   I3
+0   0   O0
+0   1   O1
+1   0   O2
+1   1   O3
 ```
 
 #### Links

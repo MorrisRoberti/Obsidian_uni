@@ -1,4 +1,4 @@
-Spesso le specifiche di ua rete logica definiscono il comportamento solo per un sottoinsieme delle possibili configurazioni di ingresso, in breve:
+Spesso le specifiche di una rete logica definiscono il comportamento solo per un sottoinsieme delle possibili configurazioni di ingresso, in breve:
 > le uscite sono inferiori alle configurazioni di ingresso.
 
 ### Come si usano

@@ -38,7 +38,7 @@ Per cui **e' possibile realizzare un encoder tramite sole porte OR** codificando
 
 Consideriamo un encoder con 4 ingressi e 2 uscite:
 - Quando tutti gli input sono a 0 il bit di validazione *v* e' 0, quindi gli output non sono utilizzati
-- Quando e' presente *x* significa che non importa quale sia il valore (*don't care*)
+- Quando e' presente *x* significa che non importa quale sia il valore (*don't care*). La *x* e' la cosiddetta condizione di indifferenza
 
 ```
 INPUT
@@ -55,8 +55,11 @@ V  -> 0 1 1 1 1
 
 D3 e' quello con la priorita' piu alta => quando D3 e' alto, non importa quale sia il valore degli altri input, l'uscita sara' sempre 11.
 
+Gli encoder vengono utilizzati ad esempio nelle calcolatrici, per convertire i valori decimali in binario e quindi eseguire le operazioni tipo somma, sottrazione etc.
 ### Decoder
 >Un **decoder** fa il lavoro opposto dell'encoder, prende in input *n* linee e restituisce $2^{n}$ linee di output
+
+Viene utilizzato nella decodifica delle istruzioni insieme alla ROM, per fare in modo di risparmiare spazio in memoria.
 
 Funziona nel seguente modo:
 ```
@@ -85,6 +88,14 @@ D4 = X * !Y * !Z
 D5 = X * !Y * Z
 D6 = X * Y * !Z
 D7 = X * Y * Z
+```
+
+Si puo vedere nel seguente modo: 
+```
+Supponiamo di avere 8 porte e in base al numero che arriva in input vogliamo aprire la porta corrispondente (arriva 5, apro porta 5), in questo caso e' utile l'utilizzo di un decoder.
+
+Per aprire la porta 5, la combinazione degli input dovra' essere la codifica binaria di 5 cioe' 101, 
+quindi X = 1, Y = 0, Z= 1  che se andiamo a vedere corrisponde esattamente all'uscita D5.
 ```
 
 
