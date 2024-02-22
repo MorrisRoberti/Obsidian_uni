@@ -29,4 +29,4 @@ Nell'immagine si vedono due cose:
 - Visualizzazione -> Applicazioni grafiche, rendering di dati etc.
 #### Links 
 [[Tassonomia di Flynn]]
-[GPU e GPGPU]
+[[GPU e GPGPU]]

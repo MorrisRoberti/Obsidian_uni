@@ -4,7 +4,7 @@
 >Le architetture RISC (*Reduced Instruction Set Architecture*) sono caratterizzate da poche istruzioni semplici, le quali vengono poi combinate per eseguire anche i compiti piu' complessi
 
 #### Vantaggi
-1. Le istruzioni sono piu' semplici quindi **la codifica e' piu veloce**
+1. Le istruzioni sono piu' semplici quindi **la decodifica e' piu veloce**
 2. **Le istruzioni vengono eseguite piu velocemente**, poiche' sono minimali
 3. Consumano **meno corrente**
 

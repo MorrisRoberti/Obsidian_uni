@@ -37,7 +37,7 @@ I1 -->    | IF
 ```
 
 ==Problema==:
-	 Tra IF(I0) e ID(I0) arriva IF(I0), quindi mentre ID(I0) va a decodificare l'istruzione dall'IR, IF(I1) sta andando a scriverlo, quindi c'e' la possibilita' che l'istruzione da decodificare venga sovrascritta.
+	 Tra IF(I0) e ID(I0) arriva IF(I1), quindi mentre ID(I0) va a decodificare l'istruzione dall'IR, IF(I1) sta andando a scriverlo, quindi c'e' la possibilita' che l'istruzione da decodificare venga sovrascritta da IF(I1).
 
 ==Soluzione==:
 	Faccio una copia dell'IR in un registro di scrittura del **buffer** in modo da salvare il dato corretto e non sovrascriverlo.
@@ -64,10 +64,13 @@ L'istruzione di **WB** e' l'unica fase che va contro corrente, infatti va a scri
 	- chiamate a funzione
 	- cicli
 
-### Ottimizzazioni
->**bypass** -> quando sono presenti stalli ma sono presenti istruzioni scollegate dalle altre i compilatori possono decidere di riordinare le istruzioni nella pipeline in modo da evitare stalli, quindi si aumenta l'efficienza. Tale meccanismo e' il vantaggio vero dei RISC, l'ottimizzazione dell'esecuzione del codice
+### Soluzioni e ottimizzazioni
 
->**stallo (bubble)** -> e' un'attivita' che dice di non fare nulla in modo da evitare criticita', quindi si fa scalare di 1 in avanti l'esecuzione. Gli stalli vengono inseriti dall'unita' di controllo a runtime per gestire la criticita'. Lo stallo aumenta il tempo d'esecuzione, quindi si passera' da uno speedup *N* ad uno speedup inferiore 
+>**Stallo (bubble)** -> E' un'attivita' che dice di non fare nulla in modo da evitare criticita', quindi si fa scalare di 1 in avanti l'esecuzione. Gli stalli vengono inseriti dall'unita' di controllo a runtime per gestire la criticita'. Lo stallo aumenta il tempo d'esecuzione, quindi si passera' da uno speedup *N* ad uno speedup inferiore.
+
+>**Inlining** -> Quando sono presenti stalli ma sono presenti istruzioni scollegate dalle altre i compilatori possono decidere di riordinare le istruzioni nella pipeline in modo da evitare stalli, quindi si aumenta l'efficienza. *Tale meccanismo e' il vantaggio vero dei RISC, l'ottimizzazione dell'esecuzione del codice*
+
+>**Bypass** -> Se c'e' un'istruzione I1 che ha bisogno di un operando il cui risultato dipende da un'istruzione precedente I0, si puo' collegare il risultato di I0 direttamente all'ingresso del blocco EX dell'istruzione I1 senza aspettare il WB.
 
 ==E' possibile trovare combinazioni di istruzioni che richiedono sia Bypass che stallo==
 

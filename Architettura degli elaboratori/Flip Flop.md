@@ -36,12 +36,12 @@ J  K  Q  !Q
 ```
 
 ### Flip Flop D
->Nei flip flop D l'output puo essere cambiato solo dopo lo stadio di salita del clock, se gli input cambiano in altri momenti tale cambiamento non riguardera' l'output
+>Nei flip flop D l'output puo essere cambiato solo dopo la fase di salita del clock, se gli input cambiano in altri momenti tale cambiamento non riguardera' l'output
 
 ![[Pasted image 20231202211216.png]]
 
 ### Flip Flop Edge Triggerd
->E' un flip flop nel quale, ad ogni cambio di stadio del clock viene attivato. La differenza con il flip flop D sta nel fatto che questo circuito si attiva anche durante stadio di discesa del clock
+>E' un flip flop nel quale, ad ogni cambio di fase del clock viene attivato. La differenza con il flip flop D sta nel fatto che questo circuito si attiva anche durante la fase di discesa del clock
 
 ![[Pasted image 20231206114934.png]]
 

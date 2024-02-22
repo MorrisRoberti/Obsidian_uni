@@ -17,7 +17,7 @@ Al posto di disabilitare l'interrupt molti processori hanno un'istruzione chiama
  ==E' opportuno non lasciare gli interrupt non gestiti per troppo tempo altrimenti l'esecuzione potrebbe avere problemi con cio' che e' relativo a quell'interrupt==
 
 ### Codici di interrupt
->Per gestire quegli interrupt che si verificano in modo sistematico si usano delle **istruzioni speciali**, e' convenzionale memorizzare le istruzioni per la gestione in un determinato spazio di memoria, molte architetture fanno partire questo spazio di indirizzi da RAM[0]  
+>Per gestire quegli interrupt che si verificano in modo sistematico si usano delle **istruzioni speciali**.Si usa memorizzare le istruzioni per la gestione in un determinato spazio di memoria, molte architetture fanno partire questo spazio di indirizzi da RAM[0]  
 
 #### Links
 [[Gestione delle periferiche]]

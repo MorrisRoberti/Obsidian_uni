@@ -16,6 +16,7 @@ per questo motivo si avranno 2 zeri: -0, +0
 | +1 | 001 |
 | +2 | 010 |
 | +3 | 011 |
+|  |  |
 
 ### Complemento a1
 >Se il numero da rappresentare e' negativo lo complemento, cioe' trasformo gli 1 in 0 e viceversa

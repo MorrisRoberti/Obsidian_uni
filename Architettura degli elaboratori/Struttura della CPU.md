@@ -1,4 +1,4 @@
-r>La CPU (*Central Processing Unit*) e' l'organo principale di un elaboratore. Possiamo dividerla in CU (*Control Unit*) e UO (*Unita' Operativa*).
+>La CPU (*Central Processing Unit*) e' l'organo principale di un elaboratore. Possiamo dividerla in CU (*Control Unit*) e UO (*Unita' Operativa*).
 
 ### Control Unit
 >La CU o unita' di controllo e' il blocco all'interno della CPU che si occupa di gestire il flusso di esecuzione, in particolare di regolare il recupero e la decodifica delle istruzioni (**fetch** e **decode**)
@@ -15,8 +15,8 @@ E' composta da:
 - **PC** (*Program Counter*) -> punta all'istruzione successiva da eseguire
 - **Registri** -> celle di memoria nelle quali inserire informazioni temporanee
 - **Bus interno**-> percorso sul quale viaggiano i dati
-- **MAR**  (*Memory Adress Register*) -> accede alla memoria RAM in **sola lettura** e contiene l'indirizzo della cella da leggere
-- **DTR** (*Data Transfer Register*) -> accede alla memoria RAM in **lettura e scrittura** e contiene il dato effettivo da trasmettere
+- **MAR**  (*Memory Adress Register*) -> accede alla memoria RAM in **sola lettura** tramite il *bus indirizzi* e contiene l'indirizzo della cella da leggere
+- **DTR** (*Data Transfer Register*) -> accede alla memoria RAM in **lettura e scrittura** *tramite il bus dati* e contiene il dato effettivo da trasmettere
 
 ### Schema
 

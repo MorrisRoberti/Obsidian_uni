@@ -6,7 +6,7 @@ Per poter capire il ciclo FDE e' necessario conoscere i componenti della CPU, si
 >La fase di *Fetch* e' un'operazione che prevede di prendere l'istruzione successiva che deve essere eseguita dal processore.
 
 1. Per prima cosa abbiamo il **PC** che punta alla prossima istruzione da eseguire
-2. Tramite il **BUS interno** passiamo l'indirizzo contenuto nel **PC** al **MAR** che andra' in memoria RAM a recuperare l'istruzione puntata
+2. Tramite il **BUS interno** passiamo il contenuto del **PC** al **MAR** che andra' in memoria RAM a recuperare l'indirizzo dell'istruzione puntata
 3. Una volta trovata l'istruzione il **MDR** (o DTR) prende il contenuto della cella di memoria e tramite il **BUS interno** lo manda nell'**IR** che poi sara' pronto per la prossima fase
 
 ### 2. Decode

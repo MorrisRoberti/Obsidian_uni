@@ -4,38 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41b0a3321f2324d0",
+        "id": "f4279ac59122dbea",
         "type": "tabs",
         "children": [
           {
-            "id": "a7fc5033dfd31cde",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Architettura degli elaboratori/Study map.canvas",
-                "viewState": {
-                  "x": -928.5973464522731,
-                  "y": 1214.5189321923904,
-                  "zoom": -0.3357151203108479
-                }
-              }
-            }
-          },
-          {
-            "id": "46a8e970bbe680ad",
+            "id": "f0ace4a85d91fa6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Programmazione B/Incapsulamento e Information hiding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Programmazione B/Incapsulamento e Information hiding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md",
+                "file": "Programmazione B/Incapsulamento e Information hiding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura degli elaboratori/Struttura della CPU.md"
+                "file": "Programmazione B/Incapsulamento e Information hiding.md"
               }
             }
           }
@@ -163,40 +147,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46a8e970bbe680ad",
+  "active": "f0ace4a85d91fa6d",
   "lastOpenFiles": [
+    "Programmazione B/Abstract Data Type (ADT).md",
+    "Programmazione B/Gli Oggetti.md",
+    "Programmazione B/Incapsulamento e Information hiding.md",
+    "Programmazione B/Le Classi.md",
+    "Architettura degli elaboratori/Numeri binari negativi.md",
+    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
+    "Architettura degli elaboratori/Microprogrammazione.md",
+    "Architettura degli elaboratori/RISC e CISC.md",
+    "Architettura degli elaboratori/Pipeline.md",
+    "Architettura degli elaboratori/Processore 8086.md",
+    "Untitled.md",
+    "Algebra 2024-02-21.md",
+    "Architettura degli elaboratori/Latch SR e Latch D.md",
+    "Programmazione B",
+    "Architettura degli elaboratori/Half Adder e Full Adder.md",
+    "Architettura degli elaboratori/Decodifica delle istruzioni.md",
+    "Architettura degli elaboratori/Conversioni di base.md",
+    "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
+    "Architettura degli elaboratori/Encoder e Decoder.md",
+    "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
+    "Architettura degli elaboratori/Circuiti Sequenziali.md",
+    "Architettura degli elaboratori/Mappe di Karnaugh.md",
     "Architettura degli elaboratori/Study map.canvas",
+    "Architettura degli elaboratori/GPU e GPGPU.md",
+    "Architettura degli elaboratori/Tassonomia di Flynn.md",
+    "Architettura degli elaboratori/Architetture parallele.md",
+    "Architettura degli elaboratori/Flip Flop.md",
+    "Architettura degli elaboratori/SRAM e DRAM.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/IMGs/Pasted image 20240122153140.png",
     "Pasted image 20240122152924.png",
-    "Architettura degli elaboratori/Excalidraw/Drawing 2024-01-22 15.03.15.excalidraw.md",
-    "Architettura degli elaboratori/Struttura della CPU.md",
     "Pasted image 20240122152851.png",
     "Pasted image 20240122153016.png",
     "Architettura degli elaboratori/Excalidraw",
-    "Architettura degli elaboratori/Numeri binari negativi.md",
-    "Architettura degli elaboratori/I sistemi digitali.md",
-    "Architettura degli elaboratori/Half Adder e Full Adder.md",
-    "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
-    "Architettura degli elaboratori/Encoder e Decoder.md",
-    "Architettura degli elaboratori/Architetture parallele.md",
-    "Architettura degli elaboratori/Tassonomia di Flynn.md",
-    "Architettura degli elaboratori/Algebra di Boole.md",
-    "Architettura degli elaboratori/Pipeline.md",
-    "Architettura degli elaboratori/Latch SR e Latch D.md",
-    "Architettura degli elaboratori/Flip Flop.md",
-    "Architettura degli elaboratori/Microprogrammazione.md",
-    "Architettura degli elaboratori/Mappe di Karnaugh.md",
-    "Architettura degli elaboratori/Circuiti Sequenziali.md",
-    "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
-    "Architettura degli elaboratori/Condizioni di indifferenza.md",
-    "Architettura degli elaboratori/Gestione delle periferiche.md",
-    "Architettura degli elaboratori/Gestione degli interrput.md",
-    "Architettura degli elaboratori/Operazioni con i numeri binari.md",
-    "Architettura degli elaboratori/RISC e CISC.md",
-    "Architettura degli elaboratori/Overflow.md",
-    "Architettura degli elaboratori/Stack e gestione delle chiamate di funzione.md",
-    "Architettura degli elaboratori/Conversioni di base.md",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
@@ -204,9 +192,7 @@
     "Architettura degli elaboratori/IMGs/Pasted image 20231220190116.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220184457.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220184257.png",
-    "Untitled.canvas",
     "Architettura degli elaboratori/Resources",
-    "Untitled 1.canvas",
     "Architettura degli elaboratori/IMGs",
     "Architettura degli elaboratori"
   ]
