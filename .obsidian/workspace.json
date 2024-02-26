@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Incapsulamento e Information hiding.md",
+                "file": "Programmazione B/Costruttore.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "7462561d51ada1d8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Incapsulamento e Information hiding.md",
+                "file": "Programmazione B/Costruttore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Incapsulamento e Information hiding.md",
+                "file": "Programmazione B/Costruttore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Incapsulamento e Information hiding.md"
+                "file": "Programmazione B/Costruttore.md"
               }
             }
           }
@@ -158,11 +147,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7462561d51ada1d8",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/Gli Oggetti.md",
+    "Programmazione B/Costruttore.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
+    "Untitled.md",
+    "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/Le Classi.md",
     "Architettura degli elaboratori/Numeri binari negativi.md",
     "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
@@ -170,7 +161,6 @@
     "Architettura degli elaboratori/RISC e CISC.md",
     "Architettura degli elaboratori/Pipeline.md",
     "Architettura degli elaboratori/Processore 8086.md",
-    "Untitled.md",
     "Algebra 2024-02-21.md",
     "Architettura degli elaboratori/Latch SR e Latch D.md",
     "Programmazione B",
@@ -187,7 +177,6 @@
     "Architettura degli elaboratori/Tassonomia di Flynn.md",
     "Architettura degli elaboratori/Architetture parallele.md",
     "Architettura degli elaboratori/Flip Flop.md",
-    "Architettura degli elaboratori/SRAM e DRAM.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
