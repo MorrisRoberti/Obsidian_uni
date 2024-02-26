@@ -1,0 +1,55 @@
+>Il *costruttore* di una classe e' il metodo che viene invocato automaticamente alla creazione di un oggetto di tale classe.
+
+### Perche' serve
+Quando creiamo un oggetto in C++, i suoi campi vengono inizializzati automaticamente con dei valori casuali
+```
+class Razionale {
+private: 
+	int num;
+	int den;
+}
+
+int main() {
+  Razionale r1;
+}
+```
+quindi i valori di r1.num e r1.den sono dei valori casuali.
+
+Definendo un costruttore possiamo validare i valori che vengono dati ai vari attributi e in caso modificarli o scartarli in base alle esigenze.
+### Qui ci viene in aiuto il costruttore
+Il costruttore e':
+- un metodo
+- *public*
+- con lo stesso nome della classe
+- con 0 o piu' parametri
+- senza tipo di ritorno
+
+### Come funziona
+Ogni volta che istanziamo una classe, viene automaticamente chiamato il costruttore di quest'ultima e si possono avere due casi: 
+1. Il costruttore e' definito, quindi viene chiamato
+2. Il costruttore non e' definitio e quindi viene chiamato quello di default che e' semplicemente un metodo vuoto con il nome della classe (nel caso della classe sopra e' Razionale())
+
+### Come si usa
+Per prima cosa definiamo il nostro costruttore
+```
+class Razionale() {
+private: 
+	int num;
+	int den;
+public: 
+	Razionale(int numeratore, int denominatore) {
+		if(denominatore == 0) {
+		cout << "Errore: il denominatore non puo' essere 0";
+		}
+	}
+}
+
+```
+Una volta definito andiamo a creare un oggetto di questa classe, facendo attenzione a inserire i parametri correttamente
+```
+int main() {
+	Razionale r1(4,5);
+	// sintassi alternativa
+	Razionale r2 = {4, 5};
+}
+```
