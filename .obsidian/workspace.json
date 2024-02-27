@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f4279ac59122dbea",
+        "id": "d4fe2fb40a811183",
         "type": "tabs",
         "children": [
           {
-            "id": "a5d04b8dc9621729",
+            "id": "983a58d26c6a282d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Programmazione B/Overloading di operatori.md",
-                "mode": "source",
-                "source": false
+                "file": "Programmazione B/Esercizi/Televisore.cpp"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Overloading di operatori.md",
+                "file": "Programmazione B/Esercizi/Televisore.cpp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Overloading di operatori.md",
+                "file": "Programmazione B/Esercizi/Televisore.cpp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Overloading di operatori.md"
+                "file": "Programmazione B/Esercizi/Televisore.cpp"
               }
             }
           }
@@ -138,6 +136,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -147,22 +146,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a5d04b8dc9621729",
+  "active": "983a58d26c6a282d",
   "lastOpenFiles": [
+    "Programmazione B/Overloading di operatori.md",
+    "Programmazione B/Esercizi/Televisore.cpp",
     "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/Le Classi.md",
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
-    "Programmazione B/I Costruttori.md",
-    "Programmazione B/Gli Oggetti.md",
     "Programmazione B/Creazione di oggetti.md",
+    "Programmazione B/Gli Oggetti.md",
+    "Programmazione B/Esercizi/Semplifica.cpp",
+    "Untitled.canvas",
+    "Programmazione B/Esercizi/Semplifica 2.cpp",
+    "Programmazione B/Esercizi/Semplifica 1.cpp",
+    "Programmazione B/I Costruttori.md",
     "Programmazione B/Copia di oggetti.md",
     "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/IMGs/Pasted image 20240227192213.png",
     "Programmazione B/Esercizi",
     "Programmazione B/IMGs/Pasted image 20240227190144.png",
     "Excalidraw/Drawing 2024-02-27 18.54.59.excalidraw.md",
-    "Programmazione B/Overloading di operatori.md",
     "2024-02-27 Programmazione.md",
     "Programmazione B/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/IMGs",
@@ -182,7 +186,6 @@
     "Architettura degli elaboratori/Codifiche numeriche - base 2, 8, 10, 16.md",
     "Architettura degli elaboratori/Encoder e Decoder.md",
     "Architettura degli elaboratori/Study map.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Architettura degli elaboratori/IMGs/Pasted image 20240122153140.png",
@@ -193,9 +196,6 @@
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png",
-    "Architettura degli elaboratori/Resources",
-    "Architettura degli elaboratori/IMGs",
-    "Architettura degli elaboratori"
+    "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png"
   ]
 }
