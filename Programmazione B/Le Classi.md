@@ -25,3 +25,4 @@ Quei **public** e **private** che vediamo nell'esempio sopra sono i cosidetti "*
 [[Gli Oggetti]]
 [[Incapsulamento e Information hiding]]
 [[Abstract Data Type (ADT)]]
+[[I Costruttori]]
