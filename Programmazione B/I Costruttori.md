@@ -2,7 +2,7 @@
 
 ### Perche' serve
 Quando creiamo un oggetto in C++, i suoi campi vengono inizializzati automaticamente con dei valori casuali
-```
+```cpp
 class Razionale {
 private: 
 	int num;
@@ -31,7 +31,7 @@ Ogni volta che istanziamo una classe, viene automaticamente chiamato il costrutt
 
 ### Come si usa
 Per prima cosa definiamo il nostro costruttore
-```
+```cpp
 class Razionale {
 private: 
 	int num;
@@ -46,7 +46,7 @@ public:
 
 ```
 Una volta definito andiamo a creare un oggetto di questa classe, facendo attenzione a inserire i parametri correttamente
-```
+```cpp
 int main() {
 	Razionale r1(4,5);
 	// sintassi alternativa
@@ -58,7 +58,7 @@ int main() {
 E' possibile definire piu' costruttori della stessa classe, solo se differiscono per una delle due cose:
 - Per tipi di parametri
 - Per numero di parametri
-```
+```cpp
 class Razionale {
 	Razionale(){}
 	Razionale(int x, int y){}

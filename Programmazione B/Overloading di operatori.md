@@ -1,7 +1,7 @@
 >In C++ e' possibile fare anche l'overloading degli operatori.
 
 Se vogliamo fare overloading di un'operatore (+, -, etc.) la classe deve mettere a disposizione un metodo *operator op* dove *op* indica l'operatore che vogliamo sovraccaricare
-```
+```cpp
 class Razionale {
 private:
 	int n;
@@ -16,14 +16,14 @@ Quando facciamo overloading di un operatore troveremo n-1 parametri formali, per
 ``Razionale r3 = r1.operator+(r2);``
 
 Overloading >
-```
+```cpp
 bool operator>(Razionale other) {
 	return this->n/this->d > other.n/other.d;
 }
 ```
 
 Overloading []
-```
+```cpp
 int operator[](int index) {
 	if(index == 0) {
 		return this->n;
@@ -37,7 +37,7 @@ int operator[](int index) {
 ```
 
 Overloading ++
-```
+```cpp 
 // pre-fix
 int operator++(){
 	...

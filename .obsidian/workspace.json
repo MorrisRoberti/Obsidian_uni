@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/L'attributo 'this'.md",
+                "file": "Programmazione B/Overloading di operatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/IMGs/Pasted image 20240227192213.png",
+                "file": "Programmazione B/Overloading di operatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/IMGs/Pasted image 20240227192213.png",
+                "file": "Programmazione B/Overloading di operatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/IMGs/Pasted image 20240227192213.png"
+                "file": "Programmazione B/Overloading di operatori.md"
               }
             }
           }
@@ -147,25 +147,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "a5d04b8dc9621729",
   "lastOpenFiles": [
+    "Programmazione B/Overloading di funzioni.md",
+    "Programmazione B/Le Classi.md",
+    "Programmazione B/L'attributo 'this'.md",
+    "Programmazione B/Incapsulamento e Information hiding.md",
+    "Programmazione B/I Costruttori.md",
+    "Programmazione B/Gli Oggetti.md",
+    "Programmazione B/Creazione di oggetti.md",
+    "Programmazione B/Copia di oggetti.md",
+    "Programmazione B/Abstract Data Type (ADT).md",
+    "Programmazione B/IMGs/Pasted image 20240227192213.png",
+    "Programmazione B/Esercizi",
     "Programmazione B/IMGs/Pasted image 20240227190144.png",
     "Excalidraw/Drawing 2024-02-27 18.54.59.excalidraw.md",
-    "Programmazione B/Abstract Data Type (ADT).md",
-    "Programmazione B/Copia di oggetti.md",
-    "Programmazione B/Gli Oggetti.md",
-    "Programmazione B/I Costruttori.md",
-    "Programmazione B/L'attributo 'this'.md",
-    "Programmazione B/Le Classi.md",
-    "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/Overloading di operatori.md",
     "2024-02-27 Programmazione.md",
     "Programmazione B/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/IMGs",
-    "Programmazione B/IMGs/Pasted image 20240227192213.png",
-    "Programmazione B/Creazione di oggetti.md",
     "Excalidraw",
-    "Programmazione B/Incapsulamento e Information hiding.md",
     "Architettura degli elaboratori/Numeri binari negativi.md",
     "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
     "Architettura degli elaboratori/Microprogrammazione.md",

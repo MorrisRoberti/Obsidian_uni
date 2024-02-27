@@ -5,7 +5,7 @@ Possiamo pensare ad una classe come alla descrizione di un oggetto del mondo fis
 - Comportamento (*Metodi*)
 
 Ad esempio assumiamo di voler creare una classe ``Macchina``, questa andra' a definire cos'e' e cosa puo' fare una macchina:
-```
+```cpp
 class Macchina {
 	private: 
 		float velocita;

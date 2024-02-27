@@ -9,7 +9,7 @@ Prendiamo per esempio il tipo di dato ``int``.
 ### In che senso tipo di dato astratto?
 Un tipo di dato si dice astratto quando e' possibile utilizzare **esclusivamente** i valori e le operazioni consentite e **non e' possibile accedere ad altri dettagli implementativi**
 es.
-```
+```cpp
 struct Data {
 	int day;
 	int month;

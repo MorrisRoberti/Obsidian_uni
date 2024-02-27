@@ -1,6 +1,6 @@
 >L'attributo **this** e' un puntatore costante all'oggetto corrente della classe. E' privato e viene inizializzato automaticamente a puntare all'oggetto attuale.
 
-```
+```cpp
 class Razionale {
 private: 
 	int n;

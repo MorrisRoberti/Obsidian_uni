@@ -1,7 +1,7 @@
 >L'**overloading** e' la pratica che ci consente di definire piu' volte la stessa funzione. I vincoli sono che il tipo di ritorno non cambi e che le funzioni differiscano o per numero di parametri o per il tipo di questi.
 
 Esempio di overloading
-```
+```cpp
 class Razionale {
 private:
 	int n;
@@ -24,7 +24,7 @@ public:
 ```
 
 Le due funzioni somma hanno lo stesso nome e lo stesso tipo di ritorno ma un numero di parametri differenti quindi 
-```
+```cpp
 int main() {
 	Razionale r(1,2);
 	Razionale r2 = r.somma(5); // chiama la prima e restituisce 11/5
