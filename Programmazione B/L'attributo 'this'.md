@@ -12,5 +12,5 @@ public:
 		r.d = this->d * other.d;
 		return r;
 	}
-}
+};
 ```

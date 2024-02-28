@@ -20,7 +20,7 @@ public:
 		r.d = this->d * den;
 		return r;
 	}
-}
+};
 ```
 
 Le due funzioni somma hanno lo stesso nome e lo stesso tipo di ritorno ma un numero di parametri differenti quindi 
