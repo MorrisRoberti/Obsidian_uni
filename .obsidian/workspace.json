@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36a2c4c8f45a1459",
+            "id": "983a58d26c6a282d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Delegating Constructors.md",
+                "file": "Programmazione B/La classe 'string'.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "7c27653cbbff68d9",
+        "id": "38b04e5d885196ab",
         "type": "tabs",
         "children": [
           {
-            "id": "983a58d26c6a282d",
+            "id": "36a2c4c8f45a1459",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-03-04 Programmazione.md",
+                "file": "2024-03-05 Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Delegating Constructors.md",
+                "file": "Programmazione B/La classe 'string'.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Delegating Constructors.md",
+                "file": "Programmazione B/La classe 'string'.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Delegating Constructors.md"
+                "file": "Programmazione B/La classe 'string'.md"
               }
             }
           }
@@ -166,20 +167,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "36a2c4c8f45a1459",
+  "active": "983a58d26c6a282d",
   "lastOpenFiles": [
+    "2024-03-05 Programmazione.md",
+    "Programmazione B/La classe 'string'.md",
+    "2024-03-04 Programmazione.md",
+    "Programmazione B/Delegating Constructors.md",
     "Programmazione B/Esercizi/Uguali e diversi.cpp",
     "Programmazione B/I Costruttori.md",
-    "Programmazione B/Delegating Constructors.md",
     "Programmazione B/Le Classi.md",
     "Programmazione B/Getter & Setter.md",
     "Programmazione B/Gli Oggetti.md",
     "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
-    "2024-03-04 Programmazione.md",
     "Programmazione B/Modificatore 'const' (per metodi).md",
-    "2024-03-05 Programmazione.md",
     "Programmazione B/Esercizi/Televisore.cpp",
     "2024-02-29 Programmazione.md",
     "Programmazione B/Overloading di operatori.md",
@@ -215,7 +217,6 @@
     "Pasted image 20240122153016.png",
     "Architettura degli elaboratori/Excalidraw",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
-    "Architettura degli elaboratori/Resources/MicroprocessorDesign.pdf",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png"
   ]
