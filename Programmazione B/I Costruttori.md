@@ -11,7 +11,7 @@ private:
 
 int main() {
   Razionale r1;
-}
+};
 ```
 quindi i valori di r1.num e r1.den sono dei valori casuali.
 
@@ -42,7 +42,7 @@ public:
 		cout << "Errore: il denominatore non puo' essere 0";
 		}
 	}
-}
+};
 
 ```
 Una volta definito andiamo a creare un oggetto di questa classe, facendo attenzione a inserire i parametri correttamente
@@ -63,7 +63,7 @@ class Razionale {
 	Razionale(){}
 	Razionale(int x, int y){}
 	Razionale(float x, float z)
-}
+};
 ```
 
 #### Links

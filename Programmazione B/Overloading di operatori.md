@@ -10,7 +10,7 @@ public:
 	Razionale operator+ (Razionale other) {
 		return this->somma(other); // somma deve essere definito precedentemente
 	}
-}
+};
 ```
 Quando facciamo overloading di un operatore troveremo n-1 parametri formali, perche' automaticamente viene tradotto cosi: 
 ``Razionale r3 = r1.operator+(r2);``

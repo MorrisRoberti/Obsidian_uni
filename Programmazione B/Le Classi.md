@@ -15,7 +15,7 @@ class Macchina {
 		void accelera(){...}
 		void frena(){...}
 		void aggiungiBenzina(){...}
-}
+};
 ```
 Quei **public** e **private** che vediamo nell'esempio sopra sono i cosidetti "**Modificatori di visibilita'**" e servono a stabilire da dove si puo' accedere a quell'informazione:
 - public -> ovunque sia all'interno che all'esterno della classe;
