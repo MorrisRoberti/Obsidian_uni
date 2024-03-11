@@ -65,3 +65,6 @@ class Razionale {
 	Razionale(float x, float z)
 }
 ```
+
+#### Links
+[[Delegating Constructors]]

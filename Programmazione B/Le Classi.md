@@ -26,3 +26,5 @@ Quei **public** e **private** che vediamo nell'esempio sopra sono i cosidetti "*
 [[Incapsulamento e Information hiding]]
 [[Abstract Data Type (ADT)]]
 [[I Costruttori]]
+[[Getter & Setter]]
+[[Modificatore 'const' (per metodi)]]

@@ -5,3 +5,4 @@ L'oggetto gode delle proprieta' e dei metodi definiti nella classe che lo descri
 
 ### Links 
 [[Creazione di oggetti]]
+[[L'attributo 'this']]
