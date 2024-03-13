@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d4fe2fb40a811183",
+        "id": "178d8f5040017bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "983a58d26c6a282d",
+            "id": "75aa666d9e27a098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/La classe 'string'.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "38b04e5d885196ab",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "36a2c4c8f45a1459",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-03-05 Programmazione.md",
+                "file": "2024-03-12 Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/La classe 'string'.md",
+                "file": "2024-03-12 Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/La classe 'string'.md",
+                "file": "2024-03-12 Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/La classe 'string'.md"
+                "file": "2024-03-12 Programmazione.md"
               }
             }
           }
@@ -167,13 +148,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "983a58d26c6a282d",
+  "active": "75aa666d9e27a098",
   "lastOpenFiles": [
-    "2024-03-05 Programmazione.md",
+    "Programmazione B/Esercizi/StringSet.cpp",
+    "Programmazione B/Esercizi/Data.cpp",
+    "2024-03-12 Programmazione.md",
+    "Programmazione B/Esercizi/Untitled.md",
+    "Programmazione B/Esercizi/Uguali e diversi.cpp",
+    "Programmazione B/Esercizi/Televisore.cpp",
     "Programmazione B/La classe 'string'.md",
+    "2024-03-05 Programmazione.md",
     "2024-03-04 Programmazione.md",
     "Programmazione B/Delegating Constructors.md",
-    "Programmazione B/Esercizi/Uguali e diversi.cpp",
     "Programmazione B/I Costruttori.md",
     "Programmazione B/Le Classi.md",
     "Programmazione B/Getter & Setter.md",
@@ -182,7 +168,6 @@
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
     "Programmazione B/Modificatore 'const' (per metodi).md",
-    "Programmazione B/Esercizi/Televisore.cpp",
     "2024-02-29 Programmazione.md",
     "Programmazione B/Overloading di operatori.md",
     "Programmazione B/Creazione di oggetti.md",
@@ -204,9 +189,6 @@
     "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
     "Architettura degli elaboratori/Microprogrammazione.md",
     "Architettura degli elaboratori/RISC e CISC.md",
-    "Architettura degli elaboratori/Pipeline.md",
-    "Architettura degli elaboratori/Processore 8086.md",
-    "Algebra 2024-02-21.md",
     "Programmazione B",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
@@ -215,7 +197,6 @@
     "Pasted image 20240122152924.png",
     "Pasted image 20240122152851.png",
     "Pasted image 20240122153016.png",
-    "Architettura degli elaboratori/Excalidraw",
     "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png",
     "Architettura degli elaboratori/IMGs/Pasted image 20231220190825.png"
