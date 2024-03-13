@@ -27,4 +27,4 @@ Quei **public** e **private** che vediamo nell'esempio sopra sono i cosidetti "*
 [[Abstract Data Type (ADT)]]
 [[I Costruttori]]
 [[Getter & Setter]]
-[[Modificatore 'const' (per metodi)]]
+[[I Distruttori]]

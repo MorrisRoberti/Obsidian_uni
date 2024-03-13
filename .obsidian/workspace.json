@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-03-12 Programmazione.md",
+                "file": "Programmazione B/I Distruttori.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-03-12 Programmazione.md",
+                "file": "Programmazione B/I Distruttori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-03-12 Programmazione.md",
+                "file": "Programmazione B/I Distruttori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-03-12 Programmazione.md"
+                "file": "Programmazione B/I Distruttori.md"
               }
             }
           }
@@ -150,18 +151,21 @@
   },
   "active": "75aa666d9e27a098",
   "lastOpenFiles": [
-    "Programmazione B/Esercizi/StringSet.cpp",
-    "Programmazione B/Esercizi/Data.cpp",
+    "Programmazione B/Le Classi.md",
+    "Programmazione B/I Distruttori.md",
+    "Programmazione B/Gestione delle eccezioni.md",
     "2024-03-12 Programmazione.md",
+    "2024-03-05 Programmazione.md",
+    "Programmazione B/Esercizi/StringSet.cpp",
+    "Programmazione B/Esercizi/a",
+    "Programmazione B/Esercizi/Data.cpp",
     "Programmazione B/Esercizi/Untitled.md",
     "Programmazione B/Esercizi/Uguali e diversi.cpp",
     "Programmazione B/Esercizi/Televisore.cpp",
     "Programmazione B/La classe 'string'.md",
-    "2024-03-05 Programmazione.md",
     "2024-03-04 Programmazione.md",
     "Programmazione B/Delegating Constructors.md",
     "Programmazione B/I Costruttori.md",
-    "Programmazione B/Le Classi.md",
     "Programmazione B/Getter & Setter.md",
     "Programmazione B/Gli Oggetti.md",
     "Programmazione B/Overloading di funzioni.md",
@@ -184,12 +188,9 @@
     "2024-02-27 Programmazione.md",
     "Programmazione B/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/IMGs",
-    "Excalidraw",
     "Architettura degli elaboratori/Numeri binari negativi.md",
     "Architettura degli elaboratori/Multiplexer e Demultiplexer.md",
     "Architettura degli elaboratori/Microprogrammazione.md",
-    "Architettura degli elaboratori/RISC e CISC.md",
-    "Programmazione B",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",

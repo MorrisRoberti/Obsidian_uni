@@ -11,9 +11,39 @@ private:
     string elements[MAX_SIZE];
 
 public:
-    StringSet() {}
+    StringSet()
+    {
+        this->s = 0;
+        this->elements[0] = "";
+    }
 
-    StringSet(string V[], int n) : StringSet() {}
+    StringSet(string V[], int n) : StringSet()
+    {
+        this->s = 0;
+        if (n > 0)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                this->add(V[i]);
+            }
+        }
+    }
+
+    void remove(string x)
+    {
+        if (this->contains(x))
+        {
+            for (int i = 0; i < this->s; i++)
+            {
+                if (this->elements[i] == x)
+                {
+                    this->elements[i] = this->elements[this->s - 1];
+                    this->s--;
+                    return;
+                }
+            }
+        }
+    }
 
     bool contains(string x) const
     {
@@ -42,7 +72,7 @@ public:
             return;
         }
 
-        this->elements[this->s + 1] = x;
+        this->elements[this->s] = x;
         this->s++;
         return;
     }
@@ -71,22 +101,31 @@ public:
         return true;
     }
 
-    // unione di insiemi
-    StringSet operator+(const StringSet &S2) const
+    bool operator==(const StringSet &S2) const
     {
-        StringSet result;
+        return *this < S2 && S2 < *this;
+    }
 
-        for (int i = 0; i < this->size(); i++)
-        {
-            result.add(this->elements[i]);
-        }
+    // unione di insiemi
+    StringSet &operator+(const StringSet &S2)
+    {
 
         for (int i = 0; i < S2.size(); i++)
         {
-            result.add(S2.elements[i]);
+            if (!this->contains(S2.elements[i]))
+                this->add(S2.elements[i]);
         }
 
-        return result;
+        return *this;
+    }
+
+    StringSet &operator-(const StringSet &S2)
+    {
+        for (int i = 0; i < S2.s; i++)
+        {
+            this->remove(S2.elements[i]);
+        }
+        return *this;
     }
 
     void print(ostream &dest) const
@@ -94,12 +133,13 @@ public:
         dest << "{";
         for (int i = 0; i < this->s; i++)
         {
+            dest << this->elements[i];
             if (i != this->s - 1)
             {
                 dest << ", ";
             }
         }
-        dest << "}";
+        dest << "}" << endl;
     }
 };
 
@@ -109,4 +149,32 @@ ostream &operator<<(ostream &dest, const StringSet &S)
     return dest;
 }
 
-int main() {}
+int main()
+{
+    StringSet empty_set;
+    cout << empty_set;
+
+    int n = 2;
+    string V[n] = {"hello", "world"};
+    StringSet new_set = StringSet(V, n);
+    cout << new_set;
+
+    cout << (empty_set < new_set) << endl;
+
+    empty_set.add("hello");
+
+    cout << (empty_set < new_set) << endl;
+
+    empty_set.add("!");
+    cout << empty_set;
+
+    cout << (empty_set < new_set) << endl;
+
+    StringSet union_set = (empty_set + new_set);
+
+    cout << union_set;
+
+    cout << (union_set == new_set);
+
+    return 0;
+}
