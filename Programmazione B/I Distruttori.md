@@ -1,7 +1,7 @@
 >*Il distruttore* e' un metodo presente in ogni classe che si occupa di distruggere l'oggetto di una classe.
 
 ### Funzionamento e definizione
-Quando la funzione termina, le variabili allocate *automaticamente* (dal costruttore) vengono deallocate. Tale deallocazione viene fatta in automatico dal **distruttore**.
+Quando la funzione termina, le variabili allocate *automaticamente* (dal costruttore) vengono deallocate insieme a this. Tale deallocazione viene fatta in automatico dal **distruttore**.
 
 Il distruttore di una classe e':
 - un metodo
