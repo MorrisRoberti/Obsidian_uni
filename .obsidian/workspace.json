@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "178d8f5040017bfe",
+        "id": "da86fa359305c7dd",
         "type": "tabs",
         "children": [
           {
             "id": "75aa666d9e27a098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programmazione B/I Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "178d8f5040017bfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65e2eaab958c0096",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-03-18 Programmazione.md",
+                "file": "Programmazione B/I Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-03-18 Programmazione.md",
+                "file": "Programmazione B/I Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-03-18 Programmazione.md"
+                "file": "Programmazione B/I Template.md"
               }
             }
           }
@@ -150,28 +169,31 @@
   },
   "active": "75aa666d9e27a098",
   "lastOpenFiles": [
-    "2024-03-14 Programmazione.md",
+    "Programmazione B/Copy Constructors.md",
+    "Programmazione B/I Template.md",
     "2024-03-18 Programmazione.md",
-    "Programmazione B/I Distruttori.md",
-    "Programmazione B/Esercizi/StringSet.cpp",
-    "Programmazione B/Gestione delle eccezioni.md",
+    "2024-03-14 Programmazione.md",
     "2024-03-12 Programmazione.md",
+    "Programmazione B/Delegating Constructors.md",
+    "2024-03-05 Programmazione.md",
+    "2024-03-04 Programmazione.md",
+    "Programmazione B/Modificatore 'const' (per metodi).md",
+    "Programmazione B/I Distruttori.md",
+    "Programmazione B/Le Classi.md",
+    "Programmazione B/Gestione delle eccezioni.md",
+    "Programmazione B/Esercizi/StringSet.cpp",
+    "Programmazione B/Esercizi/a",
     "Programmazione B/Esercizi/Data.cpp",
     "Programmazione B/Esercizi/Untitled.md",
     "Programmazione B/Esercizi/Uguali e diversi.cpp",
     "Programmazione B/Esercizi/Televisore.cpp",
     "Programmazione B/La classe 'string'.md",
-    "2024-03-05 Programmazione.md",
-    "2024-03-04 Programmazione.md",
-    "Programmazione B/Delegating Constructors.md",
     "Programmazione B/I Costruttori.md",
-    "Programmazione B/Le Classi.md",
     "Programmazione B/Getter & Setter.md",
     "Programmazione B/Gli Oggetti.md",
     "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
-    "Programmazione B/Modificatore 'const' (per metodi).md",
     "2024-02-29 Programmazione.md",
     "Programmazione B/Overloading di operatori.md",
     "Programmazione B/Creazione di oggetti.md",
@@ -185,11 +207,8 @@
     "Programmazione B/Esercizi",
     "Programmazione B/IMGs/Pasted image 20240227190144.png",
     "Excalidraw/Drawing 2024-02-27 18.54.59.excalidraw.md",
-    "2024-02-27 Programmazione.md",
     "Programmazione B/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/IMGs",
-    "Excalidraw",
-    "Architettura degli elaboratori/Numeri binari negativi.md",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
