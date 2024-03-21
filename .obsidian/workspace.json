@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "da86fa359305c7dd",
+        "id": "178d8f5040017bfe",
         "type": "tabs",
         "children": [
           {
@@ -13,25 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/I Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "178d8f5040017bfe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "65e2eaab958c0096",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-03-18 Programmazione.md",
+                "file": "2024-03-19 Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/I Template.md",
+                "file": "2024-03-19 Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/I Template.md",
+                "file": "2024-03-19 Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/I Template.md"
+                "file": "2024-03-19 Programmazione.md"
               }
             }
           }
@@ -169,31 +150,31 @@
   },
   "active": "75aa666d9e27a098",
   "lastOpenFiles": [
-    "Programmazione B/Copy Constructors.md",
-    "Programmazione B/I Template.md",
-    "2024-03-18 Programmazione.md",
-    "2024-03-14 Programmazione.md",
-    "2024-03-12 Programmazione.md",
     "Programmazione B/Delegating Constructors.md",
-    "2024-03-05 Programmazione.md",
-    "2024-03-04 Programmazione.md",
-    "Programmazione B/Modificatore 'const' (per metodi).md",
-    "Programmazione B/I Distruttori.md",
-    "Programmazione B/Le Classi.md",
-    "Programmazione B/Gestione delle eccezioni.md",
+    "2024-03-18 Programmazione.md",
+    "Programmazione B/I Costruttori.md",
+    "Programmazione B/I Template.md",
     "Programmazione B/Esercizi/StringSet.cpp",
-    "Programmazione B/Esercizi/a",
+    "2024-03-19 Programmazione.md",
+    "Programmazione B/I Distruttori.md",
+    "Programmazione B/Copy Constructors.md",
+    "2024-03-14 Programmazione.md",
+    "Programmazione B/Gestione delle eccezioni.md",
+    "2024-03-12 Programmazione.md",
     "Programmazione B/Esercizi/Data.cpp",
     "Programmazione B/Esercizi/Untitled.md",
     "Programmazione B/Esercizi/Uguali e diversi.cpp",
     "Programmazione B/Esercizi/Televisore.cpp",
     "Programmazione B/La classe 'string'.md",
-    "Programmazione B/I Costruttori.md",
+    "2024-03-05 Programmazione.md",
+    "2024-03-04 Programmazione.md",
+    "Programmazione B/Le Classi.md",
     "Programmazione B/Getter & Setter.md",
     "Programmazione B/Gli Oggetti.md",
     "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
+    "Programmazione B/Modificatore 'const' (per metodi).md",
     "2024-02-29 Programmazione.md",
     "Programmazione B/Overloading di operatori.md",
     "Programmazione B/Creazione di oggetti.md",
@@ -202,13 +183,12 @@
     "Programmazione B/Esercizi/Semplifica 2.cpp",
     "Programmazione B/Esercizi/Semplifica 1.cpp",
     "Programmazione B/Copia di oggetti.md",
-    "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/IMGs/Pasted image 20240227192213.png",
     "Programmazione B/Esercizi",
     "Programmazione B/IMGs/Pasted image 20240227190144.png",
-    "Excalidraw/Drawing 2024-02-27 18.54.59.excalidraw.md",
     "Programmazione B/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/IMGs",
+    "Excalidraw",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
