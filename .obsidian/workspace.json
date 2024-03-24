@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/Insertion Sort.md",
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/Insertion Sort.md",
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/Insertion Sort.md",
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/Insertion Sort.md"
+                "file": "Algoritmi e strutture dati/Quick Sort.md"
               }
             }
           }
@@ -166,16 +166,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "75aa666d9e27a098",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/IMGs/Insertion_sort.gif",
+    "Pasted image 20240324115514.png",
     "Algoritmi e strutture dati/Merge Sort.md",
+    "Algoritmi e strutture dati/Quick Sort.md",
+    "2024-03-21 Programmazione.md",
+    "2024-03-19 Programmazione.md",
     "Algoritmi e strutture dati/Insertion Sort.md",
+    "Algoritmi e strutture dati/IMGs/Insertion_sort.gif",
     "Algoritmi e strutture dati/IMGs/Merge_sort_algorithm_diagram.svg.png",
     "Algoritmi e strutture dati/IMGs",
-    "2024-03-21 Programmazione.md",
     "Algoritmi e strutture dati",
-    "2024-03-19 Programmazione.md",
     "Programmazione B/Delegating Constructors.md",
     "2024-03-18 Programmazione.md",
     "Programmazione B/I Costruttori.md",
@@ -200,7 +202,6 @@
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
     "Programmazione B/Modificatore 'const' (per metodi).md",
-    "2024-02-29 Programmazione.md",
     "Programmazione B/Esercizi/Semplifica.cpp",
     "Untitled.canvas",
     "Programmazione B/Esercizi/Semplifica 2.cpp",
@@ -216,7 +217,6 @@
     "Pasted image 20240122152924.png",
     "Pasted image 20240122152851.png",
     "Pasted image 20240122153016.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231220193821.png"
+    "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png"
   ]
 }

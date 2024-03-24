@@ -6,7 +6,7 @@ $\Omega\left(n\log n\right)$
 Il **Merge Sort** e' implementato tramite il **Divide et Impera** basato **su confronti**.
 E' ideale per ordinare grandi quantita' di dati.
 **Merge Sort** e' **ottimo** tra gli algoritmi di ordinamento basati su confronti.
-. E' una ricorrenza del tipo $$T\left(n\right)=2T\left(\frac{n}{2}\right)+\Theta\left(n\right)$$
+E' una ricorrenza del tipo $$T\left(n\right)=2T\left(\frac{n}{2}\right)+\Theta\left(n\right)$$
 ### Principio di base
 Alla base e' molto semplice:
 - L'array viene diviso ricorsivamente in $n/2$ parti
