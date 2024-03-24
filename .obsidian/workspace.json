@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "559d35aa96db87d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e strutture dati/Counting Sort.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0c4d9be86a99e327",
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/Quick Sort.md",
+                "file": "Algoritmi e strutture dati/Counting Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/Quick Sort.md",
+                "file": "Algoritmi e strutture dati/Counting Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/Quick Sort.md"
+                "file": "Algoritmi e strutture dati/Counting Sort.md"
               }
             }
           }
@@ -166,11 +179,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75aa666d9e27a098",
+  "active": "559d35aa96db87d4",
   "lastOpenFiles": [
-    "Pasted image 20240324115514.png",
-    "Algoritmi e strutture dati/Merge Sort.md",
+    "Pasted image 20240324125720.png",
     "Algoritmi e strutture dati/Quick Sort.md",
+    "Algoritmi e strutture dati/Merge Sort.md",
+    "Algoritmi e strutture dati/Counting Sort.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240324115514.png",
     "2024-03-21 Programmazione.md",
     "2024-03-19 Programmazione.md",
     "Algoritmi e strutture dati/Insertion Sort.md",
@@ -201,7 +216,6 @@
     "Programmazione B/Overloading di funzioni.md",
     "Programmazione B/L'attributo 'this'.md",
     "Programmazione B/Incapsulamento e Information hiding.md",
-    "Programmazione B/Modificatore 'const' (per metodi).md",
     "Programmazione B/Esercizi/Semplifica.cpp",
     "Untitled.canvas",
     "Programmazione B/Esercizi/Semplifica 2.cpp",
@@ -216,7 +230,6 @@
     "Architettura degli elaboratori/IMGs/Pasted image 20240122153140.png",
     "Pasted image 20240122152924.png",
     "Pasted image 20240122152851.png",
-    "Pasted image 20240122153016.png",
-    "Architettura degli elaboratori/IMGs/Pasted image 20231203132043.png"
+    "Pasted image 20240122153016.png"
   ]
 }

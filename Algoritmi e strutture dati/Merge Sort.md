@@ -4,6 +4,7 @@ $\Omega\left(n\log n\right)$
 --- 
 ### Algoritmo
 Il **Merge Sort** e' implementato tramite il **Divide et Impera** basato **su confronti**.
+E' un algoritmo di ordinamento **in place**.
 E' ideale per ordinare grandi quantita' di dati.
 **Merge Sort** e' **ottimo** tra gli algoritmi di ordinamento basati su confronti.
 E' una ricorrenza del tipo $$T\left(n\right)=2T\left(\frac{n}{2}\right)+\Theta\left(n\right)$$
