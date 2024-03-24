@@ -1,6 +1,6 @@
 $\Theta\left(n + k\right)$
 $O\left(n + k\right)$
-$\Omega\left(n_+ k\right)$ 
+$\Omega\left(n + k\right)$ 
 --- 
 ### Algoritmo
 Il **Counting Sort** e' implementato in modo **iterativo** e **NON E' basato su confronti**.
