@@ -20,4 +20,4 @@ Come sotto vengono usati 2 e 3 per definire i sottoalberi sinistro e destro (che
 
 
 #### Links
-[[Alberi Binari]]
+[[Binary Trees]]

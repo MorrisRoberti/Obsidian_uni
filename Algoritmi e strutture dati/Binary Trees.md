@@ -66,3 +66,4 @@ root = 0
 
 #### Links
 [[Heap]]
+[[Binary Search Trees]]
