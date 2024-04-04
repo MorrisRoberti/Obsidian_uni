@@ -46,6 +46,8 @@ for k = p to r
 - 9-10 -> inizializza l'ultimo elemento di ogni array a $\infty$ questo sara' il valore sentinella
 - 13-18 -> confronta iterativamente i valori dei due sottoarray e li carica nell'array finale in modo ordinato
 
+>Durante questo processo i due array sono ordinati
+
 Funzione Merge Sort vera e  propria
 ```
 Merge_sort(A, p, r) {
