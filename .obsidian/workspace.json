@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2233cde9313b4104",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/Merge Sort.md",
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/Merge Sort.md",
+                "file": "Algoritmi e strutture dati/Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/Merge Sort.md"
+                "file": "Algoritmi e strutture dati/Quick Sort.md"
               }
             }
           }
@@ -148,12 +161,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6725b011fe40fed7",
+  "active": "2233cde9313b4104",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/Insertion Sort.md",
-    "Algoritmi e strutture dati/Quick Sort.md",
-    "Algoritmi e strutture dati/Priority Queue.md",
     "Algoritmi e strutture dati/Merge Sort.md",
+    "Algoritmi e strutture dati/Quick Sort.md",
+    "Algoritmi e strutture dati/Radix Sort.md",
+    "Algoritmi e strutture dati/Counting Sort.md",
+    "Algoritmi e strutture dati/Priority Queue.md",
+    "Algoritmi e strutture dati/Insertion Sort.md",
     "Algoritmi e strutture dati/Binary Trees.md",
     "Algoritmi e strutture dati/Binary Search Trees.md",
     "2024-03-26 Programmazione Java.md",
@@ -163,8 +178,6 @@
     "Pasted image 20240324221147.png",
     "README.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324173300.png",
-    "Algoritmi e strutture dati/Radix Sort.md",
-    "Algoritmi e strutture dati/Counting Sort.md",
     "2024-03-25 Programmazione JAVA.md",
     "Programmazione B/JAVA",
     "Git Cheatsheet.md",

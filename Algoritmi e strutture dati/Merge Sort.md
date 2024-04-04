@@ -1,10 +1,14 @@
 $\Theta\left(n\right)$
 $O\left(n\log n\right)$
 $\Omega\left(n\log n\right)$ 
+*caso peggiore*: $O\left(n\log n\right)$
+
 --- 
 ### Algoritmo
 Il **Merge Sort** e' implementato tramite il **Divide et Impera** basato **su confronti**.
 E' ideale per ordinare grandi quantita' di dati.
+Puo' essere sia **in place** che **NON in place**, la versione qui riportata e' non in place (sfrutta due array).
+**Merge Sort** e' *stabile*.
 **Merge Sort** e' **ottimo** tra gli algoritmi di ordinamento basati su confronti.
 E' una ricorrenza del tipo $$T\left(n\right)=2T\left(\frac{n}{2}\right)+\Theta\left(n\right)$$
 ### Principio di base

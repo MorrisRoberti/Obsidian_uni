@@ -1,6 +1,8 @@
 $\Theta\left(n\log n\right)$
-$O\left(n\log n\right)$
+$O\left(n\log n\right)$ 
 $\Omega\left(n\log n\right)$ 
+*caso peggiore*: $O\left(n^2\right)$
+
 --- 
 ### Algoritmo
 Il **Quick Sort** e' implementato tramite il **Divide et impera** ed e' basato **su confronti**.
@@ -20,8 +22,8 @@ Funzione ausililiaria che si occupa di dividere in modo appropriato l'array
 ```
 Partition(A, p, r) {
 x = A[r]
-i = p -1
-for j = p to r-1
+i = p - 1
+for j = p to r - 1
 	if A[j] <= x
 		i = i + 1
 		scambia A[i] = A[j]
