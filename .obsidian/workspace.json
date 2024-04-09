@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d1cf9cf52544ad2d",
+        "id": "f552ef39bf710118",
         "type": "tabs",
         "children": [
           {
-            "id": "8f2c22b34585d3b7",
+            "id": "290daebc3d41e507",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-04-09 Programmazione JAVA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6725b011fe40fed7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e strutture dati/Merge Sort.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04-09 Programmazione JAVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04-09 Programmazione JAVA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-04-09 Programmazione JAVA.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,55 +140,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8f2c22b34585d3b7",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "2024-04-08 Programmazione JAVA.md",
-    "2024-03-26 Programmazione Java.md",
+    "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
+    "Programmazione B/C++/STL & C++ Standard Library.md",
+    "Programmazione B/C++/La classe vector<T>.md",
+    "Programmazione B/C++/La classe string.md",
+    "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
+    "Pasted image 20240409215839.png",
+    "Excalidraw",
+    "2024-03-19 Programmazione.md",
     "2024-03-25 Programmazione JAVA.md",
     "2024-03-21 Programmazione.md",
-    "2024-03-19 Programmazione.md",
-    "2024-04-09 Programmazione JAVA.md",
-    "Algoritmi e strutture dati/Heap Sort.md",
-    "Algoritmi e strutture dati/Merge Sort.md",
-    "Algoritmi e strutture dati/Time Complexity.md",
-    "Algoritmi e strutture dati/Heap.md",
-    "Algoritmi e strutture dati/Binary Search Trees.md",
-    "Algoritmi e strutture dati/Binary Trees.md",
-    "Algoritmi e strutture dati/Quick Sort.md",
-    "Algoritmi e strutture dati/Counting Sort.md",
-    "Algoritmi e strutture dati/Priority Queue.md",
-    "Algoritmi e strutture dati/Radix Sort.md",
-    "Algoritmi e strutture dati/Insertion Sort.md",
-    "Algoritmi e strutture dati/Trees.md",
+    "Programmazione B/Java",
+    "Programmazione B/Abstract Data Type (ADT).md",
+    "Programmazione B/C++/Overloading di operatori.md",
+    "Programmazione B/C++/Overloading di funzioni.md",
+    "Programmazione B/C++/Modificatore 'const' (per metodi).md",
+    "Programmazione B/C++/Le Classi.md",
+    "Programmazione B/C++/L'attributo 'this'.md",
+    "Programmazione B/C++/I Template.md",
+    "Programmazione B/C++/Incapsulamento e Information hiding.md",
+    "Programmazione B/C++/I Distruttori.md",
+    "Programmazione B/C++/I Costruttori.md",
+    "Programmazione B/C++/Gli Oggetti.md",
+    "Programmazione B/C++/Getter & Setter.md",
+    "Programmazione B/C++/Gestione delle eccezioni.md",
+    "Programmazione B/C++/Delegating Constructors.md",
+    "Programmazione B/C++/Creazione di oggetti.md",
+    "Programmazione B/C++/Copy Constructors.md",
+    "Programmazione B/C++/Copia di oggetti.md",
+    "Programmazione B/C++/Abstract Data Type (ADT).md",
+    "Programmazione B/C++",
+    "Logica/logica.pdf",
+    "Logica",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240403123719.png",
     "Pasted image 20240324221147.png",
-    "README.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324173300.png",
     "Programmazione B/JAVA",
-    "Git Cheatsheet.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324125720.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324115514.png",
     "Algoritmi e strutture dati/IMGs/Insertion_sort.gif",
     "Algoritmi e strutture dati/IMGs/Merge_sort_algorithm_diagram.svg.png",
     "Algoritmi e strutture dati/IMGs",
     "Algoritmi e strutture dati",
-    "Programmazione B/Delegating Constructors.md",
-    "2024-03-18 Programmazione.md",
-    "Programmazione B/I Costruttori.md",
-    "Programmazione B/I Template.md",
-    "Programmazione B/Esercizi/StringSet.cpp",
-    "Programmazione B/I Distruttori.md",
-    "Programmazione B/Copy Constructors.md",
-    "Programmazione B/Esercizi/Data.cpp",
-    "Programmazione B/Esercizi/Uguali e diversi.cpp",
-    "Programmazione B/Esercizi/Televisore.cpp",
-    "Programmazione B/Esercizi/Semplifica.cpp",
+    "Programmazione B/C++/Esercizi/StringSet.cpp",
+    "Programmazione B/C++/Esercizi/Data.cpp",
     "Untitled.canvas",
-    "Programmazione B/Esercizi/Semplifica 2.cpp",
-    "Programmazione B/Esercizi/Semplifica 1.cpp",
-    "Programmazione B/IMGs/Pasted image 20240227192213.png",
-    "Programmazione B/IMGs/Pasted image 20240227190144.png",
-    "Programmazione B/IMGs/Pasted image 20240227185842.png",
+    "Programmazione B/C++/IMGs/Pasted image 20240227192213.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas"
