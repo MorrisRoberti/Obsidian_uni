@@ -13,25 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Java/Classi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8d4bc214567c0a5f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b02b8ad30038b7d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-03-26 Programmazione Java.md",
+                "file": "Programmazione B/Java/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/Classi.md",
+                "file": "Programmazione B/Java/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/Classi.md",
+                "file": "Programmazione B/Java/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/Classi.md"
+                "file": "Programmazione B/Java/Funzioni.md"
               }
             }
           }
@@ -169,12 +151,15 @@
   },
   "active": "8045812714c5199e",
   "lastOpenFiles": [
+    "Programmazione B/Java/Tipi reference - Array.md",
+    "2024-04-09 Programmazione JAVA.md",
+    "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
     "Programmazione B/Java/Classi.md",
+    "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/Il linguaggio.md",
     "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/Conversioni di tipo (casting).md",
-    "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/Untitled",
     "Programmazione B/Java/Esercizi",
@@ -190,8 +175,6 @@
     "CIAO ANDREA.md",
     "Programmazione B/C_plus_plus/La classe vector.md",
     "Programmazione B/C_plus_plus/Le Classi.md",
-    "2024-04-09 Programmazione JAVA.md",
-    "2024-04-08 Programmazione JAVA.md",
     "2024-03-19 Programmazione.md",
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
     "Programmazione B/C++/STL & C++ Standard Library.md",
@@ -204,7 +187,6 @@
     "Programmazione B/Java",
     "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/C++/Overloading di operatori.md",
-    "Programmazione B/C++/Overloading di funzioni.md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
