@@ -13,7 +13,7 @@ Nella signature dei metodi in Java vanno specificate le seguenti cose:
 - *parametri con il rispettivo tipo*
 
 **ATTENZIONE**
->I parametri attuali vengono passati **per valore** o **per reference**
+>I parametri attuali vengono passati **per valore** o **per reference**. NON E' POSSIBILE PASSARE UN TIPO PRIMITIVO PER REFERENCE O UN TIPO REFERENCE PER VALORE
 
 ### Passaggio per parametri di array
 >L'unico tipo di passaggio di parametri in Java e' quello per valore, ma se il tipo da passare e' una **reference** viene realizzato il passaggio per riferimento
@@ -32,3 +32,4 @@ public class Main {
 - `A` e `V` condividono lo stesso array
 
 #### Links
+[[Tipi reference - Array]]

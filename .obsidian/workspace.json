@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Java/Funzioni.md",
+                "file": "Programmazione B/Java/Garbage Collector.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/Funzioni.md",
+                "file": "Programmazione B/Java/Garbage Collector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/Funzioni.md",
+                "file": "Programmazione B/Java/Garbage Collector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/Funzioni.md"
+                "file": "Programmazione B/Java/Garbage Collector.md"
               }
             }
           }
@@ -151,6 +151,8 @@
   },
   "active": "8045812714c5199e",
   "lastOpenFiles": [
+    "Programmazione B/Java/Funzioni.md",
+    "Programmazione B/Java/Garbage Collector.md",
     "Programmazione B/Java/Tipi reference - Array.md",
     "2024-04-09 Programmazione JAVA.md",
     "2024-04-08 Programmazione JAVA.md",
@@ -158,7 +160,6 @@
     "Programmazione B/Java/Classi.md",
     "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/Il linguaggio.md",
-    "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/Conversioni di tipo (casting).md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/Untitled",
@@ -186,7 +187,6 @@
     "2024-03-21 Programmazione.md",
     "Programmazione B/Java",
     "Programmazione B/Abstract Data Type (ADT).md",
-    "Programmazione B/C++/Overloading di operatori.md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
