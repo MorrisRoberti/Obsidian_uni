@@ -55,4 +55,4 @@ for (auto k: m.keys()) {
 ```
 
 #### Links
-[[La classe vector<T>]]
+[[La classe vector]]

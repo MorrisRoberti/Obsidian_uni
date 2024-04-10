@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 269.5
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md"
+                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md"
               }
             }
           }
@@ -168,11 +168,13 @@
   },
   "active": "b920608eceea0601",
   "lastOpenFiles": [
+    "Programmazione B/C_plus_plus/La classe vector.md",
+    "Programmazione B/C_plus_plus/Le Classi.md",
+    "Programmazione B/Java/Il linguaggio.md",
     "2024-03-25 Programmazione JAVA.md",
     "2024-04-09 Programmazione JAVA.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
-    "Programmazione B/Java/Il linguaggio.md",
     "2024-03-19 Programmazione.md",
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
     "Programmazione B/C++/STL & C++ Standard Library.md",
@@ -196,8 +198,6 @@
     "Programmazione B/C++/Gli Oggetti.md",
     "Programmazione B/C++/Getter & Setter.md",
     "Programmazione B/C++/Gestione delle eccezioni.md",
-    "Programmazione B/C++/Delegating Constructors.md",
-    "Programmazione B/C++/Creazione di oggetti.md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
