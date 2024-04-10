@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/Java/Classi.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "b4ed61077e87b544",
+        "id": "8d4bc214567c0a5f",
         "type": "tabs",
         "children": [
           {
-            "id": "c6dadf024b152884",
+            "id": "b02b8ad30038b7d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-03-25 Programmazione JAVA.md",
+                "file": "2024-03-26 Programmazione Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
+    "width": 290.5,
     "collapsed": true
   },
   "right": {
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/Java/Classi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md",
+                "file": "Programmazione B/Java/Classi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/Il linguaggio.md"
+                "file": "Programmazione B/Java/Classi.md"
               }
             }
           }
@@ -169,15 +169,29 @@
   },
   "active": "8045812714c5199e",
   "lastOpenFiles": [
-    "2024-03-25 Programmazione JAVA.md",
     "Programmazione B/Java/Il linguaggio.md",
-    "CIAO ANDREA.md",
+    "Programmazione B/Java/Classi.md",
+    "Programmazione B/Java/Funzioni.md",
+    "2024-03-26 Programmazione Java.md",
+    "Programmazione B/Java/Conversioni di tipo (casting).md",
+    "Programmazione B/Java/Tipi primitivi.md",
+    "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
+    "Programmazione B/Java/Untitled",
+    "Programmazione B/Java/Esercizi",
+    "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",
+    "Programmazione B/Java/IMGs",
+    "2024-03-25 Programmazione JAVA.md",
+    "Algoritmi e strutture dati/Merge Sort.md",
+    "My Code File.cpp",
+    "Algoritmi e strutture dati/Binary Search Trees.md",
     "Programmazione B/C_plus_plus/STL e Standard Library.md",
+    "Programmazione B/C_plus_plus/Getter & Setter.md",
+    "Programmazione B/C_plus_plus/Delegating Constructors.md",
+    "CIAO ANDREA.md",
     "Programmazione B/C_plus_plus/La classe vector.md",
     "Programmazione B/C_plus_plus/Le Classi.md",
     "2024-04-09 Programmazione JAVA.md",
     "2024-04-08 Programmazione JAVA.md",
-    "2024-03-26 Programmazione Java.md",
     "2024-03-19 Programmazione.md",
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
     "Programmazione B/C++/STL & C++ Standard Library.md",
@@ -191,14 +205,6 @@
     "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/C++/Overloading di operatori.md",
     "Programmazione B/C++/Overloading di funzioni.md",
-    "Programmazione B/C++/Modificatore 'const' (per metodi).md",
-    "Programmazione B/C++/Le Classi.md",
-    "Programmazione B/C++/L'attributo 'this'.md",
-    "Programmazione B/C++/I Template.md",
-    "Programmazione B/C++/Incapsulamento e Information hiding.md",
-    "Programmazione B/C++/I Distruttori.md",
-    "Programmazione B/C++/I Costruttori.md",
-    "Programmazione B/C++/Gli Oggetti.md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
@@ -209,13 +215,7 @@
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324125720.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324115514.png",
     "Algoritmi e strutture dati/IMGs/Insertion_sort.gif",
-    "Algoritmi e strutture dati/IMGs/Merge_sort_algorithm_diagram.svg.png",
-    "Algoritmi e strutture dati/IMGs",
-    "Algoritmi e strutture dati",
-    "Programmazione B/C++/Esercizi/StringSet.cpp",
-    "Programmazione B/C++/Esercizi/Data.cpp",
     "Untitled.canvas",
-    "Programmazione B/C++/IMGs/Pasted image 20240227192213.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
     "Architettura degli elaboratori/Syllabus.canvas"
