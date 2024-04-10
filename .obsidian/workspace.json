@@ -8,11 +8,33 @@
         "type": "tabs",
         "children": [
           {
+            "id": "b920608eceea0601",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programmazione B/Java/Il linguaggio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7b474b6f7ee43102",
+        "type": "tabs",
+        "children": [
+          {
             "id": "290daebc3d41e507",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-03-25 Programmazione JAVA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programmazione B/Java/Il linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programmazione B/Java/Il linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programmazione B/Java/Il linguaggio.md"
+              }
             }
           }
         ]
@@ -140,8 +166,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "b920608eceea0601",
   "lastOpenFiles": [
+    "2024-03-25 Programmazione JAVA.md",
+    "2024-04-09 Programmazione JAVA.md",
+    "2024-04-08 Programmazione JAVA.md",
+    "2024-03-26 Programmazione Java.md",
+    "Programmazione B/Java/Il linguaggio.md",
+    "2024-03-19 Programmazione.md",
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
     "Programmazione B/C++/STL & C++ Standard Library.md",
     "Programmazione B/C++/La classe vector<T>.md",
@@ -149,8 +181,6 @@
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
     "Excalidraw",
-    "2024-03-19 Programmazione.md",
-    "2024-03-25 Programmazione JAVA.md",
     "2024-03-21 Programmazione.md",
     "Programmazione B/Java",
     "Programmazione B/Abstract Data Type (ADT).md",
@@ -168,9 +198,6 @@
     "Programmazione B/C++/Gestione delle eccezioni.md",
     "Programmazione B/C++/Delegating Constructors.md",
     "Programmazione B/C++/Creazione di oggetti.md",
-    "Programmazione B/C++/Copy Constructors.md",
-    "Programmazione B/C++/Copia di oggetti.md",
-    "Programmazione B/C++/Abstract Data Type (ADT).md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
