@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f552ef39bf710118",
+        "id": "95b34cd2943a3325",
         "type": "tabs",
         "children": [
           {
-            "id": "b920608eceea0601",
+            "id": "8045812714c5199e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
+                "file": "Programmazione B/Java/Il linguaggio.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "7b474b6f7ee43102",
+        "id": "b4ed61077e87b544",
         "type": "tabs",
         "children": [
           {
-            "id": "290daebc3d41e507",
+            "id": "c6dadf024b152884",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
+                "file": "Programmazione B/Java/Il linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md",
+                "file": "Programmazione B/Java/Il linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/C_plus_plus/STL e Standard Library.md"
+                "file": "Programmazione B/Java/Il linguaggio.md"
               }
             }
           }
@@ -166,12 +167,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b920608eceea0601",
+  "active": "8045812714c5199e",
   "lastOpenFiles": [
+    "2024-03-25 Programmazione JAVA.md",
+    "Programmazione B/Java/Il linguaggio.md",
+    "CIAO ANDREA.md",
+    "Programmazione B/C_plus_plus/STL e Standard Library.md",
     "Programmazione B/C_plus_plus/La classe vector.md",
     "Programmazione B/C_plus_plus/Le Classi.md",
-    "Programmazione B/Java/Il linguaggio.md",
-    "2024-03-25 Programmazione JAVA.md",
     "2024-04-09 Programmazione JAVA.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
@@ -196,8 +199,6 @@
     "Programmazione B/C++/I Distruttori.md",
     "Programmazione B/C++/I Costruttori.md",
     "Programmazione B/C++/Gli Oggetti.md",
-    "Programmazione B/C++/Getter & Setter.md",
-    "Programmazione B/C++/Gestione delle eccezioni.md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",

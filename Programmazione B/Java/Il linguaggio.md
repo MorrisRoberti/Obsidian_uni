@@ -1,0 +1,1 @@
+>Java e' un linguaggio Object Oriented creato all'inizio degli anni 90, ed e' platform-agnostic, infatti il codice java puo' essere eseguito senza modifiche su ogni piattaforma in grado di eseguire java, il suo motto e': *write once run it everywhere*
