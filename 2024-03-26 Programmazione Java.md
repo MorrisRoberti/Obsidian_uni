@@ -12,6 +12,5 @@ x = y // NON FUNZIONA
 C1 x; // crea un oggetto null
 x = new C1(); // crea una reference che punta a quell'oggetto
 ```
-- La *dot notation* di java e' analoga alla notazione *->* del C++: in automatico va a dereferenziare la reference e va a prendere il campo di quell'oggetto
 - Non esistono *shallow copy* e *deep copy* semplicemente se assegniamo un oggetto ad un altro verra' copiato l'oggetto puntato dalla reference di quello di dx in quello di sx in questo modo le due reference punteranno allo stesso spazio di memoria
 - **final**  indica un campo che, una volta assegnato NEL COSTRUTTORE non potra' piu' essere modificato
