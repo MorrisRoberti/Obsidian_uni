@@ -10,11 +10,11 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Le Classi Wrapper Java #Programmazione
 
 
 ## Done
 
+- [ ] Le Classi Wrapper Java #Programmazione
 - [ ] Le Stringhe java #Programmazione
 
 

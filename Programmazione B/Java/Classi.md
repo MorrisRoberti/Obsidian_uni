@@ -35,3 +35,4 @@ int k = x.f2(3);
 La dot notation di Java non ha lo stesso significato della dot notation di C++, ma e' piu' assimilabile alla ->
 
 #### Links
+[[Le Classi Wrapper]]
