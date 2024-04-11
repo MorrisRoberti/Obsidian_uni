@@ -4,20 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "4e771903e7ed6c3f",
-        "type": "tabs",
+        "id": "50d1597e4a80253a",
+        "type": "split",
         "children": [
           {
-            "id": "ea47a2ef48431d6c",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Roadmap.md"
+            "id": "4e771903e7ed6c3f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1291461df5739835",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Programmazione B/Java/Stringhe.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "a7827c8742758cc8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ea47a2ef48431d6c",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Roadmap.md"
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -83,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Programmazione B/Java/Stringhe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Programmazione B/Java/Stringhe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap.md"
+                "file": "Programmazione B/Java/Stringhe.md"
               }
             }
           }
@@ -146,15 +171,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ea47a2ef48431d6c",
+  "active": "1291461df5739835",
   "lastOpenFiles": [
-    "2024-04-09 Programmazione JAVA.md",
     "Roadmap.md",
     "2024-04-11 Programmazione.md",
+    "2024-04-09 Programmazione JAVA.md",
+    "Programmazione B/Java/Stringhe.md",
+    "Programmazione B/Java/Tipi reference - Array.md",
+    "Programmazione B/C_plus_plus/La classe string.md",
+    "Programmazione B/C_plus_plus/La classe vector.md",
     "Backlog.md",
     "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/Garbage Collector.md",
-    "Programmazione B/Java/Tipi reference - Array.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
     "Programmazione B/Java/Classi.md",
@@ -174,12 +202,9 @@
     "Programmazione B/C_plus_plus/Getter & Setter.md",
     "Programmazione B/C_plus_plus/Delegating Constructors.md",
     "CIAO ANDREA.md",
-    "Programmazione B/C_plus_plus/La classe vector.md",
     "Programmazione B/C_plus_plus/Le Classi.md",
     "2024-03-19 Programmazione.md",
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
-    "Programmazione B/C++/STL & C++ Standard Library.md",
-    "Programmazione B/C++/La classe vector<T>.md",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
     "Excalidraw",

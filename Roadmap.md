@@ -6,16 +6,16 @@ kanban-plugin: basic
 
 ## To Do
 
-- [ ] Le Stringhe java #Programmazione
-- [ ] Le Classi Wrapper Java #Programmazione
 
 
 ## In Progress
 
+- [ ] Le Classi Wrapper Java #Programmazione
 
 
 ## Done
 
+- [ ] Le Stringhe java #Programmazione
 
 
 

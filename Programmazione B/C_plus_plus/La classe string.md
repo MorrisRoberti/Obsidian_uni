@@ -40,3 +40,5 @@ Valgono gli operatori definiti sotto:
 - ``s + t`` -> concatenazione stringhe
 - ``s + 'h'`` -> concatenazione stringa con carattere
 - ``s + "hello"`` -> concatenazione stringa con stringa fissa
+
+#### Links
