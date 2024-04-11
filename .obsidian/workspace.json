@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "95b34cd2943a3325",
+        "id": "4e771903e7ed6c3f",
         "type": "tabs",
         "children": [
           {
-            "id": "8045812714c5199e",
+            "id": "ea47a2ef48431d6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Programmazione B/Java/Garbage Collector.md",
-                "mode": "source",
-                "source": false
+                "file": "Roadmap.md"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/Garbage Collector.md",
+                "file": "Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/Garbage Collector.md",
+                "file": "Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/Garbage Collector.md"
+                "file": "Roadmap.md"
               }
             }
           }
@@ -139,22 +136,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
+      "code-files:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8045812714c5199e",
+  "active": "ea47a2ef48431d6c",
   "lastOpenFiles": [
+    "2024-04-09 Programmazione JAVA.md",
+    "Roadmap.md",
+    "2024-04-11 Programmazione.md",
+    "Backlog.md",
     "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/Garbage Collector.md",
     "Programmazione B/Java/Tipi reference - Array.md",
-    "2024-04-09 Programmazione JAVA.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
     "Programmazione B/Java/Classi.md",
@@ -180,13 +180,10 @@
     "Excalidraw/Drawing 2024-04-09 21.39.11.excalidraw.md",
     "Programmazione B/C++/STL & C++ Standard Library.md",
     "Programmazione B/C++/La classe vector<T>.md",
-    "Programmazione B/C++/La classe string.md",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
     "Excalidraw",
-    "2024-03-21 Programmazione.md",
     "Programmazione B/Java",
-    "Programmazione B/Abstract Data Type (ADT).md",
     "Programmazione B/C++",
     "Logica/logica.pdf",
     "Logica",
