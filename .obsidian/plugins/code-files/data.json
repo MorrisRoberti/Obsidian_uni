@@ -5,7 +5,8 @@
     "js",
     "jsx",
     "py",
-    "cpp"
+    "cpp",
+    "java"
   ],
   "folding": true,
   "lineNumbers": true,

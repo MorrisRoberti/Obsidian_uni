@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1291461df5739835",
+            "id": "ea47a2ef48431d6c",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "kanban",
               "state": {
-                "file": "Programmazione B/C_plus_plus/Esercizi/Vector.cpp"
+                "file": "Roadmap.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/C_plus_plus/Esercizi/Vector.cpp",
+                "file": "Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/C_plus_plus/Esercizi/Vector.cpp",
+                "file": "Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/C_plus_plus/Esercizi/Vector.cpp"
+                "file": "Roadmap.md"
               }
             }
           }
@@ -146,25 +146,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1291461df5739835",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Programmazione B/C_plus_plus/Esercizi/Punto2D.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/StringSet.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/Vector.cpp",
-    "Programmazione B/Java/Le Classi Wrapper.md",
-    "Programmazione B/Java/Classi.md",
+    "Programmazione B/JAVA/Esercizi/Maiuscola.java",
+    "Programmazione B/JAVA/Esercizi/StringSet.java",
+    "Programmazione B/JAVA/Esercizi/Media.java",
+    "Programmazione B/JAVA/Esercizi",
+    "2024-04-16 Programmazione Java.md",
+    "2024-04-15 Programmazione Java.md",
     "Roadmap.md",
-    "Programmazione B/Java/Stringhe.md",
-    "2024-04-11 Programmazione.md",
+    "Programmazione B/JAVA/Tipi reference - Array.md",
+    "Programmazione B/JAVA/Stringhe.md",
+    "Programmazione B/JAVA/Le Classi Wrapper.md",
+    "Programmazione B/C_plus_plus/Esercizi/Vector.cpp",
+    "Programmazione B/C_plus_plus/Esercizi/Punto2D.cpp",
     "2024-04-09 Programmazione JAVA.md",
-    "Programmazione B/Java/Tipi reference - Array.md",
-    "Programmazione B/C_plus_plus/La classe string.md",
-    "Programmazione B/C_plus_plus/La classe vector.md",
+    "2024-04-11 Programmazione.md",
     "Backlog.md",
     "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/Garbage Collector.md",
+    "Programmazione B/Java/Tipi reference - Array.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
+    "Programmazione B/Java/Classi.md",
     "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/Il linguaggio.md",
     "Programmazione B/Java/Conversioni di tipo (casting).md",
@@ -181,13 +185,9 @@
     "Programmazione B/C_plus_plus/Getter & Setter.md",
     "Programmazione B/C_plus_plus/Delegating Constructors.md",
     "CIAO ANDREA.md",
-    "Programmazione B/C_plus_plus/Le Classi.md",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
     "Excalidraw",
-    "Programmazione B/Java",
-    "Programmazione B/C++",
-    "Logica/logica.pdf",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240403123719.png",
     "Pasted image 20240324221147.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324173300.png",
