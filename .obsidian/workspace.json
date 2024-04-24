@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea47a2ef48431d6c",
+            "id": "c4b648f8eb572420",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Roadmap.md"
+                "file": "2024-04-16 Programmazione Java.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roadmap.md",
+                "file": "2024-04-16 Programmazione Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roadmap.md",
+                "file": "2024-04-16 Programmazione Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap.md"
+                "file": "2024-04-16 Programmazione Java.md"
               }
             }
           }
@@ -146,15 +148,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "c4b648f8eb572420",
   "lastOpenFiles": [
+    "2024-04-18 Programmazione Java.md",
+    "2024-04-16 Programmazione Java.md",
+    "2024-04-15 Programmazione Java.md",
+    "Programmazione B/JAVA/Field and Class visibility.md",
+    "Programmazione B/JAVA/Javadoc.md",
+    "Programmazione B/JAVA/I Package.md",
+    "Programmazione B/JAVA/Scaffolding progetto Java.md",
+    "Roadmap.md",
     "Programmazione B/JAVA/Esercizi/Maiuscola.java",
     "Programmazione B/JAVA/Esercizi/StringSet.java",
     "Programmazione B/JAVA/Esercizi/Media.java",
     "Programmazione B/JAVA/Esercizi",
-    "2024-04-16 Programmazione Java.md",
-    "2024-04-15 Programmazione Java.md",
-    "Roadmap.md",
     "Programmazione B/JAVA/Tipi reference - Array.md",
     "Programmazione B/JAVA/Stringhe.md",
     "Programmazione B/JAVA/Le Classi Wrapper.md",
@@ -181,13 +188,8 @@
     "Algoritmi e strutture dati/Merge Sort.md",
     "My Code File.cpp",
     "Algoritmi e strutture dati/Binary Search Trees.md",
-    "Programmazione B/C_plus_plus/STL e Standard Library.md",
-    "Programmazione B/C_plus_plus/Getter & Setter.md",
-    "Programmazione B/C_plus_plus/Delegating Constructors.md",
-    "CIAO ANDREA.md",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
-    "Excalidraw",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240403123719.png",
     "Pasted image 20240324221147.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324173300.png",

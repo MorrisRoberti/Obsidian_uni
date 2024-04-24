@@ -1,17 +1,5 @@
 ### Javadoc 
-- e' un "linguaggio" per scrivere la documentazione di classi
-- Per aggiungere contenuti al javadoc si usa
-```java
-/**
-*@author 
-*@version
-*@see
-*/
-```
-- `@author` -> definisce l'autore
-- `@version` -> definisce la versione
-- `@see` -> rimanda ad una fonte esterna
-- `@param <nome_parametro>` -> specifichiamo i parametri
+
 ### Delegating constructors
 ```java
 public Razionale() {
