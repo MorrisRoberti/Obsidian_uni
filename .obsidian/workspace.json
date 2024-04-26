@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4b648f8eb572420",
+            "id": "8a106fb09aa89db4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-16 Programmazione Java.md",
+                "file": "Programmazione B/JAVA/Ereditarieta'.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04-16 Programmazione Java.md",
+                "file": "Programmazione B/JAVA/Ereditarieta'.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04-16 Programmazione Java.md",
+                "file": "Programmazione B/JAVA/Ereditarieta'.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-04-16 Programmazione Java.md"
+                "file": "Programmazione B/JAVA/Ereditarieta'.md"
               }
             }
           }
@@ -148,14 +149,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4b648f8eb572420",
+  "active": "8a106fb09aa89db4",
   "lastOpenFiles": [
-    "2024-04-18 Programmazione Java.md",
-    "2024-04-16 Programmazione Java.md",
-    "2024-04-15 Programmazione Java.md",
     "Programmazione B/JAVA/Field and Class visibility.md",
-    "Programmazione B/JAVA/Javadoc.md",
+    "Programmazione B/JAVA/Ereditarieta'.md",
+    "Programmazione B/JAVA/IMGs/Pasted image 20240426132559.png",
+    "Excalidraw/Drawing 2024-04-26 13.20.38.excalidraw.md",
+    "Excalidraw",
     "Programmazione B/JAVA/I Package.md",
+    "2024-04-15 Programmazione Java.md",
+    "Programmazione B/JAVA/Elementi di istanza e di classe.md",
+    "2024-04-16 Programmazione Java.md",
+    "2024-04-18 Programmazione Java.md",
+    "Programmazione B/JAVA/Javadoc.md",
     "Programmazione B/JAVA/Scaffolding progetto Java.md",
     "Roadmap.md",
     "Programmazione B/JAVA/Esercizi/Maiuscola.java",
@@ -178,16 +184,11 @@
     "Programmazione B/Java/Classi.md",
     "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/Il linguaggio.md",
-    "Programmazione B/Java/Conversioni di tipo (casting).md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/Untitled",
     "Programmazione B/Java/Esercizi",
     "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",
     "Programmazione B/Java/IMGs",
-    "2024-03-25 Programmazione JAVA.md",
-    "Algoritmi e strutture dati/Merge Sort.md",
-    "My Code File.cpp",
-    "Algoritmi e strutture dati/Binary Search Trees.md",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
     "Pasted image 20240409215839.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240403123719.png",
@@ -195,7 +196,6 @@
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324173300.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324125720.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240324115514.png",
-    "Algoritmi e strutture dati/IMGs/Insertion_sort.gif",
     "Untitled.canvas",
     "Architettura degli elaboratori/Study map.canvas",
     "Untitled 1.canvas",
