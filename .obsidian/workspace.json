@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/JAVA/Ereditarieta'.md",
+                "file": "Programmazione B/JAVA/I Package.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/JAVA/Ereditarieta'.md",
+                "file": "Programmazione B/JAVA/I Package.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/JAVA/Ereditarieta'.md",
+                "file": "Programmazione B/JAVA/I Package.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/JAVA/Ereditarieta'.md"
+                "file": "Programmazione B/JAVA/I Package.md"
               }
             }
           }
@@ -151,8 +150,8 @@
   },
   "active": "8a106fb09aa89db4",
   "lastOpenFiles": [
-    "Programmazione B/JAVA/Field and Class visibility.md",
     "Programmazione B/JAVA/Ereditarieta'.md",
+    "Programmazione B/JAVA/Field and Class visibility.md",
     "Programmazione B/JAVA/IMGs/Pasted image 20240426132559.png",
     "Excalidraw/Drawing 2024-04-26 13.20.38.excalidraw.md",
     "Excalidraw",

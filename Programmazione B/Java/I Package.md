@@ -5,7 +5,7 @@ Per inserire la classe attuale nel *package* p la prima riga deve essere la segu
 ```java
 package p;
 ```
-
+e il nome della cartella che contiene le classi del package deve essere il nome del package stesso, altrimenti non funziona.
 ### Caratteristiche
 - I nomi dei package devono essere in minuscolo (convenzione)
 - Una classe puo' appartenere ad un solo package
