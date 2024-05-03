@@ -1,3 +1,5 @@
+package list;
+
 public class IntList {
     private Node head;
     private int n;
