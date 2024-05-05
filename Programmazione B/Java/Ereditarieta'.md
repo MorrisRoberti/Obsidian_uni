@@ -1,57 +1,47 @@
->In quanto insieme, una classe C puo' essere sottoinsieme di una classe piu' ampia, cio' significa che un oggetto della classe C apparterra' anche alla classe D. Il principio di **ereditarieta'** si basa su questo: e' possibile costruire delle classi a partire da classi gia' esistenti.
+>Come in C++ la sottoclasse eredita' tutti i campi della superclasse con la differenza che ogni metodo e ogni campo della sottoclasse mantengono la visibilita' della superclasse.
 
-### Classi, sottoclassi e superclassi
-![[Pasted image 20240426132559.png]]
-`Studente` e `Docente` sono *sottoclassi* di `Persona`, quindi hanno tutte le sue caratteristiche (campi e metodi).
-
-Una classe ereditata da un'altra si dice **sottoclasse** di questa, che a sua volta' si chiamera' **superclasse**.
-
-### Ereditarieta' in C++
-```cpp
-class B {
-	...
-};
-
-class C : public B {
-	...
-};
-```
-la visibilita' della derivazione e' public quindi gli attributi ereditati mantengono le stesse visibilita' della superclasse
-
-### Principio di sostituibilita'
->Il **principio di sostituibilita'** stabilisce che e' possibile utilizzare un oggetto della sottoclasse dove e' previsto un oggetto della superclasse.
-
-```cpp
-void f(B x) {
-	...
-}
-
-int main() {
-	B b;
-	C c;
-	f(b);
-	f(c);
+```java
+public class C extends B {
+...
 }
 ```
-**ATTENZIONE**
-Non vale il viceversa, poiche' la sottoclasse potrebbe avere dei campi o metodi aggiuntivi non presenti nella superclasse.
+La classe `C` eredita da `B`
 
-### Ereditarieta' *vs* Contenimento
-```cpp
-class DataConOrario {
-private:
-	Data d;
-	int sec;
-public:
-	DataConOrario(int g, int m, int a) {
-		d = Date(g, m, a);
-		sec = 0;
-	}
-}
+### Upcasting
+>L'**upcasting** non e' altro che un casting implicito da una sottoclasse ad una superclasse
+
+```java
+Object o = new Rettangolo(2, 3);
 ```
-La classe `DataConOrario` *non eredita* `Data` ma la **contiene**.
+**IMPORTANTE**
+- L'identificatore `o` rappresenta la reference ed e' di tipo `Object`
+- L'oggetto referenziato, tuttavia e' di tipo `Rettangolo` che e' la classe d'origine
 
-### Ereditarieta' multipla
->E' possiblie fare in modo che una classe erediti da piu' superclassi, questo principio si chiama **ereditarieta' multipla**.
+Il tipo della reference stabilisce i metodi che possono essere applicati ad un certo oggetto.
+Nel nostro caso significa che possiamo applicare solo metodi della classe `Object`:
+- `o.area()` -> **NO**
+- `o.equals(q) `-> **OK**
+
+*Quindi nella riga sopra quale versione di equals verra' chiamata? quella di Object o quella di Rettangolo?*
+**Quella della classe d'origine, quindi in questo caso Rettangolo**. Tuttavia se la definizione del metodo non viene trovata nella classe d'origine si risalira' lungo la gerarchia delle classi fino a trovare una classe di appartenenza in cui e' definito.
+
+### Downcasting
+>Il **downcasting** effettua un casting tra la reference (del tipo di una superclasse) e l'oggetto referenziato (della classe d'origine)
+
+Nel caso dell'oggetto sopra, se volessimo chiamare un metodo della classe d'origine dovremmo fare come sotto
+```java
+((Rettangolo o)).area();
+```
+
+
+**ATTENZIONE** 
+Scrivere 
+```java
+o.area();
+```
+genera un errore *a compile time*.
+
 
 #### Links
+[[La Classe Object]]
+[[Classi di origine e classi di appartenenza]]
