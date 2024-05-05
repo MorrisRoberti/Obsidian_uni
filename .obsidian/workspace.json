@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/Java/La Classe Object.md",
+                "file": "Programmazione B/Java/Eccezioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/Java/La Classe Object.md",
+                "file": "Programmazione B/Java/Eccezioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/Java/La Classe Object.md",
+                "file": "Programmazione B/Java/Eccezioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/Java/La Classe Object.md"
+                "file": "Programmazione B/Java/Eccezioni.md"
               }
             }
           }
@@ -150,13 +151,15 @@
   },
   "active": "34a23eabddac1393",
   "lastOpenFiles": [
+    "Pasted image 20240505220726.png",
+    "Programmazione B/Java/La Classe Object.md",
+    "Programmazione B/Java/Eccezioni.md",
     "Programmazione B/C_plus_plus/IMGs/Drawing 2024-04-26 13.20.38.excalidraw.md",
     "Programmazione B/C_plus_plus/IMGs/Pasted image 20240409220030.png",
     "Programmazione B/C_plus_plus/IMGs/Pasted image 20240227192213.png",
     "Programmazione B/C_plus_plus/IMGs/Pasted image 20240227190144.png",
     "Programmazione B/C_plus_plus/IMGs/Pasted image 20240227185842.png",
     "Programmazione B/Java/IMGs/Pasted image 20240505210840.png",
-    "Programmazione B/Java/La Classe Object.md",
     "Programmazione B/Java/Ereditarieta'.md",
     "Programmazione B/Java/Classi di origine e classi di appartenenza.md",
     "Programmazione B/Java/IMGs/Pasted image 20240505210905.png",
@@ -191,7 +194,6 @@
     "Programmazione B/Java/Garbage Collector.md",
     "2024-04-08 Programmazione JAVA.md",
     "2024-03-26 Programmazione Java.md",
-    "Programmazione B/Java/Tipi primitivi.md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
