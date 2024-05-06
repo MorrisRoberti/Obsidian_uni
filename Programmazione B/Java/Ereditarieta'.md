@@ -7,6 +7,8 @@ public class C extends B {
 ```
 La classe `C` eredita da `B`
 
+**ATTENZIONE**
+>In java c'e' la **single inheritance**, cioe' una classe puo' ereditare solo da una classe, non da piu' di una.
 ### Upcasting
 >L'**upcasting** non e' altro che un casting implicito da una sottoclasse ad una superclasse
 
@@ -41,6 +43,9 @@ o.area();
 ```
 genera un errore *a compile time*.
 
+
+## Override
+>Se vogliamo sovrascrivere il comportamento di un metodo di una superclasse in una sottoclasse possiamo usare il cosidetto **override**, tramite il relativo decorator @Override
 
 #### Links
 [[La Classe Object]]
