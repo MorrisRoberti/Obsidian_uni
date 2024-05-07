@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2024-05-07 Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eefd230e88e8bd93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Programmazione B/JAVA/Le Interfacce.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -149,8 +161,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a106fb09aa89db4",
+  "active": "eefd230e88e8bd93",
   "lastOpenFiles": [
+    "2024-05-07 Java.md",
     "2024-05-06 Java.md",
     "Programmazione B/JAVA/Le Interfacce.md",
     "Programmazione B/JAVA/Ereditarieta'.md",
@@ -190,7 +203,6 @@
     "2024-04-11 Programmazione.md",
     "Backlog.md",
     "Programmazione B/Java/Funzioni.md",
-    "Programmazione B/Java/Garbage Collector.md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
