@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-06 Java.md",
+                "file": "Programmazione B/JAVA/Le Interfacce.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-06 Java.md",
+                "file": "Programmazione B/JAVA/Le Interfacce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-06 Java.md",
+                "file": "Programmazione B/JAVA/Le Interfacce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-06 Java.md"
+                "file": "Programmazione B/JAVA/Le Interfacce.md"
               }
             }
           }
@@ -150,8 +151,9 @@
   },
   "active": "8a106fb09aa89db4",
   "lastOpenFiles": [
-    "Programmazione B/JAVA/Ereditarieta'.md",
     "2024-05-06 Java.md",
+    "Programmazione B/JAVA/Le Interfacce.md",
+    "Programmazione B/JAVA/Ereditarieta'.md",
     "Programmazione B/JAVA/Elementi di istanza e di classe.md",
     "Programmazione B/JAVA/IMGs/Pasted image 20240505220726.png",
     "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
