@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-07 Java.md",
+                "file": "Programmazione B/JAVA/Generics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eefd230e88e8bd93",
+            "id": "fc7c61896f29acd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione B/JAVA/Le Interfacce.md",
+                "file": "Programmazione B/JAVA/Iterator Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione B/JAVA/Le Interfacce.md",
+                "file": "Programmazione B/JAVA/Iterator Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione B/JAVA/Le Interfacce.md",
+                "file": "Programmazione B/JAVA/Iterator Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione B/JAVA/Le Interfacce.md"
+                "file": "Programmazione B/JAVA/Iterator Pattern.md"
               }
             }
           }
@@ -161,10 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eefd230e88e8bd93",
+  "active": "fc7c61896f29acd8",
   "lastOpenFiles": [
     "2024-05-07 Java.md",
+    "Programmazione B/JAVA/Iterator Pattern.md",
+    "Programmazione B/JAVA/Generics.md",
     "2024-05-06 Java.md",
+    "Programmazione B/JAVA/Le Classi Wrapper.md",
     "Programmazione B/JAVA/Le Interfacce.md",
     "Programmazione B/JAVA/Ereditarieta'.md",
     "Programmazione B/JAVA/Elementi di istanza e di classe.md",
@@ -198,11 +201,8 @@
     "Programmazione B/JAVA/Esercizi/Maiuscola.java",
     "Programmazione B/JAVA/Tipi reference - Array.md",
     "Programmazione B/JAVA/Stringhe.md",
-    "Programmazione B/JAVA/Le Classi Wrapper.md",
     "2024-04-09 Programmazione JAVA.md",
     "2024-04-11 Programmazione.md",
-    "Backlog.md",
-    "Programmazione B/Java/Funzioni.md",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",
     "Programmazione B/C++/IMGs/Pasted image 20240409220030.png",
