@@ -64,6 +64,7 @@ build_max_heap(A) {
 ```
 - 2 -> prende la lunghezza dell'array e la assegna alla proprieta' di size dell'heap
 - 3-4 -> per ogni sottoalbero lancia *max_heapify* in modo da mantenere la proprieta' di max heap su tutto l'albero
+**Complessita'**: $O\left(n\right)$
 
 
 >Il fatto che da *1* a *A.length/2* siano tutti nodi interni ci viene assicurato dal fatto che gli alberi binari vengono visti come array con una struttura di **pre-order**, la seguente immagine dovrebbe chiarire il concetto.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Heapsort.md",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Heapsort.md",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Heapsort.md",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Heapsort.md"
+                "file": "Algoritmi e strutture dati/trees/Heap.md"
               }
             }
           }
@@ -151,11 +151,11 @@
   "active": "dfcef4bdd4a431e1",
   "lastOpenFiles": [
     "Algoritmi e strutture dati/Priority Queue.md",
+    "Algoritmi e strutture dati/sorting/Heapsort.md",
     "Algoritmi e strutture dati/trees/Heap.md",
     "Algoritmi e strutture dati/IMGs/photo_2024-06-24_15-36-58.jpg",
     "Algoritmi e strutture dati/trees/Binary Trees.md",
     "Algoritmi e strutture dati/trees/Trees.md",
-    "Algoritmi e strutture dati/sorting/Heapsort.md",
     "Algoritmi e strutture dati/sorting/Quicksort.md",
     "Algoritmi e strutture dati/sorting/Insertion Sort.md",
     "Algoritmi e strutture dati/sorting/Merge Sort.md",
