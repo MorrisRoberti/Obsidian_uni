@@ -26,7 +26,7 @@ Float z = 2.3;
 // oppure
 
 Integer x = new Integer(3);
-Float z = new Flota(2.3);
+Float z = new Float(2.3);
 ```
 Il compilatore traduce la prima versione nella seconda.
 

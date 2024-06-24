@@ -16,8 +16,8 @@ La classe `C` eredita da `B`
 Object o = new Rettangolo(2, 3);
 ```
 **IMPORTANTE**
-- L'identificatore `o` rappresenta la reference ed e' di tipo `Object`
-- L'oggetto referenziato, tuttavia e' di tipo `Rettangolo` che e' la classe d'origine
+- L'identificatore `o` rappresenta la reference ed e' di tipo `Object` (**tipo statico**)
+- L'oggetto referenziato, tuttavia e' di tipo `Rettangolo` che e' la classe d'origine (**tipo dinamico**)
 
 Il tipo della reference stabilisce i metodi che possono essere applicati ad un certo oggetto.
 Nel nostro caso significa che possiamo applicare solo metodi della classe `Object`:

@@ -12,3 +12,5 @@ Questo significa che effettivamente **r NON E' L'OGGETTO** ma il **puntatore all
 Quindi un'operazione del tipo ``r.n = 1;`` e' errata.
 Il modo giusto per accedere all'oggetto puntato da r e' **dereferenziare il puntatore**, cioe' 
 ``r->n = 1;`` oppure ``(*r).n = 1``.
+
+#### Links

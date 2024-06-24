@@ -1,4 +1,4 @@
-Quando vogliamo copiare un oggetto in un oggetto della stessa classe utilizziamo come al solito l'operatore di assegnamento **=**.
+>Quando vogliamo copiare un oggetto in un oggetto della stessa classe utilizziamo come al solito l'operatore di assegnamento **=**.
 
 ### Come si comporta
 Nel caso di oggetti della stessa classe, l'operatore = esegue l'assegnamento *field-wise*, cioe' copia il valore dei campi dell'oggetto b nei campi equivalenti dell'oggetto a.
@@ -30,3 +30,5 @@ r1->stampa(); // 5, 6
 ```
 Si vede chiaramente nel disegno
 ![[Pasted image 20240227192213.png]]
+
+#### Links

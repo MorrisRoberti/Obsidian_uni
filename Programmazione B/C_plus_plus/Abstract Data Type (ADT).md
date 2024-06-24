@@ -25,4 +25,6 @@ Come si vede, possiamo accedere alla proprieta' *month* e modificarne il valore,
 
 Si ha necessita' di questi perche' ci consentono di rendere il codice meno soggetto ad errori del tipo:
 - Se nell'esempio sopra modificassi *day* in *d* , il codice andrebbe cambiato in ogni punto nel quale si fa accesso al campo day
-- Ad esempio 40 non e' un valore corretto per il campo day, ma nell'esempio io non ho modo di controllare se il valore inserito dall'utente e' valido o men
+- Ad esempio 40 non e' un valore corretto per il campo day, ma nell'esempio io non ho modo di controllare se il valore inserito dall'utente e' valido o meno
+
+#### Links

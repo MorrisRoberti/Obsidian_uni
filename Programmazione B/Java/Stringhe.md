@@ -6,7 +6,7 @@
 String e = "hello";
 ```
 sono **oggetti** della classe *String*.
-- 
+
 ### Costruttori della classe String
 La classe *String* offre due costruttori:
 - Senza parametri

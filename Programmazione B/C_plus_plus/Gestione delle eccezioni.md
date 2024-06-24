@@ -61,3 +61,5 @@ puo' essere utilizzata la classe base ``exception`` per creare nuove eccezioni (
 Esempi di eccezioni standard:
 - ``out_of_range``
 - ``invalid_argument``
+
+#### Links

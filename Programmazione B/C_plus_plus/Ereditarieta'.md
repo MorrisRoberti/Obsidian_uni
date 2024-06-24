@@ -53,3 +53,5 @@ La classe `DataConOrario` *non eredita* `Data` ma la **contiene**.
 
 ### Ereditarieta' multipla
 >E' possiblie fare in modo che una classe erediti da piu' superclassi, questo principio si chiama **ereditarieta' multipla**.
+
+#### Links

@@ -41,3 +41,4 @@ Il flusso e' simile al seguente:
 **Da questo meccanismo dipende il fatto che il parametro formale nella signature del copy constructor sia passato per constant reference invece che per valore. Se fosse passato per valore C++ cercherebbe di richiamare "all'infinito" il copy constructor su se stesso** 
 
 #### Links
+[[Copia di oggetti]]
