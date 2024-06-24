@@ -39,3 +39,4 @@ void heap_sort(A) {
 - 2 -> costruisce l'heap con l'array passato in input
 - 3-5 -> itera sull'array al contrario e di volta in volta scambia l'ultimo elemento e il primo e diminuisce la dimensione dell'heap
 - 6 -> lancia *max_heapify* su ogni elemento per mantenere ordinati i sottoalberi
+#### Links

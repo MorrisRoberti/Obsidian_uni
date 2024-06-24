@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Radix Sort.md",
-                "mode": "preview",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Radix Sort.md",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Radix Sort.md",
+                "file": "Algoritmi e strutture dati/trees/Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/sorting/Radix Sort.md"
+                "file": "Algoritmi e strutture dati/trees/Heap.md"
               }
             }
           }
@@ -149,21 +148,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dfcef4bdd4a431e1",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/sorting/Quick Sort.md",
-    "Algoritmi e strutture dati/sorting/Counting Sort.md",
-    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
+    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_15-36-58.jpg",
+    "Algoritmi e strutture dati/trees/Binary Trees.md",
+    "Algoritmi e strutture dati/trees/Heap.md",
+    "Algoritmi e strutture dati/trees/Trees.md",
     "Algoritmi e strutture dati/sorting/Heap Sort.md",
-    "Algoritmi e strutture dati/sorting",
-    "Algoritmi e strutture dati/sorting/Radix Sort.md",
+    "Algoritmi e strutture dati/sorting/Quicksort.md",
+    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
     "Algoritmi e strutture dati/sorting/Merge Sort.md",
+    "Algoritmi e strutture dati/Priority Queue.md",
+    "Algoritmi e strutture dati/graphs",
+    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
+    "Algoritmi e strutture dati/trees",
+    "Algoritmi e strutture dati/sorting/Radix Sort.md",
+    "Algoritmi e strutture dati/sorting/Counting Sort.md",
+    "Algoritmi e strutture dati/sorting",
     "Roadmap.md",
     "2024-05-06 Java.md",
-    "Algoritmi e strutture dati/Binary Trees.md",
-    "Algoritmi e strutture dati/Binary Search Trees.md",
-    "Algoritmi e strutture dati/Priority Queue.md",
-    "Algoritmi e strutture dati/Heap.md",
     "Programmazione B/JAVA/Eccezioni.md",
     "Programmazione B/JAVA/Esercizi/Maiuscola.java",
     "Programmazione B/JAVA/Esercizi/Media.java",
@@ -179,8 +182,6 @@
     "Programmazione B/JAVA/Elementi di istanza e di classe.md",
     "Programmazione B/JAVA/Conversioni di tipo (casting).md",
     "Programmazione B/JAVA/Tipi reference - Array.md",
-    "Programmazione B/JAVA/Tipi primitivi.md",
-    "Programmazione B/JAVA/Stringhe.md",
     "Programmazione B/JAVA/IMGs/Pasted image 20240505220726.png",
     "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
     "Programmazione B/JAVA/IMGs/Pasted image 20240505210905.png",
@@ -188,8 +189,6 @@
     "Programmazione B/JAVA/Esercizi/tvserie/Serial.java",
     "Programmazione B/JAVA/Esercizi/list/Node.java",
     "Programmazione B/JAVA/Esercizi/list/IntList.java",
-    "Programmazione B/JAVA/Esercizi/list",
-    "Programmazione B/JAVA/Esercizi/tvserie",
     "Programmazione B/JAVA/IMGs/Pasted image 20240426132559.png",
     "Programmazione B/Java/IMGs/Pasted image 20240410193958.png",
     "Programmazione B/Java/IMGs/Pasted image 20240410194826.png",

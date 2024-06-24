@@ -20,9 +20,10 @@ Gli elementi vengono inseriti nell'array rappresentante l'albero in modo contigu
 
 ### Operazioni
 #### Max_heapify
->L'operazione di **max heapify** consiste nel sistemare i valori nell'albero per fare in modo che la proprieta' di *max heap* sia rispettata.
+>L'operazione di **max heapify** consiste nel sistemare i valori nell'albero per fare in modo che la proprieta' di *max heap* sia rispettata. Prende un albero e *la radice di un sottoalbero*.
 
 Idealmente -> confronta i valori con i loro figli *left* e *right* e se trova che sia minore di uno di questi lo scambia; fa questo ricorsivamente fino ad avere un heap che rispetti la proprieta' desiderata.
+In linea di massima mette come padre del sottoalbero il nodo con il valore maggiore e mette come figli gli altri.
 ```
 void max_heapify(A, i) {
 	l = left[i]
@@ -51,5 +52,24 @@ void max_heapify(A, i) {
 *Ricorrenza*: $T\left(n\right)=T\left(\frac23n\right)+\Theta\left(1\right)$
 **Complessita'**: $O\left(\log n\right)$
 
+#### Build_max_heap
+>**build_max_heap** e' una funzione che prende un array di elementi e applica **max_heapify** su tutti **I NODI NON FOGLIA** , in modo da generare un *max_heap*
+
+```
+build_max_heap(A) {
+	A.heap_size = A.length
+	for i = A.length /2 to 1
+		max_heapify(A, i)
+}
+```
+- 2 -> prende la lunghezza dell'array e la assegna alla proprieta' di size dell'heap
+- 3-4 -> per ogni sottoalbero lancia *max_heapify* in modo da mantenere la proprieta' di max heap su tutto l'albero
+
+
+>Il fatto che da *1* a *A.length/2* siano tutti nodi interni ci viene assicurato dal fatto che gli alberi binari vengono visti come array con una struttura di **pre-order**, la seguente immagine dovrebbe chiarire il concetto.
+
+![[photo_2024-06-24_15-36-58.jpg]]
 
 #### Links
+[[Binary Trees]]
+[[Trees]]

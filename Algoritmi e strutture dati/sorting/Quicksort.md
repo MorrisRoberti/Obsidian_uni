@@ -5,7 +5,7 @@ $\Omega\left(n\log n\right)$
 
 --- 
 ### Algoritmo
-Il **Quick Sort** e' implementato tramite il **Divide et impera** ed e' basato **su confronti**.
+Il **Quicksort** e' implementato tramite il **Divide et impera** ed e' basato **su confronti**.
 Essendo un algoritmo che opera **in place** e' ideale per quando si lavora su sistemi con poca memoria.
 E' una ricorrenza del tipo $$T\left(n\right)=2T\left(\frac{n}{2}\right)+O\left(n\right)$$**Attenzione:**
 >Nell'analisi della complessita' si tralascia il fatto che gli array potrebbero avere un numero di elementi diversi. In generale qualsiasi ripartizione con proporzionalita' *costante* produce un albero di ricorsione di profondita' $\Theta\left(\log n\right)$ dove il costo di ogni livello e' $O\left(n\right)$. **Il tempo di esecuzione sara' quindi $O\left(n\log n\right)$ quando la ripartizione ha proporzionalita' costante**
@@ -39,13 +39,13 @@ return i + 1
 
 >Nei passi 4-7 viene popolato l'array di sinistra e, automaticamente viene definito anche quello di destra
 
-Funzione Quick Sort vera e propria
+Funzione Quicksort vera e propria
 ```
-Quick_sort(A, p, r) {
+Quicksort(A, p, r) {
 if p < r
 	q = Partition(A, p, r)
-	Quick_sort(A, p, r - q + 1)
-	Quick_sort(A, q + 1, r)
+	Quicksort(A, p, r - q + 1)
+	Quicksort(A, q + 1, r)
 }
 ```
 - 2 -> definisce il caso base, *q >= r* significa che l'array e' ordinato
