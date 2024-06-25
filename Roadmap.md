@@ -6,6 +6,9 @@ kanban-plugin: basic
 
 ## To Do
 
+- [ ] Rimuovere le foto illustrative e sostituirle con disegni di excalidraw
+- [ ] Inserire Syllabus anche in Programmazione e Algoritmi
+- [ ] Inserire disegni di excalidraw per spiegare come funzionano le varie routine, es. insert bst etc.
 
 
 ## In Progress
