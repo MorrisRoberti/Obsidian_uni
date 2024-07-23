@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "02e77979fc10e677",
+        "id": "e22392b11c196e04",
         "type": "tabs",
         "children": [
           {
-            "id": "6f7cbb7999cb1ff5",
+            "id": "ffd916e3dcae1fa9",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Roadmap.md"
+                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap.md"
+                "file": "Algoritmi e strutture dati/trees/RB Trees.md"
               }
             }
           }
@@ -146,53 +148,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6f7cbb7999cb1ff5",
+  "active": "ffd916e3dcae1fa9",
   "lastOpenFiles": [
+    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
+    "Algoritmi e strutture dati/trees/RB Trees.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
+    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
+    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.md",
+    "Algoritmi e strutture dati/trees/Heap.md",
+    "Excalidraw",
+    "Algoritmi e strutture dati/Linked List.md",
+    "Algoritmi e strutture dati/sorting/Heapsort.md",
+    "Algoritmi e strutture dati/trees/Binary Trees.md",
+    "Algoritmi e strutture dati/trees/Trees.md",
+    "Algoritmi e strutture dati/sorting/Radix Sort.md",
+    "Algoritmi e strutture dati/sorting/Counting Sort.md",
+    "Algoritmi e strutture dati/sorting/Quicksort.md",
+    "Algoritmi e strutture dati/sorting/Merge Sort.md",
+    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
+    "Algoritmi e strutture dati/graphs/Directed graphs.md",
+    "Roadmap.md",
+    "Algoritmi e strutture dati/Queue.md",
+    "Excalidraw/Drawing 2024-06-28 13.18.28.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-28 11.59.35.excalidraw.md",
+    "Algoritmi e strutture dati/graphs/Graph implementation.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
+    "Algoritmi e strutture dati/graphs/Undirected graphs.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130441.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628124113.png",
+    "Algoritmi e strutture dati/graphs/Graphs.md",
+    "Programmazione B/JAVA/Le Interfacce.md",
+    "2024-05-06 Java.md",
+    "2024-05-09 Java.md",
+    "2024-05-13 Java.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628123234.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628122755.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628120400.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
-    "Algoritmi e strutture dati/trees/Heap.md",
-    "Algoritmi e strutture dati/trees/Binary Trees.md",
-    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
-    "Excalidraw/Drawing 2024-06-25 11.20.34.excalidraw.md",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240625112718.png",
-    "Excalidraw/Drawing 2024-06-25 11.20.13.excalidraw.md",
-    "Excalidraw",
-    "Algoritmi e strutture dati/sorting/Heapsort.md",
-    "Algoritmi e strutture dati/trees/Trees.md",
-    "Algoritmi e strutture dati/IMGs/bst-vs-not-bst-2006374884.png",
-    "Algoritmi e strutture dati/IMGs/Binary_search_tree.svg.png",
-    "Algoritmi e strutture dati/Linked List.md",
-    "Algoritmi e strutture dati/Queue.md",
-    "Algoritmi e strutture dati/sorting/Counting Sort.md",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-10-09.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-12-25.jpg",
-    "Algoritmi e strutture dati/Stack.md",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_16-53-05.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_16-52-29.jpg",
-    "Algoritmi e strutture dati/Priority Queue.md",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_15-36-58.jpg",
-    "Algoritmi e strutture dati/sorting/Quicksort.md",
-    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
-    "Algoritmi e strutture dati/sorting/Merge Sort.md",
     "Algoritmi e strutture dati/graphs",
     "Algoritmi e strutture dati/trees",
-    "Algoritmi e strutture dati/sorting/Radix Sort.md",
     "Algoritmi e strutture dati/sorting",
-    "Roadmap.md",
-    "2024-05-06 Java.md",
-    "Programmazione B/JAVA/Eccezioni.md",
     "Programmazione B/JAVA/Esercizi/Maiuscola.java",
     "Programmazione B/JAVA/Esercizi/Media.java",
     "Programmazione B/JAVA/Esercizi/StringSet.java",
-    "Programmazione B/JAVA/Generics.md",
-    "Programmazione B/JAVA/Iterator Pattern.md",
-    "Programmazione B/JAVA/La Classe Object.md",
-    "Programmazione B/JAVA/Le Interfacce.md",
-    "Programmazione B/JAVA/Le Classi Wrapper.md",
-    "Programmazione B/JAVA/Il linguaggio.md",
-    "Programmazione B/JAVA/IMGs/Pasted image 20240505220726.png",
     "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
-    "Programmazione B/JAVA/IMGs/Pasted image 20240505210905.png",
     "Programmazione B/JAVA/Esercizi/tvserie/Serial.java",
     "Programmazione B/JAVA/Esercizi/list/Node.java",
     "Untitled.canvas",

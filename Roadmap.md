@@ -9,6 +9,8 @@ kanban-plugin: basic
 - [ ] Rimuovere le foto illustrative e sostituirle con disegni di excalidraw
 - [ ] Inserire Syllabus anche in Programmazione e Algoritmi
 - [ ] Inserire disegni di excalidraw per spiegare come funzionano le varie routine, es. insert bst etc.
+- [ ] Grafi
+- [ ] B_Trees, RB_Trees, Interval_trees e avl trees
 
 
 ## In Progress

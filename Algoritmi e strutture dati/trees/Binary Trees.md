@@ -11,7 +11,7 @@ Per visitare gli alberi binari in profondita' ci sono 3 modi:
 - *post-order* -> *left[x]* | *right[x]* | *x*
 
 
- *in-order*
+*in-order*
 ```
 void in_order(x) {
 	if (x != NIL) {

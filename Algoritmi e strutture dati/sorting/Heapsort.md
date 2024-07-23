@@ -1,4 +1,4 @@
-$\Theta\left(n\right)$
+$\Theta\left(n\log n\right)$
 $O\left(n\log n\right)$
 $\Omega\left(n\log n\right)$ 
 ---
@@ -27,7 +27,7 @@ void heap_sort(A) {
 		max_heapify(A, 1)
 }
 ```
-- 2 -> costruisce l'heap con l'array passato in input
+- 2 -> costruisce l'heap con l'array passato in input (*complessita'* $O\left(n\right)$)
 - 3-5 -> itera sull'array al contrario e di volta in volta scambia l'ultimo elemento e il primo (poiche' sappiamo che per come abbiamo definito il max heap il primo elemento e' sempre quello piu' grande) e diminuisce la dimensione dell'heap
 - 6 -> lancia *max_heapify* su ogni elemento per mantenere ordinati i sottoalberi
 #### Links
