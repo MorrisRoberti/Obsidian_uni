@@ -101,3 +101,54 @@ while z.p.color == RED
 T.root.color = BLACK	
 }
 ```
+
+
+### Eliminazione
+>Per l'eliminazione, sfruttiamo il ragionamento analogo a quella dei BST quindi ci serviamo di una subroutine **rb_transplant** e di una subroutine per ricolorare l'albero, **rb_delete_fixup**
+
+#### rb_delete
+```
+rb_delete(T, z) {
+y = z
+y-original-color = y.color
+if z.left == T.nil
+	x = z.right
+	rb_transplant(T, z, z.right)
+else if z.right == T.nil
+	x = z.left
+	rb_transplant(T, z, z.left)
+else 
+	y = tree_miniumum(z.right)
+	y-original-color = y.color
+	x = y.right
+	
+	if y.p == z
+		x.p = y
+	else rb_transplant(T, y, y.right)
+		y.right = z.right
+		y.right.p = y
+	rb_transplant(T, z, y)
+	y.left = z.left
+	y.left.p = y
+	y.color = z.color
+if y-original-color == BLACK
+	rb_delete_fixup(T, x)
+}
+```
+
+#### rb_transplant
+```
+rb_transplant(T, u, v) {
+if u.p == T.nil
+	T.root = v
+else if u == u.p.left
+	u.p.left = v
+else u.p.right = v
+v.p = u.p
+}
+```
+
+>Il codice della subroutine **rb_delete** non lo riportero' qui ne lo spieghero' in quanto lungo e complesso, si sappia soltanto che serve a ricolorare l'albero una volta eliminato l'elemento
+
+
+#### Links
