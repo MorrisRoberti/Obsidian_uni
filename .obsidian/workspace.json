@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
+                "file": "Algoritmi e strutture dati/trees/B Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
+                "file": "Algoritmi e strutture dati/trees/B Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/RB Trees.md",
+                "file": "Algoritmi e strutture dati/trees/B Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/RB Trees.md"
+                "file": "Algoritmi e strutture dati/trees/B Trees.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "ffd916e3dcae1fa9",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/trees/Binary Trees.md",
     "Algoritmi e strutture dati/trees/RB Trees.md",
+    "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/trees/Binary Trees.md",
     "Algoritmi e strutture dati/trees/Heap.md",
     "Algoritmi e strutture dati/trees/Binary Search Trees.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
