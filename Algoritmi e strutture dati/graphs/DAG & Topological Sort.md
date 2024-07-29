@@ -8,6 +8,8 @@ Il Topological Sort si utilizza in ambiti quali:
 - **Dependency resolution** 
 - **Data Processing**
 
+>Un grafo orientato e' aciclico solo se una visita in profondita' non genera archi all'indietro
+
 ### Come funziona?
 Utilizza [[DFS]] per ricavare i tempi di scoperta dei vari vertici e poi sfrutta una lista concatenata per ordinarli
 
@@ -18,7 +20,6 @@ dfs(G)
 // when the inspection of a vertex is complete it inserts it at the beginning of the list
 }
 ```
-
-
+*Complessita'*: $\Theta \left( V + E \right)$ 
 #### Links
 [[DFS]]
