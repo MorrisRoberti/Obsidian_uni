@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/B Trees.md",
+                "file": "Algoritmi e strutture dati/graphs/BFS.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "f6e069e20d4ab626",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/B Trees.md",
+                "file": "Algoritmi e strutture dati/graphs/BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/B Trees.md",
+                "file": "Algoritmi e strutture dati/graphs/BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/trees/B Trees.md"
+                "file": "Algoritmi e strutture dati/graphs/BFS.md"
               }
             }
           }
@@ -150,15 +160,18 @@
   },
   "active": "ffd916e3dcae1fa9",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/trees/RB Trees.md",
     "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/graphs/BFS.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
+    "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md",
+    "Excalidraw",
+    "Algoritmi e strutture dati/trees/RB Trees.md",
     "Algoritmi e strutture dati/trees/Binary Trees.md",
     "Algoritmi e strutture dati/trees/Heap.md",
     "Algoritmi e strutture dati/trees/Binary Search Trees.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
     "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
     "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.md",
-    "Excalidraw",
     "Algoritmi e strutture dati/Linked List.md",
     "Algoritmi e strutture dati/sorting/Heapsort.md",
     "Algoritmi e strutture dati/trees/Trees.md",
@@ -182,11 +195,8 @@
     "Algoritmi e strutture dati/graphs/Graphs.md",
     "Programmazione B/JAVA/Le Interfacce.md",
     "2024-05-06 Java.md",
-    "2024-05-09 Java.md",
-    "2024-05-13 Java.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628123234.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628122755.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628120400.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Algoritmi e strutture dati/graphs",
