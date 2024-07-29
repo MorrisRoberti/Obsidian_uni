@@ -1,4 +1,4 @@
->L'algoritmo di **Kruskal** e' un algoritmo **goloso** per la generazione di [[MST]], tramite la ricerca di un **arco sicuro** da aggiungere alla foresta in costruzione, facendo si che l'arco scelto sia **di peso minimo**. 
+>L'algoritmo di **Kruskal** e' un algoritmo **goloso** per la generazione di [[Minimum Spanning Tree]], tramite la ricerca di un **arco sicuro** da aggiungere alla foresta in costruzione, facendo si che l'arco scelto sia **di peso minimo**. 
 
 Essendo un **algoritmo goloso**, per ogni passo viene effettuata la scelta che e' localmente migliore.
 Infatti l'algoritmo di Kruskal **aggiunge, ad ogni iterazione l'arco sicuro di peso minimo**.
