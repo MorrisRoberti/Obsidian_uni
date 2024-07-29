@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Graph implementation.md",
+                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Graph implementation.md",
+                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Graph implementation.md",
+                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Graph implementation.md"
+                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md"
               }
             }
           }
@@ -161,37 +161,37 @@
   "active": "c12e6f7563db2e3d",
   "lastOpenFiles": [
     "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",
-    "Algoritmi e strutture dati/graphs/Prim.md",
-    "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
-    "Algoritmi e strutture dati/graphs/Kruskal.md",
-    "Algoritmi e strutture dati/graphs/DFS.md",
     "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+    "Algoritmi e strutture dati/graphs/DFS.md",
+    "Algoritmi e strutture dati/graphs/Directed graphs.md",
     "Algoritmi e strutture dati/graphs/BFS.md",
+    "Algoritmi e strutture dati/sorting/Radix Sort.md",
+    "Algoritmi e strutture dati/sorting/Counting Sort.md",
+    "Algoritmi e strutture dati/sorting/Heapsort.md",
+    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
+    "Algoritmi e strutture dati/sorting/Merge Sort.md",
+    "Algoritmi e strutture dati/sorting/Quicksort.md",
+    "Algoritmi e strutture dati/Queue.md",
+    "Algoritmi e strutture dati/Priority Queue.md",
+    "Algoritmi e strutture dati/trees/Trees.md",
+    "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/trees/RB Trees.md",
+    "Algoritmi e strutture dati/graphs/Kruskal.md",
+    "Algoritmi e strutture dati/graphs/Graph implementation.md",
+    "Algoritmi e strutture dati/graphs/Graphs.md",
+    "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
+    "Algoritmi e strutture dati/graphs/Prim.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "Algoritmi e strutture dati/graphs/Undirected graphs.md",
-    "Algoritmi e strutture dati/graphs/Graphs.md",
     "Algoritmi e strutture dati/trees/Heap.md",
-    "Algoritmi e strutture dati/Priority Queue.md",
-    "Algoritmi e strutture dati/graphs/Directed graphs.md",
     "Programmazione B/C_plus_plus/Esercizi/Uguali e diversi.cpp",
-    "Algoritmi e strutture dati/trees/Trees.md",
-    "Algoritmi e strutture dati/trees/RB Trees.md",
     "Algoritmi e strutture dati/trees/Binary Trees.md",
     "Algoritmi e strutture dati/trees/Binary Search Trees.md",
-    "Algoritmi e strutture dati/trees/B Trees.md",
     "Algoritmi e strutture dati/trees",
-    "Algoritmi e strutture dati/sorting/Radix Sort.md",
-    "Algoritmi e strutture dati/sorting/Quicksort.md",
-    "Algoritmi e strutture dati/sorting/Merge Sort.md",
-    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
-    "Algoritmi e strutture dati/sorting/Heapsort.md",
-    "Algoritmi e strutture dati/sorting/Counting Sort.md",
     "Algoritmi e strutture dati/sorting",
-    "Algoritmi e strutture dati/graphs/Graph implementation.md",
     "Algoritmi e strutture dati/graphs",
     "Algoritmi e strutture dati/Stack.md",
-    "Algoritmi e strutture dati/Queue.md",
     "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-12-25.jpg",
     "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-10-09.jpg",
     "Algoritmi e strutture dati/IMGs/photo_2024-06-24_16-53-05.jpg",

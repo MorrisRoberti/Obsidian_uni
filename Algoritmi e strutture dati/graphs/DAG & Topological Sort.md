@@ -18,8 +18,11 @@ Utilizza [[DFS]] per ricavare i tempi di scoperta dei vari vertici e poi sfrutta
 topological_sort(G) {
 dfs(G)
 // when the inspection of a vertex is complete it inserts it at the beginning of the list
+returns the list
 }
 ```
+>In sostanza mettiamo i vertici in testa alla lista man mano che facciamo bactracking, quindi alla fine della chiamata ricorsiva.
+
 *Complessita'*: $\Theta \left( V + E \right)$ 
 #### Links
 [[DFS]]
