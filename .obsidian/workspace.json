@@ -23,11 +23,9 @@
             "id": "7959da2a57e47baf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/BFS.md",
-                "mode": "source",
-                "source": false
+                "file": "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/BFS.md",
+                "file": "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/BFS.md",
+                "file": "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/BFS.md"
+                "file": "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png"
               }
             }
           }
@@ -161,12 +159,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7959da2a57e47baf",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "Algoritmi e strutture dati/graphs/BFS.md",
     "Algoritmi e strutture dati/graphs/Graphs.md",
     "Algoritmi e strutture dati/graphs/DFS.md",
-    "Pasted image 20240729115900.png",
-    "Algoritmi e strutture dati/graphs/BFS.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md",
     "Algoritmi e strutture dati/trees/B Trees.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
