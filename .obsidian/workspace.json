@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
+                "file": "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
+                "file": "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
+                "file": "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Kruskal.md"
+                "file": "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "0e95d91ee7bdae4a",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/graphs/Prim.md",
     "Algoritmi e strutture dati/graphs/Kruskal.md",
+    "Algoritmi e strutture dati/graphs/Prim.md",
     "MST.md",
     "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
     "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",

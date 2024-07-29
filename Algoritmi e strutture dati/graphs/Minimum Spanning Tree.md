@@ -3,6 +3,12 @@
 >In questo caso vogliamo che la sommatoria di tutti i pesi $\omega$ degli archi sia minima.
 >La funzione $\omega$ definisce il peso
 
+#### Dove si usano?
+Gli alberi di connessione minimi hanno le seguenti applicazioni reali:
+- **Organizzazione delle strade** per trovare il modo migliore di costruire strade che colleghino efficientemente i vari posti
+- **Organizzazione della rete idrica** per far in modo di portare l'acqua nelle case tramite il percorso piu' breve ed efficiente
+- **Organizzazione della rete elettrica** per il risparmio di cavi
+
 ### Creare un MST
 Utilizziamo un algoritmo generico per determinare un *albero di connessione minimo*:
 Definiamo un'invariante di ciclo:
