@@ -20,16 +20,19 @@
             }
           },
           {
-            "id": "f6e069e20d4ab626",
+            "id": "7959da2a57e47baf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md"
+                "file": "Algoritmi e strutture dati/graphs/BFS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,12 +161,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ffd916e3dcae1fa9",
+  "active": "7959da2a57e47baf",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/graphs/Graphs.md",
+    "Algoritmi e strutture dati/graphs/DFS.md",
+    "Pasted image 20240729115900.png",
     "Algoritmi e strutture dati/graphs/BFS.md",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md",
+    "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "Excalidraw",
     "Algoritmi e strutture dati/trees/RB Trees.md",
     "Algoritmi e strutture dati/trees/Binary Trees.md",
@@ -192,11 +198,7 @@
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628130441.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628124113.png",
-    "Algoritmi e strutture dati/graphs/Graphs.md",
-    "Programmazione B/JAVA/Le Interfacce.md",
-    "2024-05-06 Java.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628123234.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628122755.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Algoritmi e strutture dati/graphs",
