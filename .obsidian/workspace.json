@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ffd916e3dcae1fa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0e95d91ee7bdae4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kruskal.md",
+                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prim.md",
+                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prim.md",
+                "file": "Algoritmi e strutture dati/graphs/Kruskal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prim.md"
+                "file": "Algoritmi e strutture dati/graphs/Kruskal.md"
               }
             }
           }
@@ -160,10 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ffd916e3dcae1fa9",
+  "active": "0e95d91ee7bdae4a",
   "lastOpenFiles": [
-    "Kruskal.md",
-    "Prim.md",
+    "Algoritmi e strutture dati/graphs/Prim.md",
+    "Algoritmi e strutture dati/graphs/Kruskal.md",
+    "MST.md",
     "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
     "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",
     "Algoritmi e strutture dati/graphs/DFS.md",
@@ -192,7 +181,6 @@
     "Algoritmi e strutture dati/sorting/Insertion Sort.md",
     "Algoritmi e strutture dati/graphs/Directed graphs.md",
     "Roadmap.md",
-    "Algoritmi e strutture dati/Queue.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",

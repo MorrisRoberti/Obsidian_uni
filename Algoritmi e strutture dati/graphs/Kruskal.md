@@ -25,4 +25,6 @@ return A
 
 #### Links
 [[Disjointed Sets]]
+[[Minimum Spanning Tree]]
+[[Prim]]
 

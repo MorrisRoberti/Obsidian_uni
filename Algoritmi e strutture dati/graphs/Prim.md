@@ -1,4 +1,4 @@
->L'algoritmo di **Prim** e' un algoritmo **goloso** per la generazione di [[MST]].
+>L'algoritmo di **Prim** e' un algoritmo **goloso** per la generazione di [[Minimum Spanning Tree]].
 
 Ha la proprieta' che gli archi nell'insieme $A$ formano sempre un albero singolo.
 
@@ -40,6 +40,6 @@ while Q is not empty
 - $O \left(E + V \log V \right)$ se utilizziamo un **heap di Fibonacci** per implementare la coda di min-priorita'
 
 #### Links
-[[MST]]
+[[Minimum Spanning Tree]]
 [[Kruskal]]
 [[Disjointed Sets]]

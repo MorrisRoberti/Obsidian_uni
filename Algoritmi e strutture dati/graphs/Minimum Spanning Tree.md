@@ -23,7 +23,8 @@ return A
 
 ### Trovare archi sicuri
 #### Tagli
->Un **taglio** $(S, V-S)$ di un grafo non orientato e' una partizione di $V$. Si dice che un arco **attraversa** il taglio se una delle sue estremita' si trova in $S$ e l'altra in $V-S$.
+>Un **taglio** $(S, V-S)$ di un grafo non orientato e' una partizione di $V$. 
+>Si dice che un arco **attraversa** il taglio se una delle sue estremita' si trova in $S$ e l'altra in $V-S$.
 >Si dice che un taglio **rispetta** un insieme $A$ se nessun arco di $A$ attraversa il taglio.
 
 #### Archi leggeri
