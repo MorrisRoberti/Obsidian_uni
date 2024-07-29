@@ -1,7 +1,7 @@
 >Ci sono due modi principali per rappresentare i grafi: **matrici di adiacenza** e **collezione di liste di adiacenza**
 
 ### Matrici di adiacenza
->Questo tipo di rappresentazione consiste in una matrice $A=\left(a_{ij}\right)$ di dimensioni $\left\vert V\right\vert x\left\vert V\right\vert$ tc.
+>Questo tipo di rappresentazione consiste in una matrice $A=\left(a_{ij}\right)$ di dimensioni $\left\vert V\right\vert$x$\left\vert V\right\vert$ tc.
 >						$a_{ij} = 1$ se $(i, j) \in E$ 
 >						$a_{ij} = 0$ negli altri casi
 ![[Pasted image 20240628143747.png]]
