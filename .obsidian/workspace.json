@@ -4,32 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f89e9f53e336b1a4",
+        "id": "e22392b11c196e04",
         "type": "tabs",
         "children": [
           {
-            "id": "c12e6f7563db2e3d",
+            "id": "0e95d91ee7bdae4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+                "file": "Algoritmi e strutture dati/graphs/Shortest path from single source.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4ec6d5326cdd0375",
+            "id": "ee86f186e486b612",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "Bellman-Ford.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+                "file": "Bellman-Ford.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+                "file": "Bellman-Ford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md"
+                "file": "Bellman-Ford.md"
               }
             }
           }
@@ -158,57 +161,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c12e6f7563db2e3d",
+  "active": "ee86f186e486b612",
   "lastOpenFiles": [
+    "Algoritmi e strutture dati/graphs/Shortest path from single source.md",
+    "Bellman-Ford.md",
     "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",
-    "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+    "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
     "Algoritmi e strutture dati/graphs/DFS.md",
-    "Algoritmi e strutture dati/graphs/Directed graphs.md",
+    "Algoritmi e strutture dati/graphs/Kruskal.md",
     "Algoritmi e strutture dati/graphs/BFS.md",
+    "Algoritmi e strutture dati/graphs/Prim.md",
+    "MST.md",
+    "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
+    "Algoritmi e strutture dati/graphs/Graphs.md",
+    "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md",
+    "Algoritmi e strutture dati/trees/B Trees.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
+    "Excalidraw",
+    "Algoritmi e strutture dati/trees/RB Trees.md",
+    "Algoritmi e strutture dati/trees/Binary Trees.md",
+    "Algoritmi e strutture dati/trees/Heap.md",
+    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
+    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
+    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.md",
+    "Algoritmi e strutture dati/Linked List.md",
+    "Algoritmi e strutture dati/sorting/Heapsort.md",
+    "Algoritmi e strutture dati/trees/Trees.md",
     "Algoritmi e strutture dati/sorting/Radix Sort.md",
     "Algoritmi e strutture dati/sorting/Counting Sort.md",
-    "Algoritmi e strutture dati/sorting/Heapsort.md",
-    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
-    "Algoritmi e strutture dati/sorting/Merge Sort.md",
     "Algoritmi e strutture dati/sorting/Quicksort.md",
-    "Algoritmi e strutture dati/Queue.md",
-    "Algoritmi e strutture dati/Priority Queue.md",
-    "Algoritmi e strutture dati/trees/Trees.md",
-    "Algoritmi e strutture dati/trees/B Trees.md",
-    "Algoritmi e strutture dati/trees/RB Trees.md",
-    "Algoritmi e strutture dati/graphs/Kruskal.md",
-    "Algoritmi e strutture dati/graphs/Graph implementation.md",
-    "Algoritmi e strutture dati/graphs/Graphs.md",
-    "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
-    "Algoritmi e strutture dati/graphs/Prim.md",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
-    "Algoritmi e strutture dati/graphs/Undirected graphs.md",
-    "Algoritmi e strutture dati/trees/Heap.md",
-    "Programmazione B/C_plus_plus/Esercizi/Uguali e diversi.cpp",
-    "Algoritmi e strutture dati/trees/Binary Trees.md",
-    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
+    "Algoritmi e strutture dati/sorting/Merge Sort.md",
+    "Algoritmi e strutture dati/sorting/Insertion Sort.md",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130441.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628124113.png",
+    "Algoritmi e strutture dati/IMGs/Pasted image 20240628123234.png",
+    "Architettura degli elaboratori/Study map.canvas",
+    "Architettura degli elaboratori/Syllabus.canvas",
+    "Algoritmi e strutture dati/graphs",
     "Algoritmi e strutture dati/trees",
     "Algoritmi e strutture dati/sorting",
-    "Algoritmi e strutture dati/graphs",
-    "Algoritmi e strutture dati/Stack.md",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-12-25.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_17-10-09.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_16-53-05.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_16-52-29.jpg",
-    "Algoritmi e strutture dati/IMGs/photo_2024-06-24_15-36-58.jpg",
-    "Algoritmi e strutture dati/IMGs/bst-vs-not-bst-2006374884.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
-    "Programmazione B/C_plus_plus/Esercizi/Televisore.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/StringSet.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/Data.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/Punto2D.cpp",
-    "Programmazione B/C_plus_plus/Esercizi/Vector.cpp",
+    "Programmazione B/JAVA/Esercizi/Maiuscola.java",
+    "Programmazione B/JAVA/Esercizi/Media.java",
+    "Programmazione B/JAVA/Esercizi/StringSet.java",
     "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
+    "Programmazione B/JAVA/Esercizi/tvserie/Serial.java",
+    "Programmazione B/JAVA/Esercizi/list/Node.java",
     "Untitled.canvas",
-    "Architettura degli elaboratori/Study map.canvas",
-    "Untitled 1.canvas",
-    "Architettura degli elaboratori/Syllabus.canvas"
+    "Untitled 1.canvas"
   ]
 }
