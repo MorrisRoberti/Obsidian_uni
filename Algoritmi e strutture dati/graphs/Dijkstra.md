@@ -20,8 +20,9 @@ while Q is not empty
 - 2-4 -> inizializza i pesi dei vertici, dichiara la lista di vertici e l'insieme che conterra' i vertici con peso minimo
 - 6-10 -> fintantoche' ci sono elementi nella coda estrare il primo e lo aggiunge all'insieme di vertici `S`, successivamente scorre la lista di adiacenza di tale vertice e rilassa tutti gli archi uscenti
 *Complessita'*: 
-- $O ((V + E )\log V)$ se implementiamo la coda con heap binario ([[Heap]])
-- $O (E + V\log V)$ se implementiamo la coda con heap di Fibonacci
+- $O (V^2)$ se utilizziamo un array -> *migliore per grafi densi*
+- $O (E\log V)$ se implementiamo la coda con heap binario ([[Heap]]) -> *migliore per grafi sparsi*
+- $O (E + V\log V)$ se implementiamo la coda con heap di Fibonacci -> *migliore nei casi generali*
 
 ##### Links 
 [[Shortest path from single source]]
