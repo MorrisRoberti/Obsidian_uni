@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e22392b11c196e04",
+        "id": "7baa2585a31bf483",
         "type": "tabs",
         "children": [
           {
-            "id": "0e95d91ee7bdae4a",
+            "id": "d4f2da6c7e322af5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Dijkstra.md",
+                "file": "2024-09-16 Sistemi Informativi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Dijkstra.md",
+                "file": "2024-09-16 Sistemi Informativi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Dijkstra.md",
+                "file": "2024-09-16 Sistemi Informativi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e strutture dati/graphs/Dijkstra.md"
+                "file": "2024-09-16 Sistemi Informativi.md"
               }
             }
           }
@@ -148,45 +148,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e95d91ee7bdae4a",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Algoritmi e strutture dati/graphs/Bellman-Ford.md",
+    "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
+    "2024-09-16 Sistemi Informativi.md",
+    "Excalidraw",
+    "Fisica 1/Forze di contatto.md",
+    "Fisica 1/Gravita' e peso.md",
+    "Excalidraw/Drawing 2024-09-11 14.27.18.excalidraw.md",
+    "2024-05-13 Java.md",
+    "2024-05-09 Java.md",
+    "Fisica 1/IMGs/Pasted image 20240911144636.png",
+    "Fisica 1/Seconda legge di Newton (accelerazione).md",
+    "Fisica 1/IMGs/Pasted image 20240911145535.png",
+    "Fisica 1/Terza legge di Newton (forze opposte).md",
+    "Fisica 1/Prima legge di Newton (principio di inerzia).md",
+    "Fisica 1/Moto rettilineo uniforme.md",
+    "Fisica 1/Le Forze.md",
+    "Fisica 1/IMGs",
+    "Fisica 1/IMGs/Pasted image 20240911143013.png",
+    "Algoritmi e strutture dati/graphs/Prim.md",
+    "Fisica 1",
     "Algoritmi e strutture dati/graphs/Dijkstra.md",
+    "Algoritmi e strutture dati/graphs/Bellman-Ford.md",
     "Algoritmi e strutture dati/graphs/DAG shortest path.md",
-    "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
     "Algoritmi e strutture dati/graphs/Shortest path from single source.md",
     "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",
     "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
-    "Algoritmi e strutture dati/graphs/DFS.md",
     "Algoritmi e strutture dati/graphs/Kruskal.md",
+    "Algoritmi e strutture dati/graphs/Directed graphs.md",
+    "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
+    "Algoritmi e strutture dati/graphs/DFS.md",
     "Algoritmi e strutture dati/graphs/BFS.md",
-    "Algoritmi e strutture dati/graphs/Prim.md",
     "MST.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "Algoritmi e strutture dati/graphs/Graphs.md",
-    "Excalidraw/Drawing 2024-07-26 14.44.50.excalidraw.md",
-    "Algoritmi e strutture dati/trees/B Trees.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
-    "Excalidraw",
-    "Algoritmi e strutture dati/trees/RB Trees.md",
-    "Algoritmi e strutture dati/trees/Binary Trees.md",
-    "Algoritmi e strutture dati/trees/Heap.md",
-    "Algoritmi e strutture dati/trees/Binary Search Trees.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
     "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
-    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.md",
-    "Algoritmi e strutture dati/Linked List.md",
-    "Algoritmi e strutture dati/sorting/Heapsort.md",
-    "Algoritmi e strutture dati/trees/Trees.md",
-    "Algoritmi e strutture dati/sorting/Radix Sort.md",
-    "Algoritmi e strutture dati/sorting/Counting Sort.md",
-    "Algoritmi e strutture dati/sorting/Quicksort.md",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
     "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130441.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628124113.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628123234.png",
     "Architettura degli elaboratori/Study map.canvas",
     "Architettura degli elaboratori/Syllabus.canvas",
     "Algoritmi e strutture dati/graphs",
@@ -196,8 +198,6 @@
     "Programmazione B/JAVA/Esercizi/Media.java",
     "Programmazione B/JAVA/Esercizi/StringSet.java",
     "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
-    "Programmazione B/JAVA/Esercizi/tvserie/Serial.java",
-    "Programmazione B/JAVA/Esercizi/list/Node.java",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
