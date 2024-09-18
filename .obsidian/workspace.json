@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4f2da6c7e322af5",
+            "id": "3efabb3eaa31c045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-16 Sistemi Informativi.md",
+                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-16 Sistemi Informativi.md",
+                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-16 Sistemi Informativi.md",
+                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-16 Sistemi Informativi.md"
+                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md"
               }
             }
           }
@@ -148,56 +148,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "3efabb3eaa31c045",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
+    "secondo_anno/Metodologie di programmazione/La funzione main.md",
+    "2024-09-18 Metodologie di programmazione.md",
+    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
+    "secondo_anno/Basi di dati/Database & DBMS.md",
+    "2024-09-18 Basi di dati.md",
+    "secondo_anno/Basi di dati/Dati e informazioni.md",
+    "secondo_anno/Basi di dati/Transazioni.md",
     "2024-09-16 Sistemi Informativi.md",
+    "secondo_anno/Basi di dati",
+    "secondo_anno/Sistemi informativi",
+    "secondo_anno/Metodologie di programmazione",
+    "secondo_anno",
+    "primo_anno",
+    "primo_anno/Programmazione B/C_plus_plus/Copia di oggetti.md",
+    "primo_anno/Logica/logica.pdf",
+    "Excalidraw/Drawing 2024-09-17 15.53.21.excalidraw.md",
+    "2024-09-17 Sistemi informativi.md",
     "Excalidraw",
-    "Fisica 1/Forze di contatto.md",
-    "Fisica 1/Gravita' e peso.md",
+    "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
+    "primo_anno/Fisica 1/Forze di contatto.md",
+    "primo_anno/Fisica 1/Gravita' e peso.md",
     "Excalidraw/Drawing 2024-09-11 14.27.18.excalidraw.md",
     "2024-05-13 Java.md",
     "2024-05-09 Java.md",
-    "Fisica 1/IMGs/Pasted image 20240911144636.png",
-    "Fisica 1/Seconda legge di Newton (accelerazione).md",
-    "Fisica 1/IMGs/Pasted image 20240911145535.png",
-    "Fisica 1/Terza legge di Newton (forze opposte).md",
-    "Fisica 1/Prima legge di Newton (principio di inerzia).md",
-    "Fisica 1/Moto rettilineo uniforme.md",
-    "Fisica 1/Le Forze.md",
-    "Fisica 1/IMGs",
-    "Fisica 1/IMGs/Pasted image 20240911143013.png",
-    "Algoritmi e strutture dati/graphs/Prim.md",
-    "Fisica 1",
-    "Algoritmi e strutture dati/graphs/Dijkstra.md",
-    "Algoritmi e strutture dati/graphs/Bellman-Ford.md",
-    "Algoritmi e strutture dati/graphs/DAG shortest path.md",
-    "Algoritmi e strutture dati/graphs/Shortest path from single source.md",
-    "Algoritmi e strutture dati/graphs/Strongly Connected Components.md",
-    "Algoritmi e strutture dati/graphs/Minimum Spanning Tree.md",
-    "Algoritmi e strutture dati/graphs/Kruskal.md",
-    "Algoritmi e strutture dati/graphs/Directed graphs.md",
-    "Algoritmi e strutture dati/graphs/DAG & Topological Sort.md",
-    "Algoritmi e strutture dati/graphs/DFS.md",
-    "Algoritmi e strutture dati/graphs/BFS.md",
-    "MST.md",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
-    "Algoritmi e strutture dati/graphs/Graphs.md",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
+    "primo_anno/Fisica 1/IMGs/Pasted image 20240911144636.png",
+    "primo_anno/Fisica 1/Seconda legge di Newton (accelerazione).md",
+    "primo_anno/Fisica 1/IMGs/Pasted image 20240911145535.png",
+    "primo_anno/Fisica 1/Terza legge di Newton (forze opposte).md",
+    "primo_anno/Fisica 1/Prima legge di Newton (principio di inerzia).md",
+    "primo_anno/Fisica 1/Moto rettilineo uniforme.md",
+    "primo_anno/Fisica 1/Le Forze.md",
+    "primo_anno/Fisica 1/IMGs",
+    "primo_anno/Fisica 1/IMGs/Pasted image 20240911143013.png",
+    "primo_anno/Algoritmi e strutture dati/graphs/Prim.md",
+    "primo_anno/Fisica 1",
+    "primo_anno/Algoritmi e strutture dati/graphs/Dijkstra.md",
+    "primo_anno/Algoritmi e strutture dati/graphs/Bellman-Ford.md",
+    "primo_anno/Algoritmi e strutture dati/graphs/DAG shortest path.md",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
     "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
-    "Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
-    "Architettura degli elaboratori/Study map.canvas",
-    "Architettura degli elaboratori/Syllabus.canvas",
-    "Algoritmi e strutture dati/graphs",
-    "Algoritmi e strutture dati/trees",
-    "Algoritmi e strutture dati/sorting",
-    "Programmazione B/JAVA/Esercizi/Maiuscola.java",
-    "Programmazione B/JAVA/Esercizi/Media.java",
-    "Programmazione B/JAVA/Esercizi/StringSet.java",
-    "Programmazione B/JAVA/Esercizi/tvserie/Episode.java",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240628143747.png",
+    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240628130732.png",
+    "primo_anno/Architettura degli elaboratori/Study map.canvas",
+    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
+    "primo_anno/Algoritmi e strutture dati/graphs",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
