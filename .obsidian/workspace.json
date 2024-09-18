@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md"
+                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md"
               }
             }
           }
@@ -150,6 +150,9 @@
   },
   "active": "3efabb3eaa31c045",
   "lastOpenFiles": [
+    "2024-09-16 Sistemi Informativi.md",
+    "2024-09-17 Sistemi informativi.md",
+    "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
     "secondo_anno/Metodologie di programmazione/La funzione main.md",
     "2024-09-18 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
@@ -157,7 +160,6 @@
     "2024-09-18 Basi di dati.md",
     "secondo_anno/Basi di dati/Dati e informazioni.md",
     "secondo_anno/Basi di dati/Transazioni.md",
-    "2024-09-16 Sistemi Informativi.md",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
@@ -166,7 +168,6 @@
     "primo_anno/Programmazione B/C_plus_plus/Copia di oggetti.md",
     "primo_anno/Logica/logica.pdf",
     "Excalidraw/Drawing 2024-09-17 15.53.21.excalidraw.md",
-    "2024-09-17 Sistemi informativi.md",
     "Excalidraw",
     "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
     "primo_anno/Fisica 1/Forze di contatto.md",
@@ -187,7 +188,6 @@
     "primo_anno/Fisica 1",
     "primo_anno/Algoritmi e strutture dati/graphs/Dijkstra.md",
     "primo_anno/Algoritmi e strutture dati/graphs/Bellman-Ford.md",
-    "primo_anno/Algoritmi e strutture dati/graphs/DAG shortest path.md",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
