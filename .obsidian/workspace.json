@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7baa2585a31bf483",
+        "id": "a472e250db056b3c",
         "type": "tabs",
         "children": [
           {
-            "id": "3efabb3eaa31c045",
+            "id": "6289edda9c58f239",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
+                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d449f1f6a7d388e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Metodologie di programmazione/Bad Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
+                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md",
+                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/La funzione main.md"
+                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md"
               }
             }
           }
@@ -148,18 +160,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3efabb3eaa31c045",
+  "active": "6289edda9c58f239",
   "lastOpenFiles": [
+    "2024-09-20 Metodologie di programmazione.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+    "secondo_anno/Metodologie di programmazione/Bad Programming.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
+    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
+    "2024-09-20 Basi di dati.md",
     "2024-09-16 Sistemi Informativi.md",
+    "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
+    "2024-09-20.md",
+    "Excalidraw",
+    "2024-09-19 Sistemi informativi.md",
     "2024-09-17 Sistemi informativi.md",
-    "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
+    "secondo_anno/Basi di dati/Transazioni.md",
+    "secondo_anno/Basi di dati/Dati e informazioni.md",
+    "secondo_anno/Basi di dati/Database & DBMS.md",
+    "Excalidraw/Drawing 2024-09-19 15.13.59.excalidraw.md",
     "secondo_anno/Metodologie di programmazione/La funzione main.md",
+    "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
     "2024-09-18 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
-    "secondo_anno/Basi di dati/Database & DBMS.md",
     "2024-09-18 Basi di dati.md",
-    "secondo_anno/Basi di dati/Dati e informazioni.md",
-    "secondo_anno/Basi di dati/Transazioni.md",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
@@ -168,26 +191,15 @@
     "primo_anno/Programmazione B/C_plus_plus/Copia di oggetti.md",
     "primo_anno/Logica/logica.pdf",
     "Excalidraw/Drawing 2024-09-17 15.53.21.excalidraw.md",
-    "Excalidraw",
     "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
     "primo_anno/Fisica 1/Forze di contatto.md",
     "primo_anno/Fisica 1/Gravita' e peso.md",
     "Excalidraw/Drawing 2024-09-11 14.27.18.excalidraw.md",
-    "2024-05-13 Java.md",
-    "2024-05-09 Java.md",
     "primo_anno/Fisica 1/IMGs/Pasted image 20240911144636.png",
-    "primo_anno/Fisica 1/Seconda legge di Newton (accelerazione).md",
     "primo_anno/Fisica 1/IMGs/Pasted image 20240911145535.png",
-    "primo_anno/Fisica 1/Terza legge di Newton (forze opposte).md",
-    "primo_anno/Fisica 1/Prima legge di Newton (principio di inerzia).md",
-    "primo_anno/Fisica 1/Moto rettilineo uniforme.md",
-    "primo_anno/Fisica 1/Le Forze.md",
     "primo_anno/Fisica 1/IMGs",
     "primo_anno/Fisica 1/IMGs/Pasted image 20240911143013.png",
-    "primo_anno/Algoritmi e strutture dati/graphs/Prim.md",
     "primo_anno/Fisica 1",
-    "primo_anno/Algoritmi e strutture dati/graphs/Dijkstra.md",
-    "primo_anno/Algoritmi e strutture dati/graphs/Bellman-Ford.md",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",

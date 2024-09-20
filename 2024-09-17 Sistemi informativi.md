@@ -29,12 +29,14 @@ sono cosi' chiamati perche' creano direttamente un valore riconosciuto dal clien
 ### Processi secondari (di supporto)
 sono cosi' detti perche' servono la realizzazione dei processi primari ma non creano di per se un valore riconosciuto dal cliente -> l'amministrazione, la finanza, la pianificazione etc.
 
-Consideriamo l'azienda come un macro processo:
+#### Classificazione di Porter
+Consideriamo l'azienda come un macro processo (visione a flusso):
 - Processi di input, ossia relativi, acquisizione degli ingressi -> **buy side** 
 - Processi di azione interna -> **inside**
 - Processi di output ossia relativi alla vendita -> **sell-side**
 
-#### Piramide di Anthony
+#### Classificazione di Anthony
+Consideriamo i processi in forma piramidale (versione gerarchica):
 - **Processi direzionali** -> pianificazione strategica 
 - **Processi Tattici** -> programmazione e controllo
 - **Processi Operativi** -> attivita' operative
