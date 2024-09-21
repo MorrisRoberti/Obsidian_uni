@@ -17,3 +17,4 @@ COMMIT;
 ```
 
 #### Links
+[[Database & DBMS]]

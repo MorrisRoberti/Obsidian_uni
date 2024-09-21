@@ -11,3 +11,4 @@ La differenza con le strutture dati *basate sui puntatori* e' la seguente
 - **I puntatori sono unidirezionali**
 
 #### Links
+[[Il modello relazionale]]

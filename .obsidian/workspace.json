@@ -11,11 +11,9 @@
             "id": "6289edda9c58f239",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "secondo_anno/Basi di dati/Schemas & Instances.md",
-                "mode": "source",
-                "source": false
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200211.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Basi di dati/Schemas & Instances.md",
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200211.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Basi di dati/Schemas & Instances.md",
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200211.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Basi di dati/Schemas & Instances.md"
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200211.png"
               }
             }
           }
@@ -148,13 +146,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6289edda9c58f239",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/Transazioni.md",
     "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
     "secondo_anno/Basi di dati/Schemas & Instances.md",
-    "Pasted image 20240921115330.png",
-    "Pasted image 20240921115218.png",
     "secondo_anno/Basi di dati/Il modello relazionale.md",
+    "secondo_anno/Basi di dati/Dati e informazioni.md",
+    "secondo_anno/Basi di dati/Database & DBMS.md",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200306.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240921200211.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240921115218.png",
+    "secondo_anno/Basi di dati/IMGs",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240921115330.png",
     "README.md",
     "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
     "2024-09-20 Metodologie di programmazione.md",
@@ -167,9 +171,6 @@
     "Excalidraw",
     "2024-09-19 Sistemi informativi.md",
     "2024-09-17 Sistemi informativi.md",
-    "secondo_anno/Basi di dati/Transazioni.md",
-    "secondo_anno/Basi di dati/Dati e informazioni.md",
-    "secondo_anno/Basi di dati/Database & DBMS.md",
     "Excalidraw/Drawing 2024-09-19 15.13.59.excalidraw.md",
     "secondo_anno/Metodologie di programmazione/La funzione main.md",
     "primo_anno/Architettura degli elaboratori/Ciclo di esecuzione della CPU (FDE).md",
@@ -184,7 +185,6 @@
     "primo_anno/Programmazione B/C_plus_plus/Copia di oggetti.md",
     "primo_anno/Logica/logica.pdf",
     "Excalidraw/Drawing 2024-09-17 15.53.21.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-16 15.37.42.excalidraw.md",
     "primo_anno/Fisica 1/IMGs/Pasted image 20240911144636.png",
     "primo_anno/Fisica 1/IMGs/Pasted image 20240911145535.png",
     "primo_anno/Fisica 1/IMGs",
@@ -193,11 +193,8 @@
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240729115900.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240726144753.png",
     "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240723230558.png",
-    "Excalidraw/Drawing 2024-07-23 22.59.02.excalidraw.png",
-    "primo_anno/Algoritmi e strutture dati/IMGs/Pasted image 20240628144929.png",
     "primo_anno/Architettura degli elaboratori/Study map.canvas",
     "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
-    "primo_anno/Algoritmi e strutture dati/graphs",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

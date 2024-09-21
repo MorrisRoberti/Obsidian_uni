@@ -33,3 +33,4 @@ Tramite i database si vogliono fare operazioni con i dati, quali:
 >L'**inconsistenza** dei dati si verifica quando si ha **ridondanza** e quando le diverse copie dell'oggetto ridondante hanno descrizioni diverse (non sono uguali).
 
 #### Links
+[[Dati e informazioni]]
