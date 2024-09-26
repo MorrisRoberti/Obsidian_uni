@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "92819ae017e11fd2",
+        "id": "a0991995affb427f",
         "type": "tabs",
         "children": [
           {
-            "id": "2584e3767fb508fb",
+            "id": "30c31983cf95fbd9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "secondo_anno/Computer Graphics/Cheatsheet matematico.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +140,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "30c31983cf95fbd9",
   "lastOpenFiles": [
+    "pooo.md",
+    "Euro.md",
+    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics/IMGs/esercizi-svolti-sulle-matrici-es3-1-2121791453.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926104558.png",
@@ -175,7 +170,6 @@
     "secondo_anno/Sistemi informativi/2024-09-16 Sistemi Informativi.md",
     "2024-09-25.md",
     "secondo_anno/Sistemi informativi/2024-09-19 Sistemi informativi.md",
-    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
     "primo_anno/Architettura degli elaboratori/IMGs/Drawing 2024-01-22 15.03.15.excalidraw.md",
@@ -188,14 +182,12 @@
     "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
     "2024-09-20.md",
     "Excalidraw",
-    "secondo_anno/Sistemi informativi/2024-09-17 Sistemi informativi.md",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
     "secondo_anno",
     "primo_anno",
     "primo_anno/Logica/logica.pdf",
-    "primo_anno/Fisica 1/IMGs",
     "primo_anno/Architettura degli elaboratori/Study map.canvas",
     "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
     "Untitled.canvas",
