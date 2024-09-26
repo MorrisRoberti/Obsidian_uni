@@ -101,7 +101,16 @@ Per ogni elemento di $A$ e per ogni $i, j \in A$ vale $A_{ij} = A_{ji}$.
 >Una matrice **quadrata** e' detta **matrice identita'** quando tutti i suoi elementi sono 0 ma quelli sulla diagonale principale sono 1.
 
 #### Determinante
->Il deteterminante di 
+>Il **deteterminante** di una matrice e' un valore scalare associato alle matrici quadrate che ci da informazioni utili su di esse.
+
+Determinante di una matrice 2x2
+![[Pasted image 20240926185147.png]]
+
+Determinante di una matrice 3x3
+![[Pasted image 20240926185205.png]]
+
+>Una matrice $A$ si dice **invertibile** sse il suo determinante e' $det(A) \neq 0$.
+>Una matrice invertibile $A$ e' una matrice tc $AA^{-1}=I$. 
 
 ### Matrice trasposta
 >La trasposta di una matrice $A$ di ordine $n \times m$ e' una matrice $A^T$ di ordine $m \times n$ in cui le righe di $A$ sono le colonne di $A^T$ e le colonne di $A$ sono le righe di $A^T$.
@@ -154,3 +163,5 @@ Esempio
 
 **IMPORTANTE**
 >Il prodotto di matrici *non e' commutativo*.
+
+#### Links

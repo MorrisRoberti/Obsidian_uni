@@ -11,8 +11,24 @@
             "id": "30c31983cf95fbd9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bf503f843eeafe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mesh.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md"
+              }
             }
           }
         ]
@@ -142,11 +162,22 @@
   },
   "active": "30c31983cf95fbd9",
   "lastOpenFiles": [
+    "Pasted image 20240926202502.png",
+    "Mesh.md",
+    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926190522.png",
+    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185205.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185147.png",
+    "Roadmap.md",
+    "README.md",
+    "secondo_anno/Computer Graphics/IMGs/esercizi-svolti-sulle-matrici-es3-1-2121791453.png",
+    "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
     "pooo.md",
     "Euro.md",
-    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/IMGs",
-    "secondo_anno/Computer Graphics/IMGs/esercizi-svolti-sulle-matrici-es3-1-2121791453.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926104558.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926103805.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926103718.png",
@@ -154,9 +185,6 @@
     "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20240925192945.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20240925192556.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240925191726.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240925191618.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240925191347.png",
     "secondo_anno/Basi di dati/Primary key & Foreign key.md",
     "secondo_anno/Basi di dati/Il modello relazionale.md",
     "secondo_anno/Basi di dati/Database & DBMS.md",
@@ -173,14 +201,6 @@
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
     "primo_anno/Architettura degli elaboratori/IMGs/Drawing 2024-01-22 15.03.15.excalidraw.md",
-    "README.md",
-    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
-    "2024-09-20 Metodologie di programmazione.md",
-    "secondo_anno/Metodologie di programmazione/Bad Programming.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
-    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
-    "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
-    "2024-09-20.md",
     "Excalidraw",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",

@@ -8,9 +8,9 @@ kanban-plugin: basic
 
 - [ ] Rimuovere le foto illustrative e sostituirle con disegni di excalidraw
 - [ ] Inserire Syllabus anche in Programmazione e Algoritmi
-- [ ] Inserire disegni di excalidraw per spiegare come funzionano le varie routine, es. insert bst etc.
-- [ ] Grafi
-- [ ] B_Trees, RB_Trees, Interval_trees e avl trees
+- [ ] Fare Hash tables #Algoritmi
+- [ ] Fare Interval trees #Algoritmi
+- [ ] Fare AVL trees #Algoritmi
 
 
 ## In Progress
@@ -21,6 +21,8 @@ kanban-plugin: basic
 
 - [ ] Le Classi Wrapper Java #Programmazione
 - [ ] Le Stringhe java #Programmazione
+- [ ] Grafi
+- [ ] B_Trees, RB_Trees, Interval_trees e avl trees
 
 
 
