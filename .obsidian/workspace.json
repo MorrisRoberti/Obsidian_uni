@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mesh.md",
+                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f99a0b3ebec9f423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+                "file": "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+                "file": "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md"
+                "file": "secondo_anno/Computer Graphics/Rappresentazioni Brep.md"
               }
             }
           }
@@ -160,31 +173,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "30c31983cf95fbd9",
+  "active": "f99a0b3ebec9f423",
   "lastOpenFiles": [
-    "Pasted image 20240926202502.png",
-    "Mesh.md",
-    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Mesh.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211836.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211433.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926210857.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926205829.png",
+    "Pasted image 20240926205702.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926204533.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926203340.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926202502.png",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926190522.png",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185205.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185147.png",
     "Roadmap.md",
     "README.md",
-    "secondo_anno/Computer Graphics/IMGs/esercizi-svolti-sulle-matrici-es3-1-2121791453.png",
     "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
     "pooo.md",
     "Euro.md",
     "secondo_anno/Computer Graphics/IMGs",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926104558.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926103805.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926103718.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926103629.png",
     "secondo_anno/Basi di dati/Algebra relazionale.md",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240925192945.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240925192556.png",
     "secondo_anno/Basi di dati/Primary key & Foreign key.md",
     "secondo_anno/Basi di dati/Il modello relazionale.md",
     "secondo_anno/Basi di dati/Database & DBMS.md",
@@ -200,7 +214,6 @@
     "secondo_anno/Sistemi informativi/2024-09-19 Sistemi informativi.md",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
-    "primo_anno/Architettura degli elaboratori/IMGs/Drawing 2024-01-22 15.03.15.excalidraw.md",
     "Excalidraw",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
