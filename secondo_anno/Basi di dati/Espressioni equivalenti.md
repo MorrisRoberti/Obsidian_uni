@@ -19,5 +19,21 @@ $$\Pi_{X_1 \space Y_2}(R_1 \bowtie R_2) = R_1 \bowtie \Pi_{Y_2}(R_2)$$
 dove $R_1$ ha come schema $X_1$ e $R_2$ ha come schema $X_2$. 
 Se $Y_2 \subseteq X_2  \space and \space (X_1 \cap X_2) \subseteq Y_2$ allora gli attributi $X_2 - Y_2$ non sono coinvolti nel join quindi non servono.
 
+### Distributivita' di alcune espressioni
+$$\sigma_{C}(R_1 \cup R_2) = \sigma_{C}(R_1) \cup \sigma_{C}(R_2)$$
+$$\sigma_{C}(R_1 - R_2) = \sigma_{C}(R_1) - \sigma_{C}(R_2)$$
+$$\Pi_{X}(R_1 \cup R_2) = \Pi_{X}(R_1) \cup \Pi_{X}(R_2)$$
+**ATTENZIONE**
+>La proiezione non e' distributiva rispetto alla differenza
 
+## Alcune proprieta' su insiemi e selezione
+$$\sigma_{C_1 \space OR \space C_2}(R) = \sigma_{C_1}(R) \cup \sigma_{C_2}(R)$$
+$$\sigma_{C_1 \space AND \space C_2}(R) = \sigma_{C_1}(R) \cap \sigma_{C_2}(R) = \sigma_{C_1}(R) \bowtie \sigma_{C_2}(R)$$
+$$\sigma_{C_1 \space AND \space \not C_2}(R) = \sigma_{C_1}(R) - \sigma_{C_2}(R)$$
+### Proprieta' distributiva del join sull'unione
+$$R_1 \bowtie (R_2 \cup R_2) = (R_1 \bowtie R_2) \cup (R_1 \bowtie R_3)$$
+>In generale le proprieta' *associativa* e *commutativa* si applicano a operatori binari eccetto la differenza.
 
+#### Links
+[[Algebra relazionale]]
+[[L'operatore di JOIN nell'algebra relazionale]]

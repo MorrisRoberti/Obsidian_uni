@@ -48,11 +48,16 @@ L'operazione sopra' restituisce il seguente output
 
 >Gli operatori unari di **selezione** e **proiezione** sono detti **ortogonali** in quanto "affettano" l'istanza della tabella rispettivamente orizzontalmente e verticalmente.
 
-
 ## Equivalenza di espressioni algebriche
 >Due espressioni dell'algebra relazionale $E_1$ ed $E_2$ sono **equivalenti** se forniscono lo stesso risultato indipendentemente dallo stato del database. Le regole equivalenti sono molto importanti perche i DBMS provano a riscrivere le query in espressioni equivalenti ma che hanno un'efficienza maggiore.
 
 [[Espressioni equivalenti]]
+
+## Problematiche relative a valori NULL
+>Come si vede e' possibile avere tuple con valori *NULL* ([[Dati parziali e valori nulli]]) quindi:
+>$$\sigma_{Age \gt 30}(PEOPLE) \cup \sigma_{Age \leq 30}(PEOPLE) \neq PEOPLE $$
+>poiche' i valori nulli di $PEOPLE$ non vengono presi. Per ovviare il problema esistono degli statement atomici utilizzati per riferirsi a valori nulli: **IS NULL** e **IS NOT NULL**.
+
 #### Links 
 [[Chiavi e superchiavi]]
 [[Il modello relazionale#Relazioni]]
