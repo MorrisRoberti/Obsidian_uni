@@ -10,6 +10,8 @@ int k(bool x);
 Ora quella keyword `extern` serve a dire che la variabile e' *dichiarata ma non definita*, quindi che esiste ma non puo' essere inizializzato nessun oggetto di quel tipo.
 Quando si fa una dichiarazione che NON e' anche una definizione si dice che questa e' una **dichiarazione pura** (o "forward").
 
+Chiaramente la dichiarazione pura non puo' avvenire in contesti come *il corpo di funzioni*.
+
 La keyword `extern` e' **obbligatoria** nelle dichiarazioni di variabili pure ma opzionale nel resto dei costrutti.
 
 **ATTENZIONE**
@@ -35,7 +37,7 @@ Dunque non posso creare oggetti di tipo `T`.
 
 ### Puntatori opachi
 >Quindi ci verrebbe da domandarci **a che serve una dichiarazione pura**?
->E' utile in un contesto particolare: quando occorre definire puntatori o riferimenti ad oggetti di tipo `T` senza conoscere la definizione del tipo `T`. Tali puntatori sono detti **puntatori opachi**.
+>E' utile in un contesto particolare: quando occorre definire puntatori o riferimenti ad oggetti di tipo `T` senza conoscere la definizione del tipo `T`. Tali puntatori sono detti **puntatori opachi**. In questo caso il compilatore sa quanta memoria allocare per un puntatore e quindi il tipo non gli interessa.
 
 ```cpp
 struct T;
@@ -104,5 +106,7 @@ T add(T t1, T t2) {
 	return t1 + t2;
 }
 ```
+
+>Il motivo per il quale nei template si scrive `typename T` e' perche' in quel modo la grammatica, come nel caso di `nome1 * nome2` e' ambigua.
 
 #### Links
