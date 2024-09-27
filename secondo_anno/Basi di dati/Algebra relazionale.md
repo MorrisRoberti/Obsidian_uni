@@ -47,6 +47,12 @@ L'operazione sopra' restituisce il seguente output
 
 
 >Gli operatori unari di **selezione** e **proiezione** sono detti **ortogonali** in quanto "affettano" l'istanza della tabella rispettivamente orizzontalmente e verticalmente.
+
+
+## Equivalenza di espressioni algebriche
+>Due espressioni dell'algebra relazionale $E_1$ ed $E_2$ sono **equivalenti** se forniscono lo stesso risultato indipendentemente dallo stato del database. Le regole equivalenti sono molto importanti perche i DBMS provano a riscrivere le query in espressioni equivalenti ma che hanno un'efficienza maggiore.
+
+[[Espressioni equivalenti]]
 #### Links 
 [[Chiavi e superchiavi]]
 [[Il modello relazionale#Relazioni]]

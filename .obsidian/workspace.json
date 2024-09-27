@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-27 Metodologie.md",
+                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ddea700093ef9b9d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-27 Metodologie.md",
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-27 Metodologie.md",
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-27 Metodologie.md"
+                "file": "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png"
               }
             }
           }
@@ -149,10 +159,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e33807c5ea4776de",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
+    "2024-09-27 Basi di dati.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153147.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153121.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153005.png",
+    "secondo_anno/Basi di dati/Vincoli di integrita'.md",
+    "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
     "2024-09-27 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
     "secondo_anno/Computer Graphics/Mesh.md",
     "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
     "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
@@ -164,30 +184,20 @@
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926205829.png",
     "Pasted image 20240926205702.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926204533.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926203340.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926202502.png",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926190522.png",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185205.png",
     "Roadmap.md",
     "README.md",
     "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
     "pooo.md",
     "Euro.md",
     "secondo_anno/Computer Graphics/IMGs",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Basi di dati/Primary key & Foreign key.md",
     "secondo_anno/Basi di dati/Il modello relazionale.md",
     "secondo_anno/Basi di dati/Database & DBMS.md",
     "secondo_anno/Basi di dati/Chiavi e superchiavi.md",
-    "secondo_anno/Basi di dati/Vincoli di integrita'.md",
     "primo_anno/Programmazione B/JAVA/Elementi di istanza e di classe.md",
     "secondo_anno/Basi di dati/Dati parziali e valori nulli.md",
-    "secondo_anno/Basi di dati/Dati e informazioni.md",
-    "secondo_anno/Basi di dati/Schemas & Instances.md",
-    "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
-    "secondo_anno/Sistemi informativi/2024-09-16 Sistemi Informativi.md",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
     "Excalidraw",
