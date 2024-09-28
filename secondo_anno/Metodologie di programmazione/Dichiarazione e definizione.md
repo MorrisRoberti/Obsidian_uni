@@ -35,6 +35,23 @@ Quando faccio una dichiarazione di questo tipo `struct T` il compilatore non ha 
 - non sa quanta memoria allocare
 Dunque non posso creare oggetti di tipo `T`.
 
+### Namespace e definizione incrementale
+>La definizione dei *namespace* e' **incrementale**, nel senso che quando definiamo un namespace possiamo definirne una parte e poi aggiungere codice.
+
+```cpp
+namespace test {
+	/* codice */
+}
+
+/*...*/
+
+namespace test {
+	/* altro codice */
+}
+```
+
+
+
 ### Puntatori opachi
 >Quindi ci verrebbe da domandarci **a che serve una dichiarazione pura**?
 >E' utile in un contesto particolare: quando occorre definire puntatori o riferimenti ad oggetti di tipo `T` senza conoscere la definizione del tipo `T`. Tali puntatori sono detti **puntatori opachi**. In questo caso il compilatore sa quanta memoria allocare per un puntatore e quindi il tipo non gli interessa.
@@ -110,3 +127,4 @@ T add(T t1, T t2) {
 >Il motivo per il quale nei template si scrive `typename T` e' perche' in quel modo la grammatica, come nel caso di `nome1 * nome2` e' ambigua.
 
 #### Links
+[[Type aliases]]

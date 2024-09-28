@@ -73,3 +73,4 @@ int main() {
 in questo modo io devo soltanto includere il file con la signature e il preprocessore fara' tutto il resto, oltre a non essere soggetto a codice ridondante non sono soggetto nemmeno agli altri errori descritti sopra.
 
 #### Links
+[[Fasi del processo di compilazione]]
