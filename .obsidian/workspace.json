@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2471bc7c010cb7c1",
+        "id": "a0991995affb427f",
         "type": "tabs",
         "children": [
           {
-            "id": "9863577e42483b96",
+            "id": "e33807c5ea4776de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Scope.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cf9e89d60cacb44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6289edda9c58f239",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Type aliases.md",
+                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md"
+                "file": "secondo_anno/Basi di dati/Algebra relazionale.md"
               }
             }
           }
@@ -173,56 +148,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4cf9e89d60cacb44",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "Scope potenziale e Scope effettivo.md",
+    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
-    "secondo_anno/Metodologie di programmazione/La funzione main.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
-    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
-    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
-    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
-    "2024-09-27 Metodologie.md",
     "secondo_anno/Basi di dati/Le viste.md",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Basi di dati/Espressioni equivalenti.md",
+    "2024-09-27 Basi di dati.md",
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153147.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153121.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153005.png",
     "secondo_anno/Basi di dati/Vincoli di integrita'.md",
-    "secondo_anno/Basi di dati/Schemas & Instances.md",
-    "secondo_anno/Sistemi informativi/2024-09-19 Sistemi informativi.md",
-    "secondo_anno/Sistemi informativi/2024-09-17 Sistemi informativi.md",
-    "secondo_anno/Sistemi informativi/2024-09-16 Sistemi Informativi.md",
-    "secondo_anno/Sistemi informativi",
-    "secondo_anno/Computer Graphics/IMGs/esercizi-svolti-sulle-matrici-es3-1-2121791453.png",
+    "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
+    "2024-09-27 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+    "secondo_anno/Computer Graphics/Mesh.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211836.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211433.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926210857.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926205829.png",
+    "Pasted image 20240926205702.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926204533.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926203340.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926202502.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926190522.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926185205.png",
-    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Mesh.md",
-    "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics",
+    "Roadmap.md",
+    "README.md",
+    "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
+    "pooo.md",
+    "Euro.md",
+    "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Basi di dati/Primary key & Foreign key.md",
-    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
-    "primo_anno/Architettura degli elaboratori/Study map.canvas",
+    "secondo_anno/Basi di dati/Il modello relazionale.md",
+    "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
     "Excalidraw",
     "secondo_anno/Basi di dati",
+    "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
     "secondo_anno",
     "primo_anno",
     "primo_anno/Logica/logica.pdf",
+    "primo_anno/Architettura degli elaboratori/Study map.canvas",
+    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
