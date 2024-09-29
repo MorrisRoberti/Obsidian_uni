@@ -67,4 +67,4 @@ Il vantaggio e' che la ricerca e' ancora piu' efficiente.
 E' piu' efficiente rispetto a Winged-Edge.
 
 #### Links
-
+[[Mesh]]

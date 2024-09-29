@@ -25,5 +25,17 @@ La modellazione tramite mesh poligonali consente di rappresentare:
 - Superfici aperte
 - Superfici non poliedrali (non-manifold)
 
+## Pro e contro delle mesh
+**PRO**
+- E' semplice ottenere informazioni sui singoli elementi
+- E' facile visualizzare il solido creato
+- E' adatto per generare viste con eliminazione automatica delle parti nascoste
+- E' una rappresentazione **completa**
+
+**CONTRO**
+- Richiede molta memoria
+- L'editing diretto e' difficile
+- Non e' una rappresentazione unica
+
 #### Links
 [[Rappresentazioni con le mesh]]

@@ -11,6 +11,7 @@ kanban-plugin: basic
 - [ ] Fare Hash tables #Algoritmi
 - [ ] Fare Interval trees #Algoritmi
 - [ ] Fare AVL trees #Algoritmi
+- [ ] Riorganizzare bene gli appunti #Sistemi_informativi
 
 
 ## In Progress
