@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
+                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
+                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Basi di dati/Algebra relazionale.md",
+                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Basi di dati/Algebra relazionale.md"
+                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md"
               }
             }
           }
@@ -150,7 +150,20 @@
   },
   "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001110949.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001110934.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001110907.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001105857.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001105109.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001104840.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241001104819.png",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+    "Pasted Image 20240930151128_999.png",
+    "Pasted Image 20240930150925_165.png",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+    "2024-09-30 Sistemi informativi.md",
+    "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
+    "Excalidraw",
     "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
@@ -160,8 +173,6 @@
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20240927161844.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153147.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153121.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20240927153005.png",
     "secondo_anno/Basi di dati/Vincoli di integrita'.md",
     "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
     "2024-09-27 Metodologie.md",
@@ -171,25 +182,14 @@
     "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
     "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
     "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211836.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926211433.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926210857.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926205829.png",
-    "Pasted image 20240926205702.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240926204533.png",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "Roadmap.md",
     "README.md",
     "Excalidraw/Drawing 2024-09-20 12.21.48.excalidraw.md",
-    "pooo.md",
-    "Euro.md",
     "secondo_anno/Computer Graphics/IMGs",
-    "secondo_anno/Basi di dati/Primary key & Foreign key.md",
-    "secondo_anno/Basi di dati/Il modello relazionale.md",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
-    "Excalidraw",
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",

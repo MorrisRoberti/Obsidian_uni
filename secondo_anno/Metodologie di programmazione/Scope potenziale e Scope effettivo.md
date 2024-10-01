@@ -48,7 +48,7 @@ La qualificazione puo' essere:
 - **totale** -> punto di partenza lo scope globale, in questo caso si parla di **FQN** (*Fully Qualified Name*)
 
 ```cpp
-struct Baser {
+struct Base {
 	int a;
 	int foo(int);
 };
