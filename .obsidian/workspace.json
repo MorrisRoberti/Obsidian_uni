@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+                "file": "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+                "file": "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+                "file": "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md"
+                "file": "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md"
               }
             }
           }
@@ -163,8 +163,9 @@
   },
   "active": "84f0c1f183c0ca42",
   "lastOpenFiles": [
-    "2024-10-02 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
+    "2024-10-02 Metodologie di programmazione.md",
     "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
     "2024-10-02 Basi di dati.md",
     "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
@@ -199,7 +200,6 @@
     "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
     "2024-09-27 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
-    "secondo_anno/Computer Graphics/Mesh.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
