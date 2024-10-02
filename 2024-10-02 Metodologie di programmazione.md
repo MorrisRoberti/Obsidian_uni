@@ -1,7 +1,7 @@
 ## Allocazione di variabili locali statiche
 >Sono variabili allocate prima di iniziare la funzione main ma sono *inizializzate* (solo) la prima volta in cui il controllo di esecuzione incontra la loro definizione.
 
-- L'uso di variabili globali non e' molto consigliato perche' porta a codice poco leggibile
+
 - Se l'allocazione *statica* e' necessaria preferire i dati membro statici, se possibile dichiarati *private*
 
 ## Allocazione automatica

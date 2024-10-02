@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "84f0c1f183c0ca42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e33807c5ea4776de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-02 Basi di dati.md",
+                "file": "2024-10-02 Metodologie di programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-02 Basi di dati.md",
+                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-02 Basi di dati.md",
+                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-02 Basi di dati.md"
+                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md"
               }
             }
           }
@@ -148,9 +161,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e33807c5ea4776de",
+  "active": "84f0c1f183c0ca42",
   "lastOpenFiles": [
     "2024-10-02 Metodologie di programmazione.md",
+    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+    "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
     "2024-10-02 Basi di dati.md",
     "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
     "2024-10-01 Sistemi informativi.md",
@@ -172,7 +187,6 @@
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929160751.png",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
     "2024-09-30 Sistemi informativi.md",
-    "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
     "Excalidraw",
     "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
@@ -186,7 +200,6 @@
     "2024-09-27 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
     "secondo_anno/Computer Graphics/Mesh.md",
-    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
