@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+                "file": "2024-10-02 Basi di dati.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+                "file": "2024-10-02 Basi di dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+                "file": "2024-10-02 Basi di dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md"
+                "file": "2024-10-02 Basi di dati.md"
               }
             }
           }
@@ -150,13 +150,16 @@
   },
   "active": "e33807c5ea4776de",
   "lastOpenFiles": [
-    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
+    "2024-10-02 Metodologie di programmazione.md",
+    "2024-10-02 Basi di dati.md",
     "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
+    "2024-10-01 Sistemi informativi.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni di Sweep.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni di Sweep.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182626.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182211.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182209.png",
@@ -184,9 +187,6 @@
     "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
     "secondo_anno/Computer Graphics/Mesh.md",
     "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
-    "Roadmap.md",
-    "README.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
