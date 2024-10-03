@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md",
-                "mode": "preview",
+                "file": "secondo_anno/Basi di dati/Calcolo relazionale.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md",
+                "file": "secondo_anno/Basi di dati/Calcolo relazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md",
+                "file": "secondo_anno/Basi di dati/Calcolo relazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md"
+                "file": "secondo_anno/Basi di dati/Calcolo relazionale.md"
               }
             }
           },
@@ -161,6 +161,12 @@
   },
   "active": "bfce7200447a7620",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
+    "secondo_anno/Basi di dati/Calcolo relazionale.md",
+    "secondo_anno/Basi di dati/Dati e informazioni.md",
+    "secondo_anno/Basi di dati/Il modello relazionale.md",
+    "secondo_anno/Basi di dati/Dati parziali e valori nulli.md",
+    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.tex",
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.html",
@@ -168,10 +174,6 @@
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095955.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095937.png",
     "secondo_anno/Basi di dati/Chiavi e superchiavi.md",
-    "secondo_anno/Basi di dati/Il modello relazionale.md",
-    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
-    "secondo_anno/Basi di dati/Dati parziali e valori nulli.md",
     "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
     "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
     "2024-10-02 Metodologie di programmazione.md",
@@ -198,7 +200,6 @@
     "Excalidraw",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
-    "secondo_anno/Basi di dati/Le viste.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
