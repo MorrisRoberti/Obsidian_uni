@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",

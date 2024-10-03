@@ -1,7 +1,7 @@
 >Le **espressioni equivalenti** nell'algebra relazionale sono fondamentali in quando vengono utilizzate dai DBMS *under-the-hood* per tradurre le query in un formato equivalente piu' efficiente.
 
 ### Selezioni in cascata
-$$\sigma_{C_1 AND C_2}(R) = \sigma_{C_1}(\sigma_{C2}(R))$$
+$$\sigma_{C_1 \space AND \space C_2}(R) = \sigma_{C_1}(\sigma_{C2}(R))$$
 ### Idempotenza della proiezione
 Sapendo che $X$ e $Y$ appartengono allo schema di $R$ 
 $$\Pi_{X}(R) = \Pi_{X}(\Pi_{X \space Y}(R))$$
