@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84f0c1f183c0ca42",
+            "id": "2f22e5d9c54d02ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+                "file": "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfce7200447a7620",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Basi di dati/Espressioni equivalenti.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+                "file": "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+                "file": "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,16 +137,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md"
+                "file": "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md"
               }
             }
+          },
+          {
+            "id": "f11750e9fc1329bf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,13 +165,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
       "code-files:Create Code File": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84f0c1f183c0ca42",
+  "active": "2f22e5d9c54d02ff",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.tex",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.html",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003100010.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095955.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095937.png",
+    "secondo_anno/Basi di dati/Chiavi e superchiavi.md",
+    "secondo_anno/Basi di dati/Il modello relazionale.md",
+    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+    "secondo_anno/Basi di dati/Dati parziali e valori nulli.md",
     "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
     "2024-10-02 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
     "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
@@ -172,22 +204,12 @@
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929163209.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929163146.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929162723.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929161721.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929161243.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929160751.png",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
     "2024-09-30 Sistemi informativi.md",
     "Excalidraw",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
     "secondo_anno/Basi di dati/Le viste.md",
-    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
-    "2024-09-27 Basi di dati.md",
-    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
-    "secondo_anno/Basi di dati/Vincoli di integrita'.md",
-    "secondo_anno/Basi di dati/Struttura dati basata sui valori.md",
-    "2024-09-27 Metodologie.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
@@ -196,7 +218,6 @@
     "secondo_anno/Metodologie di programmazione",
     "secondo_anno",
     "primo_anno",
-    "primo_anno/Logica/logica.pdf",
     "primo_anno/Architettura degli elaboratori/Study map.canvas",
     "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
     "Untitled.canvas",
