@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "462d92ccbb9e4166",
+        "id": "4457044a00802e22",
         "type": "tabs",
         "children": [
           {
-            "id": "fdc1dcc0533aef7b",
+            "id": "c483a3c7bb7990b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Calcolo relazionale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f050bd32595790b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Limiti dell'algebra e del calcolo relazionale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d78bf6cc4a5532e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Datalog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0d793f014020115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
+                "file": "2024-10-04 Metodologie di programmazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datalog.md",
+                "file": "2024-10-04 Metodologie di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datalog.md",
+                "file": "2024-10-04 Metodologie di programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datalog.md"
+                "file": "2024-10-04 Metodologie di programmazione.md"
               }
             }
           },
@@ -195,13 +157,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d78bf6cc4a5532e",
+  "active": "c483a3c7bb7990b1",
   "lastOpenFiles": [
-    "Limiti dell'algebra e del calcolo relazionale.md",
-    "Datalog.md",
-    "Pasted image 20241003154204.png",
-    "secondo_anno/Basi di dati/Calcolo relazionale.md",
+    "2024-10-04 Metodologie di programmazione.md",
     "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
+    "secondo_anno/Basi di dati/Calcolo relazionale.md",
+    "secondo_anno/Basi di dati/Limiti dell'algebra e del calcolo relazionale.md",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003154204.png",
+    "secondo_anno/Basi di dati/Datalog.md",
     "secondo_anno/Basi di dati/Calcolo relazionale del dominio (DRC).md",
     "2024-10-02 Basi di dati.md",
     "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
@@ -233,7 +196,6 @@
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
     "secondo_anno/Basi di dati/Le viste.md",
-    "secondo_anno/Basi di dati/Espressioni equivalenti.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
