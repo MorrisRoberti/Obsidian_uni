@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md"
+                "file": "secondo_anno/Metodologie di programmazione/Header files.md"
               }
             }
           },
@@ -159,13 +159,19 @@
   },
   "active": "c483a3c7bb7990b1",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+    "secondo_anno/Metodologie di programmazione/Scope.md",
+    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
+    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
+    "secondo_anno/Metodologie di programmazione/Type aliases.md",
+    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
     "Excalidraw/Drawing 2024-10-09 14.23.42.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 14.23.41.excalidraw.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "Excalidraw",
     "2024-10-04 Metodologie di programmazione.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
     "secondo_anno/Basi di dati/Calcolo relazionale.md",
     "secondo_anno/Basi di dati/Limiti dell'algebra e del calcolo relazionale.md",
@@ -173,9 +179,6 @@
     "secondo_anno/Basi di dati/Datalog.md",
     "secondo_anno/Basi di dati/Calcolo relazionale del dominio (DRC).md",
     "2024-10-02 Basi di dati.md",
-    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
-    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
-    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241003100010.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095955.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095937.png",
@@ -187,15 +190,12 @@
     "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni Volumetriche.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182626.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182211.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182209.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929175707.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929163209.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929163146.png",
-    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
-    "2024-09-30 Sistemi informativi.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",

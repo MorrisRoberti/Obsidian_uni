@@ -72,5 +72,25 @@ int main() {
 ```
 in questo modo io devo soltanto includere il file con la signature e il preprocessore fara' tutto il resto, oltre a non essere soggetto a codice ridondante non sono soggetto nemmeno agli altri errori descritti sopra.
 
+## Cose ragionevoli da trovare negli header file
+- Preprocessor directives
+- Dichiarazioni o definzioni di tipo
+- Dichiarazioni di variabili
+- Dichiarazioni di costanti
+- Dichiarazioni di funzioni
+- Dichiarazioni di funzioni inline
+- Namespace **dotati di nome** 
+- [[Type aliases]]
+
+## Cose NON ragionevoli da trovare negli header file
+- Definizione di variabili
+- Definizione di funzioni
+- Namespace anonimi
+- [[Scope potenziale e Scope effettivo#Using directive|Using Directive]]
+- [[Scope potenziale e Scope effettivo#Using declaration|Using Declaration]]
+
 #### Links
 [[Fasi del processo di compilazione]]
+[[Type aliases]]
+[[Scope potenziale e Scope effettivo#Using directive]]
+[[Scope potenziale e Scope effettivo#Using declaration]]

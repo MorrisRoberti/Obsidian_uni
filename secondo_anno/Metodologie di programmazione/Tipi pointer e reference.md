@@ -66,7 +66,7 @@ S& foo() {
 ```
 Cosi' facendo allochiamo (**dinamicamente**)`s` che quindi, non sara' piu' nello stack che verra' svuotato al termine della funzione, ma nell'heap, e cosi' facendo possiamo restituire in modo corretto un puntatore all'oggetto.
 
-#### Link
+#### Links
 [[Scope]]
 [[Tipi, qualificatori, costanti letterali]]
 [[Lifetime di oggetti]]
