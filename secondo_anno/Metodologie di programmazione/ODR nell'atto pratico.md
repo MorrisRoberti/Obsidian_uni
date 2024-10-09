@@ -59,7 +59,7 @@ class Razionale {
 ```
 
 **ifndef**
->Una soluzione simile a *pragma once* ma che funziona su tutti i compilatori e' `#ifndef`.
+>Una soluzione simile a *pragma once* ma che funziona su tutti i compilatori e' `#ifndef`. Se vogliamo che il programma entri nell'if se la condizione e' vera dobbiamo usare `#ifdef`.
 
 ```cpp
 // Razionale.hpp
@@ -75,6 +75,8 @@ class Razionale {
 La prima volta che il file viene incluso, la **guardia**, ovvero il flag del preprocessore `RAZIONALE_HH_INCLUDE_GUARD` **NON E' ANCORA DEFINITA** quindi il preprocessore *procede all'inclusione*. 
 Come prima cosa viene definita la guardia stessa e poi si includono nell'unita' di traduzione tutte le dichiarazioni e definizioni.
 Se capitasse, durante il preprocessing di quella stessa unita' di traduzione di ritentare l'inclusione di `Razionale.hpp`, il preprocessore troverebbe la guardia gia' definita; la condizione di `#ifndef` valuterebbe a falso e quindi non avverrebbe nessuna inclusione ripetuta.
+
+Banalmente `#ifndef` e' la negazione di `#ifdef`.
 
 **ATTENZIONE**
 >Questa soluzione per funzionare deve essere applicata sistematicamente su **tutti** gli header file che fanno parte del programma. Inoltre occorre prestare attenzione e evitare di usare la stessa guardia per file di inclusione distinti.

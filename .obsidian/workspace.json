@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-04 Metodologie di programmazione.md"
+                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md"
               }
             }
           },
@@ -155,9 +157,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "c483a3c7bb7990b1",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-10-09 14.23.42.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-09 14.23.41.excalidraw.md",
     "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+    "Excalidraw",
     "2024-10-04 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
     "secondo_anno/Metodologie di programmazione/Header files.md",
@@ -191,9 +196,6 @@
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929163146.png",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
     "2024-09-30 Sistemi informativi.md",
-    "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
-    "Excalidraw",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
