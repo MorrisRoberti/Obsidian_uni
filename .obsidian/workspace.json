@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-04 Metodologie di programmazione.md",
+                "file": "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-04 Metodologie di programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-04 Metodologie di programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +155,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c483a3c7bb7990b1",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "2024-10-04 Metodologie di programmazione.md",
+    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
     "secondo_anno/Basi di dati/Calcolo relazionale.md",
     "secondo_anno/Basi di dati/Limiti dell'algebra e del calcolo relazionale.md",
@@ -193,9 +194,6 @@
     "Excalidraw/Drawing 2024-09-30 15.06.58.excalidraw.md",
     "Excalidraw",
     "secondo_anno/Basi di dati/Algebra relazionale.md",
-    "secondo_anno/Metodologie di programmazione/Type aliases.md",
-    "secondo_anno/Metodologie di programmazione/Scope.md",
-    "secondo_anno/Basi di dati/Le viste.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
