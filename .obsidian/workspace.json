@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+                "file": "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f942ce5e9c81665c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+                "file": "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+                "file": "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md"
+                "file": "secondo_anno/Metodologie di programmazione/Array e puntatori.md"
               }
             }
           },
@@ -158,10 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c483a3c7bb7990b1",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Header files.md",
+    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
+    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
     "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
@@ -189,8 +202,6 @@
     "2024-10-01 Sistemi informativi.md",
     "secondo_anno/Computer Graphics/Rappresentazioni con le mesh.md",
     "secondo_anno/Computer Graphics/Rappresentazioni di Sweep.md",
-    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
-    "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182626.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182211.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182209.png",
