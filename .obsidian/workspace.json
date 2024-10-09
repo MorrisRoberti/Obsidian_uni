@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
+                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
+                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
+                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Header files.md"
+                "file": "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md"
               }
             }
           },
@@ -159,6 +160,8 @@
   },
   "active": "c483a3c7bb7990b1",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/Header files.md",
+    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
     "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
@@ -167,7 +170,6 @@
     "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
     "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
     "Excalidraw/Drawing 2024-10-09 14.23.42.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 14.23.41.excalidraw.md",
     "Excalidraw",
@@ -189,7 +191,6 @@
     "secondo_anno/Computer Graphics/Rappresentazioni di Sweep.md",
     "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Computer Graphics/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182626.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182211.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182209.png",
