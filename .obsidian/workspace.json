@@ -13,8 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
-                "mode": "preview",
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3405ccede6dc72c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10bd8c4fc43289d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trasformazioni 2D omogenee.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Algoritmi per mesh.md"
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md"
               }
             }
           },
@@ -159,17 +184,30 @@
   },
   "active": "21dd979afe1160b1",
   "lastOpenFiles": [
-    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
-    "secondo_anno/Computer Graphics/Mesh.md",
-    "Pasted image 20241013174112.png",
-    "Pasted image 20241013173634.png",
-    "Esempio.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni Brep.md",
+    "Trasformazioni 2D omogenee.md",
+    "Pasted image 20241013224804.png",
+    "Pasted image 20241013224709.png",
+    "Pasted image 20241013224644.png",
+    "Pasted image 20241013224620.png",
+    "Pasted image 20241013224617.png",
+    "Pasted image 20241013224514.png",
+    "Pasted image 20241013224512.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+    "Pasted image 20241013223847.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013221721.png",
+    "Pasted image 20241013221732.png",
     "secondo_anno/Computer Graphics/Modi di utilizzare le mesh.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+    "secondo_anno/Computer Graphics/Principi matematici",
+    "secondo_anno/Computer Graphics/Rappresentazioni",
+    "secondo_anno/Computer Graphics/Mesh.md",
+    "Esempio.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni di Sweep.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
     "Excalidraw/Drawing 2024-10-13 16.44.01.excalidraw.md",
     "Excalidraw",
     "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
@@ -184,17 +222,6 @@
     "secondo_anno/Metodologie di programmazione/Scope.md",
     "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
     "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/Type aliases.md",
-    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003154204.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003100010.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095955.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241003095937.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182626.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182211.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929182209.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20240929175707.png",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
@@ -202,8 +229,6 @@
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
     "secondo_anno",
-    "primo_anno",
-    "primo_anno/Logica/logica.pdf",
     "primo_anno/Architettura degli elaboratori/Study map.canvas",
     "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
     "Untitled.canvas",
