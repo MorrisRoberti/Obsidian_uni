@@ -26,7 +26,7 @@
 >Una **Brep** ("*boundary rep*") o **rappresentazione del contorno** e' un tipo di rappresentazione che definisce i contorni del solido con delle linee. Alcuni esempi rilevanti sono le [[Mesh]].
 
 ### Rappresentazioni volumetriche
->La **rappresentazione volumetrica** e' un tipo di rappresentazione che definisce il modello di un oggetto solido non solo tramite piani ma tenendo conto anche del suo volume. Si pensi ad esempio a dei test in cui si vuole vedere se la luce passa attraverso un oggetto trasparente.
+>La **rappresentazione volumetrica** e' un tipo di rappresentazione che definisce il modello di un oggetto solido non solo tramite piani ma tenendo conto anche del suo volume. Si pensi ad esempio a dei test in cui si vuole vedere se la luce passa attraverso un oggetto.
 
 #### Rappresentazioni per decomposizione
 >Le rappresentazioni per decomposizione si occupa di suddividere la geometria degli oggetti fisici in componenti piu' piccoli e facili da gestire.
@@ -43,7 +43,7 @@ Esempi di rappresentazioni costruttive:
 - Constructive Solid Geometry (CSG)
 - Istanza di primitive
 
-#### Rappresentazioni di tipo sweep
+### Rappresentazioni di tipo sweep
 >Sono tipi di rappresentazioni che si basano sul far scorrere una forma bidimensionale lungo un percorso tridimensionale per generare un oggetto tridimensionale.
 
 Alcuni software di modellazione avanzati permettono di convertire i modelli da uno schema di rappresentazione all'altro.
@@ -52,3 +52,6 @@ Si riporta sotto una classificazione topologica delle rappresentazioni![[Pasted 
 
 
 #### Links
+[[Rappresentazioni Brep]]
+[[Rappresentazioni Volumetriche]]
+[[Rappresentazioni di Sweep]]

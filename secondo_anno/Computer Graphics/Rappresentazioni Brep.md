@@ -1,5 +1,6 @@
+>Si rimanda alla definizione: [[Modelli e rappresentazioni#Brep (rappresentazioni del contorno)]]. Vi sono 3 tipi di **Rappresentazioni di contorno** (*Brep*): *rappresentazioni con mesh, rappresentazioni implicite, rappresentazioni parametriche*.
 ## Rappresentazioni mesh
-[[Rappresentazioni con le mesh]]
+>Si rimanda alla definizione:[[Mesh]].
 
 ## Rappresentazioni implicite
 >Sono rappresentazioni di una curva/superficie (chiusa o aperta) come luogo dei punti dove una funzione implicita si annulla.
@@ -30,6 +31,7 @@ Sono flessibili ed efficienti dal punto di vista della memoria e consentono un'e
 - Forniscono un modello unico da cui derivare disegni 2D
 - Semplici e facili da modificare
 - Basso costo computazionale
+
 **CONTRO**
 - Geometria povera
 - **Ambiguita' nella rappresentazione**

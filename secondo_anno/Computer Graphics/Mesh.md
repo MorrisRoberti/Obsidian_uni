@@ -1,4 +1,4 @@
->Le **mesh** sono un tipo di **Brep** ([[Modelli e rappresentazioni#Brep (rappresentazioni del contorno)]]) in cui un'oggetto 3D viene rappresentato con dei poligono 2D, nel nostro caso *dei triangoli*.
+>Le **mesh** sono un tipo di **Brep** ([[Modelli e rappresentazioni#Brep (rappresentazioni del contorno)]]) in cui un'oggetto 3D viene rappresentato con dei poligoni 2D, nel nostro caso *dei triangoli*.
 
 In linea generale le mesh sono approssimazioni discrete di superfici tridimensionali attraverso dei poligoni (triangoli).
 ## I poliedri
@@ -35,7 +35,8 @@ La modellazione tramite mesh poligonali consente di rappresentare:
 **CONTRO**
 - Richiede molta memoria
 - L'editing diretto e' difficile
-- Non e' una rappresentazione unica
+- **Non e'** una rappresentazione **unica**
 
 #### Links
-[[Rappresentazioni con le mesh]]
+[[Modi di utilizzare le mesh]]
+[[Algoritmi per mesh]]

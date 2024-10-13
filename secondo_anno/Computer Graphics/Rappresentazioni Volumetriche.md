@@ -3,9 +3,9 @@
 ![[Pasted image 20240929161243.png]]
 
 ## Decomposizione
->[[Modelli e rappresentazioni#Rappresentazioni per decomposizione]]
+>Si rimanda alla definizione: [[Modelli e rappresentazioni#Rappresentazioni per decomposizione]].
 
-Il solido viene ottenuto dalla decomposizione in volumi elementari, questi possono avere varie forme e orientazioni:
+Il solido viene ottenuto dalla sua decomposizione in volumi elementari, questi possono avere varie forme e orientazioni. Ci sono 3 metodi principali per implementare la *decomposizione*:
 - **Cell Decomposition**
 - **Spatial-Occupancy Enumeration**
 - **Binary Space Partitioning**
@@ -30,7 +30,7 @@ Operativamente definiamo una griglia regolare orientata lungo i 3 assi principal
 
 ![[Pasted image 20240929163209.png]]
 
-L'ottimizazione avviene in quanto una sottoregione e' suddifisa solo se interseca l'oggetto. La rappresentazoine e' comunque approssimata in quanto ci deve essere un numero massimo di suddivisioni.
+L'ottimizzazione avviene in quanto una sottoregione e' suddivisa solo se interseca l'oggetto. La rappresentazione e' comunque approssimata in quanto ci deve essere un numero massimo di suddivisioni.
 ![[Pasted image 20240929163146.png]]
 I metodi BSP piu' utilizzati sono:
 - Partizionamento **quadtree** (2D), cioe' una suddivisione ricorsiva in 4 quadrati.
@@ -56,7 +56,7 @@ Ad ogni figlio viene assegnato un codice:
 ## Rappresentazioni volumetriche costruttive
 
 ### CSG - Constructive Solid Geometry
->[[Modelli e rappresentazioni#Rappresentazioni costruttive]]
+>Si rimanda alla definizione: [[Modelli e rappresentazioni#Rappresentazioni costruttive]].
 
 Gli oggetti vengono ottenuti per composizione delle primitive euclidee.
 La **composizione** di per se' e' un'operazione booleana -> unione, intersezione, differenza etc. oppure traslazione, rotazione, scala etc.
@@ -67,6 +67,7 @@ Il solido finale viene rappresentato tramite un **Albero CSG**, cioe' un albero 
 - Metodo procedurale
 - Consistenza e validita' del risultato
 - Facilita' di modifica di un oggetto costruito
+
 **CONTRO**
 - La rappresentazione non e' unica
 - Non e' possibile verificare se due solidi sono uguali o no valutando le rappresentazioni, non fornisce informazioni su facce e spigoli

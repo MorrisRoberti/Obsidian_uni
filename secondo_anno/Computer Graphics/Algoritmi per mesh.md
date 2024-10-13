@@ -21,7 +21,7 @@ Come funziona:
 
 ![[Pasted image 20241001104840.png]]
 ## Semplificazione di una mesh
->Ci sono alcuni casi in cui si vuole semplificare una mesh, ad esempio se renderizziamo un oggetto lontano, non ha senso lasciare un livello di dettaglio alto, poiche' l'utente comunque non lo percepirebbe, quindi si tende a **semplificarne la mesh** in modo da alleggerire il carico computazionale. Quando si semplifica una mesh si applica un algoritmo incrementale che elimina dei vertici e rimpiazzi gli spazi vuoti, mantenendo una buona approssimazione della mesh originale.
+>Ci sono alcuni casi in cui si vuole semplificare una mesh, ad esempio se renderizziamo un oggetto lontano, non ha senso lasciare un livello di dettaglio alto, poiche' l'utente comunque non lo percepirebbe, quindi si tende a **semplificarne la mesh** in modo da alleggerire il carico computazionale. Quando si semplifica una mesh si applica un algoritmo incrementale che elimina dei vertici e rimpiazza gli spazi vuoti, mantenendo una buona approssimazione della mesh originale.
 
 Ci sono due categorie di algoritmi:
 - Decimazione dei vertici
@@ -50,6 +50,8 @@ dove:
 ### Billboarding
 >Alcune volte si ricorre a dei trucchi per alleggerire il carico computazionale, come quello del **billboarding**. Questo consiste nell'inserire nella scena 3D delle immagini 2D che vengono ruotate per fare in modo di essere sempre orientate verso l'osservatore e dando cosi' l'illusione di essere oggetti 3D.
 
+[[https://timallanwheeler.com/blog/wp-content/uploads/2023/05/billboard.gif|Esempio di Billboarding]].
+
 ## Convex Hull
 >Il **Convex Hull** (inviluppo convesso) di un insieme $n$ di punti 3D e' il piu' piccolo poliedro convesso che li contiene.
 
@@ -70,4 +72,4 @@ Come funziona:
 
 [[Mesh]]
 [[Modelli e rappresentazioni]]
-[[Rappresentazioni con le mesh]]
+[[Modi di utilizzare le mesh]]
