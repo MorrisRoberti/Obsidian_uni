@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4457044a00802e22",
+        "id": "e1ba1d17a18a08ca",
         "type": "tabs",
         "children": [
           {
-            "id": "c483a3c7bb7990b1",
+            "id": "21dd979afe1160b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "c4330ad19ae342be",
+            "id": "6d09d4404372674a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "204fc91dd134f295",
+            "id": "8cea0df320760648",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trasformazioni 2d omogenee",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,47 +183,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4330ad19ae342be",
+  "active": "6d09d4404372674a",
   "lastOpenFiles": [
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
-    "README.md",
+    "Trasformazioni 2D omogenee 1.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee 1.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192516.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192514.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192511.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192003.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014191325.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014145057.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014144901.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141954.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141751.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141619.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141231.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014140912.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014140558.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014135436.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224617.png",
-    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni",
-    "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
+    "secondo_anno/Computer Graphics/Modi di utilizzare le mesh.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Computer Graphics/Principi matematici",
-    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
-    "2024-10-04 Metodologie di programmazione.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni",
+    "secondo_anno/Computer Graphics/Mesh.md",
+    "Esempio.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
+    "Excalidraw/Drawing 2024-10-13 16.44.01.excalidraw.md",
+    "Excalidraw",
+    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
     "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
-    "secondo_anno/Basi di dati/Calcolo relazionale.md",
-    "secondo_anno/Basi di dati/Limiti dell'algebra e del calcolo relazionale.md",
-    "secondo_anno/Basi di dati/Datalog.md",
-    "secondo_anno/Basi di dati/Calcolo relazionale del dominio (DRC).md",
-    "2024-10-02 Basi di dati.md",
-    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
-    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
-    "Excalidraw",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
