@@ -93,6 +93,31 @@ $$SH_{xy}(sh_x, sh_y) = \begin{bmatrix} 1 & 0 & sh_x & 0 \\ 0 & 1 & sh_y & 0 \\ 
 
 ![[Pasted image 20241014145057.png]]
 
+## Importante
+>Una matrice di trasformazione puo' essere divisa in 4 zone
+
+![[Pasted image 20241014192906.png]]
+
+- $3 \times 3$ Rotazione e/o scala differenziata, riflessione e shear
+- $3 \times 1$ Traslazione
+- $1 \times 3$ Proiezione
+- $1 \times 1$ Fattore di scala uniforme
+
+## Convenzioni
+>Matrice di trasformazione **pre-moltiplicata** al vettore colonna
+
+Convenzione per vettori colonna
+$$\begin{bmatrix} x' \\ y' \\ z' \\ 1 \end{bmatrix} = \begin{bmatrix} A & B & C  & D \\ E & F & G & H \\ I & J & K & L \\ 0 & 0 & 0 & 1 \end{bmatrix} \cdot \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix}$$
+>Matrice di trasformazione post-moltiplicata al vettore riga
+
+Convenzione per vettori riga
+$$ \begin{bmatrix} x' & y' & z' & 1 \end{bmatrix} = \begin{bmatrix} x & y & z & 1 \end{bmatrix} \cdot \begin{bmatrix} A & E & I  & 0 \\ B & F & J & 0 \\ I & J & K & 0 \\ D & H & L & 1 \end{bmatrix}$$
+
+**SONO EQUIVALENTI**
+>E' sufficiente trasporre le matrici e i vettori
+>$$ (M*P)^T=P^T*M^T$$
+
+
 #### Links
 [[Trasformazioni 2D omogenee]]
 [[Trasformazioni composte 3D]]
