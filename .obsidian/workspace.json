@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d2386ad57148c368",
+        "id": "e1ba1d17a18a08ca",
         "type": "tabs",
         "children": [
           {
-            "id": "1535be74b44dcb62",
+            "id": "6d09d4404372674a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
-                "staged": false
+                "file": "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a21deea8cc7b9f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programmazione per contratto.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -47,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trasformazioni 2d omogenee",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -84,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programmazione per contratto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programmazione per contratto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programmazione per contratto.md"
+              }
             }
           },
           {
@@ -152,47 +171,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1535be74b44dcb62",
+  "active": "9a21deea8cc7b9f8",
   "lastOpenFiles": [
-    "2024-10-16.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
-    "conflict-files-obsidian-git.md",
+    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
+    "Programmazione per contratto.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+    "secondo_anno/Computer Graphics/Mesh.md",
+    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
+    "Trasformazioni 2D omogenee 1.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee 1.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192516.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192514.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192511.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192003.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014191325.png",
-    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "Trasformazioni 2D omogenee.md",
-    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "2024-10-14 Sistemi informativi.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
-    "README.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014145057.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014144901.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141954.png",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni",
-    "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141751.png",
+    "secondo_anno/Computer Graphics/Modi di utilizzare le mesh.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Computer Graphics/Principi matematici",
-    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
-    "2024-10-04 Metodologie di programmazione.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
-    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
-    "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
-    "secondo_anno/Basi di dati/Calcolo relazionale.md",
-    "secondo_anno/Basi di dati/Limiti dell'algebra e del calcolo relazionale.md",
-    "secondo_anno/Basi di dati/Datalog.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni",
+    "Esempio.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
+    "Excalidraw/Drawing 2024-10-13 16.44.01.excalidraw.md",
     "Excalidraw",
+    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
+    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
+    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
+    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
