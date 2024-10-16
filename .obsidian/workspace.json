@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4457044a00802e22",
+        "id": "d2386ad57148c368",
         "type": "tabs",
         "children": [
           {
-            "id": "c4330ad19ae342be",
+            "id": "1535be74b44dcb62",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "diff-view",
               "state": {
-                "file": "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png"
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
+                "staged": false
               }
             }
           }
@@ -83,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png"
-              }
+              "state": {}
             }
           },
           {
@@ -155,10 +152,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4330ad19ae342be",
+  "active": "1535be74b44dcb62",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "2024-10-16.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
+    "conflict-files-obsidian-git.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192516.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192514.png",
@@ -171,7 +170,6 @@
     "2024-10-14 Sistemi informativi.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
     "README.md",
