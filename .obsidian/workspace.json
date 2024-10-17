@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Riferimenti a lvalue e a rvalue.md",
+                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Riferimenti a lvalue e a rvalue.md",
+                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Riferimenti a lvalue e a rvalue.md",
+                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Riferimenti a lvalue e a rvalue.md"
+                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md"
               }
             }
           },
@@ -171,10 +170,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cd2bcc995bbe179",
+  "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
     "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
-    "Riferimenti a lvalue e a rvalue.md",
+    "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
     "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "2024-10-16.md",
