@@ -2,13 +2,15 @@
 
 Tra precondizioni e postcondizioni sono sempre incluse le [[Progettazione di un tipo di dato concreto#Invariante di classe|Invarianti di classe]].
 
-Il *contratto* si specifica in questo modo:
-						*precondizioni* ==> *postcondizioni*
+>Il *contratto* si specifica in questo modo
+>*precondizioni* ==> *postcondizioni*
+
 Si noti che se le precondizioni NON sono valide, allora l'implicazione del contratto e' vera a prescindere.
 Questo significa che se l'utilizzatore non soddisfa una precondizione l'implementatore *non ha alcun obbligo*.
 
-Spesso si preferisce esplicitare le condizioni sulle invarianti di classe, includendole nel contratto:
-						*precondizioni AND invarianti* ==> *postcondizioni AND invarianti*
+>Spesso si preferisce esplicitare le condizioni sulle invarianti di classe, includendole nel contratto: 
+>*precondizioni AND invarianti* ==> *postcondizioni AND invarianti*
+
 In questo caso, precondizioni e postcondizioni sono intese "al netto" delle invarianti di classe.
 
 Esempio

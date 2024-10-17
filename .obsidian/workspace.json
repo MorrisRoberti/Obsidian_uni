@@ -16,7 +16,9 @@
                 "file": "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Progettazione di un tipo di dato concreto"
             }
           },
           {
@@ -25,10 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmazione per contratto.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Categorie di espressioni"
             }
           }
         ],
@@ -52,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -99,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmazione per contratto.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Categorie di espressioni"
             }
           },
           {
@@ -116,10 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programmazione per contratto.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Categorie di espressioni"
             }
           },
           {
@@ -130,7 +144,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -139,8 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programmazione per contratto.md"
-              }
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Categorie di espressioni"
             }
           },
           {
@@ -148,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -173,8 +193,9 @@
   },
   "active": "9a21deea8cc7b9f8",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
+    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
     "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
-    "Programmazione per contratto.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
     "secondo_anno/Computer Graphics/Mesh.md",
     "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
@@ -211,7 +232,6 @@
     "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
     "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",
