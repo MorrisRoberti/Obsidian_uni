@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1ba1d17a18a08ca",
+        "id": "959887492fa19437",
         "type": "tabs",
         "children": [
           {
-            "id": "6d09d4404372674a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Progettazione di un tipo di dato concreto"
-            }
-          },
-          {
-            "id": "9a21deea8cc7b9f8",
+            "id": "24f0b993d66b9d53",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +16,19 @@
                 "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Categorie di espressioni"
+              }
+            }
+          },
+          {
+            "id": "6cd2bcc995bbe179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Riferimenti a lvalue e a rvalue.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -56,9 +52,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -67,15 +61,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "trasformazioni 2d omogenee",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -83,9 +75,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+                "file": "Riferimenti a lvalue e a rvalue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,9 +107,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Categorie di espressioni"
+              }
             }
           },
           {
@@ -128,12 +116,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+                "file": "Riferimenti a lvalue e a rvalue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Categorie di espressioni"
+              }
             }
           },
           {
@@ -144,9 +130,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -155,10 +139,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Categorie di espressioni"
+                "file": "Riferimenti a lvalue e a rvalue.md"
+              }
             }
           },
           {
@@ -166,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "state": {}
             }
           }
         ],
@@ -191,47 +171,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a21deea8cc7b9f8",
+  "active": "6cd2bcc995bbe179",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+    "Riferimenti a lvalue e a rvalue.md",
+    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
-    "secondo_anno/Computer Graphics/Mesh.md",
-    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
+    "2024-10-16.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
-    "Trasformazioni 2D omogenee 1.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee 1.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
+    "conflict-files-obsidian-git.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192516.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192514.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192511.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192003.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014191325.png",
+    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
+    "Trasformazioni 2D omogenee.md",
+    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+    "2024-10-14 Sistemi informativi.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
+    "README.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014145057.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014144901.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141954.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141751.png",
-    "secondo_anno/Computer Graphics/Modi di utilizzare le mesh.md",
-    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
-    "secondo_anno/Computer Graphics/Principi matematici",
-    "secondo_anno/Computer Graphics/Rappresentazioni",
-    "Esempio.md",
     "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
-    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
     "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
-    "Excalidraw/Drawing 2024-10-13 16.44.01.excalidraw.md",
-    "Excalidraw",
-    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni",
+    "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
+    "secondo_anno/Computer Graphics/Principi matematici",
+    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
+    "2024-10-04 Metodologie di programmazione.md",
+    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
-    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+    "Excalidraw",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
     "secondo_anno/Basi di dati/IMGs",

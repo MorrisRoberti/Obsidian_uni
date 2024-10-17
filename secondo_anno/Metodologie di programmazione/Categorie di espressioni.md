@@ -45,3 +45,19 @@ i = 5; // 5 e' un prvalue (quindi un rvalue)
 i = 4 + 1; // l'espressione 4 + 1 e' un prvalue (quindi un rvalue)
 i = i + 1; // l'espressione i + 1 e' un prvalue (quindi un rvalue)
 ```
+
+**ATTENZIONE**
+>In alcuni casi un **prvalue** puo' essere *materializzato*, creando un oggetto temporaneo (un lvalue) che viene inizializzato con il valore del *prvalue*. Questo e' quello che succede, per esempio, quando ad una funzione che ha un argomento di tipo *constant reference* viene passato un *prvalue*.
+
+Esempio
+```cpp
+void foo(const double& d);
+
+void bar() {
+	foo(0.5);
+}
+```
+In questo caso `0.5` e' un *rvalue* che viene materializzato in un oggetto temporaneo *lvalue* con cui viene inizializzato il **riferimento a lvalue** `d`.
+
+#### Links
+[[Riferimenti a lvalue e a rvalue]]
