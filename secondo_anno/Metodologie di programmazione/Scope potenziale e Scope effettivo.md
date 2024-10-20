@@ -65,7 +65,11 @@ struct Derived : public Base {
 >E' una regola di lookup rilevante per la risoluzione dell'overloading di funzione, ed e' detto anche **Koenig's lookup**.
 
 ```
-"In una chiamata di funzione foo(..., arg, ...), se il nome della funzione (foo) non e' qualificato e se uno degli argomenti (arg) della chiamata e' di un tipo di dato N::U definito dall'utente all'interno del namespace N, allora si considerano come candidate tutte le funzioni con lo stesso nome dichiarate all'interno dello stesso namespace (cioe' N::foo)"
+"In una chiamata di funzione foo(..., arg, ...), se il nome 
+della funzione (foo) non e' qualificato e se uno degli argomenti (arg) 
+della chiamata e' di un tipo di dato N::U definito dall'utente all'interno
+del namespace N, allora si considerano come candidate tutte le funzioni con
+lo stesso nome dichiarate all'interno dello stesso namespace (cioe' N::foo)"
 ```
 Questo e' quello che e' alla base del discorso dell'operator<< etc.
 ### Using declaration
