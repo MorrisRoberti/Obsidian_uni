@@ -43,6 +43,9 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -60,6 +63,9 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -67,6 +73,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
@@ -130,6 +139,9 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -149,6 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
