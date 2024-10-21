@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "959887492fa19437",
+        "id": "9ec1f6607652108d",
         "type": "tabs",
         "children": [
           {
-            "id": "24f0b993d66b9d53",
+            "id": "9756d542eb010fef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cd2bcc995bbe179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (Programmazione per contratto)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +40,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +57,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +67,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -98,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
+                "file": "2024-10-18 Metodologie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +100,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-18 Metodologie"
             }
           },
           {
@@ -115,10 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
+                "file": "2024-10-18 Metodologie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-18 Metodologie"
             }
           },
           {
@@ -129,7 +127,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md"
-              }
+                "file": "2024-10-18 Metodologie.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-10-18 Metodologie"
             }
           },
           {
@@ -147,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -170,10 +174,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a11bf6015c00de4",
+  "active": "9756d542eb010fef",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+    "2024-10-18 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
+    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md",
     "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "2024-10-16.md",
@@ -208,8 +214,6 @@
     "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
     "2024-10-04 Metodologie di programmazione.md",
     "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
-    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
     "Excalidraw",
     "secondo_anno/Computer Graphics/IMGs",
     "secondo_anno/Computer Graphics",
