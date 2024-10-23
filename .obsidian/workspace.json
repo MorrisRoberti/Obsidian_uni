@@ -1,40 +1,70 @@
 {
   "main": {
-    "id": "b8bed655dfe0acc5",
+    "id": "646a7778e125e5bd",
     "type": "split",
     "children": [
       {
-        "id": "9ec1f6607652108d",
-        "type": "tabs",
+        "id": "70184ebb1f67a7e9",
+        "type": "split",
         "children": [
           {
-            "id": "9756d542eb010fef",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (Programmazione per contratto)"
-            }
+            "id": "5a5e30c1264597f9",
+            "type": "tabs",
+            "dimension": 40.57377049180328,
+            "children": [
+              {
+                "id": "3baac0e5292ac29b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Gestione delle risorse"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a4cc120b5c6bf373",
+            "type": "tabs",
+            "dimension": 59.42622950819673,
+            "children": [
+              {
+                "id": "fb2a7c511836361d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024-10-23 Metodologie.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2024-10-23 Metodologie"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fc072dd2df464b09",
+    "id": "4d4427d7a452c76e",
     "type": "split",
     "children": [
       {
-        "id": "0d60cc5d025ecc45",
+        "id": "6761233bdbe74c84",
         "type": "tabs",
         "children": [
           {
-            "id": "4a11bf6015c00de4",
+            "id": "3bf41bb4ff02e6d0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,18 +73,15 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
             }
           },
           {
-            "id": "10686f71c4365c6f",
+            "id": "c038e2aebb357b97",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "trasformazioni 2d omogenee",
+                "query": "chiavi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,19 +90,13 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
             }
           },
           {
-            "id": "b564ec71916f8e5d",
+            "id": "b4954c037de7eb87",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
@@ -85,23 +106,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "df6671a8807f27b2",
+    "id": "a5a574fdc52952c0",
     "type": "split",
     "children": [
       {
-        "id": "55ee16fe965e0657",
+        "id": "d1f2e95f9b0d295e",
         "type": "tabs",
         "children": [
           {
-            "id": "52aa432feea2806b",
+            "id": "78742186c02195fa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-18 Metodologie.md",
+                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-18 Metodologie"
+              "title": "Backlinks for Gestione delle risorse"
             }
           },
           {
-            "id": "2a17a07fbd3d7092",
+            "id": "16fefe26a19f085c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-18 Metodologie.md",
+                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-10-18 Metodologie"
+              "title": "Outgoing links from Gestione delle risorse"
             }
           },
           {
-            "id": "15b19f6dbf84dce1",
+            "id": "752baccc3f7d4d04",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,31 +161,25 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           },
           {
-            "id": "04550d209057d20f",
+            "id": "538b79e1e953f40b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-18 Metodologie.md"
+                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-18 Metodologie"
+              "title": "Outline of Gestione delle risorse"
             }
           },
           {
-            "id": "ff98b807afb72f9c",
+            "id": "d6eddae276a0cc9c",
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
@@ -183,63 +199,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": true,
-      "code-files:Create Code File": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "code-files:Create Code File": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9756d542eb010fef",
+  "active": "3baac0e5292ac29b",
   "lastOpenFiles": [
-    "2024-10-18 Metodologie.md",
-    "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
-    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
-    "secondo_anno/Basi di dati/Algebra relazionale.md",
-    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
-    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
-    "2024-10-16.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241013224620.png",
-    "conflict-files-obsidian-git.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192906.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192516.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192514.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192511.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014192003.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014191325.png",
-    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "Trasformazioni 2D omogenee.md",
-    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "2024-10-14 Sistemi informativi.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
-    "README.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014145057.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014144901.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241014141954.png",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
-    "secondo_anno/Computer Graphics/Rappresentazioni",
-    "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics/Principi matematici",
-    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
-    "2024-10-04 Metodologie di programmazione.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "Excalidraw",
-    "secondo_anno/Computer Graphics/IMGs",
-    "secondo_anno/Computer Graphics",
-    "secondo_anno/Basi di dati/IMGs",
-    "secondo_anno/Basi di dati",
-    "secondo_anno/Sistemi informativi",
-    "secondo_anno/Metodologie di programmazione",
-    "secondo_anno",
-    "primo_anno/Architettura degli elaboratori/Study map.canvas",
-    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "2024-10-23 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+    "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
+    "secondo_anno/Basi di dati/Chiavi e superchiavi.md",
+    "secondo_anno/Basi di dati/Algebra relazionale.md"
   ]
 }
