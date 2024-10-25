@@ -1,34 +1,90 @@
-
+>Vogliamo definire degli approcci pratici per gestire le eccezioni nel codice. Generalmente possiamo elencarne 3: una soluzione *naive*, una soluzione "convenzionale" tramite *try/catch* e infine il metodo idiomatico **RAII-RRID**.
 ### Soluzione naive
-- Quando si vogliono gestire gli errori, talvolta si vuole solo segnalarli, senza "fare rumore" cioe' senza interrompere il programma
+>Quando si vogliono gestire gli errori, talvolta si vuole solo segnalarli, senza "fare rumore" cioe' senza interrompere il programma.
+
 ```cpp
 bool codice_utente() {
 Risorsa* r1 = new acquisisci_risorsa();
 if (r1 == nullptr) {
 	// log di errore durante l'acquisizione di r1: non devo rilasciare la risorsa
 	return true;
-}
-
-}
-```
-- la restituzione della risorsa PUO' fallire ma non dipende da noi e non possiamo farci niente
-- solitamente si rilasciano le risorse in modo inverso rispetto a come sono state acquisite
-
-### Try-catch (eccezioni)
-
-- Il modo **convenzionale** per gestire gli errori e' utilizzando le eccezioni
-```cpp
-struct 
-
-Risorsa* acquisisci_risorsa_exc() {
-
-}
-
-void usa_risorse_exc(Risorsa* r1 ,Risorsa* r2) {
-	if(usa_risorse(r1, r2)){
-		throw error;
 	}
 }
+```
+**NOTE**
+1. La restituzione della risorsa PUO' fallire ma non dipende da noi e non possiamo farci niente.
+2. Le risorse tipicamente vengono rilasciate in modo inverso rispetto a come sono acquisite.
+### Try-catch (eccezioni)
+>Il modo **convenzionale** per gestire gli errori e' utilizzando le eccezioni.
+
+```cpp
+
+#include "risorsa_exc.hh"
+void codice_utente() {
+
+  Risorsa* r1 = acquisisci_risorsa_exc();
+
+  try { // blocco try che protegge la risorsa r1
+
+    usa_risorsa_exc(r1);
+
+  
+
+    Risorsa* r2 = acquisisci_risorsa_exc();
+
+    try { // blocco try che protegge la risorsa r2
+
+      usa_risorse_exc(r1, r2);
+
+      restituisci_risorsa(r2);
+
+    } // fine try che protegge r2
+
+    catch (...) {
+
+      restituisci_risorsa(r2);
+
+      throw;
+
+    }
+
+  
+
+    Risorsa* r3 = acquisisci_risorsa_exc();
+
+    try { // blocco try che protegge la risorsa r3
+
+      usa_risorse_exc(r1, r3);
+
+      restituisci_risorsa(r3);
+
+    } // fine try che protegge r3
+
+    catch (...) {
+
+      restituisci_risorsa(r3);
+
+      throw;
+
+    }
+
+    restituisci_risorsa(r1);
+
+  
+
+  } // fine try che protegge r1
+
+  catch (...) {
+
+    restituisci_risorsa(r1);
+
+    throw;
+
+  }
+
+  
+}
+
 ```
 - Possiamo acquisire le risorse anche fuori dal blocco *try-catch* poiche' se l'acquisizione fallisce non acquisisco memoria e quindi non devo rilasciarla, se c'e' un errore semplicemente restituisco il controllo al chiamante
 - vogliamo un blocco try che "protegga" la risorsa i-esima quando viene usata (quindi dopo l'acquisizione), se viene lanciato un errore, nel blocco catch viene rilasciata la risorsa
@@ -108,4 +164,5 @@ void codice_utente() {
 ```
 - Le linee `5-6` vengono messe in un blocco, perche' in questo modo la distruzione di `r2` avviene *prima* della creazione di `r3` 
 
-## Exception Safety
+#### Links
+[[Exception Safety]]
