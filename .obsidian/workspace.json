@@ -11,10 +11,14 @@
             "id": "662908d5562df636",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2024-11-06 Metodologie.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-11-06 Metodologie"
             }
           }
         ]
@@ -174,6 +178,7 @@
   },
   "active": "662908d5562df636",
   "lastOpenFiles": [
+    "2024-11-06 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Exception Safety.md",
     "secondo_anno/Metodologie di programmazione/Approcci per gestire le eccezioni.md",
     "2024-10-25 Metodologie.md",
