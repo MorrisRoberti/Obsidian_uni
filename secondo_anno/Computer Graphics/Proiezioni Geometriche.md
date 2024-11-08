@@ -2,8 +2,13 @@
 
 In computer grafica specifichiamo:
 - il *tipo* di proiezione -> parallela, prospettica etc.
-- un **viewing volume** -> e' la regione di spazio tridimensionale visibile dalla camera virtuale e che contiene gli oggetti da visualizzare
+- un **view volume** 
 La proiezione degli oggetti avviene su una finestra (**window**) che verrra' poi mappata sul dispositivo di uscita, cioe' lo schermo.
+
+**View volume**
+>E' la regione di spazio tridimensionale visibile dalla camera virtuale e che contiene gli oggetti da visualizzare. E' solitamente un cubo delimitato da 6 piani: *left, right, top, bottom, near e far*.
+
+![[Pasted image 20241108151517.png]]
 
 ## Tipologie di proiezione
 ### Parallela
@@ -13,7 +18,7 @@ Nelle proiezioni parallele:
 - Le linee parallele rimangono tali
 - Gli oggetti non cambiano dimensione quando si avvicinano -> o comunque le proporzioni vengono mantenute
 - Sono utili per **verificare allineamenti e dimensioni**
-- Il **viewing volume** specificato e' a forma di parallelepipedo
+- Il **view volume** specificato e' a forma di parallelepipedo
 
 ![[Pasted image 20241107222910.png]]
 #### Proiezioni parallele ortografiche
@@ -52,3 +57,4 @@ Nelle proiezioni prospettiche:
 
 #### Links
 [[Matematica delle proiezioni]]
+[[Pipeline grafica programmabile]]

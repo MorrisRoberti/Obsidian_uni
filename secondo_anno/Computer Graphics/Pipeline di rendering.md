@@ -27,3 +27,4 @@ dove:
 La cosa interessante della pipeline e' il fatto che in realta' la GPU lavora in parallelo, quindi il tempo di esecuzione e' decisamente minore rispetto a quello sopra:
 $$O (\space max(K_{transf}\cdot n, \Sigma_{i=0}^{i=m} R(p_i))\space)$$
 #### Links
+[[Pipeline grafica programmabile]]

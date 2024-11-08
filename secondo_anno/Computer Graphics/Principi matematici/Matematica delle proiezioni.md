@@ -52,4 +52,3 @@ In forma matriciale, in coordinate omogenee:
 $$\begin{bmatrix} x_p \\ y_p \\ z_p \\ 1 \end {bmatrix} = \begin {bmatrix} -z_c & 0 & x_c & 0 \\ 0 & -z_c & y_c & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & -z_c\end {bmatrix} \cdot \begin{bmatrix} x \\ y \\ z \\ 1 \end {bmatrix} = \begin{bmatrix} -z_cx + x_cz \\ -z_cy + y_cz \\ 0 \\ z-z_c\end{bmatrix} = \begin{bmatrix} \frac{-z_cx + x_cz}{z-z_c} \\ \frac{-z_cy + y_cz}{z-z_c} \\ 0 \\ 1 \end{bmatrix}$$
 #### Links
 [[Proiezioni Geometriche]]
-[[Proiezioni nella pipeline grafica]]

@@ -1,52 +1,52 @@
 {
   "main": {
-    "id": "646a7778e125e5bd",
+    "id": "b8bed655dfe0acc5",
     "type": "split",
     "children": [
       {
-        "id": "0fd57707f9cf4863",
+        "id": "660e76b378095d9d",
         "type": "tabs",
         "children": [
           {
-            "id": "e048db9e9951037a",
+            "id": "1ab923b687a46918",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
+                "file": "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matematica delle proiezioni"
+              "title": "Proiezioni Geometriche"
             }
           },
           {
-            "id": "1fcefc7720c6f9eb",
+            "id": "3595e654459c2d3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Proiezioni nella pipeline grafica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proiezioni nella pipeline grafica"
-            }
-          },
-          {
-            "id": "3bcb1060233472d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pipeline grafica programmabile.md",
+                "file": "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Pipeline grafica programmabile"
+            }
+          },
+          {
+            "id": "c97178e3bd24492a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scene Graph.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scene Graph"
             }
           }
         ],
@@ -56,15 +56,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4d4427d7a452c76e",
+    "id": "fc072dd2df464b09",
     "type": "split",
     "children": [
       {
-        "id": "6761233bdbe74c84",
+        "id": "0d60cc5d025ecc45",
         "type": "tabs",
         "children": [
           {
-            "id": "3bf41bb4ff02e6d0",
+            "id": "4a11bf6015c00de4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,12 +76,12 @@
             }
           },
           {
-            "id": "c038e2aebb357b97",
+            "id": "10686f71c4365c6f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "chiavi",
+                "query": "move",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             }
           },
           {
-            "id": "b4954c037de7eb87",
+            "id": "b564ec71916f8e5d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,20 +110,20 @@
     "collapsed": true
   },
   "right": {
-    "id": "a5a574fdc52952c0",
+    "id": "df6671a8807f27b2",
     "type": "split",
     "children": [
       {
-        "id": "d1f2e95f9b0d295e",
+        "id": "55ee16fe965e0657",
         "type": "tabs",
         "children": [
           {
-            "id": "78742186c02195fa",
+            "id": "52aa432feea2806b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gestione delle risorse"
+              "title": "Backlinks for Categorie di espressioni"
             }
           },
           {
-            "id": "16fefe26a19f085c",
+            "id": "2a17a07fbd3d7092",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Gestione delle risorse"
+              "title": "Outgoing links from Categorie di espressioni"
             }
           },
           {
-            "id": "752baccc3f7d4d04",
+            "id": "15b19f6dbf84dce1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,19 +164,19 @@
             }
           },
           {
-            "id": "538b79e1e953f40b",
+            "id": "04550d209057d20f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md"
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Gestione delle risorse"
+              "title": "Outline of Categorie di espressioni"
             }
           },
           {
-            "id": "d6eddae276a0cc9c",
+            "id": "ff98b807afb72f9c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -199,39 +199,63 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "command-palette:Open command palette": true,
       "code-files:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bcb1060233472d2",
+  "active": "c97178e3bd24492a",
   "lastOpenFiles": [
-    "Pasted image 20241108122031.png",
-    "secondo_anno/Computer Graphics/Proiezioni nella pipeline grafica.md",
-    "Pipeline grafica programmabile.md",
-    "Pasted image 20241108121051.png",
-    "Pasted image 20241108120408.png",
-    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108112648.png",
-    "2024-11-06 Metodologie.md",
+    "Pasted image 20241108194415.png",
+    "Pasted image 20241108194402.png",
+    "Scene Graph.md",
+    "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108192226.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108152252.png",
     "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241107230929.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241107223313.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241107222910.png",
-    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241107222541.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108151517.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108151100.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
     "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Metodologie di programmazione/Exception Safety.md",
+    "secondo_anno/Computer Graphics/Proiezioni nella pipeline grafica.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108112648.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108122031.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108121051.png",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108120408.png",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
+    "secondo_anno/Computer Graphics/IMGs/Pasted image 20241107230929.png",
+    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+    "2024-11-06 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Approcci per gestire le eccezioni.md",
-    "2024-10-25 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
+    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
+    "secondo_anno/Metodologie di programmazione/Exception Safety.md",
     "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
+    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
+    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
     "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "conflict-files-obsidian-git.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
     "2024-10-23 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
     "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
-    "secondo_anno/Basi di dati/Chiavi e superchiavi.md",
-    "secondo_anno/Basi di dati/Algebra relazionale.md"
+    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
+    "secondo_anno/Computer Graphics/Principi matematici",
+    "secondo_anno/Computer Graphics/Rappresentazioni",
+    "Excalidraw",
+    "secondo_anno/Computer Graphics/IMGs",
+    "secondo_anno/Computer Graphics",
+    "secondo_anno/Basi di dati/IMGs",
+    "secondo_anno/Basi di dati",
+    "secondo_anno/Sistemi informativi",
+    "secondo_anno/Metodologie di programmazione",
+    "secondo_anno",
+    "primo_anno/Architettura degli elaboratori/Study map.canvas",
+    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
   ]
 }
