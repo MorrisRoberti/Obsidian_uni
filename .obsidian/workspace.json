@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "660e76b378095d9d",
+        "id": "71ac73a9f7dec050",
         "type": "tabs",
         "children": [
           {
-            "id": "1ab923b687a46918",
+            "id": "b2d1169266507d8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
+                "file": "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proiezioni Geometriche"
-            }
-          },
-          {
-            "id": "3595e654459c2d3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pipeline grafica programmabile"
-            }
-          },
-          {
-            "id": "c97178e3bd24492a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Computer Graphics/Scene Graph.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scene Graph"
+              "title": "Smart Pointers"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "df6671a8807f27b2",
@@ -204,10 +176,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c97178e3bd24492a",
+  "active": "b2d1169266507d8c",
   "lastOpenFiles": [
-    "2024-11-06 Metodologie.md",
+    "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
     "secondo_anno/Computer Graphics/Scene Graph.md",
+    "2024-11-06 Metodologie.md",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108194415.png",
     "secondo_anno/Computer Graphics/IMGs/Pasted image 20241108194402.png",
     "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
