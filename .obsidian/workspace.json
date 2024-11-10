@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
+                "file": "secondo_anno/Basi di dati/DBMS Architecture/DBMS Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Smart Pointers"
+              "title": "DBMS Architecture"
+            }
+          },
+          {
+            "id": "5753ecadccca6bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Implementazione del JOIN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Implementazione del JOIN"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2d1169266507d8c",
+  "active": "5753ecadccca6bdf",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/DBMS Architecture/DBMS Architecture.md",
+    "Implementazione del JOIN.md",
+    "secondo_anno/Basi di dati/DBMS Architecture",
     "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
     "secondo_anno/Computer Graphics/Scene Graph.md",
     "2024-11-06 Metodologie.md",
@@ -212,8 +230,6 @@
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
     "2024-10-23 Metodologie.md",
     "secondo_anno/Metodologie di programmazione/Tipi, qualificatori, costanti letterali.md",
-    "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
-    "secondo_anno/Metodologie di programmazione/Tipi pointer e reference.md",
     "secondo_anno/Computer Graphics/Principi matematici",
     "secondo_anno/Computer Graphics/Rappresentazioni",
     "Excalidraw",
@@ -223,7 +239,6 @@
     "secondo_anno/Basi di dati",
     "secondo_anno/Sistemi informativi",
     "secondo_anno/Metodologie di programmazione",
-    "secondo_anno",
     "primo_anno/Architettura degli elaboratori/Study map.canvas",
     "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
     "Untitled.canvas",
