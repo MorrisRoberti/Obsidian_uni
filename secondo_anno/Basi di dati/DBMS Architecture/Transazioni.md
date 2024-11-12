@@ -29,7 +29,7 @@ Le motivazioni dietro tali problemi sono semplici:
 
 - **A**TOMICITY -> una transazione e' un'unita' atomica le cui operazioni vengono tutte eseguite o non ne viene eseguita nessuna. Non ci puo' essere una transazione parzialmente completata
 - **C**ONSISTENCY -> tutte le transazioni devono mantenere il database consistente, cioe' devono rispettare i suoi vincoli
-- **I**SOLATION -> ogni transazione deve sembrare di essere eseguita come se nessun'altra transazione sta venendo eseguita allo stesso tempo
+- **I**SOLATION -> ogni transazione deve dare l'impressione di essere eseguita come se nessun'altra transazione stesse venendo eseguita allo stesso tempo
 - **D**URABILITY -> una volta che la transazione ha apportato modifiche al database ed e' stata *committed*, tali cambiamenti non devono mai essere persi a causa di crash successivi
 
 #### Consistency & Isolation
@@ -51,3 +51,4 @@ Le transazioni possono essere abortite nei seguenti casi:
 #### Links
 [[Database & DBMS]]
 [[Schedule delle transazioni]]
+[[Transaction Parameters]]

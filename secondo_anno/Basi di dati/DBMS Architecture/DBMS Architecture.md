@@ -43,3 +43,7 @@ Un tipico gestore di concorrenza mantiene *bloccate* alcune porzioni del databas
 #### Links
 [[Transazioni]]
 [[Implementazione del JOIN]]
+[[Concurrency Control Approaches]]
+[[Schedule delle transazioni]]
+[[Transaction Parameters]]
+[[Crash Recovery]]

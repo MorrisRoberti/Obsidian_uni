@@ -4,10 +4,11 @@
 **Persistenza** -> le operazioni eseguite da *committing transactions* devono sopravvivere ai crash di sistema 
 
 ## Algoritmo di recovery ARIES
->**ARIES** o *Advanced Recovery and Integrated Extraction System* e' un algoritmo di recovery che e' eseguito dal recovery manager quando il sistema va in crash.
+>**ARIES** o *Advanced Recovery and Integrated Extraction System* e' un algoritmo di recovery che e' eseguito dal *Recovery Manager* quando il sistema va in crash.
 
 **ARIES** e' utilizzato in DB2, SQL Server e altri DBMS.
-Elenchiamo le tre fasi:
+
+Elenchiamo le sue 3 fasi:
 - **Fase di analisi** -> identifica le **dirty pages** (cioe' le pagine di memoria cambiate ma non ancora scritte) del buffer pool e le **transazioni attive** al momento del crash
 - **Fase di redo** -> partendo da un dato **checkpoint** nel log file, ripete tutte le operazioni e porta il database allo stato in cui era al momento del crash
 - **Fase di undo** -> **annulla le operazioni** di transazioni che erano attive al momento del crash ma che non erano state *committed*, nell'ordine opposto
@@ -22,7 +23,7 @@ Elenchiamo le tre fasi:
 
 >I **log record** sono ordinati in sequenza con un unico id che e' il **Log Sequence Number** (*LSN*). L'*LSN* e' strettamente crescente e permette di trovare e di accedere a record.
 
-La parte piu' recente del log file, la cosidetta **log tail** e' tenuta nei log buffer e periodicamente salvata nella memoria persistente. Il log file e i dati vengono scirti sul disco con gli stessi meccanismi.
+La parte piu' recente del log file, la cosiddetta **log tail** e' tenuta nei log buffer e periodicamente salvata nella memoria persistente. Il log file e i dati vengono scritti sul disco con gli stessi meccanismi.
 
 Abbiamo alcune strutture per il logging:
 - La **Dirty Page Table** tiene un registro di tutti gli id di pagine che sono state modificate ma non scritte e del primo *LSN* che ha causato lo "sporcamento" della pagina

@@ -1,3 +1,8 @@
+Ci sono approcci diversi:
+- **RESTRICTIVE** -> cerca uno schedule serializzabile che evita conflitti attraverso protocolli di *data locking*
+- **OPTIMISTIC** -> esegue tutte le transazioni in modo concorrente controllando i conflitti prima di fare commit
+- **TIMESTAMPING** -> assegna timestamp alle transazioni che hanno letto o scritto oggetti e confronta tali valori per determinare l'ordine delle operazioni nello scheduling
+
 ## Restrictive
 >Il DBMS deve assicurare **l'assenza di conflitti** e **il rollback di transazioni abortite**.
 
