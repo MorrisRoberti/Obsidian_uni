@@ -3,7 +3,7 @@
 Le tre classi *templatiche* degli smart pointers sono definite nell'header `<memory>`.
 
 **ATTENZIONE**
->Gli *smart pointer* si riferiscono alla memoria dinamica, quindi contengono puntatori a memoria allocata dinamicamente sotto il controllo del programmatore, non si possono usare per la memoria che viene allocata staticamente o automaticamente.
+>Gli *smart pointer* si riferiscono alla memoria dinamica, quindi contengono puntatori a memoria allocata dinamicamente sotto il controllo del programmatore, non si possono usare per la memoria che viene allocata staticamente o automaticamente. Cioe' il valore con il quale istanziamo uno smart pointer deve essere qualcosa di allocato nell'heap.
 
 Distinguiamo 3 tipi di smart pointer:
 - **std::unique_ptr** -> puntatori *unici*
@@ -78,7 +78,7 @@ Come detto gli shared_ptr sono **copiabili** e **spostabili**.
 La classe fornisce i metodi *reset* e *get* con la semantica intuitiva (non release).
 
 #### I template di funzione std::make_shared e std::make_unique
->Uno *shared_ptr* deve interagire con due componenti: *la risorsa* e il *blocco di controllo* della risorsa cioe' una porzione di memoria nella quale viene salvato anche il reference counter. Per motivi di efficienza sarebbe bene che queste due componenti fossero allocate insieme con una singola operazione: tale e' la garanzia offerta dalla **std::make_shared**.
+>Uno *shared_ptr* deve interagire con due componenti: *la risorsa* e il *blocco di controllo* della risorsa cioe' una porzione di memoria nella quale viene salvato anche il reference counter. Per motivi di efficienza sarebbe bene che queste due componenti fossero allocate insieme con una singola operazione: tale e' la garanzia offerta dalla **std::make_shared**. L'equivalente per gli *unique pointer* e' **std::make_unique**.
 
 ```cpp
 void bar() {
@@ -112,7 +112,33 @@ A partire da C++14 e' stata resa disponibile anche la **std::make_unique**.
 L'uso di smart pointers e di queste funzioni fanno si che l'utilizzo di operazioni *new* e *delete* vengano limitate se non proprio eliminate. Nelle linee guida piu' recenti del linguaggio, l'uso *naked* di new e delete e' considerato cattivo stile di programmazione.
 
 ## std::weak_ptr
->Un problema che si potrebbe presentare quando si usano gli shared_ptr e' dato dalla possibilita' di creare *dipendenze circolari*, cioe' abbiamo piu' puntatori che si puntano a vicenda. In questo caso le risorse comprese in un ciclo mantengono sempre un reference couter positivo anche se non sono piu' raggiungibili dal programma e questo genera memory leak. L'uso di weak_ptr e' pensato per risolvere tali problemi
+>Un problema che si potrebbe presentare quando si usano gli shared_ptr e' dato dalla possibilita' di creare *dipendenze circolari*, cioe' abbiamo piu' puntatori che si puntano a vicenda. In questo caso le risorse comprese in un ciclo mantengono sempre un reference couter positivo anche se non sono piu' raggiungibili dal programma e questo genera memory leak. L'uso di weak_ptr e' pensato per risolvere tali problemi.
+
+```cpp
+#include <iostream>
+#include <memory>
+
+struct A {
+	std::shared_ptr<B> B_ptr;
+	~A() { std::cout << "A Destroyed" << std::endl;}
+};
+
+struct B {
+	std::shared_ptr<A> A_ptr;
+	~B() { std::cout << "B Destroyed" << std::endl;}
+};
+
+int main() {
+
+	std::shared_ptr<A> a = std::shared_ptr<A>();
+	std::shared_ptr<B> b = std::shared_ptr<B>();
+	
+	a->ptrB = b;
+	b->ptrA = a;
+}
+```
+
+Ad esempio nel programma sopra si crea una dipendenza ciclica tra `a` e `b` quindi nessun oggetto verra' mai distrutto.
 
 >Uno **weak_ptr** e' un puntatore ad una risorsa condivisa che pero' non partecipa attivamente alla gestione della risorsa stessa: la risorsa viene quindi rilasciata quando si distrugge l'ultimo shared_ptr, anche se esistono dei *weak_ptr* che la indirizzano.
 
@@ -133,7 +159,7 @@ void foo() {
 		auto sp = std::make_shared<int>(42);
 		wp = sp; // wp non incrementa il reference counter della risorsa
 		*sp = 55;
-		maybe_prin(wp); // stampa 
+		maybe_print(wp); // stampa 
 	} // sp viene distrutto, insieme alla risorsa
 	maybe_print(wp); // stampa "non piu' disponibile"
 }

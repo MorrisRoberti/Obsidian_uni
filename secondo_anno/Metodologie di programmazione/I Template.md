@@ -84,7 +84,7 @@ voild foo(double d, int i) {
 
 **NOTA BENE**
 E' necessario specificare che:
->*Un template di funzione NON e' una funzione, ma un "generatore" di funzioni; un'istanza di un template di funzione e' una funzione.
+>*Un template di funzione NON e' una funzione, ma un "generatore" di funzioni; un'istanza di un template di funzione e' una funzione.*
 
 Se compilo un'unita' di traduzione ottenendo un object file posso notare che il suo contenuto e' privo del "template di funzione" ma contiene solo le sue istanze.
 
@@ -109,7 +109,7 @@ const char* max<const char*>(const char* a, const char* b) {
 ```
 
 ### Istanziazione esplicita
->Esista la possibilita' di richiedere esplicitamente al compilatore l'istanziazione di un template, indipendentemente dal fatto che questo venga utilizzato o meno.
+>Esiste la possibilita' di richiedere **esplicitamente** al compilatore l'istanziazione di un template, indipendentemente dal fatto che questo venga utilizzato o meno.
 
 Sono previste due sintassi:
 1. Dichiarazione di istanza esplicita
@@ -143,7 +143,7 @@ class Stack;
 
 // definizione di un template di classe
 template <typename T>
-class STack {
+class Stack {
 public:
 	// ...
 	void push(const T& t);
@@ -200,7 +200,7 @@ Questo significa che , per usare il metodo `Stack<T>::print()` il tipo `T` *deve
 ### Istanziazioni e specializzazioni
 >Come nel caso dei template di funzione, anche i template di classe possono essere **istanziati** (esplicitamente o implicitamente) e **specializzati**.
 
-Un esempio di specializzazione **totale** di template di classe e' fornito all'interno dell'header file standard `<limits>` che fornisce il template di classe `std::numeric_limits` attraverso il quale si possono per esempio otteere informazione sui tipi built-in
+Un esempio di specializzazione **totale** di template di classe e' fornito all'interno dell'header file standard `<limits>` che fornisce il template di classe `std::numeric_limits` attraverso il quale si possono per esempio ottenere informazione sui tipi built-in
 
 ```cpp
 #include <limits>
