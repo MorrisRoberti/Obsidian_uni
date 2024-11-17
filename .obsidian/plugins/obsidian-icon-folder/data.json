@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": "#ffffff",
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "BoBxsBusiness",
+      "SiReadme",
+      "SiNvidia",
+      "SiCplusplus",
+      "BoBxsData"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -19,5 +25,10 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true
-  }
+  },
+  "secondo_anno/Basi di dati": "BoBxsData",
+  "secondo_anno/Metodologie di programmazione": "SiCplusplus",
+  "secondo_anno/Computer Graphics": "SiNvidia",
+  "README.md": "SiReadme",
+  "secondo_anno/Sistemi informativi": "BoBxsBusiness"
 }

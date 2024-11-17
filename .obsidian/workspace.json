@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
+                "file": "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Smart Pointers"
+              "title": "Programmazione generica"
             }
           }
         ]
@@ -176,8 +176,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f10ccc5384d0d3d0",
+  "active": "ff98b807afb72f9c",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/Compilazione template.md",
+    "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
+    "secondo_anno/Metodologie di programmazione/Note sulla compilazione di template.md",
+    "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
+    "secondo_anno/Metodologie di programmazione/Classi generiche.md",
     "secondo_anno/Metodologie di programmazione/I Template.md",
     "secondo_anno/Basi di dati/DBMS Architecture/Schedule delle transazioni.md",
     "primo_anno/Programmazione B/JAVA/Generics.md",
@@ -198,7 +203,6 @@
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241110204905.png",
     "secondo_anno/Basi di dati/DBMS Architecture/Implementazione del JOIN.md",
     "secondo_anno/Basi di dati/DBMS Architecture",
-    "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
     "secondo_anno/Computer Graphics/Scene Graph.md",
     "2024-11-06 Metodologie.md",
     "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
@@ -211,10 +215,6 @@
     "secondo_anno/Metodologie di programmazione/Approcci per gestire le eccezioni.md",
     "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
     "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
-    "secondo_anno/Metodologie di programmazione/Exception Safety.md",
-    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
-    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
-    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "secondo_anno/Computer Graphics/Principi matematici",
     "secondo_anno/Computer Graphics/Rappresentazioni",
     "Excalidraw",
