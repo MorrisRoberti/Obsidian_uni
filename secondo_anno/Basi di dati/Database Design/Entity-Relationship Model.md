@@ -79,3 +79,27 @@ Si rappresentano graficamente nel seguente modo
 
 ![[Pasted image 20241117235145.png]]
 
+## Identificatori di Entita'
+>Un **identificatore** e' una modo univoco per identificare le occorrenze di un'entita'. Puo' essere *interno* e quindi composto dagli attributi dell'entita' o *esterno* quindi attributi dell'entita' + entita' esterne raggiungibili attraverso associazioni.
+
+![[Pasted image 20241118100409.png]]
+
+L'attributo *Plate* e' l'identificatore interno per *Car* perche' non ci sono 2 macchine con la stessa targa.
+
+Gli identificatori interni possono essere composti da piu' attributi.
+
+![[Pasted image 20241118100534.png]]
+
+Come specificato sopra, gli identificatori di entita' possono essere anche esterni.
+Nell'immagine sotto, l'attributo *Number* e l'entita' *University* formano l'identificatore esterno perche' potrebbero esserci degli studenti con lo stesso *Number* ma appartenenti a *University* diverse.
+
+![[Pasted image 20241118100752.png]]
+
+### Note a margine
+- Ogni entita' deve avere almeno un identificatore ma puo' generalmente averne piu' di uno
+- Un'identificazione esterna e' possibile solo attraverso un'associazione in cui l'identita' da essere trovata partecipa con una cardinalita' (1,1)
+- Perche' le associazioni non hanno identificatori? E' meglio associare identificatori alle entita' che alle associazioni
+
+#### Links
+[[Database Design]]
+[[Entity-Relationship Model pt.2]]
