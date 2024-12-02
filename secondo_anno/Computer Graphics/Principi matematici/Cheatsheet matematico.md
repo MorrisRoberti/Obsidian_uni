@@ -11,6 +11,9 @@ $\vert v\vert = \sqrt{x^2 + y^2 + z^3}$
 ##### Direzione di un vettore
 coseni dei 3 angoli formati con le 3 direzioni principali
 
+##### Norma di un vettore
+$\vert v \vert = \sqrt{{v_x}^2 + {v_y}^2 + {v_z}^2}$
+
 ##### Calcolo del versore (vettore di modulo unitario)
 $u = \frac{v}{\vert v\vert}$ 
 

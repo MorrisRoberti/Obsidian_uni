@@ -1,2 +1,0 @@
-- I modelli globali sono piu' precisi perche' tengono in considerazione piu' fattori dei modelli locali
-- 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Database Design/Conceptual Design.md",
-                "mode": "source",
+                "file": "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conceptual Design"
+              "title": "Trasformazioni 3D"
             }
           }
         ]
@@ -175,10 +175,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bf41bb4ff02e6d0",
+  "active": "e048db9e9951037a",
   "lastOpenFiles": [
-    "2024-11-24 Database.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 2D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni composte 3D.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Volumetriche.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni di Sweep.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
+    "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
+    "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
+    "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Basi di dati/Database Design/Conceptual Design.md",
+    "2024-11-23 Informatica grafica - l'illuminazione.md",
+    "2024-11-24 Database.md",
     "secondo_anno/Basi di dati/Database Design/Entity-Relationship Model.md",
     "secondo_anno/Basi di dati/Datalog.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241124180324.png",
@@ -191,29 +207,13 @@
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241124173716.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241124173219.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241124172942.png",
-    "2024-11-23 Informatica grafica - l'illuminazione.md",
-    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
     "Pipeline grafica programmabile.md",
     "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
     "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
     "secondo_anno/Metodologie di programmazione/I Template.md",
     "secondo_anno/Metodologie di programmazione/Compilazione template.md",
     "secondo_anno/Computer Graphics/Scene Graph.md",
-    "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
-    "secondo_anno/Basi di dati/Database Design/UML.md",
-    "secondo_anno/Basi di dati/Database Design/Entity-Relationship Model pt.2.md",
-    "secondo_anno/Basi di dati/Database Design/Database Design.md",
     "secondo_anno/Basi di dati/Database Design",
-    "secondo_anno/Basi di dati/DBMS Architecture/Transaction Parameters.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Transazioni.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Implementazione del JOIN.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Schedule delle transazioni.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/DBMS Architecture.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Crash Recovery.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Concurrency Control Approaches.md",
-    "secondo_anno/Basi di dati/DBMS Architecture",
-    "secondo_anno/Computer Graphics/Proiezioni nella pipeline grafica.md",
-    "2024-11-06 Metodologie.md",
-    "secondo_anno/Computer Graphics/Proiezioni Geometriche.md"
+    "secondo_anno/Basi di dati/DBMS Architecture"
   ]
 }
