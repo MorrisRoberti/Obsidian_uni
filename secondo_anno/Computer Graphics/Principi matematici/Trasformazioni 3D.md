@@ -3,7 +3,7 @@
 ![[Pasted image 20241014135436.png]]
 
 **DIREZIONI DI ROTAZIONE**
-Le rotazioni di angolo positivo rispetto a ciascun asse sono definite in sento antiorario guardando dalla parte positiva dell'asse verso l'origine.
+Le rotazioni di angolo positivo rispetto a ciascun asse sono definite in senso antiorario guardando dalla parte positiva dell'asse verso l'origine.
 Una rotazione di 90º (positiva) rispetto ad un asse trasforma quindi uno dei due rimanenti assi positivi nel terzo.
 
 | Asse di rotazione | La direzione di una rotazione positiva e' |

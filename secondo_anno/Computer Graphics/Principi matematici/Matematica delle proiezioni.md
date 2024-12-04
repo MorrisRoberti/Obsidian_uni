@@ -36,7 +36,7 @@ La distanza $d$ corrisponde quindi ad un semplice fattore di scala per $x_p$ e $
 La trasformazione prospettica puo' essere espressa in coordinate omogenee mediante una matrice $4\times4$ :
 $$M_{per} \cdot P = \begin {bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 1/d & 0 \end {bmatrix} \cdot \begin{bmatrix} x \\ y \\ z \\ 1\end{bmatrix} = \begin{bmatrix} x & y & z & \frac{z}{d}\end {bmatrix}^T = \begin{bmatrix} \frac{x}{z/d} & \frac{y}{z/d} & d & 1\end {bmatrix}^T$$
 
->Proiezione prospettica sul piano $xy$ con centro di proiezione $(x, y ,z)$. *Dato un punto di proiezione $P(x, y, z)$, determinare la sua proiezione $(x_p, y_p, z_p)$.*
+>Proiezione prospettica sul piano $xy$ con centro di proiezione $(x_c, y_c ,z_c)$. *Dato un punto di proiezione $P(x, y, z)$, determinare la sua proiezione $(x_p, y_p, z_p)$.*
 
 Equazione della retta passante per il centro di proiezione e per il punto $P$:
 $x_p = x_c + (x - x_c)\cdot t$
