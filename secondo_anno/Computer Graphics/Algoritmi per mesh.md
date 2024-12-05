@@ -50,7 +50,7 @@ dove:
 ### Billboarding
 >Alcune volte si ricorre a dei trucchi per alleggerire il carico computazionale, come quello del **billboarding**. Questo consiste nell'inserire nella scena 3D delle immagini 2D che vengono ruotate per fare in modo di essere sempre orientate verso l'osservatore e dando cosi' l'illusione di essere oggetti 3D.
 
-[[https://timallanwheeler.com/blog/wp-content/uploads/2023/05/billboard.gif|Esempio di Billboarding]].
+[Esempio di Billboarding](https://timallanwheeler.com/blog/wp-content/uploads/2023/05/billboard.gif).
 
 ## Convex Hull
 >Il **Convex Hull** (inviluppo convesso) di un insieme $n$ di punti 3D e' il piu' piccolo poliedro convesso che li contiene.

@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0fd57707f9cf4863",
+        "id": "e5b072ea152a706b",
         "type": "tabs",
         "children": [
           {
-            "id": "e048db9e9951037a",
+            "id": "cf09dfdd6e9828b1",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
-                "staged": false
+                "file": "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (Matematica delle proiezioni)"
+              "icon": "lucide-file",
+              "title": "Template Type Deduction & Auto Type Deduction"
             }
           }
         ]
@@ -76,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a5a574fdc52952c0",
@@ -174,10 +176,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e048db9e9951037a",
+  "active": "cf09dfdd6e9828b1",
   "lastOpenFiles": [
-    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
+    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
+    "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
     "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
     "secondo_anno/Computer Graphics/Scene Graph.md",
     "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
     "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
@@ -190,9 +196,6 @@
     "secondo_anno/Computer Graphics/Rappresentazioni/Rappresentazioni Brep.md",
     "secondo_anno/Computer Graphics/Rappresentazioni/Modelli e rappresentazioni.md",
     "secondo_anno/Computer Graphics/Principi matematici/Cheatsheet matematico.md",
-    "secondo_anno/Computer Graphics/Pipeline grafica programmabile.md",
-    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
-    "secondo_anno/Computer Graphics/Algoritmi per mesh.md",
     "secondo_anno/Basi di dati/Database Design/Conceptual Design.md",
     "2024-11-23 Informatica grafica - l'illuminazione.md",
     "2024-11-24 Database.md",
@@ -211,7 +214,6 @@
     "Pipeline grafica programmabile.md",
     "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
     "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
-    "secondo_anno/Metodologie di programmazione/I Template.md",
     "secondo_anno/Basi di dati/Database Design",
     "secondo_anno/Basi di dati/DBMS Architecture"
   ]
