@@ -89,3 +89,85 @@ La specifica istanza ottenuta sara' la seguente
 ```cpp
 Iter std::find_if<Iter, Ptr>(Iter first, Iter last, Ptr pred);
 ```
+
+Il codice generato e' unico e deve gestire correttamente tutte le 6 possibili invocazioni, di conseguenza la chiamata e' implementata come chiamata di funzione.
+
+Supponiamo ora che i predicati siano stati implementati come *oggetti funzione*, in questo caso quando si istanzia l'algoritmo `std::find_if`, siccome i tipi degli oggetti funzione sono distinti si otterranno 6 diverse istanze del template di funzione
+```cpp
+Iter std::find_if<Iter, Pari>(Iter first, Iter last, Pari pred);
+Iter std::find_if<Iter, Dispari>(Iter first, Iter last, Dispari pred);
+Iter std::find_if<Iter, Positivo>(Iter first, Iter last, Positivo pred);
+...
+```
+Quando genera il codice per una delle istanze, il compilatore vede l'invocazione di solo uno dei sei metodi `operator()` quindi puo' ottimizzare il codice per quella specifica invocazione (ad esempio tramite un'espansione in linea). Quindi nonostante il codice eseguibile sia piu' grande e' piu' efficiente.
+
+## 3) Lambda functions
+>Talvolta si vuole utilizzare definire una funzione che verra' utilizzata solo in uno specifico punto del programma; di per se' sarebbe inutile averla esterna e poi richiamarla, noi vorremo che questa esistesse solo nel punto necessario. Qui ci vengono in aiuto le **lambda functions**. Una funzione lambda e' una funzione "anonima" nel senso che non ha nome e non puo' essere richiamata.
+
+### Under the hood
+>Quello che fa il compilatore (di nascosto) quando trova una funzione lambda e':
+
+1. Creare una classe *anonima* con un nome arbitrario e con gli argomenti della *capture list* come dati membro
+2. Definire un metodo `operator()` avente come parametri quelli della funzione lambda
+3. Istanziare un oggetto della classe appena creata e richiamarlo come un *oggetto funzione*
+
+La sintassi e' la seguente
+```cpp
+[](const long& i){ return i % 2 ==0;}
+
+// oppure
+[](const long& i) -> bool {return i % 2 == 0;}
+
+```
+- `[]` -> rappresenta la **capture list** cioe' una lista di variabili locali accessibili alla funzione nel punto in cui viene chiamata
+- `(const long& i)` -> lista dei parametri
+- `{return i % 2 == 0;}` -> corpo della funzione
+- `->bool` -> e' una parte opzionale chiamata **trailing type** che specifica il tipo di ritorno della funzione (solitamente non lo si mette, anche perche' il compilatore e' in grado di dedurre il tipo di ritorno dall'espressione `return`)
+
+#### Capture list
+>Nella *capture list* andiamo a specificare delle variabili esterne che vogliamo utilizzare all'interno della nostra funzione.
+
+Facciamo un esempio
+```cpp
+[x, y](int z) -> int { return x + y - z;}
+```
+Il chiamante sa che questa funzione prende in input **un intero** e restituisce un intero, mentre in realta' la funzione utilizza anche dei valori presi da uno scope piu' esterno.
+
+E' possibile passare variabili nella capture list nei seguenti modi:
+- `[&soglia]` -> passaggio per riferimento
+- `[=soglia]` -> passaggio per valore
+- `[=, &soglia]` -> tutti i parametri sono passati per valore, tranne `soglia` che e' passato per riferimento
+- `[&, =soglia]` -> analogo a sopra ma opposto
+
+**NOTA**
+>Solitamente il metodo `operator()` e' qualificato `const` quindi se si vuole accedere alle variabili catturate in scrittura bisogna aggiungere la keyword `mutable`.
+
+```cpp
+void foo(const std::vector<long>& v) {
+	long num_chiamate = 0;
+	auto iter = std::find_if(v.begin(), v.end(), 
+							[&num_chiamate](const long& i) mutable {
+								++num_chiamate;
+								return i % 2 ==0;
+								});
+	std::cout << "funzione lambda invocata" << num_chiamate << " volte \n";
+}
+```
+
+**NOTA 2**
+>Nel caso vengano effettuate catture per riferimento, occorre prestare attenzione a NON usare la funzione lambda dopo che il tempo di vita della variabile catturata e' terminato.
+
+E' possibile dare un nome all'oggetto *anonimo* che rappresenta la lambda, anche se non se ne conosce il tipo, sfruttando `auto`.
+```cpp
+auto corta = [max_size](const std::string& s) {
+	return s.size() <= max_size;
+};
+```
+
+
+#### Links
+[[Programmazione generica]]
+[[secondo_anno/Metodologie di programmazione/I Template|I Template]]
+
+
+

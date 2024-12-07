@@ -206,3 +206,5 @@ Le relazioni di ereditarieta' valgono, quindi tali **tag types** possono essere 
 
 #### Links
 [[Gli Iterator traits]]
+[[secondo_anno/Metodologie di programmazione/I Template|I Template]]
+[[Programmazione generica]]

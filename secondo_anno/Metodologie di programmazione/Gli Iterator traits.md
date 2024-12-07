@@ -62,3 +62,4 @@ struct iterator_traits<const T*> {
 #### Links
 [[Concetto di Iteratore]]
 [[secondo_anno/Metodologie di programmazione/I Template|I Template]]
+[[Programmazione generica]]
