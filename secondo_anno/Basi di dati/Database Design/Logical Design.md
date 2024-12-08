@@ -43,7 +43,7 @@ Abbiamo assunto che l'Employee abbia 3 progetti.
 ## Attivita' di ristrutturazione
 Abbiamo 4 attivita' di ristrutturazione fondamentali:
 1. Analisi e gestione delle ridondanze
-2. Eliminare le generalizzazioni
+2. Eliminazione delle generalizzazioni
 3. Raggruppamento o partizionamento delle entita' e delle associazioni
 4. Identificazione delle primary key
 
