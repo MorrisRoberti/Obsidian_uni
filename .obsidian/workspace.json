@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fdfa071e8593cf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Basi di dati/Database Design/Logical Design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logical Design"
-            }
-          },
-          {
-            "id": "296e9fc19726a45e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Basi di dati/Database Design/Logical Design - Eliminazione delle generalizzazioni.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logical Design - Eliminazione delle generalizzazioni"
-            }
-          },
-          {
             "id": "424669e49c5689ca",
             "type": "leaf",
             "state": {
@@ -63,8 +35,7 @@
               "title": "Logical Design - Partizionamento e Raggruppamento entita' e associazioni"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,24 +191,24 @@
   },
   "active": "4a11bf6015c00de4",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208212031.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208211318.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208211138.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208211038.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208210540.png",
+    "secondo_anno/Basi di dati/Database Design/Logical Design - Partizionamento e Raggruppamento entita' e associazioni.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208194317.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208194301.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208194239.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208194129.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208194045.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241208193950.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208193911.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208193827.png",
     "secondo_anno/Basi di dati/Database Design/Logical Design.md",
-    "secondo_anno/Basi di dati/Database Design/Logical Design - Partizionamento e Raggruppamento entita' e associazioni.md",
     "Logical Design - Partizionamento/Raggruppamento entita' e associazioni.md",
     "Logical Design - Partizionamento/Raggruppamento entita'/assoc.md",
     "Logical Design - Partizionamento/Raggruppamento entita'",
     "Logical Design - Partizionamento",
     "secondo_anno/Basi di dati/Database Design/Logical Design - Eliminazione delle generalizzazioni.md",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208192735.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208192519.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208192427.png",
     "secondo_anno/Basi di dati/Database Design/Logical Design - Analisi delle ridondanze.md",
     "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
     "secondo_anno/Metodologie di programmazione/Overloading di funzioni templatiche.md",

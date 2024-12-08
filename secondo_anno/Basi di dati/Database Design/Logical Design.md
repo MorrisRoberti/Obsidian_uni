@@ -69,4 +69,75 @@ Possiamo farlo **raggruppando** o **separando** attributi all'interno di un'enti
 [[Logical Design - Partizionamento e Raggruppamento entita' e associazioni]]
 
 ### 5) Identificazione della primary key
->Questa e' un'operazione **obbligatoria** per tradurre il nostro schema concettuale ER nel nostro schema logico finale. Vogliamo scegliere la primary key in base a dei criteri di: *semplicita'* e *frequenza di utilizzo*.
+>Questa e' un'operazione **obbligatoria** per tradurre il nostro schema concettuale ER nel nostro schema logico finale. Vogliamo scegliere la primary key in base a dei criteri di: *semplicita'* e *frequenza di utilizzo*. Se non ci sono attributi che rispettano tali criteri utilizziamo dei **codici** appositi.
+
+## Traduzione delle associazioni
+### Associazioni Many-To-Many
+![[Pasted image 20241208210540.png]]
+```
+EMPLOYEE(Number(pk), Surname, Wage)
+PROJECT(Code(pk), Name, Budget)
+ENROLLMENT(Number(pk), Code(pk), StartDate)
+```
+
+C'e' un vincolo di integrita' referenziale tra:
+- `Number` in `ENROLLMENT` e la chiave di`EMPLOYEE`
+- `Code` in `ENROLLMENT` e la chiave di `PROJECT`
+**ATTENZIONE**
+>La traduzione effettuata non tiene conto della *cardinalita' minima* delle associazioni molti a molti.
+
+### Associazioni ricorsive
+![[Pasted image 20241208211038.png]]
+```sql
+PRODUCT(Code(pk), Name, Cost)
+MADEOF(MadeUp(pk), Element(pk), Number)
+```
+
+### Associazioni N-arie
+![[Pasted image 20241208211138.png]]
+```sql
+SUPPLIER(VAT(pk), Name)
+PRODUCT(Code(pk), Type)
+DEPARTMENT(Name(pk), Phone)
+SUPPLY(Supplier(pk), Product(pk), Department(pk), Number)
+```
+
+### Associazioni One-To-Many
+![[Pasted image 20241208211318.png]]
+```sql
+PLAYER(Surname(pk), BirthD(pk), Role)
+AGREEMENT(SurnameP(pk), BirthDP(pk), Team(pk), Hire)
+TEAM(Name(pk), City, Team Colors)
+```
+puo' essere semplificato rimuovendo la ridondanza e quindi raggruppando `PLAYER` e `AGREEMENT` 
+```sql
+PLAYER(Surname(pk), BirthD(pk), Team(pk), Role, Hire)
+TEAM(Name(pk), City, Team Colors)
+```
+- C'e' un vincolo di integrita' referenziale tra `Team` in `PLAYER` e la chiave in `TEAM`
+- Se la cardinalita' minima dell'associazione e' 0, allora `Team` in `PLAYER` deve permettere valori NULL
+
+**NOTA**
+>Questa traduzione puo' rappresentare il caso in cui 0 sia la cardinalita' minima e 1 quella massima: 0 -> NULL allowed, 1 -> NULL not allowed.
+
+### Associazioni One-To-One
+![[Pasted image 20241208212031.png]]
+Abbiamo due opzioni differenti
+```sql
+HEAD(Code(pk), Surname, Wage, Department, StartDate)
+DEPARTMENT(Name(pk), Office, Phone)
+```
+oppure
+```sql
+HEAD(Code(pk), Surname, Wage)
+DEPARTMENT(Name(pk), Office, Phone, Head, StartDate)
+```
+
+**ATTENZIONE**
+>Un piccolo cambiamento nella cardinalita' e la scelta degli identificatori puo' portare a significati completamente diversi.
+
+
+#### Links
+[[Conceptual Design]]
+[[Entity-Relationship Model]]
+[[UML]]
