@@ -60,41 +60,6 @@ int main() {
 // Statica  = 1 (size of empty class)
 // Dinamica  = 8 (size of derived class)
 ```
-
-## Overriding di un metodo virtuale
-Avendo dichiarato nella classe base il metodo 
-```cpp
-virtual void print(const Doc&)l
-```
-una classe derivata da `Printer` che lo ridefinisca ne fa **overriding**
-```cpp
-class NetworkPrinter : public Printer {
-public: 
-	void print(const Doc& doc) override;
-};
-```
-
-**ATTENZIONE**
-- se il metodo della classe base non fosse dichiarato `virtual` non si avrebbe **overriding** ma **hiding** -> cioe' il nome della classe base verrebbe nascosto
-- nella classe base non e' necessario, ma e' consentito ripetere la parola chiave `virtual`
-- con C++11 (o superiore) e' consigliato utilizzare anche la parola chiave `override`
-
-La parola chiave `override` **causa un errore** nel caso in cui nella classe base non esista un metodo virtuale corrispondente
-```cpp
-class Printer {
-public:
-	void print(const Doc& doc);
-}
-
-class NetworkPrinter : public Printer {
-public:
-	void print(const Doc& doc) override;
-}
-
-// ERRORE
-// error: 'void NetworkPrinter::print(Doc&)' marked 'override', but does not override
-```
-
 ## Metodi virtuali puri
 >Talvolta quando definiamo delle classi dinamiche non abbiamo in mente un'implementazione per i suoi metodi virtuali, vogliamo solo utilizzarla come interfaccia condivisa per le classi concrete che andranno ad estenderla, per cui vogliamo scrivere **metodi virtuali puri**; per farlo utilizziamo la sintassi `= 0` al termine della sua dichiarazione.
 
@@ -108,3 +73,4 @@ public:
 
 #### Links
 [[Classi Astratte]]
+[[Overriding]]
