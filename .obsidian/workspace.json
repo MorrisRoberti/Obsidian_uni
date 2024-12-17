@@ -4,58 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "baec38d44f70c2f8",
+        "id": "ed550cf5d49df95a",
         "type": "tabs",
         "children": [
           {
-            "id": "4a89b5dacdacabef",
+            "id": "e1de490898ea9624",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Indexes/Indexes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Indexes"
-            }
-          },
-          {
-            "id": "52f5d7e03e30128b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sequential File Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sequential File Index"
-            }
-          },
-          {
-            "id": "04c622349869f09d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Basi di dati/Indexes/Indexes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Indexes"
-            }
-          },
-          {
-            "id": "dae1ed978ccc640b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B+ Trees.md",
+                "file": "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
                 "mode": "source",
                 "source": false
               },
@@ -63,8 +21,7 @@
               "title": "B+ Trees"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,20 +176,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dae1ed978ccc640b",
+  "active": "e1de490898ea9624",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217193345.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217192310.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217192038.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217185604.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217185054.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217183845.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180820.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180439.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180044.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217174511.png",
+    "secondo_anno/Basi di dati/IMGs/Nuovo progetto.png",
+    "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
+    "secondo_anno/Basi di dati/Indexes/Sequential File Index.md",
     "secondo_anno/Basi di dati/Indexes/Indexes.md",
-    "B+ Trees.md",
-    "Sequential File Index.md",
-    "Nuovo progetto 1.png",
-    "Nuovo progetto.png",
-    "Pasted image 20241216225055.png",
-    "Pasted image 20241216225013.png",
-    "Pasted image 20241216224950.png",
-    "Pasted image 20241216224554.png",
-    "Pasted image 20241216223030.png",
-    "Pasted image 20241216223004.png",
-    "Pasted image 20241216222946.png",
     "secondo_anno/Metodologie di programmazione/Note sull'ereditarieta'.md",
     "secondo_anno/Basi di dati/Indexes",
     "secondo_anno/Metodologie di programmazione/I principi SOLID.md",
@@ -248,7 +207,6 @@
     "secondo_anno/Basi di dati/Database Design/Normalizzazione.md",
     "secondo_anno/Basi di dati/Database Design/Forme Normali.md",
     "secondo_anno/Metodologie di programmazione/Overloading di funzioni templatiche.md",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241208212031.png",
     "secondo_anno/Basi di dati/Database Design/Logical Design.md",
     "secondo_anno/Basi di dati/Database Design/Logical Design - Partizionamento e Raggruppamento entita' e associazioni.md",
     "secondo_anno/Basi di dati/Database Design/Logical Design - Eliminazione delle generalizzazioni.md",
@@ -257,7 +215,6 @@
     "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
     "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
     "Gli Iterator traits.md",
-    "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
     "secondo_anno/Basi di dati/Database Design",
     "secondo_anno/Basi di dati/DBMS Architecture"
   ]

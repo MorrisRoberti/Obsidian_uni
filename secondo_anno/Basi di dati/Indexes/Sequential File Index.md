@@ -5,8 +5,8 @@ Ogni *chiave di ricerca* nell'*Index File* ha un puntatore al record del *Sequen
 
 ## Classificazione degli indici
 - Un **primary** index su un insieme di attributi e' un indice che include la primary key, e i dati indicizzati sono ordinati sugli stessi attributi. Altrimenti e' **secondary**
-- Un **dense** index ha almeno una *search key* per ogni chiave del data file. Altrimenti l'indice e' **sparse**
-- Un indice e' **clustered** se l'ordine dei record riflette (e' lo stesso o e' simile) l'ordine delle label. Altrimenti l'indice e' **unclustered**
+- Un **dense** index ha almeno una *search key* per ogni *record* del data file. Altrimenti l'indice e' **sparse**, cioe' ha una *search key* per ogni *blocco* del data file
+- Un indice e' **clustered** se l'ordine dei record riflette (e' lo stesso o e' simile) l'ordine delle label. Riorganizza *fisicamente* i dati in un modo semplice da usare ed e' collocato insieme ai dati nello stesso spazio della tabella (ad esempio nei [[B+ Trees]]), quindi, e' possibile averne solo uno. Altrimenti l'indice e' **unclustered** (punta ai dati)
 
 esempi
 **DENSE & CLUSTERED**
