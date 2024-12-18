@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
+                "file": "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B+ Trees"
+              "title": "Hash-based Indexes"
             }
           }
         ]
@@ -178,20 +178,21 @@
   },
   "active": "e1de490898ea9624",
   "lastOpenFiles": [
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217193345.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217192310.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217192038.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217185604.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217185054.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217183845.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180820.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180439.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180044.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217174511.png",
-    "secondo_anno/Basi di dati/IMGs/Nuovo progetto.png",
+    "Pasted image 20241218164625.png",
+    "Pasted image 20241218164120.png",
+    "Pasted image 20241218162428.png",
+    "Pasted image 20241218162136.png",
+    "Pasted image 20241218162008.png",
+    "Pasted image 20241218161836.png",
+    "Pasted image 20241218161723.png",
+    "secondo_anno/Basi di dati/Indexes/Indexes.md",
+    "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
+    "Pasted image 20241218120047.png",
+    "Pasted image 20241218114636.png",
+    "Pasted image 20241218114458.png",
+    "Pasted image 20241218114300.png",
     "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
     "secondo_anno/Basi di dati/Indexes/Sequential File Index.md",
-    "secondo_anno/Basi di dati/Indexes/Indexes.md",
     "secondo_anno/Metodologie di programmazione/Note sull'ereditarieta'.md",
     "secondo_anno/Basi di dati/Indexes",
     "secondo_anno/Metodologie di programmazione/I principi SOLID.md",
@@ -214,7 +215,6 @@
     "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
     "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
     "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
-    "Gli Iterator traits.md",
     "secondo_anno/Basi di dati/Database Design",
     "secondo_anno/Basi di dati/DBMS Architecture"
   ]

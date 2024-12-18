@@ -32,6 +32,9 @@ CREATE INDEX EmpIdx ON Employee(Surname, Name)
 DROP INDEX EmpIdx
 ```
 
+Una spiegazione approfondita e completa puo' essere trovata a questo [link](#https://stackoverflow.com/a/1130/24186483).
+
 #### Links
 [[Sequential File Index]]
 [[B+ Trees]]
+[[Hash-based Indexes]]
