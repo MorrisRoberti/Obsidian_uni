@@ -38,3 +38,4 @@ Una spiegazione approfondita e completa puo' essere trovata a questo [link](#htt
 [[Sequential File Index]]
 [[B+ Trees]]
 [[Hash-based Indexes]]
+[[Inverted Indexes]]

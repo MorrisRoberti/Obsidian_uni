@@ -130,14 +130,46 @@ Ora vogliamo cercare la chiave $K_2=1111$.
 2. Se vale $r/n \gt 1.7$ allora effettuiamo uno *split* dell'$n+1$-esimo bucket
 3. Quando usiamo la funzione $H_i$ tutti i bucket fino al $2^{i-1}$-esimo sono splittati seguendo l'ordine, indipendentemente dal bucket che ha causato tale *split*
 4. Se $n \gt 2^i$ , allora la funzione hash **viene cambiata** a $i+1$ e lo splitting ricomincia dal primo bucket
-5. Se $H_i(K) = m \lt n$, allora
-	- La chiave cercata puo' essere inserita nell'$m$-esimo bucket, se non ce' spazio, creiamo un blocco di overflow
-6. Se $H_i(K) = m \leq n$, allora
-	- La chiave cercata puo' essere inserita nel $m - 2^{i-1}$ bucket, se non c'e's spazio, creiamo un blocco di overflow
-7. Incrementiamo $r$ e se $r/n \gt 1.7$, allora
+
+
+1. Se $H_i(K) = m \lt n$, allora
+	- La chiave puo' essere inserita nell'$m$-esimo bucket, se non ce' spazio, creiamo un blocco di overflow
+2. Se $H_i(K) = m \geq n$, allora
+	- La chiave puo' essere inserita nel $m - 2^{i-1}$ bucket, se non c'e's spazio, creiamo un blocco di overflow
+3. Incrementiamo $r$ e se $r/n \gt 1.7$, allora
 	1. Se $n = 2^i$, allora incrementiamo $i$ di 1
 		- $n_2=a_1a_s \dots a_i$ con $a_1=1$
 		- Rimuoviamo il primo bit in $n$ e lo mettiamo in $m$. $a_1a_2 \dots a_i \rightarrow 0a_2 \dots a_i$ 
 	2. Aggiungi l'$n$-esimo bucket
 	3. Sposta tutti i record dal blocco $m$ avente l'$i$-esimo bit piu' a destra a 1 nell'$n$-esimo blocco
 	4. Incrementa $n$ di 1
+
+esempio
+Vogliamo inserire la chiave $K_2 = 0101$. Definiamo $n$ il numero di buckets (dove $2^{i-1} \lt n \leq 2^i$)
+- se $H_i(K) = m < n$, la chiave cercata e' nel bucket $m$
+- se $H_i(K) = m \geq n$, la chiave cercata e' nel bucket ($m - 2^{i-1}$)
+
+![[Pasted image 20241219105205.png]]
+ci troviamo nel caso in cui $m \lt n$ quindi possiamo inserire la chiave e incrementare $r$
+
+![[Pasted image 20241219105502.png]]
+Adesso il nostro fattore di carico e' maggiore della soglia che ci eravamo prefissati, quindi dobbiamo **bilanciare il carico**.
+Quindi se $n = 2^i$ allora incrementiamo $i$:
+- $n_2 = a_1a_2 \dots a_i$ avente $a_1 = 1$, quindi $n_2 = 10$
+- Rimuoviamo il primo bit in $n$ e lo mettiamo in $m$, quindi $m_2 = 00$
+
+![[Pasted image 20241219110431.png]]
+Aggiungiamo il bucket $n$-esimo $n_2 = 10$
+
+![[Pasted image 20241219110514.png]]
+Spostiamo tutti i record del bucket $m_2 = 0a_2a_3 \dots a_i$ aventi l'$i$-esimo bit piu' a destra uguale a 1, nel bucket $n$-esimo:
+- $n = 2_{10} = 10_2 \rightarrow 10_2$ identifica il nuovo bucket
+- Spostiamo i record di dati da $00_2$ a $10_2$
+
+![[Pasted image 20241219110806.png]]
+Infine incrementiamo il numero di bucket $n$ di 1
+
+![[Pasted image 20241219110838.png]]
+
+#### Links
+[[Indexes]]

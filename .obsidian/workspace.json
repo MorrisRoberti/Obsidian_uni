@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
+                "file": "secondo_anno/Basi di dati/Indexes/Inverted Indexes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hash-based Indexes"
+              "title": "Inverted Indexes"
+            }
+          },
+          {
+            "id": "d7892d5b1d1bd929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "secondo_anno/Basi di dati/Indexes/Indexes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Indexes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a5a574fdc52952c0",
@@ -176,21 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1de490898ea9624",
+  "active": "d7892d5b1d1bd929",
   "lastOpenFiles": [
-    "Pasted image 20241218164625.png",
-    "Pasted image 20241218164120.png",
-    "Pasted image 20241218162428.png",
-    "Pasted image 20241218162136.png",
-    "Pasted image 20241218162008.png",
-    "Pasted image 20241218161836.png",
-    "Pasted image 20241218161723.png",
-    "secondo_anno/Basi di dati/Indexes/Indexes.md",
+    "secondo_anno/Basi di dati/Indexes/Inverted Indexes.md",
+    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123250.png",
+    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123222.png",
+    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123151.png",
+    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219122730.png",
+    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219122512.png",
     "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
-    "Pasted image 20241218120047.png",
-    "Pasted image 20241218114636.png",
-    "Pasted image 20241218114458.png",
-    "Pasted image 20241218114300.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110838.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110806.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110514.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110431.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219105502.png",
+    "secondo_anno/Basi di dati/Indexes/Indexes.md",
     "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
     "secondo_anno/Basi di dati/Indexes/Sequential File Index.md",
     "secondo_anno/Metodologie di programmazione/Note sull'ereditarieta'.md",
@@ -214,7 +228,6 @@
     "secondo_anno/Basi di dati/Database Design/Logical Design - Analisi delle ridondanze.md",
     "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
     "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
-    "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
     "secondo_anno/Basi di dati/Database Design",
     "secondo_anno/Basi di dati/DBMS Architecture"
   ]
