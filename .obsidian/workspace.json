@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Basi di dati/Indexes/Indexes.md",
+                "file": "secondo_anno/Basi di dati/Indexes/Sequential File Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indexes"
+              "title": "Sequential File Index"
             }
           }
         ],
@@ -192,19 +192,19 @@
   },
   "active": "d7892d5b1d1bd929",
   "lastOpenFiles": [
+    "secondo_anno/Basi di dati/Indexes/Indexes.md",
     "secondo_anno/Basi di dati/Indexes/Inverted Indexes.md",
-    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123250.png",
-    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123222.png",
-    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219123151.png",
-    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219122730.png",
-    "secondo_anno/Basi di dati/Indexes/Pasted image 20241219122512.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123250.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123222.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123151.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219122730.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219122512.png",
     "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110838.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110806.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110514.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110431.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219105502.png",
-    "secondo_anno/Basi di dati/Indexes/Indexes.md",
     "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
     "secondo_anno/Basi di dati/Indexes/Sequential File Index.md",
     "secondo_anno/Metodologie di programmazione/Note sull'ereditarieta'.md",
