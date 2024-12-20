@@ -70,8 +70,7 @@ Sono utili per mantenere l'**information hiding**. Li utilizziamo negli header f
 // example.hh
 struct MyType;
 
-MyType* mytype_ptr;
-void createMyTypeObj(MyType& obj, int x);
+void initializeMyTypeObj(MyType* obj, int x);
 
 ```
 
@@ -88,6 +87,39 @@ void initializeMyTypeObj(MyType* obj, int x) {
 }
 
 ```
+
+**ATTENZIONE**
+```cpp
+// test.hpp
+struct T;
+
+void initializeT(T obj, int x);
+```
+il codice sopra e' corretto e **non genera errori finche' la funzione non viene definita**.
+```cpp
+// test.cpp
+#include "test.hpp"
+
+void initialize(T obj, int x) {
+	obj.k = x;
+}
+```
+>Il compilatore dara' errore solo in questo caso, poiche' andando a *definire* la funzione, si corre il rischio che in questa venga utilizzato un tipo di cui non si sa nulla, quindi lancia l'errore. Per risolvere tale errore bisogna dare una definizione del tipo, come segue.
+
+```cpp
+// test.cpp 
+#include "test.hpp"
+
+struct T {
+	int k;
+};
+
+void initializeT(T obj, int x) {
+	obj.k = x;
+}
+```
+Tale problema non si porrebbe se passassimo un puntatore a `T` **senza accedere all'oggetto di tipo T**. Se invece vi accedessimo allora avremmo l'errore.
+
 ### Un caso speciale
 >Nel caso del C++ 2011 (o successivo), è possibile anche fornire una dichiarazione pura per un tipo enumerazione, cosa che non era possibile fare con il C++ 2003:
 
@@ -124,7 +156,10 @@ T add(T t1, T t2) {
 }
 ```
 
->Il motivo per il quale nei template si scrive `typename T` e' perche' in quel modo la grammatica, come nel caso di `nome1 * nome2` e' ambigua.
+>Il motivo per il quale nei template si scrive `typename T` e' perche' altrimenti la grammatica, come nel caso di `nome1 * nome2` sarebbe ambigua.
 
+#### Code
+[[TestClass.hpp]]
 #### Links
 [[Type aliases]]
+

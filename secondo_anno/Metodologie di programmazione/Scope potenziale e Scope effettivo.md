@@ -38,7 +38,8 @@ struct Derived : public Base {
 	void foo(double d); // hiding del metodo Base::foo()
 }
 ```
-
+**ATTENZIONE**
+>Nel caso di metodi di classi derivate bisogna fare attenzione a non confondere l'hiding con l'overriding.
 
 ### Uso di nomi qualificati
 >L'accesso ad alcune entita' al fi fuori del loro scope si puo' ottenere usando nomi qualificati: `std::cout`, `Colors::red`.
@@ -72,6 +73,8 @@ del namespace N, allora si considerano come candidate tutte le funzioni con
 lo stesso nome dichiarate all'interno dello stesso namespace (cioe' N::foo)"
 ```
 Questo e' quello che e' alla base del discorso dell'operator<< etc.
+
+In sintesi, quando abbiamo una funzione non qualificata che ha come argomento un oggetto ti tipo `U` definito in un certo namespace, la funzione verra' cercata nel namespace di `U`.
 ### Using declaration
 >Se un nome deve essere utilizzato spesso in una posizione in cui non e' visibile senza qualificazione, puo' essere scomodo doverlo qualificare ogni volta, per questo ci vengono in aiuto le **using declaration**.
 
@@ -118,7 +121,7 @@ struct Derived : public Base {
 void foo() {
 	int endl = 42;
 	using namespace std;
-	cout << "Hello" << endl;
+	cout << "Hello" << endl; // stampa "Hello42"
 }
 ```
 Il compilatore cerca `cout` nello scope corrente (blocco della funzione), non trovandolo continua la ricerca anche negli scope in cui e' contenuta la funzione`foo` e grazie alla *using directive* anche nel namespace `std`. Per quanto riguarda `endl` la direttiva non entra in uso perche' trova il nome definito nello scope corrente.

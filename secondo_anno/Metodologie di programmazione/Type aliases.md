@@ -8,8 +8,5 @@ namespace ppl = Parma_Polyhedra_Library; // alias namespace
 ```
 Ad esempio, se in un certo momento noi volessimo che tutti gli interi del nostro programma diventino `int` e non `long` perche' ci siamo accorti che dichiararli `long` era solo uno spreco di memoria, allora basta cambiare nella riga 1 `long` con `int` senza dover cercare interi e cambiarli in ogni parte del programma. 
 
-
-
-
 #### Links
 [[Dichiarazione e definizione]]

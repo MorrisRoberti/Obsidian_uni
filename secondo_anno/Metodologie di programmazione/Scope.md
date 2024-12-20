@@ -3,7 +3,7 @@
 Esistono diversi tipi di scope e in base al tipo, la visibilita' di un nome puo' essere piu' ampia o piu' ristretta.
 
 ### Scope di namespace
->Un nome ha **scope di namespace** (che include anche lo scope globale) quando non e' incluso in nessuna struct/class o funzione. Nello scope di namespace, il nome *e' visibile all'interno del namespace a partire dal punto di dichiarazione fino al termine dell'unita' di traduzione*. In pratica questo e' il motivo per il quale gli header file vengono importati sempre in cima nel file sorgente.
+>Un nome ha **scope di namespace** (che include anche lo scope globale) quando non e' incluso in nessuna struct/class o funzione. Nello scope di namespace, il nome *e' visibile all'interno del namespace **a partire dal punto di dichiarazione** fino al termine dell'unita' di traduzione*. In pratica questo e' il motivo per il quale gli header file vengono importati sempre in cima nel file sorgente.
 
 ```cpp
 namespace N {
@@ -21,7 +21,7 @@ namespace N {
 ```
 
 ### Scope di blocco
->Un nome dichiarato all'interno di un **blocco** e' locale a quel blocco, quindi la sua visibilita' *inizia dal punto di dichiarazione e termina alla fine del blocco*. Un **blocco** e' una porzione di codice racchiusa in graffe.
+>Un nome dichiarato all'interno di un **blocco** e' locale a quel blocco, quindi la sua visibilita' ***inizia dal punto di dichiarazione*** *e termina alla fine del blocco*. Un **blocco** e' una porzione di codice racchiusa in graffe.
 
 ```cpp
 void foo() {
@@ -106,7 +106,7 @@ for(int i = 0; i < 5; ++i){
 ```
 
 ### Scope di classe
->Nello **scope di classe** i membri della classe (dati, metodi) sono visibili all'interno della classe indipendentemente dal punto di dichiarazione. Per i tipi invece valgono le regole dello *scope di blocco*.
+>Nello **scope di classe** i membri della classe (dati, metodi) *sono visibili all'interno della classe indipendentemente dal punto di dichiarazione*. Per i tipi invece valgono le regole dello *scope di blocco*.
 
 **ATTENZIONE** 
 >A scanso di alcuni dettagli come: la possibilita' di scegliere la visibilita', la visibilita' di default e il tipo di accesso ai membri, **struct e class vengono trattati allo stesso modo da c++**.
@@ -154,13 +154,16 @@ fine:
 >L'uso di *label* e `goto` e' considerato cattivo stile e andrebbe limitato.
 
 ### Scope delle costanti di enumerazione
->C'e' una differenza sostanziale da fare quando si parla dello scope di costanti di enumerazione (`enum`), poiche' ci sono sostanziali differenza che intercorrono tra lo standard c++ 2003 e lo standard c++ 2011:
+>C'e' una considerazione differente da fare quando si parla dello scope di costanti di enumerazione (`enum`), poiche' ci sono sostanziali differenza che intercorrono tra lo standard C++ 2003 e lo standard C++ 2011:
 
 #### C++ 2003
 >Le costanti di enumerazione in C++03 hanno come scope quello del corrispondente tipo enumerazione, ovvero sono visibili *fuori* dalle graffe che le racchiudono.
 
 ```cpp
 enum Colors {red, blue, green};
+
+int red = 10; // ERRORE: c'e' un conflitto di nomi
+
 ```
 questo puo' causare un **conflitto di nomi**
 ```cpp
@@ -173,7 +176,20 @@ void foo() {
 ```
 Questo e' causato dal fatto che nello standard 03 le costanti di enumerazione venivano automaticamente *castate* a numeri `int`, quindi nella riga 5, il compilatore non sa quale valore andare a prendere e quindi restituira' un errore.
 
-Siccome i valori delle costanti di enumerazione non avevano scope e venivano implicitamente castati ad `int` gli veniva dato un valore incrementale, quindi nel caso sopra il `red` di `Colors` avrebbe avuto valore 0 mentre quello di `Semaforo` avrebbe avuto valore 3.
+Siccome i valori delle costanti di enumerazione non avevano scope e venivano implicitamente castati ad `int` gli veniva dato un valore incrementale, quindi come segue
+```cpp
+enum Colors {
+	red, // 0
+	blue, // 1
+	green, // 2
+};
+
+enum Semaforo {
+	red, // 0
+	yellow, // 1
+	green // 2
+};
+```
 
 #### C++ 2011
 >Nel C++2011 sono state introdotte le **enum class** che invece limitano lo scope come le classi, costringendo il programmatore a qualificare il nome e evitando potenziali errori.

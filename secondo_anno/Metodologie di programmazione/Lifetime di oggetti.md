@@ -15,7 +15,7 @@ Il tempo di vita di un oggetto:
 
 Ci sono diversi tipi di **storage duration** per gli oggetti in memoria (talvolta tradotto impropriamente come "allocazione")
 ## Allocazione statica
->La memoria di un oggetto ad **allocazione statica** dura per tutta l'esecuzione del programma.
+>Lo spazio di memoria per un'entita' **allocata staticamente** rimane di quell'entita' per tutta l'esecuzione del programma.
 
 ### Variabili globali
 >Sono variabili *ad allocazione statica* definite nello *scope di namespace*, queste sono create e inizializzate **prima** di iniziare l'esecuzione della funzione *main*, nell'ordine in cui compaiono nella *translation unit*. **ATTENZIONE** nel caso di variabili globali definite in diverse unita' di traduzione, l'ordine di inizializzazione non e' specificato.
@@ -62,7 +62,7 @@ int main() {
 ```
 
 ## Allocazione *thread local*
->Un oggetto **thread local** e' simile ad un oggetto glbale, ma il suo ciclo di vita non e' collegato al programma, bensi' ad ogni singolo thread di esecuzione creato dal programma (esiste un'istanza distinta della variabile per ogni thread creato). Il supporto per il multithreading e' stato introdotto con lo standard C++ 2011.
+>Un oggetto **thread local** e' simile ad un oggetto globale, ma il suo ciclo di vita non e' collegato al programma, bensi' ad ogni singolo thread di esecuzione creato dal programma (esiste un'istanza distinta della variabile per ogni thread creato). Il supporto per il multithreading e' stato introdotto con lo standard C++ 2011.
 
 ## Allocazione automatica
 >Una variabile locale ad un blocco di funzione e' dotata di **allocazione automatica**. L'oggetto viene creato dinamicamente (a tempo di esecuzione) sullo stack, ogni volta che il controllo entra nel blocco in cui si trova la dichiarazione e viene **automaticamente distrutto** (rimuovendolo dallo stack) ogni volta che il controllo esce da quel blocco.
@@ -100,7 +100,7 @@ void bar() {
 }
 ```
 
->L'oggetto temporaneo viene distrutto quando termina la valutazione dell'espressione completa che contiene lessicalmente il punto di creazione. Nell'esempio precedente, il temporaneo e' distrutto al termine dell'esecuzione di `foo` ma prima della stampa di "fine".
+>L'oggetto temporaneo viene distrutto quando termina la valutazione dell'espressione completa che contiene lessicalmente il punto di creazione. Nell'esempio precedente, il temporaneo e' distrutto al termine dell'esecuzione di `foo` ma prima della stampa di "fine". Quindi se anche la signature di foo fosse stata `foo(const S& s)`, l'oggetto sarebbe comunque rimasto valido, poiche' sarebbe stato distrutto alla fine di questa.
 
 Il lifetime di un oggetto temporaneo puo' essere esteso se l'oggetto viene utilizzato per l'inizializzazione di un riferimento
 ```cpp
@@ -134,12 +134,20 @@ delete pi;
 
 >Un **dangling pointer** e' un puntatore che non punta piu' a nessuna area in memoria. Si genera un dangling pointer quando si fa una delete su un puntatore, cosi' facendo lo spazio di memoria puntato viene deallocato ma il puntatore continua a puntarci.
 
+Per evitare i **dangling pointers** possiamo utilizzare gli [[Smart Pointers]] oppure mettere a `nullptr` il puntatore dopo la delete
+```cpp
+delete pi;
+pi = nullptr;
+```
+In questo modo possiamo fare un check sul puntatore per vedere se e' nullo o meno.
+
+
 L'allocazione dinamica e' una sorgente di errori di programmazione:
-- **Use after free** -> e' un errore che deriva dall'utilizzare un *dangling pointer*, in pratica si utilizza un oggetto dopo che il suo lifetime e' terminato
-- **Double free** -> accade quando si usa due volte la delete sullo stesso puntatore, quindi si prova a deallocare una zona di memoria gia' vuota (o utilizzata per altro)
-- **Memory leak** -> si distrugge l'unico puntatore che contiene l'indirizzo dell'oggetto, senza aver deallocato l'oggetto, quindi l'oggetto non potra' essere mai piu' distrutto e quella memoria verra' persa
-- **Wild pointer Access** -> variante della *Use after free* in cui si segue un puntatore che indirizza memoria "casuale", leggendo o scrivendo dove non c'e' un oggetto (o, nel caso in cui quella memoria sia stata riallocata, ci sia un altro oggetto)
-- **Accesso a "null pointer"** -> si prova ad accedere ad un puntatore *nullo*
+1. **Use after free** -> e' un errore che deriva dall'utilizzare un *dangling pointer*, in pratica si utilizza un oggetto dopo che il suo lifetime e' terminato
+2. **Double free** -> accade quando si usa due volte la delete sullo stesso puntatore, quindi si prova a deallocare una zona di memoria gia' vuota (o utilizzata per altro)
+3. **Memory leak** -> si distrugge l'unico puntatore che contiene l'indirizzo dell'oggetto, senza aver deallocato l'oggetto, quindi l'oggetto non potra' essere mai piu' distrutto e quella memoria verra' persa
+4. **Wild pointer Access** -> variante della *Use after free* in cui si segue un puntatore che indirizza memoria "casuale", leggendo o scrivendo dove non c'e' un oggetto (o, nel caso in cui quella memoria sia stata riallocata, ci sia un altro oggetto)
+5. **Accesso a "null pointer"** -> si prova ad accedere ad un puntatore *nullo*
 
 #### Links
 [[Scope]]
