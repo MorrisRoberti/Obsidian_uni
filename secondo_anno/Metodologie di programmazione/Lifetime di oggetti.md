@@ -15,7 +15,7 @@ Il tempo di vita di un oggetto:
 
 Ci sono diversi tipi di **storage duration** per gli oggetti in memoria (talvolta tradotto impropriamente come "allocazione")
 ## Allocazione statica
->Lo spazio di memoria per un'entita' **allocata staticamente** rimane di quell'entita' per tutta l'esecuzione del programma.
+>Lo spazio di memoria per un'entita' **allocata staticamente**, cioe' a *a tempo di compilazione* rimane di quell'entita' per tutta l'esecuzione del programma. Quindi tale allocazione avviene **prima dell'esecuzione della funzione main**.
 
 ### Variabili globali
 >Sono variabili *ad allocazione statica* definite nello *scope di namespace*, queste sono create e inizializzate **prima** di iniziare l'esecuzione della funzione *main*, nell'ordine in cui compaiono nella *translation unit*. **ATTENZIONE** nel caso di variabili globali definite in diverse unita' di traduzione, l'ordine di inizializzazione non e' specificato.
@@ -39,7 +39,7 @@ int main() {}
 ### I membri *static* di una classe
 
 ### Variabili *static* locali
->Queste variabili sono locali ad uno scope nel codice e sono allocate prima di iniziare l'esecuzione della funzione *main*, ma sono inizializzate solo la prima volta in cui il controllo di esecuzione incontra la corrispondente definizione.
+>Queste variabili sono locali ad uno scope nel codice e sono allocate prima di iniziare l'esecuzione della funzione *main*, **ma sono inizializzate solo la prima volta in cui il controllo di esecuzione incontra la corrispondente definizione**.
 
 ```cpp
 #include <iostream>
@@ -81,6 +81,8 @@ void foo() {
 
  Quello che e' automatico e' **la fine del ciclo di vita**, perche' l'inizio viene deciso dal programmatore. Le variabili allocate in modo automatico vengono distrutte ogni volta che il blocco in cui sono contenute termina. 
  **ATTENZIONE** nel caso di chiamate ricorsive sono presenti sullo stack piu' istanze distinte della stessa variabile.
+
+>Anche le variabili nel `main` hanno allocazione automatica.
 
 ## Allocazione automatica di temporanei
 >L'allocazione automatica di temporanei avviene quando un oggetto viene creato per memorizzare il valore calcolato da una sottoespressione che compare all'interno di un'espressione. Banalmente quando creiamo un oggetto da passare ad una funzione come parametro attuale stiamo creando un temporaneo.
