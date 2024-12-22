@@ -43,7 +43,7 @@ Piu' interessante e' il secondo punto, nel quale occorre prestare attenzione ai 
 ```cpp
 struct S { /* ... */};
 struct T : public S { /* ... */};
-S* ptr = new T;
+S* ptr = new T();
 ptr->foo(); // chiamata
 // ptr ha tipo statico S* e tipo dinamico T*
 // quindi la ricerca di foo avviene a partire dallo scope di S
@@ -90,9 +90,9 @@ void bar(int n);
 
 int main() {
 	N::S s;
-	foo(s); // chiamata 1
+	foo(s); // OK: ADL sul namespace del tipo di s
 	int i = 0;
-	bar(i);
+	bar(i); // ERRORE: non avviene ADL
 }
 ```
 Per la chiamata 1 si applica la regola *ADL* perche' il nome `foo` non e' qualificato e l'argomento `s` ha tipo struct `S` definito dall'utente all'interno di un namespace `N`. Quindi il namespace `N` viene "aperto" rendendo visibile la dichiarazione di `N::foo(S)` nel punto della chiamata (e quindi rendendola candidata).
@@ -133,8 +133,8 @@ void foo(int); // funzione che accetta un intero per valore
 foo(d); // chiamata
 // la funzione foo(int), se candidata, e' anche utilizzabile;
 // si applica prima una trasformazione di lvalue ( nello specifico una
-// trasformazione da lvalue a rvalue, che corrisponde alla lettura del valore contenuto nella locazione d) e quindi una conversione standard 
-// da double a int
+// trasformazione da lvalue a rvalue, che corrisponde alla lettura del valore contenuto nella locazione d)
+// e quindi una conversione standard da double a int
 ```
 
 Una sequenza di conversione **utente** e' composta da

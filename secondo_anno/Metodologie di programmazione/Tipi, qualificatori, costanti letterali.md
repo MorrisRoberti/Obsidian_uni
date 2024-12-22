@@ -60,10 +60,10 @@ void foo() {
 ## Costanti letterali
 >Il linguaggio mette a disposizione diverse sintassi per definire valori costanti, a seconda della sintassi usata, al valore viene associato un tipo specifico, che talvolta dipende dall'implementazione.
 
-- sintassi per gli interi -> *sintassi decimale (quella comunemente utilizzata), sintassi binaria (0b1100), sintassi ottale (014), sintassi esadecimale (0xC*
+- sintassi per gli interi -> *sintassi decimale (quella comunemente utilizzata), sintassi binaria (0b1100), sintassi ottale (014), sintassi esadecimale (0xC)*
 - sintassi booleani -> *true, false*
 - sintassi caratteri (*ordinary character literal*) -> *'a', '3', 'Z', ' \n' *
-- sintassi caratteri (*UTF-8 character literal) -> *u8'a', u8'3'*
+- sintassi caratteri (*UTF-8 character literal*) -> *u8'a', u8'3'*
 - signed/unsigned char -> nessuna
 - char16_t ->  *u'a', u'3'*
 - char32_t -> *U'a', U'3'*
@@ -77,7 +77,7 @@ void foo() {
 >In assenza di suffissi (U, LL, L) ad una costante *decimale* intera viene attribuito il primo tipo tra int, long e long long che sia in grado di rappresentare il valore. Il tipo dipende quindi dalla particolare implementazione utilizzata. I suffissi delle costanti intere e floating point *NON SONO CASE SENSITIVE*. Buona norma e' utilizzare **il suffisso maiuscolo**.
 
 Alcune considerazioni:
-- in presenza del suffisso **U** si sceglie la varante **unsigned**
+- in presenza del suffisso **U** si sceglie la variante **unsigned**
 - in presenza del suffisso **L** l'ampiezza e' scelta tra **long e long long**
 - in presenza del suffisso **LL** l'ampiezza e' **long long**
 

@@ -2,12 +2,12 @@
 
 Si divide in 4 fasi:
 - **Preprocessing** -> *input*: codice sorgente *.cpp*  - *output:* translation unit
-- **Compilation** -> *input:* sorgente preprocessato - *output:* assembly .asm
+- **Compilation** -> *input:* translation unit - *output:* assembly .asm
 - **Assembling** -> *input:* assembly .asm - *output:* object file .o
 - **Linking** -> *input:* object file / librerie - *output:* eseguibile (.exe nel caso di windows)
 
 ## Preprocessing
->Il **preprocessing** e' la prima fase del processo di compilazione, in cui il compilatore si occupa di unire il codice del nostro sorgente con quello delle librerie e generare una **translation unit** che fondamentalmente e' una sorta di codice sorgente che viene espanso con il codice delle librerie e altre cose e metterlo in un file temporaneo.
+>Il **preprocessing** e' la prima fase del processo di compilazione, in cui il compilatore si occupa di unire il codice del nostro sorgente con quello delle librerie e generare una **translation unit** che fondamentalmente e' una sorta di codice sorgente che viene espanso con il codice delle librerie e altre cose, e metterlo in un file temporaneo.
 
 Durante la compilazione e' possibile dire al compilatore di fermarsi subito dopo la fase di preprocessing
 ```
@@ -39,7 +39,7 @@ Ad esempio, la funzione intera sopra potrebbe essere trasformata in `_Z8funzione
 - `_Z` -> e' un prefisso che indica che si tratta di una funzione mangled
 - `8funzione` -> rappresenta il nome della funzione con la lunghezza del nome
 - `i` -> e' il tipo del parametro
-quindi banalmente, se facciamo l'overloading di questa funzione solo la parte `8funzione` rimarra' necessariamente uguale, perche' dovro' necessariamente cambiare numero o tipo di parametri.
+quindi banalmente, se facciamo l'overloading di questa funzione solo la parte `8funzione` rimarra' uguale, perche' dovro' necessariamente cambiare numero o tipo di parametri.
 >Il name mangling *non tiene conto del tipo di ritorno*.
 
 ```cpp
@@ -86,6 +86,7 @@ Esistono due tipi di linking
 Il linking dinamico ha pro e contro
 **PRO**
 - Le dimensioni dell'eseguibile sono estremamente contenute
+
 **CONTRO**
 - Per compilare ed eseguire il programma, le librerie collegate dinamicamente devono essere presenti nella macchina dell'utilizzatore (che sia un altro programmatore o lo stesso utente finale)
 
@@ -96,6 +97,7 @@ Il linking dinamico ha pro e contro
 
 **PRO**
 - L'utilizzatore finale non avra' bisogno di installare librerie ma avra' tutto disponibile all'interno dell'eseguibile
+
 **CONTRO**
 - Le dimensioni dell'eseguibile saranno esponenzialmente piu' grandi di quelle della versione compilata con *dynamic linking*
 

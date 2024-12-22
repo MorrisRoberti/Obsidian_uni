@@ -1,4 +1,4 @@
->Le **conversioni implicite** del C++ si possono suddividere in 4 categorie (+ quella della sintassi "..." ereditata dal C che consente di avere un numero arbitrario di parametri).
+>Le **conversioni implicite** del C++ si possono suddividere in 4 categorie (+ quella della sintassi `...` ereditata dal C che consente di avere un numero arbitrario di parametri).
 
 ## 1) Corrispondenze esatte
 >Le **corrispondenze esatte** sono delle conversioni implicite di tipo che garantiscono di preservare il valore dell'argomento (attenzione: ci sono conversioni che pur preservando il valore non sono corrispondenze esatte).
@@ -43,7 +43,8 @@
 >Da `float` a `double`.
 
 #### c) Promozione delle costanti di enumerazione del C++ 2003
->Al piu' piccolo tipo intero (almeno `int`) sufficientemente grande per contenerle
+>Al piu' piccolo tipo intero (almeno `int`) sufficientemente grande per contenerle.
+
 
 ## 3) Conversioni standard
 >In pratica tutte le altre conversioni implicite che non coinvolgono conversioni definite dall'utente.

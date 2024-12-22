@@ -40,7 +40,18 @@ cp_ci = &ci; // errore: cp_ci e' non modificabile
 ## Somiglianze
 >Quando termina il lifetime di un puntatore, viene distrutto l'oggetto puntatore **ma non l'oggetto puntato**, analogamente quando un riferimento va fuori scope l'oggetto riferito non viene distrutto.
 
-Chiaramente se il riferimento e' inizializzato con un oggetto temporaneo, questo verra' distrutto nel momento in cui il lifetime del riferimento termina.
+Chiaramente se il riferimento e' inizializzato con un oggetto temporaneo, questo verra' distrutto nel momento in cui il lifetime del riferimento termina, come nell'esempio sotto
+```cpp
+void foo(int& x) {
+	x++;
+} // il lifetime dell'oggetto temporaneo x finisce
+
+int main() {
+	int i = 5;
+	foo(i);
+	std::cout << i << std::endl; // stampa 6
+}
+```
 
 >Analogamente al *dangling pointer* e' possibile creare un **dangling reference**, ovvero una reference che fa riferimento ad un oggetto non piu' esistente
 ```cpp
@@ -53,19 +64,28 @@ S& foo() {
 }
 ```
 
-Si tratta di un **grave errore di programmazione** in quanto la funzione ritorna per riferimento un oggetto che e' stato allocato automaticamente e che quindi verra' automaticamente distrutto appena la funzione termina. Quindi l'approccio corretto e' modificare l'interfaccia della funzione affinche' ritorni per valore invece che per riferimento, oppure, se non si vuole modificare la signature della funzione (che e' buona cosa), si puo' fare nel modo seguente
+Si tratta di un **grave errore di programmazione** in quanto la funzione ritorna per riferimento un oggetto che e' stato allocato automaticamente e che quindi verra' automaticamente distrutto appena la funzione termina. Quindi l'approccio corretto e' modificare l'interfaccia della funzione affinche' ritorni per valore invece che per riferimento, oppure, si puo' restituire il puntatore all'oggetto dinamico come segue
 
 ```cpp
 struct S {/*...*/}
 
-S& foo() {
-	S s = new S();
+S* foo() {
+	S* s = new S();
 	// ...
-	return *s;
+	return s;
 }
 ```
-Cosi' facendo allochiamo (**dinamicamente**)`s` che quindi, non sara' piu' nello stack che verra' svuotato al termine della funzione, ma nell'heap, e cosi' facendo possiamo restituire in modo corretto un puntatore all'oggetto.
 
+**ATTENZIONE**
+>Il puntatore al quale verra' poi assegnato cio' che la funzione restituisce si dovra' occupare della deallocazione, altrimenti si otterra' un *memory leak*.
+
+```cpp
+int main(){
+	S* s_ptr = foo();
+	// ...
+	delete s_ptr;
+}
+```
 #### Links
 [[Scope]]
 [[Tipi, qualificatori, costanti letterali]]

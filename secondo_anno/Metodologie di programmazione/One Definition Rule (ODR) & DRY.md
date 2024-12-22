@@ -6,10 +6,10 @@ Per evitare inconsistenza tra l'interfaccia e una o piu' unita' di traduzione si
 
 ## Cosa dice la ODR?
 La *ODR* dice - in modo semplificato - quanto segue:
-1. Ogni unita' di traduzione che forma un programma puo' contenere *non piu' di una definizione di una data variabile, funzione, classe, enumerazione o template*
-2. Ogni programma deve contenere *esattamente una definizione di ogni variabile e di ogni funzione non-inline* usate nel programma
+1. **Ogni unita' di traduzione** che forma un programma puo' contenere *non piu' di una **definizione** di una data variabile, funzione, classe, enumerazione o template*
+2. Ogni programma deve contenere *esattamente una **definizione** di ogni variabile e di ogni funzione non-inline* usate nel programma
 3. Ogni funzione inline *deve essere definita in ogni unita' di traduzione che la utilizza*
-4. In un programma vi possono essere piu' definizioni di una classe, enumerazione, template di classe, template di funzione e funzione inline a patto che:
+4. In un programma vi possono essere piu' definizioni di una classe, enumerazione, template di classe, template di funzione e funzione inline, **in diverse unita' di traduzione** a patto che:
 	1. Tali definizioni siano **sintatticamente identiche**
 	2. Tali definizioni siano **semanticamente identiche**
 
@@ -25,10 +25,10 @@ struct S { char c; double d; };
 int a;
 int a;
 ```
-*Stessa violazione, due dichiarazioni della stessa variabile nella stessa unita' di traduzione, tuttavia se una delle due fosse stata dichiarata con `external` il codice non avrebbe generato violazioni, allo stesso modo non sarebbe stato violazione se il nome delle variabili fosse stato completamente qualificato (N::a e ::a)*
+*Stessa violazione, due dichiarazioni della stessa variabile nella stessa unita' di traduzione, tuttavia se una delle due fosse stata dichiarata con `extern` il codice non avrebbe generato violazioni poiche' quella con extern sarebbe stata la sua dichiarazione pura mentre quella senza la sua definizione; allo stesso modo non sarebbe stato violazione se il nome delle variabili fosse stato completamente qualificato (`N::a` e `::a`)*
 
 **ATTENZIONE**
->Quando questa situazione si verifica attraverso piu' unita' di traduzione differenti il compilatore non rileva l'errore a tempo di compilazione, per questo e' stata creata la **ODR**
+>Quando questa situazione si verifica attraverso piu' unita' di traduzione differenti il compilatore non rileva l'errore a tempo di compilazione, per questo e' stata creata la **ODR**.
 
 esempio di codice che *non viola* il punto 1
 ```cpp
@@ -77,7 +77,7 @@ struct S { int a; int b; }; // definizione del tipo S
 S s; // definizione della variabile di tipo S
 
 // file2.cpp
-struct { int b; int a; }; // definizione del tipo S (sintassi diversa)
+struct S { int b; int a; }; // definizione del tipo S (sintassi diversa)
 extern S s; // dichiarazione pura della s definita in file1.cpp
 ```
 Quando il compilatore lavora su `file2.cpp` viene ingannato dalla diversa definizione del tipo S, ma non puo' accorgersene.
@@ -85,13 +85,14 @@ Quando il compilatore lavora su `file2.cpp` viene ingannato dalla diversa defini
 Con una piccola variante e' possibile ottenere una violazione della seconda clausola del punto 4
 ```cpp
 // file1.cpp
-typedef T int;
+using T = int;
 struct S { T a; T b; }; // definizione del tipo S
 
 // file2.cpp
-typedef T double;
-struct S { T b; T a; }; // definizione del tipo S (sintassi identica ma semantica diversa)
+using T = double;
+struct S { T a; T b; }; // definizione del tipo S (sintassi identica ma semantica diversa)
 ```
 
 #### Links
 [[Header files]]
+[[ODR nell'atto pratico]]

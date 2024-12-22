@@ -47,7 +47,7 @@ struct Matrix {
 ```
 Intuitivamente, una funzione che riceve come argomento un riferimento a *rvalue* (`Matrix&&`) sa che l'oggetto riferito puo' essere solo un **prvalue** o un **xvalue**. In entrambi i casi le risorse contenute nell'oggetto non possono essere utilizzate da altri e quindi possono essere spostate dall'oggetto invece che copiate, guadagnando in efficienza.
 
-In C++ 2011 dove e' presente il *move constructor* il codice sottostante sfrutta il *move constructor*, non il copy constructor
+In C++ 2011 dove e' presente il *move constructor* il codice sottostante sfrutta quest'ultimo e non il copy constructor
 ```cpp
 Matrix bar(const Matrix& arg) {
 	Matrix res = arg; // copia (1)
@@ -80,7 +80,7 @@ Se si chiama
 ```cpp
 bar(m);
 ```
-Siccome `m` e' un *lvalue* verrebbe comunque invocato il *copy constructor*. Per evitare questa cosa occorre un modo per convertire il tipo di `m` da *riferimento a lvalue* (Matrix&) a *riferimento a rvalue* (Matrix&&).
+Siccome `m` e' un *lvalue* verrebbe comunque invocato il *copy constructor*. Per evitare questa cosa occorre un modo per convertire il tipo di `m` da *riferimento a lvalue* (`Matrix&`) a *riferimento a rvalue* (`Matrix&&`).
 >Tale effetto si ottiene usando la funzione di libreria **std::move**.
 
 ```cpp

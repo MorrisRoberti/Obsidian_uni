@@ -1,6 +1,6 @@
->Quando si usa l'espressione di tipo array di T, viene applicato il *type decay* e si ottiene il puntatore al primo elemento dell'array. Questa conversione (trasformazione di lvalue) e' necessaria per evitare l'uso di copie costose quando un array viene passato come argomento ad una funzione: si passa il puntatore per valore.
+>Quando si usa l'espressione di tipo array di `T`, viene applicato il *type decay* e si ottiene il puntatore al primo elemento dell'array. Questa conversione (trasformazione di lvalue) e' necessaria per evitare l'uso di copie costose quando un array viene passato come argomento ad una funzione: si passa il puntatore per valore.
 
-Il legame tra array e puntatori e molto forte, si vede subito dal fatto che la sintassi dell'indicizzazione di un array non e' altro che una sorta di shortcut per un uso semplificato dell'aritmetica dei puntatori.
+Il legame tra array e puntatori e' molto forte, si vede subito dal fatto che la sintassi dell'indicizzazione di un array non e' altro che una sorta di shortcut per un uso semplificato dell'aritmetica dei puntatori.
 ```cpp
 int a[100];
 int b = 5;
