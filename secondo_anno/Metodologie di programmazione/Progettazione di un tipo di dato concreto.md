@@ -8,6 +8,9 @@ Il **testing dinamico** e' essenziale per verificare che l'implementazione della
 ### Invariante di classe
 >L'**invariante di classe** e' *una proprieta' che deve essere soddisfatta dalla rappresentazione scelta per il tipo di dato*. Quando e' possibile si vuole codificarne il controllo in un metodo della classe e verificarne la validita' mediante le *asserzioni*.
 
+**NOTA**
+>Solitamente gli header file delle librerie C, sono indicate con `<nomelibreria.h>` tuttavia, utilizzare librerie C in progetti C++ e' considerato cattivo stile, quindi si utilizzano le varianti specifiche per C++ che per convenzione hanno lo stesso nome ma con una 'c' davanti: `assert.h` -> `cassert`, `math.h` -> `cmath` etc.
+
 Si chiama *invariante* perche' deve essere sempre verificata, o quasi. Talvolta, durante l'esecuzione di un metodo della classe, tale invariante puo' essere temporaneamente violata.
 ```cpp
 Razionale& operator+=(const Razionale& y) {

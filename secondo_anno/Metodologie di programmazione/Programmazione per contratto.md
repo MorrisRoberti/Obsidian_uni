@@ -58,7 +58,7 @@ Razionale operator/(const Razionale& x, const Razionale& y) {
 }
 ```
 
->Notare come nel caso del contratto *wide* sia l'implementatore a verificare che la condizione venga rispettata tramite un controllo **esplicito**, inoltre, anche se la condizione viene controllata all'inizio dell'implementazione, si tratta comunque di una *postcondizione*, perche' in questo caso l'utent puo' legittimamente pretendere di ottenere l'eccezione quando `y` e' uguale a 0.
+>Notare come nel caso del contratto *wide* sia l'implementatore a verificare che la condizione venga rispettata tramite un controllo **esplicito**, inoltre, anche se la condizione viene controllata all'inizio dell'implementazione, si tratta comunque di una *postcondizione*, perche' in questo caso l'utente puo' legittimamente pretendere di ottenere l'eccezione quando `y` e' uguale a 0.
 
 I contratti *wide* sono quindi **piu' onerosi** sia in termini di efficienza che di codice da scrivere.
 

@@ -1,6 +1,5 @@
 >Un **vincolo** e' una funzione booleana (*predicato*) che serve nei DBMS per garantire l'integrita' dei dati e quindi la qualita' delle informazioni.
 
-
 ## Tipi di vincoli
 >Esistono due tipi di vincoli: **intra-relazionali** cioe' i vincoli che riguardano l'istanza di relazione corrente, e quelli **inter-relazionali** che invece riguardano l'interfacciarsi di tabelle.
 
@@ -31,3 +30,4 @@ Ecco l'esempio di alcuni vincoli sul dominio:
 
 #### Links
 [[Il modello relazionale]]
+[[Chiavi e superchiavi]]

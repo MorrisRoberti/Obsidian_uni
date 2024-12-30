@@ -72,6 +72,9 @@ int main() {
 ```
 in questo modo io devo soltanto includere il file con la signature e il preprocessore fara' tutto il resto, oltre a non essere soggetto a codice ridondante non sono soggetto nemmeno agli altri errori descritti sopra.
 
+**IMPORTANTE**
+>Nell'header file, che intuitivamente rappresenta la mia interfaccia verso l'utente, io voglio dichiarare tutto cio' che l'utente deve poter usare, cio' significa che alcune funzioni utilizzate internamente che non voglio far usare all'utente, non devo metterle nell'header file, altrimenti trarrei quest'ultimo in inganno.
+
 ## Cose ragionevoli da trovare negli header file
 - Preprocessor directives
 - Dichiarazioni o definzioni di tipo

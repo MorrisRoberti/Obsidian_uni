@@ -31,6 +31,23 @@
 | --------- | -------------- | -------------- |
 | i         | int&           | const int&     |
 | &i        | int*           | const int*     |
+**ATTENZIONE**
+>Quando si ha un caso di *match perfetto* vs *conversione di qualificazione*.
+```cpp
+void foo(const int& i);
+
+void foo(int& i);
+
+int main() {
+	int i = 10;
+	int ci = 20;
+
+	foo(i); // chiama la variante non-const
+	foo(ci); // chiama la variante const
+	foo(50); // chiama la variante const
+}
+```
+
 
 ## 2) Promozioni
 >Corrispondono ad alcune conversioni implicite di tipo che, come le corrispondenze esatte sono garantite preservare il valore dell'argomento. Solitamente ogni implementazione del linguaggio e' specifica per una determinata architettura, quindi i tipi possono essere rappresentati con parole di grandezza diversa. Per tradizione, i tipi `int` e `unsigned int` vengono rappresentati nella dimensione adeguata ad ottenere la massima efficienza, al contrario, i tipi piu' piccoli di `int` a volte non sono direttamente rappresentabili all'interno del processore quindi ogni volta che si vuole operare su un tipo di dato piu' piccolo di `int` questo deve essere **promosso** a `int` o `unsigned int`.

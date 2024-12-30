@@ -41,7 +41,7 @@ Chiaramente a differenza di *unione* e *intersezione* e' *NON commutativa*.
 L'operazione sopra' restituisce il seguente output
 ![[Pasted image 20240925192945.png]]
 
-- L'output di un'operazione di proiezione contiene al massimo un numero di tuple uguale a quello dell'istanza in input.
+- L'output di un'operazione di proiezione contiene **al massimo** un numero di tuple uguale a quello dell'istanza in input.
 - Diciamo "al massimo" perche' potrebbe contenerne anche meno, se ad esempio nell'istanza sopra togliessimo la colonna `Number` allora la riga 2 e 4 sarebbero uguali, quindi per la definizione di *Relazione* una delle due dovra' essere scartata.
 - Se $X$ e' una **superchiave** di $R$, allora $\Pi_X(R)$ contiene lo stesso numero di tuple di $R$ 
 

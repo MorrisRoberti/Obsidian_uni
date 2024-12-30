@@ -2,7 +2,7 @@
 >
 >*Una superchiave e' un insieme K di attributi su r se, date due tuple distinte t1 e t2 in r NON valga t1[K] = t2[K]*.
 
->Una chiave e' una **superchiave minimale**.
+>Una **chiave** e' una **superchiave minimale**.
 
 ![[Pasted image 20240925181346.png]]
 Nel caso sopra la **chiave** e' `Number` in quanto e' una **superchiave minimale**.

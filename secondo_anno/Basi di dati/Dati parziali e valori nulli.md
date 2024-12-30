@@ -8,4 +8,4 @@ Solitamente il valore **NULL** puo' indicare uno dei tre casi:
 Nei moderni DBMS non esiste un modo per distinguere questi casi.
 
 #### Links
-[[Elementi di istanza e di classe]]
+[[Dati e informazioni]]

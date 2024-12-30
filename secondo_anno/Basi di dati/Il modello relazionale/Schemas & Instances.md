@@ -1,4 +1,4 @@
->Lo **schema** in un database e' l'invariante che definisce la struttura dei dati mentre le **istanze** sono i valori dei dati che hanno la struttura definita dallo schema
+>Lo **schema** in un database e' l'invariante che definisce la struttura dei dati mentre le **istanze** sono i valori dei dati che hanno la struttura definita dallo schema.
 
 ### Logical schema & Internal Schema
 >Lo **schema logico** del database definisce la sua struttura attraverso il **logical data model** (es. la struttura delle tabelle) mentre lo **schema interno** rappresenta lo schema a livello di immagazzinamento, quindi record, file e dati in generale.
@@ -42,7 +42,7 @@ STUDENTS
 2   Giuseppe  Verdi    54321       1995
 
 ```
-Se prendiamo la prima tupla, $t[A]$ sara' il valore sara' il valore di quella colonna per la tupla presa, quindi $t[Name]=Mario$.
+Se prendiamo la prima tupla, $t[A]$ sara' il valore di quella colonna per la tupla presa, quindi $t[Name]=Mario$.
 
 ### Relation instance
 >Una **istanza di relazione** della relazione $R(X)$ e' quindi  **un insieme di tuple** che rispettano lo *schema di relazione* $R(X)$.

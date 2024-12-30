@@ -1,4 +1,4 @@
->La **primary key (PK)** e' la chiave di una relazione che ha implicitamente il [[Vincoli di integrita']] di non poter assumere valori nulli.
+>La **primary key (PK)** e' *la chiave di una relazione* che ha implicitamente tra i [[Vincoli di integrita']] quello di non poter assumere valori nulli.
 
 *Nella notazione comune viene indicato l'attributo (o gli attributi) sottolineato.*
 
