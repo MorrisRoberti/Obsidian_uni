@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Exception Safety.md",
-                "mode": "preview",
+                "file": "secondo_anno/Metodologie di programmazione/Approcci per gestire le risorse.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exception Safety"
+              "title": "Approcci per gestire le risorse"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Exception Safety.md",
+                "file": "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exception Safety"
+              "title": "Dichiarazione e definizione"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "a5a574fdc52952c0",
@@ -191,11 +189,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f815ce4e0ea8090",
+  "active": "9f876443a466cc7f",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
     "secondo_anno/Metodologie di programmazione/Exception Safety.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
     "secondo_anno/Metodologie di programmazione/Approcci per gestire le risorse.md",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/Resource.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/ResourceHandler.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/main.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID",
+    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
     "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
     "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
@@ -220,13 +223,11 @@
     "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
     "secondo_anno/Metodologie di programmazione/Overloading di funzioni templatiche.md",
     "secondo_anno/Metodologie di programmazione/Cast.md",
-    "secondo_anno/Metodologie di programmazione/Bad Programming.md",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/main.cpp",
     "Codice",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.hpp",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.cpp",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione",
-    "secondo_anno/Metodologie di programmazione/Codice",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123250.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123222.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123151.png",
@@ -235,9 +236,6 @@
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110838.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110806.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110514.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110431.png",
-    "secondo_anno/Basi di dati/Indexes",
-    "secondo_anno/Basi di dati/Database Design",
-    "secondo_anno/Basi di dati/DBMS Architecture"
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110431.png"
   ]
 }

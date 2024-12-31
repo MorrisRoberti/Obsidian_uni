@@ -1,7 +1,7 @@
 >Vogliamo definire degli approcci pratici per gestire le risorse nel codice. Generalmente possiamo elencarne 3: una soluzione *naive*, una soluzione "convenzionale" tramite *try/catch* e infine il metodo idiomatico **RAII-RRID**.
 
 **NOTE**
-1. La restituzione della risorsa PUO' fallire ma non dipende da noi e non possiamo farci niente.
+1. L'acquisizione e/o la  restituzione della risorsa **possono fallire** ma non dipende da noi e non possiamo farci niente.
 2. Le risorse tipicamente vengono rilasciate in modo inverso rispetto a come sono acquisite.
 ### Soluzione naive
 >Quando si vogliono gestire le risorse e i conseguenti errori, talvolta si vuole solo segnalarli, senza "fare rumore" cioe' senza interrompere il programma.
@@ -165,6 +165,7 @@ void codice_utente() {
 }
 ```
 - Le linee `5-6` vengono messe in un blocco, perche' in questo modo la distruzione di `r2` avviene *prima* della creazione di `r3` 
-
+#### Code
+[[secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/main.cpp|main.cpp]]
 #### Links
 [[Exception Safety]]
