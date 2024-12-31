@@ -60,7 +60,7 @@ Razionale operator/(const Razionale& x, const Razionale& y) {
 
 >Notare come nel caso del contratto *wide* sia l'implementatore a verificare che la condizione venga rispettata tramite un controllo **esplicito**, inoltre, anche se la condizione viene controllata all'inizio dell'implementazione, si tratta comunque di una *postcondizione*, perche' in questo caso l'utente puo' legittimamente pretendere di ottenere l'eccezione quando `y` e' uguale a 0.
 
-I contratti *wide* sono quindi **piu' onerosi** sia in termini di efficienza che di codice da scrivere.
+I contratti *wide* sono quindi **piu' onerosi** sia in termini di efficienza che di codice da scrivere e soprattutto *riducono l'astrazione e la generalizzazione del codice* in quanto i controlli che implementiamo per semplificare la vita all'utente ci costringono ad utilizzare tipi concreti e quindi riducono la possibilita' di utilizzare **concetti** piu' generici.
 
 ### I contratti C++ e la libreria standard
 >Ogni volta che lo standard descrive una funzionalita' del linguaggio o della libreria standard, ne viene descritto il contratto in termini di precondizioni e postcondizioni, in particolare sono classificati i *behaviors* che una specifica implementazione e' tenuta a rispettare.
@@ -68,8 +68,10 @@ I contratti *wide* sono quindi **piu' onerosi** sia in termini di efficienza che
 #### Specified Behavior
 >E' il comportamento *corretto* definito dallo standard, al quale l'implementazione deve uniformarsi.
 
+Cioe', ad esempio, se la mia implementazione rispetta lo standard su Windows allora deve rispettare lo standard anche su Linux.
 #### Implementation-Defined Behavior
 >Ogni implementazione puo' scegliere come realizzare una determinata funzionalita', con l'obbligo di documentare la scelta fatta. Ad esempio la scelta della dimensione di ognuno dei tipi interi standard (signed, unsigned etc.).
+
 #### Unspecified Behavior
 >Comportamento che dipende dal'implementazione, che pero' non e' tenuta a documentare la scelta fatta. Ad esempio l'ordine delle valutazione delle sottoespressioni e' non specificato.
 

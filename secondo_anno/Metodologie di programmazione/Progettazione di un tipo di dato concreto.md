@@ -37,6 +37,8 @@ Lo sviluppatore deve garantire che le operazioni della classe rendano vera l'inv
 
 >**L'attivita' di progettazione dell'interfaccia deve quindi valutare se l'aggiunta di un metodo possa dare accesso incontrollato alla rappresentazione interna e, di conseguenza mettere a rischio l'invariante.**
 
+>Possiamo decidere di compilare il codice con le asserzioni facendo in modo che queste vengano *scartate* durante il processo, tramite il flag `-DNDEBUG`.
+
 ### Precondizioni e postcondizioni
 >L'invariante di classe e' parte delle precondizioni e post condizioni dei metodi della classe. Queste formano il [[Programmazione per contratto|Contratto]] tra lo sviluppatore e l'utilizzatore della classe.
 

@@ -13,40 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
+                "file": "secondo_anno/Metodologie di programmazione/Exception Safety.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programmazione per contratto"
+              "title": "Exception Safety"
             }
           },
           {
-            "id": "9a9e287f00f7b234",
+            "id": "4f815ce4e0ea8090",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Progettazione di un tipo di dato concreto"
-            }
-          },
-          {
-            "id": "6738d218ca06a4cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Header files.md",
+                "file": "secondo_anno/Metodologie di programmazione/Exception Safety.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Header files"
+              "title": "Exception Safety"
             }
           }
         ],
@@ -205,11 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a9e287f00f7b234",
+  "active": "4f815ce4e0ea8090",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+    "secondo_anno/Metodologie di programmazione/Exception Safety.md",
+    "secondo_anno/Metodologie di programmazione/Approcci per gestire le risorse.md",
+    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Header files.md",
-    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
     "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
     "secondo_anno/Metodologie di programmazione/Classi derivate e relazione IS-A.md",
     "secondo_anno/Basi di dati/Espressioni equivalenti.md",
@@ -231,10 +221,6 @@
     "secondo_anno/Metodologie di programmazione/Overloading di funzioni templatiche.md",
     "secondo_anno/Metodologie di programmazione/Cast.md",
     "secondo_anno/Metodologie di programmazione/Bad Programming.md",
-    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
-    "secondo_anno/Metodologie di programmazione/Aritmetica dei puntatori.md",
-    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/main.cpp",
     "Codice",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.hpp",

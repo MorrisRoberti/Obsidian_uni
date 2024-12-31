@@ -1,6 +1,10 @@
->Vogliamo definire degli approcci pratici per gestire le eccezioni nel codice. Generalmente possiamo elencarne 3: una soluzione *naive*, una soluzione "convenzionale" tramite *try/catch* e infine il metodo idiomatico **RAII-RRID**.
+>Vogliamo definire degli approcci pratici per gestire le risorse nel codice. Generalmente possiamo elencarne 3: una soluzione *naive*, una soluzione "convenzionale" tramite *try/catch* e infine il metodo idiomatico **RAII-RRID**.
+
+**NOTE**
+1. La restituzione della risorsa PUO' fallire ma non dipende da noi e non possiamo farci niente.
+2. Le risorse tipicamente vengono rilasciate in modo inverso rispetto a come sono acquisite.
 ### Soluzione naive
->Quando si vogliono gestire gli errori, talvolta si vuole solo segnalarli, senza "fare rumore" cioe' senza interrompere il programma.
+>Quando si vogliono gestire le risorse e i conseguenti errori, talvolta si vuole solo segnalarli, senza "fare rumore" cioe' senza interrompere il programma.
 
 ```cpp
 bool codice_utente() {
@@ -11,9 +15,7 @@ if (r1 == nullptr) {
 	}
 }
 ```
-**NOTE**
-1. La restituzione della risorsa PUO' fallire ma non dipende da noi e non possiamo farci niente.
-2. Le risorse tipicamente vengono rilasciate in modo inverso rispetto a come sono acquisite.
+
 ### Try-catch (eccezioni)
 >Il modo **convenzionale** per gestire gli errori e' utilizzando le eccezioni.
 
@@ -89,13 +91,13 @@ void codice_utente() {
 - Possiamo acquisire le risorse anche fuori dal blocco *try-catch* poiche' se l'acquisizione fallisce non acquisisco memoria e quindi non devo rilasciarla, se c'e' un errore semplicemente restituisco il controllo al chiamante
 - vogliamo un blocco try che "protegga" la risorsa i-esima quando viene usata (quindi dopo l'acquisizione), se viene lanciato un errore, nel blocco catch viene rilasciata la risorsa
 - La cosa importante dal punto di vista di chi implementa non e' gestire l'errore ma *proteggere le risorse*
-- Quando usiamo try-catch vogliamo restituire la risorsa *sia nel flusso di esecuzione normale che nel flusso eccezionale*
+- Quando usiamo try-catch vogliamo rilasciare la risorsa *sia nel flusso di esecuzione normale che nel flusso eccezionale*
 
 #### Osservazioni
 1. Si crea un blocco try-catch per ogni singola **risorsa acquisita** 
 2. Il blocco si apre *subito dopo* l'acquisizione della risorsa (se l'acquisizione fallisce, non c'e' nulla da rilasciare)
 3. La responsabilita' del blocco try-catch e' di proteggere *quella* singola risorsa
-4.  Al termine del blocco try (prima del catch) va effettuata la "normale" restrizione della risorsa (caso NON eccezionale)
+4.  Al termine del blocco try (prima del catch) va effettuata la "normale" restituzione della risorsa (caso NON eccezionale)
 5. La clausola *catch* usa "..." per catturare qualunque eccezione: non ci interessa l'errore, vogliamo solo rilasciare la risorsa
 6. Nella clausola catch, dobbiamo fare due operazioni:
 	- rilasciare la risorsa protetta

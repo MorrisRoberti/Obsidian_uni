@@ -4,7 +4,7 @@
 >Il *Single Responsibility Principle* o **SRP** dice che *ogni porzione software (una classe, una funzione, etc.) dovrebbe avere in carico una singola responsabilita'*.
 
 Esempio
-Una classe che deve manipolare piu' risorse **NON** dovrebbe prendersi direttamente carico della corretta acquisizione e gestione delle risorse piuttosto dovrebbe **delegare** questo compito ad opportune classi *gestore*, in questo modo la classe puo' focalizzarsi sull'usp appropriato delle risorse, non preoccupandosi della loro gestione (vedi [[Approcci per gestire le eccezioni#RAII-RRID|RAII-RRID]]).
+Una classe che deve manipolare piu' risorse **NON** dovrebbe prendersi direttamente carico della corretta acquisizione e gestione delle risorse piuttosto dovrebbe **delegare** questo compito ad opportune classi *gestore*, in questo modo la classe puo' focalizzarsi sull'usp appropriato delle risorse, non preoccupandosi della loro gestione (vedi [[Approcci per gestire le risorse#RAII-RRID|RAII-RRID]]).
 
 ## OCP
 >Il *Open-Closed Principle* o **OCP** e' una linea guida che dice che *le nostre entita' (classi, funzioni, moduli, etc.) devono essere **aperte alle estensioni** ma **chiuse alle modifiche***.
