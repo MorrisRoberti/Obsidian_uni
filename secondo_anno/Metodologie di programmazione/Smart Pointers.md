@@ -56,7 +56,7 @@ int* raw_pk = pi.release(); // devo invocare la delete su raw_pk
 ## std::shared_ptr
 >Uno **shared_ptr** ad un tipo *T* e' uno smart pointer ad un oggetto di tipo *T* allocato dinamicamente. Lo shared_ptr implementa il concetto di puntatore per il quale la responsabilita' di corretta gestione della risorsa e' condivisa.
 
-Quando uno *shared_ptr* viene copiato l'origine e la copia puntano allo stesso oggetto allocato nell'heap, condividendo quindi anche la responsabilita' della gestione di quella risorsa.
+Quando uno *shared_ptr* viene copiato l'originale e la copia puntano allo stesso oggetto allocato nell'heap, condividendo quindi anche la responsabilita' della gestione di quella risorsa.
 A livello implementativo, la copia causa l'incremento di un contatore del *reference counter* cioe' del numero di riferimenti alla risorsa. Quando uno shared_ptr viene distrutto il reference counter associato alla risorsa viene decrementato e, se si accorge di essere rimasto l'unico shared_ptr che punta a quella risorsa allora fa la deallocazione.
 
 ```cpp

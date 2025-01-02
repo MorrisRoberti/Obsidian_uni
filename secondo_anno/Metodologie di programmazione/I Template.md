@@ -243,4 +243,12 @@ template <typename T>
 const T pi = T(3.1415926535897932385L);
 ```
 
+
+### Differenza tra istanziazione e specializzazione
+Molte volte puo' essere difficile capire la differenza tra *istanziazione* e *specializzazione*, quindi ci tengo a specificarla qui sotto:
+
+>L'istanziazione e' il processo in cui il compilatore sostituisce il tipo di dato "concreto" al parametro del template e genera il codice della funzione templatica con tale tipo. Quando chiamiamo una funzione templatica su un tipo si dice che avviene *implicitamente* ma e' possibile anche dire al compilatore "crea il codice per questa funzione con il tipo di dato x perche' sicuramente mi servira' piu' avanti" e questa e' l'istanziazione *esplicita*.
+
+>La specializzazione e' invece il meccanismo con il quale definiamo una versione specifica della funzione templatica per un qualche tipo di dato particolare, quindi non viene creato il codice per quella funzione a prescindere ma semplicemente viene detto al compilatore "questa funzione e' templatica, quindi il codice si comporta allo stesso modo per tutti i tipi T, pero' per il tipo const char* voglio che si comporti in modo diverso".
 #### Links
+[[Compilazione template]]
