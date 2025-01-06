@@ -14,9 +14,9 @@ La rappresentazione grafica e' la seguente
 >Tutte le proprieta' dei parent sono ereditate dalle entita' figlio e non esplicitamente rappresentate.
 
 ## Tipi di Generalizzazioni
->La generalizzazione e' **totale** se ogni occorrenza dell'entita' *parent* e' occorrenza di almeno una delle entita' figlio, **parziale** altrimenti.
+>La generalizzazione e' **totale** se ogni occorrenza dell'entita' *parent* e' occorrenza **di almeno una** delle entita' figlio, **parziale** altrimenti.
 
->La generalizzazione e' **disgiunta** se ogni occorrenza dell'entita' *parent* e' occorrenza di al piu' una delle entita' figlie, **sovrapposta** altrimenti.
+>La generalizzazione e' **disgiunta** se ogni occorrenza dell'entita' *parent* e' occorrenza **di al piu' una** delle entita' figlie, **sovrapposta** altrimenti.
 
 Esempio di generalizzazione *disgiunta e parziale*
 ![[Pasted image 20241118104146.png]]

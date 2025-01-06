@@ -41,12 +41,15 @@ Quando abbiamo una universal reference puo' essere dedotto per PT un riferimento
 
 Assumiamo
 ```cpp
+template<typename TT>
+void f(PT param)
+
 int i = 0;
 const int ci = 0;
 ```
 
 es 1
-- `f(5);` -> **te**=int, deduco **pt**=int&&, **tt** = int
+- `f(5);` -> **te**=int, deduco **pt**=int&&, **tt**=int
 - `f(std::move(i));` -> **te**=int&&, deduco **pt**=int&&, **tt**=int
 
 es 2

@@ -42,7 +42,7 @@ distinguiamo 2 versioni di UML:
 
 ![[Pasted image 20241118181828.png]]
 
->Nessuna molteplicita' sta per 1 a 1, quindi una *Person* puo' essere residente in solo una *City*. Dall'altro lato, una *City* puo' avere da 
+>Nessuna molteplicita' sta per 1 a 1, quindi una *Person* puo' essere residente in solo una *City*. Dall'altro lato, una *City* puo' avere diverse *Person*. 
 
 ![[Pasted image 20241118181949.png]]
 

@@ -1,4 +1,4 @@
->**Datalog** e' un linguaggio di programmazione *dichiarativo* logico orientato ai database, il cui ancestore e' il Prolog. Utilizza due differenti predicati: **extensional** cioe' riguardante le relazioni del database e **intension** che corrisponde alle viste.
+>**Datalog** e' un linguaggio di programmazione *dichiarativo* logico orientato ai database, il cui ancestore e' il Prolog. Utilizza due differenti predicati: **extensional** cioe' riguardante le relazioni del database e **intensional** che corrisponde alle viste.
 >I predicati **intensional** sono definiti attraverso *regole*.
 
 ## Le regole
@@ -22,7 +22,7 @@ $$?RICHER(Number: m, Name: n, Age: a, Wage: w)$$
 DRC
 $$\lbrace{Number: m, Name: n, Age: a \vert EMPLOYEE(Number: m, Name: n, Age: a, Wage: w)}\rbrace$$
 DATALOG
-$$PUBINFO(Number: m, Name: n, Age: a) \leftarrow EMPLOYEE(Numver: m, Name: n, Age: a, Wage: w)$$
+$$PUBINFO(Number: m, Name: n, Age: a) \leftarrow EMPLOYEE(Number: m, Name: n, Age: a, Wage: w)$$
 E quindi
 $$?PUBINFO(Number: m, Name: n, Age: a)$$
 

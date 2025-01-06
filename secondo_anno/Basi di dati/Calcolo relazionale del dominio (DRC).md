@@ -18,7 +18,7 @@ La risultante e' una relazione su $A_1, \dots, A_k$ che contiene tuple di valori
 **Esempio 1**
 $$\sigma_{Wage > 40} (EMPLOYEE)$$
 in DRC 
-$$\lbrace{Number: m, Name: n, Age: a, Wage: w \vert EMPLOYEE(Number: m, Name: n, Age: a, Wage: w) \wedge w \gt 40}$$
+$$\lbrace{Number: m, Name: n, Age: a, Wage: w \vert EMPLOYEE(Number: m, Name: n, Age: a, Wage: w) \wedge w \gt 40}\rbrace$$
 
 
 **Esempio 2**
@@ -63,6 +63,8 @@ $$\lbrace{Number: c, Name: n \vert EMPLOYEE(Number: c, Name: n, Age: a, Wage: w)
 ## Pro e contro del calcolo relazionale del dominio
 **PRO**
 - Dichiarativo
+
+
 **CONTRO**
 - Molto verboso
 - Ci sono espressioni non significative es. $\lbrace{A: x \vert ¬R(A: x)}\rbrace$ 

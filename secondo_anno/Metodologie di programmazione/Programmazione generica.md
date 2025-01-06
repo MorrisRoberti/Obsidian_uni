@@ -145,3 +145,6 @@ In questo caso, il contenitore `C` usato per default e' uno `std::vector<T>`
 
 #### Links
 [[secondo_anno/Metodologie di programmazione/I Template|I Template]]
+[[Concetto di Iteratore]]
+[[Concetto di Callable]]
+[[Gli Iterator traits]]

@@ -7,7 +7,7 @@ Nella prima fase, il compilatore opera con una definizione incompleta
 ```cpp
 template <typename T>
 void incr(int& i, T& t) {
-	++i; // esepressione indipendente dal parametro T
+	++i; // espressione indipendente dal parametro T
 	++t; // espressione dipendente dal parametro T
 }
 ```
@@ -22,7 +22,7 @@ Nella prima espressione il compilatore puo' effettuare con successo tutti i cont
 Esistono 3 modi per organizzare il codice quando si usano i template:
 1. includere le *definizioni* dei template prima di ogni loro uso nell'unita' di traduzione (es. tramite un header file)
 2. includere le dichiarazioni del template prima di farne uso e successivamente includere le definizioni del template nell'unita' di traduzione
-3. sfruttando il meccanismo delle istanziazioni esplicite, includere solo le dichiarazioni die template e le *dichiarazioni* di istanziazione esplicita prima di ogni loro uso nell'unita' di traduzione, assicurandosi che le definizioni dei template e le *definizioni* di istanziazione esplicita siano fornite in un'altra unita' di traduzione
+3. sfruttando il meccanismo delle istanziazioni esplicite, includere solo le dichiarazioni dei template e le *dichiarazioni* di istanziazione esplicita prima di ogni loro uso nell'unita' di traduzione, assicurandosi che le definizioni dei template e le *definizioni* di istanziazione esplicita siano fornite in un'altra unita' di traduzione
 
 *Solitamente* si usa il **primo** approccio, il **secondo** si usa quando si hanno funzioni templatiche che si chiamano *ricorsivamente* e il **terzo** si usa per *ridurre i tempi di compilazione*.
 

@@ -80,7 +80,7 @@ Si rappresentano graficamente nel seguente modo
 ![[Pasted image 20241117235145.png]]
 
 ## Identificatori di Entita'
->Un **identificatore** e' una modo univoco per identificare le occorrenze di un'entita'. Puo' essere *interno* e quindi composto dagli attributi dell'entita' o *esterno* quindi attributi dell'entita' + entita' esterne raggiungibili attraverso associazioni.
+>Un **identificatore** e' un modo univoco per identificare le occorrenze di un'entita'. Puo' essere *interno* e quindi composto dagli attributi dell'entita' o *esterno* quindi attributi dell'entita' + entita' esterne raggiungibili attraverso associazioni.
 
 ![[Pasted image 20241118100409.png]]
 

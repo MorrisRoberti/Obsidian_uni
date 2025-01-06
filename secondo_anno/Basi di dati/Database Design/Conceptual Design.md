@@ -1,4 +1,4 @@
-- Vogliamo fare la progettazione *concettuale* di una base di dati, cioe' vogliamo effettuare i seguenti compiti:
+Vogliamo fare la progettazione *concettuale* di una base di dati, cioe' vogliamo effettuare i seguenti compiti:
 	- *Raccolta* dei requisiti
 	- *Analisi* dei requisiti
 	- Costruzione dello *schema concettuale*
