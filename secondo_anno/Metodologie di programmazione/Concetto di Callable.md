@@ -164,7 +164,6 @@ auto corta = [max_size](const std::string& s) {
 };
 ```
 
-
 #### Links
 [[Programmazione generica]]
 [[secondo_anno/Metodologie di programmazione/I Template|I Template]]
