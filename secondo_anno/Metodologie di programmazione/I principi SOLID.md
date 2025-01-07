@@ -96,19 +96,19 @@ public:
 
 	Rettangolo(long lunghezza, long larghezza) : lung(lunghezza), larg(larghezza) {
 		if (!check_inv())
-			throw std::invalid_argument("Dimensioni invalide");	
+			throw std::invalid_argument("Dimensioni non valide");	
 	}
 
 	long get_lunghezza() const { return lung; }
 	long get_larghezza() const { return larg; }
 	void set_lunghezza(long value) {
 		if (value <= 0)
-			throw std::invalid_argument("Dimensione invalida");
+			throw std::invalid_argument("Dimensione non valida");
 		lung = value;
 	}
 	void set_larghezza(long value) {
 		if (value <= 0)
-			throw std::invalid_argument("Dimensione invalida");
+			throw std::invalid_argument("Dimensione non valida");
 		larg = value;
 	}
 	long get_area() const { return lungh * larg; }

@@ -102,7 +102,7 @@ Iter std::find_if<Iter, Positivo>(Iter first, Iter last, Positivo pred);
 Quando genera il codice per una delle istanze, il compilatore vede l'invocazione di solo uno dei sei metodi `operator()` quindi puo' ottimizzare il codice per quella specifica invocazione (ad esempio tramite un'espansione in linea). Quindi nonostante il codice eseguibile sia piu' grande e' piu' efficiente.
 
 ## 3) Lambda functions
->Talvolta si vuole utilizzare definire una funzione che verra' utilizzata solo in uno specifico punto del programma; di per se' sarebbe inutile averla esterna e poi richiamarla, noi vorremo che questa esistesse solo nel punto necessario. Qui ci vengono in aiuto le **lambda functions**. Una funzione lambda e' una funzione "anonima" nel senso che non ha nome e non puo' essere richiamata.
+>Talvolta si vuole definire una funzione che verra' utilizzata solo in uno specifico punto del programma; di per se' sarebbe inutile averla esterna e poi richiamarla, noi vorremo che questa esistesse solo nel punto necessario. Qui ci vengono in aiuto le **lambda functions**. Una funzione lambda e' una funzione "anonima" nel senso che non ha nome e non puo' essere richiamata.
 
 ### Under the hood
 >Quello che fa il compilatore (di nascosto) quando trova una funzione lambda e':
