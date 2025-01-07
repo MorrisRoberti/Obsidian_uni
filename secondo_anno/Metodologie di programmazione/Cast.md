@@ -26,7 +26,7 @@ Banalmente e' una *versione esplicita* di quello che implicitamente fa il compil
 Razionale r = static_cast<Razionale>(5);
 ```
 **ATTENZIONE**
->Se non e' definito un costruttore che accetta il tipo di dato passato, non e' possibile effettuare il cast. Il casting avviene con successo anche se c'e' un costruttore per un tipo di dato "minore" e noi passiamo un tipo di dato per il quale il compilatore riesce ad effettuare un casting esplicito.
+>Se non e' definito un costruttore che accetta il tipo di dato passato, non e' possibile effettuare il cast. Il casting avviene con successo anche se c'e' un costruttore per un tipo di dato "minore" e noi passiamo un tipo di dato per il quale il compilatore riesce ad effettuare un casting implicito.
 ```cpp
 class Integer {
 private:

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
+                "file": "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concetto di Iteratore"
+              "title": "Overloading - definizione e risoluzione"
             }
           },
           {
@@ -87,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,11 +192,12 @@
   },
   "active": "edf1b844a2831dbe",
   "lastOpenFiles": [
+    "secondo_anno/Metodologie di programmazione/Cast.md",
+    "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
     "secondo_anno/Metodologie di programmazione/Classi derivate e relazione IS-A.md",
     "secondo_anno/Metodologie di programmazione/I principi SOLID.md",
     "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
     "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
-    "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
     "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
     "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
     "secondo_anno/Basi di dati/Calcolo delle tuple con range declaration (TRC-RD).md",
@@ -214,7 +214,6 @@
     "secondo_anno/Basi di dati/L'operatore di JOIN nell'algebra relazionale.md",
     "secondo_anno/Basi di dati/Database & DBMS.md",
     "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
-    "secondo_anno/Metodologie di programmazione/Cast.md",
     "secondo_anno/Metodologie di programmazione/Compilazione template.md",
     "secondo_anno/Metodologie di programmazione/I Template.md",
     "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
