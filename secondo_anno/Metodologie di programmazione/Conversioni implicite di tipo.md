@@ -95,6 +95,13 @@ class Razionale {
 **ATTENZIONE**
 >E' possibile usare la parola chiave `explicit` per impedire l'uso implicito delle conversioni.
 
+```cpp
+class Razionale {
+	explicit Razionale(int num, int den = 1);
+	explicit operator double() const;
+}
+```
+
 #### Links
 [[Tipi pointer e reference]]
 [[Tipi, qualificatori, costanti letterali]]

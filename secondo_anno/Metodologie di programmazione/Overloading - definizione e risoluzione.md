@@ -1,4 +1,4 @@
->Il C++ supporta il meccanismo di **overloading** per i nomi di funzione: e' possibile dichiarare lo stesso nome di funzione piu' volte a patto che queste si differiscano per *numero e tipo dei parametri*.
+>Il C++ supporta il meccanismo di **overloading** per i nomi di funzione: e' possibile dichiarare lo stesso nome di funzione piu' volte a patto che queste si differenzino per *numero e tipo dei parametri*.
 
 >La **risoluzione dell'overloading** e' un processo che avviene *staticamente* durante il processo di *compilazione in senso stretto (cioe' quando l'unita' di traduzione viene trasformata in codice assembly)*. Questo anche perche', come sappiamo, in assembly *NON esiste overloading*.
 
@@ -50,7 +50,7 @@ ptr->foo(); // chiamata
 // (eventuali funzioni T::foo non sono visibili nel punto della chiamata)
 ```
 
-- Nel caso di qualificazione della funzione chiamata, la ricerca delle funzioni candidate iniziera' nel corrispondente scope:
+- Nel caso di qualificazione della funzione chiamata, la ricerca delle funzioni candidate avverra' nello scope che ha qualificato la chiamata:
 ```cpp
 namespace N { void foo(int); }
 void foo(char); // dichiarazione NON visibile per la chiamata
@@ -76,7 +76,7 @@ using S::foo;
 // allora S::foo e T::foo sarebbero entrabe visibili e andrebbero in overloading e non ci sarebbe hiding
 ```
 
-- Attenzione all'[[Scope potenziale e Scope effettivo#ADL Argument Dependent Lookup|ADL]]. Richiamando la regola, questa stabilisce che: *nel caso di una chiamata di funzione NON qualificata, s evi sono (uno o piu') argomenti "arg" aventi un tipo definito dall'utente (cioe' struct/class/enum) e il suddetto tipo e' definito in un namespace N, allora la ricerca delle funzioni candidate viene effettuata ANCHE all'interno del namespace N*.
+- Attenzione all'[[Scope potenziale e Scope effettivo#ADL Argument Dependent Lookup|ADL]]. Richiamando la regola, questa stabilisce che: *nel caso di una chiamata di funzione NON qualificata, se vi sono (uno o piu') argomenti "arg" aventi un tipo definito dall'utente (cioe' struct/class/enum) e il suddetto tipo e' definito in un namespace N, allora la ricerca delle funzioni candidate viene effettuata ANCHE all'interno del namespace N*.
 ```cpp
 namespace N { 
 
@@ -108,6 +108,7 @@ Per decidere se una funzione candidata e' utilizzabile, e' necessario verificare
 
 Fare attenzione ad eventuali valori di default per i parametri e all'argomento implicito *this* nelle chiamate di metodi non statici
 
+### Fase 3 - selezione della migliore utilizzabile (se presente)
 #### Classificazione delle conversioni implicite
 >Al momento della chiamata di funzione e' necessario fare attenzione alle conversioni implicite che potrebbero verificarsi.
 
@@ -140,7 +141,6 @@ foo(d); // chiamata
 Una sequenza di conversione **utente** e' composta da
 *sequenza di conversione standard* + *conversione utente* + *sequenza di conversione standard*
 
-### Fase 3 - selezione della migliore utilizzabile (se presente)
 Sia $N$ il numero di funzioni utilizzabili:
 - se $N = 0$ -> ho un errore di compilazione
 - se $N = 1$ -> l'unica utilizzabile e' la migliore
