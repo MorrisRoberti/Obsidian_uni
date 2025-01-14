@@ -26,7 +26,7 @@ Una terza parte del programma definisce un algoritmo che effettua calcoli sui po
 // Codice che usa i tipi Polinomio e Razionale
 ```
 
-Quando compileremo (l'unita' di traduzione corrispondente a ) `Calcolo.cpp` otterremo un errore dovuto alla *violazione della clausola 1 della ODR *.
+Quando compileremo (l'unita' di traduzione corrispondente a ) `Calcolo.cpp` otterremo un errore dovuto alla *violazione della clausola 1 della ODR*.
 L'unita' infatti conterra' *due* definizioni della classe `Razionale`, la prima ottenuta dalla prima direttiva di inclusione, la seconda ottenuta *indirettamente* dalla seconda direttiva. Quindi banalmente la violazione sta nel fatto che incudiamo `Razionale` sia direttamente che tramite l'inclusione di `Polinomio` (che include `Razionale`).
 
 **UNA SOLUZIONE SBAGLIATA**

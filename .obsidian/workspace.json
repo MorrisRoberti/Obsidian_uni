@@ -1,98 +1,84 @@
 {
   "main": {
-    "id": "646a7778e125e5bd",
+    "id": "b8bed655dfe0acc5",
     "type": "split",
     "children": [
       {
-        "id": "bd817c4ac9885695",
+        "id": "fc152dbf8b1babf3",
         "type": "tabs",
         "children": [
           {
-            "id": "24d9d8b439ae090b",
+            "id": "e3bcca641307d7e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
+                "file": "secondo_anno/Metodologie di programmazione/I Template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overloading - definizione e risoluzione"
+              "title": "I Template"
             }
           },
           {
-            "id": "2e95b3d4ba59b7da",
+            "id": "4ee5775c76627ed0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Scope.md",
+                "file": "secondo_anno/Metodologie di programmazione/Compilazione template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scope"
+              "title": "Compilazione template"
             }
           },
           {
-            "id": "f5477d9f502b0143",
+            "id": "22bd114d4f6a385b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
+                "file": "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conversioni implicite di tipo"
+              "title": "Template Type Deduction & Auto Type Deduction"
             }
           },
           {
-            "id": "faf7edb81271caa2",
+            "id": "d4d81498ac8a6be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+                "file": "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scope potenziale e Scope effettivo"
-            }
-          },
-          {
-            "id": "6c250799aa99b2b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lifetime di oggetti"
+              "title": "Programmazione generica"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4d4427d7a452c76e",
+    "id": "fc072dd2df464b09",
     "type": "split",
     "children": [
       {
-        "id": "6761233bdbe74c84",
+        "id": "0d60cc5d025ecc45",
         "type": "tabs",
         "children": [
           {
-            "id": "3bf41bb4ff02e6d0",
+            "id": "4a11bf6015c00de4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -104,12 +90,12 @@
             }
           },
           {
-            "id": "c038e2aebb357b97",
+            "id": "10686f71c4365c6f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "template",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +107,7 @@
             }
           },
           {
-            "id": "b4954c037de7eb87",
+            "id": "b564ec71916f8e5d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -134,23 +120,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 259.5
   },
   "right": {
-    "id": "a5a574fdc52952c0",
+    "id": "df6671a8807f27b2",
     "type": "split",
     "children": [
       {
-        "id": "d1f2e95f9b0d295e",
+        "id": "55ee16fe965e0657",
         "type": "tabs",
         "children": [
           {
-            "id": "78742186c02195fa",
+            "id": "52aa432feea2806b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,25 +146,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gestione delle risorse"
+              "title": "Backlinks for Categorie di espressioni"
             }
           },
           {
-            "id": "16fefe26a19f085c",
+            "id": "2a17a07fbd3d7092",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Gestione delle risorse"
+              "title": "Outgoing links from Categorie di espressioni"
             }
           },
           {
-            "id": "752baccc3f7d4d04",
+            "id": "15b19f6dbf84dce1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -191,19 +177,19 @@
             }
           },
           {
-            "id": "538b79e1e953f40b",
+            "id": "04550d209057d20f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md"
+                "file": "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Gestione delle risorse"
+              "title": "Outline of Categorie di espressioni"
             }
           },
           {
-            "id": "d6eddae276a0cc9c",
+            "id": "ff98b807afb72f9c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -226,52 +212,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "command-palette:Open command palette": true,
       "code-files:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5477d9f502b0143",
+  "active": "d4d81498ac8a6be7",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
-    "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
-    "secondo_anno/Metodologie di programmazione/Scope.md",
-    "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
-    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
+    "secondo_anno/Metodologie di programmazione/Overloading di funzioni templatiche.md",
+    "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
     "secondo_anno/Metodologie di programmazione/Compilazione template.md",
-    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
+    "secondo_anno/Metodologie di programmazione/I Template.md",
+    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
+    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
+    "secondo_anno/Metodologie di programmazione/Header files.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
-    "secondo_anno/Metodologie di programmazione/Argomenti delle funzioni.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+    "secondo_anno/Metodologie di programmazione/Smart Pointers.md",
+    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
     "secondo_anno/Metodologie di programmazione/Approcci per gestire le risorse.md",
+    "secondo_anno/Metodologie di programmazione/Exception Safety.md",
+    "secondo_anno/Metodologie di programmazione/Gestione delle risorse.md",
+    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
     "secondo_anno/Basi di dati/Indexes/B+ Trees.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Schedule delle transazioni.md",
-    "secondo_anno/Basi di dati/DBMS Architecture/Transazioni.md",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180820.png",
-    "secondo_anno/Basi di dati/Database Design/Conceptual Design.md",
-    "secondo_anno/Basi di dati/Indexes/Hash-based Indexes.md",
-    "secondo_anno/Basi di dati/Database Design/Entity-Relationship Model.md",
-    "secondo_anno/Basi di dati/Database Design/Database Design.md",
-    "secondo_anno/Basi di dati/Database Design/Forme Normali.md",
-    "secondo_anno/Basi di dati/Database Design/Logical Design - Partizionamento e Raggruppamento entita' e associazioni.md",
-    "secondo_anno/Basi di dati/Database Design/Dipendenze Funzionali (FD).md",
-    "secondo_anno/Basi di dati/Database Design/Normalizzazione.md",
-    "secondo_anno/Basi di dati/Database Design/Logical Design - Eliminazione delle generalizzazioni.md",
-    "secondo_anno/Basi di dati/Database Design/Logical Design - Analisi delle ridondanze.md",
-    "secondo_anno/Basi di dati/Database Design/Logical Design.md",
-    "secondo_anno/Basi di dati/Database Design/UML.md",
+    "secondo_anno/Basi di dati/Indexes/Indexes.md",
     "secondo_anno/Basi di dati/Database Design/Entity-Relationship Model pt.2.md",
-    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/Resource.cpp",
-    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/ResourceHandler.cpp",
-    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/main.cpp",
-    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID",
-    "secondo_anno/Basi di dati/Il modello relazionale",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241224163419.png",
+    "secondo_anno/Basi di dati/Database Design/Entity-Relationship Model.md",
+    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
+    "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
+    "secondo_anno/Metodologie di programmazione/I principi SOLID.md",
+    "secondo_anno/Metodologie di programmazione/Metodi virtuali e classi dinamiche.md",
+    "secondo_anno/Metodologie di programmazione/Classi derivate e relazione IS-A.md",
+    "secondo_anno/Metodologie di programmazione/Overriding.md",
+    "secondo_anno/Metodologie di programmazione/Classi Astratte.md",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/main.cpp",
-    "Codice",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.hpp",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/main.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/ResourceHandler.cpp",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/Resource.cpp",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione",
+    "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID",
+    "secondo_anno/Metodologie di programmazione/Codice",
+    "secondo_anno/Basi di dati/Indexes",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241224163419.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123250.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123222.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123151.png",
@@ -279,6 +264,11 @@
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219122512.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110838.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110806.png",
-    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110514.png"
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110514.png",
+    "secondo_anno/Basi di dati/IMGs/Pasted image 20241219110431.png",
+    "primo_anno/Architettura degli elaboratori/Study map.canvas",
+    "primo_anno/Architettura degli elaboratori/Syllabus.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
   ]
 }

@@ -7,7 +7,7 @@ Per evitare inconsistenza tra l'interfaccia e una o piu' unita' di traduzione si
 ## Cosa dice la ODR?
 La *ODR* dice - in modo semplificato - quanto segue:
 1. **Ogni unita' di traduzione** che forma un programma puo' contenere *non piu' di una **definizione** di una data variabile, funzione, classe, enumerazione o template*
-2. Ogni programma deve contenere *esattamente una **definizione** di ogni variabile e di ogni funzione non-inline* usate nel programma
+2. Ogni **programma** deve contenere *esattamente una **definizione** di ogni variabile e di ogni funzione non-inline* usate nel programma
 3. Ogni funzione inline *deve essere definita in ogni unita' di traduzione che la utilizza*
 4. In un programma vi possono essere piu' definizioni di una classe, enumerazione, template di classe, template di funzione e funzione inline, **in diverse unita' di traduzione** a patto che:
 	1. Tali definizioni siano **sintatticamente identiche**
@@ -25,10 +25,10 @@ struct S { char c; double d; };
 int a;
 int a;
 ```
-*Stessa violazione, due dichiarazioni della stessa variabile nella stessa unita' di traduzione, tuttavia se una delle due fosse stata dichiarata con `extern` il codice non avrebbe generato violazioni poiche' quella con extern sarebbe stata la sua dichiarazione pura mentre quella senza la sua definizione; allo stesso modo non sarebbe stato violazione se il nome delle variabili fosse stato completamente qualificato (`N::a` e `::a`)*
+*Stessa violazione, due definizioni della stessa variabile nella stessa unita' di traduzione, tuttavia se una delle due fosse stata dichiarata con `extern` il codice non avrebbe generato violazioni poiche' quella con extern sarebbe stata la sua dichiarazione pura mentre quella senza la sua definizione; allo stesso modo non sarebbe stato violazione se il nome delle variabili fosse stato completamente qualificato (`N::a` e `::a`)*
 
 **ATTENZIONE**
->Quando questa situazione si verifica attraverso piu' unita' di traduzione differenti il compilatore non rileva l'errore a tempo di compilazione, per questo e' stata creata la **ODR**.
+>Quando questa situazione si verifica attraverso piu' unita' di traduzione differenti, il compilatore non rileva l'errore a tempo di compilazione, per questo e' stata creata la **ODR**.
 
 esempio di codice che *non viola* il punto 1
 ```cpp
@@ -69,6 +69,8 @@ int bar(int a) { return foo(a); }
 
 **violazione del punto 3**
 Quando utilizziamo le funzioni *inline* quello che succede e' che la chiamata di funzione viene sostituita con *l'espansione in linea* del corpo della funzione, cioe' viene copiato il corpo della funzione nel punto della chiamata, questo viene fatto a scopo di ottimizzazione. Tale espansione e' effettuata durante la fase di compilazione in senso stretto, per cui il corpo della funzione deve essere presente in ogni unita' di traduzione, cio' significa che dobbiamo avere **la stessa definizione di quella stessa funzione in ogni translation unit**.
+
+>Per evitare problemi conviene includere le *definizioni delle funzioni inline* nell'header file in modo che poi la stessa definizione possa essere utilizzata nelle unita' di traduzione che la richiedono.
 
 **violazione del punto 4**
 ```cpp

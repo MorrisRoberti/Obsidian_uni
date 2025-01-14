@@ -1,4 +1,4 @@
->	Una gestione corretta delle risorse e' tutto sommato semplice da ottenere in condizioni "di successo", ma tende a complicarsi non appena si ammetta la possibilita' che qualcosa possa andare storto, ovvero quando alcune operazioni possono generare errori che non vengono poi gestiti.
+>Una gestione corretta delle risorse e' tutto sommato semplice da ottenere in condizioni "di successo", ma tende a complicarsi non appena si ammetta la possibilita' che qualcosa possa andare storto, ovvero quando alcune operazioni possono generare errori che non vengono poi gestiti.
 
 Nel C++ la tecnica idiomatica per segnalare situazioni di errore e' quella di **lanciare eccezioni** uscendo dal flusso normale del programma ed entrando nei cosiddetti *flussi di esecuzione eccezionali*. Una volta lanciata un'eccezione, questa si propaga lungo la catena delle chiamate e l'unico modo di rientrare nel flusso di esecuzione normale e' di **catturare l'eccezione** in un blocco *catch* e gestirla.
 
@@ -22,7 +22,7 @@ Esistono 3 livelli di *exception safety*: base, forte e nothrow. Il livello base
 
 1. Non si hanno **memory leak**
 2. Si e' *neutrali* rispetto alle eccezioni
-3. Anche in caso di uscita dalla modalita' eccezionale, gli oggetti sui quali si stava lavorando possono essere distrutti senza causare comportamenti non definiti
+3. **Preservazione delle invarianti**: anche in caso di uscita dalla modalita' eccezionale, gli oggetti sui quali si stava lavorando possono essere distrutti senza causare comportamenti non definiti
 4. E' possibile la presenza di *side effect*
 
 
