@@ -76,7 +76,7 @@ using S::foo;
 // allora S::foo e T::foo sarebbero entrabe visibili e andrebbero in overloading e non ci sarebbe hiding
 ```
 
-- Attenzione all'[[Scope potenziale e Scope effettivo#ADL Argument Dependent Lookup|ADL]]. Richiamando la regola, questa stabilisce che: *nel caso di una chiamata di funzione NON qualificata, se vi sono (uno o piu') argomenti "arg" aventi un tipo definito dall'utente (cioe' struct/class/enum) e il suddetto tipo e' definito in un namespace N, allora la ricerca delle funzioni candidate viene effettuata ANCHE all'interno del namespace N*.
+- Attenzione all'[[Scope potenziale e Scope effettivo#ADL Argument Dependent Lookup|ADL]]. Richiamando la regola, questa stabilisce che: *nel caso di una chiamata di funzione NON qualificata, se vi sono (uno o piu') argomenti "arg" aventi un **tipo definito dall'utente** (cioe' struct/class/enum) e il suddetto tipo e' definito in un namespace N, allora la ricerca delle funzioni candidate viene effettuata ANCHE all'interno del namespace N*.
 ```cpp
 namespace N { 
 
@@ -98,6 +98,22 @@ int main() {
 Per la chiamata 1 si applica la regola *ADL* perche' il nome `foo` non e' qualificato e l'argomento `s` ha tipo struct `S` definito dall'utente all'interno di un namespace `N`. Quindi il namespace `N` viene "aperto" rendendo visibile la dichiarazione di `N::foo(S)` nel punto della chiamata (e quindi rendendola candidata).
 
 In contrasto nella chiamata 2 NON si applica la regola ADL.
+
+**ATTENZIONE**
+>E' necessario che l'argomento qualificato faccia riferimento ad un **tipo definito dall'utente all'interno di quel namespace** e non semplicemente ad una funzione/variabile.
+
+```cpp
+namespace N {
+	int a;
+	void foo(int); 
+}
+
+void foo(float);
+
+int main() {
+	foo(N::a); // NON SI APPLICA L'ADL, PERCHE' 'A' NON E' DI UN TIPO DEFINITO DALL'UTENTE
+}
+```
 
 ### Fase 2 - Selezionare delle funzioni utilizzabili tra le candidate
 >Effettuata la scelta delle funzioni candidate, occorre verificare quali di queste funzioni potrebbero essere effettivamente **utilizzabili** per risolvere la specifica chiamata considerata.

@@ -91,7 +91,7 @@ void foo() {
 Una **using declaration** rende disponibile un nome che era stato precedentemente reso visibile nel namespace indicato -> nel caso precedente e' comunque necessario includere l'header file altrimenti si ottiene un errore.
 
 **ATTENZIONE** 
->Nel caso di una using declaration per un nome di tipo o una variabile e' necessario che nello stesso scope **non** sia gia' presente un'altra entita' con lo stesso nome, tuttavia questa cosa e' legittima nel caso delle funzioni perche' entra in gioco l'overloading.
+>Nel caso di una using declaration per **un nome di tipo o una variabile** e' necessario che nello stesso scope **non** sia gia' presente un'altra entita' con lo stesso nome, tuttavia questa cosa e' legittima nel caso delle funzioni perche' entra in gioco l'overloading.
 
 ```cpp
 void foo() {

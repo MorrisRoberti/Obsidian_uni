@@ -149,7 +149,7 @@ int main() {
 Le uniche operazioni consentite sono quindi:
 - `++iter` 
 - `iter++`
-- `*iter` -> accesso *in sola lettura* all'elemento corrente
+- `*iter` -> accesso *in sola scrittura* all'elemento corrente
 
 **NOTA** 
 >Non viene data la possibilita' di confrontare gli iteratori di output tra loro in quanto non e' necessario farlo: un iteratore di output assume che vi sia sempre spazio nella sequenza per fare le sue scritture; e' compito di chi lo usa fornire tali garanzie.

@@ -112,6 +112,21 @@ void promessa_non_mantenuta(const int& ci) {
 il parametro `ci` della funzione e' qualificato `const` quindi dovrebbe essere *non modificabile* tuttavia noi andiamo ad effettuare un `const_cast` rendendolo modificabile. Solitamente non si utilizza, poiche' va a rompere il contratto stipulato tra sviluppatore e programmatore, tuttavia ci sono alcuni casi in cui e' legittimo utilizzarlo, tra questi:
 *Quando vogliamo modificare la **rappresentazione interna di un oggetto** senza pero' alterarne il significato, quindi vogliamo mantenere la **const-ness** dell'oggetto a livello logico, ma vogliamo modificarne il nome*.
 
+>Facciamo un esempio per spiegare dove si usa.
+
+```cpp
+Razionale& sum(const Razionale& cr1, const Razionale& cr2) {
+	Razionale& r1 = const_cast<Razionale&>(cr1);
+	Razionale& r2 = const_cast<Razionale&>(cr2);
+
+	r1.semplifica(); // 2/4 -> 1/2
+	r2.semplifica(); // 10/5 -> 2/1
+
+	return r1 + r2;
+}
+```
+In questo caso noi vogliamo togliere la const-ness degli oggetti perche' vogliamo semplificarli e quindi modificare la loro **rappresentazione interna** mantenendo pero' invariato il loro significato logico.
+
 ## reinterpret_cast
 >I `reinterpret_cast` sono tra le forme di conversione *piu' pericolose*, in quanto i controlli di correttezza sono lasciati quasi totalmente al programmatore, di conseguenza, se possibile, si cerca di evitarli.
 
