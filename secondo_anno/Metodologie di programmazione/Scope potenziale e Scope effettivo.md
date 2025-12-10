@@ -100,8 +100,8 @@ void foo() {
 }
 
 struct Base {
-	void pippo(int);
-	void pippo(float);
+	void foo(int);
+	void foo(float);
 };
 
 struct Derived : public Base {

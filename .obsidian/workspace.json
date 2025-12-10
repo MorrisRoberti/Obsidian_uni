@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "774e9476daf10a3f",
+        "id": "71f1ccdfcc047ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "282757041231bda0",
+            "id": "5da1d37eb6b6882c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
+                "file": "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concetto di Iteratore"
-            }
-          },
-          {
-            "id": "f1f4aa338175452f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Concetto di Callable"
-            }
-          },
-          {
-            "id": "895ee5beac222ecd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overloading - definizione e risoluzione"
-            }
-          },
-          {
-            "id": "273fbbdaf2575f8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Overriding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overriding"
-            }
-          },
-          {
-            "id": "1606f74c1fe755b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gli Iterator traits"
+              "title": "Scope potenziale e Scope effettivo"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -109,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dichiarazione",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "a5a574fdc52952c0",
@@ -217,10 +162,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -232,34 +179,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "895ee5beac222ecd",
+  "active": "5da1d37eb6b6882c",
   "lastOpenFiles": [
-    "secondo_anno/Metodologie di programmazione/Cast.md",
-    "secondo_anno/Metodologie di programmazione/Overriding.md",
-    "secondo_anno/Metodologie di programmazione/Classi Astratte.md",
-    "secondo_anno/Metodologie di programmazione/Metodi virtuali e classi dinamiche.md",
-    "secondo_anno/Metodologie di programmazione/Note sull'ereditarieta'.md",
-    "secondo_anno/Metodologie di programmazione/Compilazione template.md",
-    "secondo_anno/Metodologie di programmazione/I principi SOLID.md",
-    "secondo_anno/Metodologie di programmazione/Gli Iterator traits.md",
-    "secondo_anno/Metodologie di programmazione/Concetto di Callable.md",
-    "secondo_anno/Metodologie di programmazione/Concetto di Iteratore.md",
-    "secondo_anno/Metodologie di programmazione/Programmazione generica.md",
-    "secondo_anno/Metodologie di programmazione/Template Type Deduction & Auto Type Deduction.md",
-    "secondo_anno/Metodologie di programmazione/Riferimenti a lvalue e a rvalue.md",
-    "secondo_anno/Metodologie di programmazione/Categorie di espressioni.md",
-    "secondo_anno/Metodologie di programmazione/I Template.md",
-    "secondo_anno/Metodologie di programmazione/Scope potenziale e Scope effettivo.md",
-    "secondo_anno/Metodologie di programmazione/Lifetime di oggetti.md",
-    "secondo_anno/Metodologie di programmazione/Programmazione per contratto.md",
-    "secondo_anno/Metodologie di programmazione/Header files.md",
-    "secondo_anno/Metodologie di programmazione/ODR nell'atto pratico.md",
-    "secondo_anno/Metodologie di programmazione/One Definition Rule (ODR) & DRY.md",
-    "secondo_anno/Metodologie di programmazione/Conversioni implicite di tipo.md",
-    "secondo_anno/Metodologie di programmazione/Overloading - definizione e risoluzione.md",
     "secondo_anno/Metodologie di programmazione/Scope.md",
-    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
     "secondo_anno/Metodologie di programmazione/Type aliases.md",
+    "secondo_anno/Metodologie di programmazione/Dichiarazione e definizione.md",
+    "secondo_anno/Metodologie di programmazione/Approcci per gestire le risorse.md",
+    "secondo_anno/Metodologie di programmazione/Bad Programming.md",
+    "secondo_anno/Metodologie di programmazione/Progettazione di un tipo di dato concreto.md",
+    "secondo_anno/Metodologie di programmazione/Fasi del processo di compilazione.md",
+    "secondo_anno/Metodologie di programmazione/Conosci davvero 'Hello World'.md",
+    "primo_anno/Algoritmi e strutture dati/graphs/DFS.md",
+    "primo_anno/Algoritmi e strutture dati/graphs/Kruskal.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Matematica delle proiezioni.md",
+    "secondo_anno/Computer Graphics/Proiezioni Geometriche.md",
+    "Roadmap.md",
+    "Game engine requisiti.md",
+    "Excalidraw/Drawing 2025-05-15 20.46.09.excalidraw.md",
+    "2025-03-31 Sistemi operativi.md",
+    "2025-03-26 Sistemi operativi.md",
+    "primo_anno/Programmazione B/C_plus_plus/Esercizi/Punto2D.cpp",
+    "secondo_anno/Basi di dati/Database Design/Conceptual Design.md",
+    "Excalidraw",
+    "README.md",
+    "secondo_anno/Metodologie di programmazione/Cast.md",
+    "secondo_anno/Metodologie di programmazione/Array e puntatori.md",
+    "secondo_anno/Computer Graphics/Sistemi di coordinate.md",
+    "secondo_anno/Computer Graphics/Pipeline di rendering.md",
+    "secondo_anno/Computer Graphics/Modi di utilizzare le mesh.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 2D omogenee.md",
+    "secondo_anno/Computer Graphics/Principi matematici/Trasformazioni 3D.md",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241217180820.png",
     "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/Resource.cpp",
     "secondo_anno/Metodologie di programmazione/Codice/RAII_RRID/ResourceHandler.cpp",
@@ -270,8 +219,6 @@
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/main.cpp",
     "Codice",
     "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.hpp",
-    "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione/TestClass.cpp",
-    "secondo_anno/Metodologie di programmazione/Codice/dichiarazione_definizione",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123250.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123222.png",
     "secondo_anno/Basi di dati/IMGs/Pasted image 20241219123151.png",
