@@ -1,4 +1,4 @@
-$\Theta\left(n\right)$
+$\Theta\left(n\log n\right)$
 $O\left(n\log n\right)$
 $\Omega\left(n\log n\right)$ 
 *caso peggiore*: $O\left(n\log n\right)$
